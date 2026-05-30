@@ -1,0 +1,13 @@
+grupo,texto,real,predito,p_cti,p_nao_cti,token_1,token_2,token_3,token_4,token_5,peso_1,peso_2,peso_3,peso_4,peso_5
+Falso Positivo,Número de projetos de pesquisa financiados.,Não-CT&I,CT&I,0.976,0.024,pesquisa,projetos,financiados,Número,de,0.2369,0.2249,0.192,-0.1631,-0.0453
+Falso Positivo,Número de instrumentos validados.,Não-CT&I,CT&I,0.7389,0.2611,instrumentos,Número,validados,de,,0.5544,-0.301,0.0489,-0.0481,
+Falso Positivo,Número de Equipes multiprofissionais,Não-CT&I,CT&I,0.6496,0.3504,Número,multiprofissionais,Equipes,de,,-0.4506,0.3058,0.2096,-0.0301,
+Falso Negativo,Enrollment in higher education,CT&I,Não-CT&I,0.2236,0.7764,Enrollment,education,higher,in,,-0.4365,0.2826,0.222,0.0549,
+Falso Negativo,Quantidade de não conformidades,CT&I,Não-CT&I,0.3335,0.6665,conformidades,não,de,Quantidade,,0.307,-0.3058,-0.2865,-0.0124,
+Falso Negativo,percentage of employees with bachelor’s degree,CT&I,Não-CT&I,0.4966,0.5034,percentage,employees,bachelor,degree,with,-0.5988,0.2646,0.1345,0.0822,-0.0507
+Acerto CT&I (TP),social effect of green innovation,CT&I,CT&I,0.9959,0.0041,innovation,effect,green,of,social,0.1579,0.0439,-0.0438,-0.0177,0.0164
+Acerto CT&I (TP),Average expenditure per selected idea,CT&I,CT&I,0.9991,0.0009,expenditure,idea,selected,per,Average,0.2481,0.2,0.0582,0.0524,-0.0345
+Acerto CT&I (TP),Percentage of sales related to new projects,CT&I,CT&I,0.9916,0.0084,sales,Percentage,projects,new,of,0.3215,-0.151,0.1501,0.0954,0.0063
+Acerto Não-CT&I (TN),Municípios com Processo de Licenciamento Ambiental para Empreendimentos Urbanos.,Não-CT&I,Não-CT&I,0.0315,0.9685,Municípios,Licenciamento,Ambiental,Urbanos,Empreendimentos,-0.0785,-0.0149,0.0132,0.0117,0.0101
+Acerto Não-CT&I (TN),Percentual de diretores da rede pública segundo o tipo de vínculo/regime de contratação por região,Não-CT&I,Não-CT&I,0.2552,0.7448,Percentual,rede,pública,contratação,vínculo,-0.4062,0.1869,-0.1293,0.1277,0.1173
+Acerto Não-CT&I (TN),Número de usuários atendidos pelo Programa Farmácia Popular do Brasil ao ano.,Não-CT&I,Não-CT&I,0.0044,0.9956,Brasil,Número,atendidos,Programa,Farmácia,-0.0312,-0.0302,-0.029,-0.0281,-0.0222

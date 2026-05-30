@@ -1,0 +1,1185 @@
+{
+  "article_id": "artigo1",
+  "indicator_counts": {
+    "human": 115,
+    "gemini": 153
+  },
+  "pairs": {
+    "human_vs_gemini": {
+      "exact": {
+        "matched": [
+          [
+            "age of company",
+            "age of company",
+            1.0
+          ],
+          [
+            "average expenditure per selected idea",
+            "average expenditure per selected idea",
+            1.0
+          ],
+          [
+            "external and internal growth",
+            "external and internal growth",
+            1.0
+          ],
+          [
+            "geographic location of the company",
+            "geographic location of the company",
+            1.0
+          ],
+          [
+            "new-to-market and new-to-business sales",
+            "new-to-market and new-to-business sales",
+            1.0
+          ],
+          [
+            "percentage of leaders trained in creativity techniques",
+            "percentage of leaders trained in creativity techniques",
+            1.0
+          ],
+          [
+            "percentage of sales related to new projects",
+            "percentage of sales related to new projects",
+            1.0
+          ],
+          [
+            "share of research budget from total company budget",
+            "share of research budget from total company budget",
+            1.0
+          ]
+        ],
+        "unmatched_reference": [
+          "adoption of at least some western methods",
+          "atmosphere of innovation among staff",
+          "availability of equipment and tools/technologies",
+          "availability of sufficient experts",
+          "budget/funds availability",
+          "company's investment in know-how",
+          "compatibility of innovation with current attitudes and workflow/personal routine",
+          "creative approaches in problem solving",
+          "creative environment",
+          "cross-functional integration",
+          "decentralized structure",
+          "desing expenditure",
+          "development costs",
+          "ebitda, budget fulfillment",
+          "enterprise training",
+          "export and business performance",
+          "extent to which the company management welcomes and supports",
+          "external finance and credit from local banks",
+          "field",
+          "field of participation",
+          "financial resource constraints",
+          "foreign ownership",
+          "human capital stock",
+          "human resources/human resources focused on innovation; ratio of r&d/employees",
+          "identifying innovations in technical and specialized journals (lbios)",
+          "increasing publications/articles",
+          "innovation expenditure per employee",
+          "innovation expenses",
+          "innovation financing",
+          "internal rate of return (%)",
+          "international scientific co-publications",
+          "maintenance/of resources",
+          "net cash flow",
+          "non-r&d innovation expenditure",
+          "number of awards, publication",
+          "number of external ideas/number of implemented ideas",
+          "number of externally generated ideas",
+          "number of failures",
+          "number of identified problems (product, process)",
+          "number of managers having training in the methods and tools of innovation",
+          "number of new competencies for innovation",
+          "number of new products to sales",
+          "number of new strategic activities (newly created innovative opportunities)",
+          "number/percentage of ideas generated in collaboration with customers",
+          "open excellent attractive research",
+          "organizational architecture",
+          "organizational support for public/private research co-publications",
+          "ownership structure",
+          "payback period/amortization time",
+          "percent of new products that equals 80% sales",
+          "percentage increase in innovation revenues per employee, portfolio",
+          "percentage of ideas generated in new domains",
+          "potential sales",
+          "profits under patent protection",
+          "project budget",
+          "project cost",
+          "project/company resource compatibility",
+          "protected resources for non-core innovations",
+          "publication count/number of publications",
+          "publications by the company as the champion in innovation",
+          "purchase of information and information updates",
+          "qualification of employees",
+          "r&d assets and strategies",
+          "r&d budget",
+          "r&d costs/revenue in %, profit margin measures",
+          "r&d expenditure/investment/size of investment",
+          "r&d intensity",
+          "r&d investment and investors",
+          "r&d personnel ratio",
+          "r&d spending all/private",
+          "rate of turnover, perception of innovation returns",
+          "research projects",
+          "researches (input)",
+          "return of investment in innovation",
+          "revenue based on new products",
+          "revenue from new products, services, new customers",
+          "revenue, profits/profitability",
+          "roi of r&d projects/new product program",
+          "sales and sales growth",
+          "sales of new product program",
+          "sales percent of new products and services in total sales",
+          "sales through innovation",
+          "sales under patent protection",
+          "scale",
+          "scientific impact (citations/paper)",
+          "share of a business total sales deriving from innovative products",
+          "share of innovation expenses to total turnover",
+          "share of new and improved products in total sales as output indicators",
+          "share of new products in % compared to the total revenue in comparison to previous years",
+          "share of new products in % from revenue = return on sales",
+          "share of r&d cost externally and internally",
+          "share of sales with newly developed products",
+          "share of technology transfer (of r&d)",
+          "share of turnover of new product",
+          "share of women employed in the non-agricultural sector",
+          "size of the business",
+          "tax credits",
+          "technological investment",
+          "technological resource compatibility",
+          "technology acquisition costs",
+          "the amount of time managers/senior management spent with innovation compared to normal operational tasks",
+          "the integration of customers and suppliers into product development",
+          "tool usage",
+          "tooling cost",
+          "top 10% most cited scientific publications worldwide",
+          "total cost",
+          "volume of sales from innovative products"
+        ],
+        "unmatched_hypothesis": [
+          "% of sales protected by patents, trade secrets, other exclusive know-how",
+          "a well-planned, adequately resourced and proficiently executed launch",
+          "accountable, dedicated, supported cross-functional teams with strong leaders",
+          "amount of time managers spent with innovations compared to normal tasks",
+          "appearance",
+          "assessments by experts",
+          "atmosphere",
+          "awareness of content of innovation",
+          "building lead time",
+          "clear goals and milestone measurements",
+          "common understanding of the process for new product development",
+          "comparative functionality",
+          "compatibility, correctness, completeness",
+          "complexity of innovation",
+          "cost of production/new product developments",
+          "counts of new product announcements, introduction of technological innovations to the market",
+          "customer complaints",
+          "customer retention rate",
+          "degree of innovativeness",
+          "delivery reliability and/or speed",
+          "demand growth in the industry",
+          "design orientation, such as, number of designers on the company's staff, or source of design",
+          "detailed project tactical plan",
+          "determinants related to facilities that are needed to implement the innovation",
+          "diversity of idea-generation process",
+          "duration of demand",
+          "duration of introduction of product",
+          "duration of product life cycles",
+          "ease of manufacture",
+          "efficient processes like tough go/kill decision points or gates",
+          "extending the range of offered products",
+          "feedback effects in-between innovation decisions",
+          "flexibility and agility, such as centralization of decision-making",
+          "formal ratification by management",
+          "formal structure",
+          "future duration of product",
+          "gap between plans and action",
+          "gdp per capita",
+          "gni per capita (ppp)",
+          "health expenditure (he)",
+          "heavyweight project management",
+          "high-quality new product process",
+          "idea generation and its management",
+          "idea-tanks management",
+          "identification of innovations by business managers",
+          "implementation of innovation activity",
+          "increase in production capacity and flexibility",
+          "innovation activity",
+          "innovation expenditure",
+          "innovation portfolio balance",
+          "innovative projects (in-house)",
+          "intellectual property rights, in particular patents, citations, applications, licenses",
+          "intended purpose",
+          "internal process lead time",
+          "knowledge and technology transfer activities with research institutions and/or institutions of higher education",
+          "labor productivity",
+          "launch quality and quantity",
+          "licensed technology use",
+          "long-term unemployment",
+          "making business cases",
+          "manufacturing efficiency and productivity",
+          "market share, position and share",
+          "measurement of time",
+          "monitoring of the innovation process and the hiring of personnel with special skills for technological tasks",
+          "national wealth (gdp per capita)",
+          "new product development process/process management itself",
+          "new product introduction vs. competition",
+          "new product performance/ success rate of new products, e.g, percentage of innovations that met financial profit estimates, profitability of newly listed products, number of products launched (last three years)/output quantity",
+          "newness to company and novelty of product",
+          "number of external ideas/ generated with customers",
+          "number of improved processes",
+          "number of innovative businesses/new venture start-ups",
+          "number of managers trained in the methods and tools of innovation",
+          "number of meetings",
+          "number of new or improved products within a certain period, or number of new products divided by total number of products offered",
+          "number of new product ideas or suggestions",
+          "number of newly created innovative opportunities",
+          "number of on-going innovations",
+          "number of optimized production processes that the company used for its products",
+          "number of project definitions with business/marketing approval",
+          "numerical rankings of a business' product by a given customer divided by that customer's ranking of the best competitive product",
+          "opportunity window",
+          "perceived value",
+          "percentage decrease in the cost of innovative processes and products",
+          "percentage of completion of objectives at the expected milestone date",
+          "percentage of ideas found viable for commercialization",
+          "percentage of innovations that met financial benefit projections",
+          "percentage of project milestones achieved",
+          "percentage of projects in the total portfolio going through a defined project management system with defined milestones",
+          "planning and manufacturing system",
+          "planning and monitoring of the innovation process",
+          "power law distributions of patents",
+          "precise, stable and early product definition, before development begins",
+          "procedural clarity",
+          "product advantage: differentiated, unique benefits, superior value for the customer, recognizably of advantage",
+          "product quality and reliability, such as customer evaluation/defect rate assessment",
+          "profit margin measures",
+          "project delay",
+          "project efficiency in relation to cost and time",
+          "project leader",
+          "project ownership/empowerment (= support and freedom)",
+          "purpose achievement of innovation",
+          "quality of execution of the activities that comprise the innovation process",
+          "r&d alliances",
+          "r&d costs/revenue in %",
+          "r&d expenditure/investment",
+          "r&d intensity (gerd/gdp) = gerd= gross domestic expenditure on r&d",
+          "rate of received approval on time",
+          "reassessment efforts: update and redirect project plans and keep team members aligned",
+          "replacement for leaving staff",
+          "response time to customer requests",
+          "responsibility",
+          "return on investment in innovation",
+          "share of technology transfer",
+          "size of the company",
+          "societal benefit",
+          "straightforwardness (how easily can the customer learn the correct use of the innovation?)/customer familiarity with the innovation and specialization",
+          "successful idea implementation, such as number of ideas successfully turned into products or shared ideas submitted to successful ideas",
+          "survival rate",
+          "sustainability/eco-efficiency of product",
+          "synergy potential/dependency on other products",
+          "team satisfaction",
+          "technical standards and standardization degree",
+          "technological significance",
+          "time for idea generation",
+          "time from identification of a customer product need until beginning of commercial",
+          "time to develop next generation",
+          "time to implement the innovation",
+          "time to market",
+          "total cost of all commercially successful projects divided by the number of commercially successfully projects",
+          "trademarks",
+          "use of internal and external knowledge and information sources",
+          "use of new technology for production of new products",
+          "way in which the new product development process is formalized"
+        ],
+        "tp": 8,
+        "fp": 134,
+        "fn": 107,
+        "precision": 0.0563,
+        "recall": 0.0696,
+        "f1": 0.0623
+      },
+      "fuzzy": {
+        "matched": [
+          [
+            "creative approaches in problem solving",
+            "number of managers trained in the methods and tools of innovation",
+            0.855
+          ],
+          [
+            "percentage of leaders trained in creativity techniques",
+            "percentage of leaders trained in creativity techniques",
+            1.0
+          ],
+          [
+            "atmosphere of innovation among staff",
+            "atmosphere",
+            0.9
+          ],
+          [
+            "compatibility of innovation with current attitudes and workflow/personal routine",
+            "number of external ideas/ generated with customers",
+            0.855
+          ],
+          [
+            "percentage of ideas generated in new domains",
+            "amount of time managers spent with innovations compared to normal tasks",
+            0.855
+          ],
+          [
+            "number of externally generated ideas",
+            "use of internal and external knowledge and information sources",
+            0.855
+          ],
+          [
+            "the amount of time managers/senior management spent with innovation compared to normal operational tasks",
+            "number of newly created innovative opportunities",
+            0.855
+          ],
+          [
+            "number of identified problems (product, process)",
+            "size of the company",
+            0.855
+          ],
+          [
+            "number of external ideas/number of implemented ideas",
+            "geographic location of the company",
+            0.855
+          ],
+          [
+            "the integration of customers and suppliers into product development",
+            "age of company",
+            0.855
+          ],
+          [
+            "number/percentage of ideas generated in collaboration with customers",
+            "percentage of sales related to new projects",
+            0.855
+          ],
+          [
+            "number of failures",
+            "share of research budget from total company budget",
+            0.855
+          ],
+          [
+            "number of new strategic activities (newly created innovative opportunities)",
+            "share of technology transfer",
+            0.855
+          ],
+          [
+            "number of managers having training in the methods and tools of innovation",
+            "external and internal growth",
+            0.855
+          ],
+          [
+            "purchase of information and information updates",
+            "duration of demand",
+            0.855
+          ],
+          [
+            "number of new competencies for innovation",
+            "innovation expenditure",
+            0.855
+          ],
+          [
+            "qualification of employees",
+            "percentage of innovations that met financial benefit projections",
+            0.855
+          ],
+          [
+            "company's investment in know-how",
+            "design orientation, such as, number of designers on the company's staff, or source of design",
+            0.855
+          ],
+          [
+            "identifying innovations in technical and specialized journals (lbios)",
+            "return on investment in innovation",
+            0.855
+          ],
+          [
+            "publication count/number of publications",
+            "knowledge and technology transfer activities with research institutions and/or institutions of higher education",
+            0.855
+          ],
+          [
+            "number of awards, publication",
+            "number of innovative businesses/new venture start-ups",
+            0.855
+          ],
+          [
+            "publications by the company as the champion in innovation",
+            "r&d costs/revenue in %",
+            0.855
+          ],
+          [
+            "organizational support for public/private research co-publications",
+            "time for idea generation",
+            0.855
+          ],
+          [
+            "size of the business",
+            "diversity of idea-generation process",
+            0.855
+          ],
+          [
+            "geographic location of the company",
+            "ease of manufacture",
+            0.855
+          ],
+          [
+            "age of company",
+            "number of on-going innovations",
+            0.855
+          ],
+          [
+            "export and business performance",
+            "increase in production capacity and flexibility",
+            0.855
+          ],
+          [
+            "external and internal growth",
+            "reassessment efforts: update and redirect project plans and keep team members aligned",
+            0.855
+          ],
+          [
+            "cross-functional integration",
+            "accountable, dedicated, supported cross-functional teams with strong leaders",
+            0.855
+          ],
+          [
+            "field of participation",
+            "implementation of innovation activity",
+            0.855
+          ],
+          [
+            "share of women employed in the non-agricultural sector",
+            "demand growth in the industry",
+            0.855
+          ],
+          [
+            "availability of equipment and tools/technologies",
+            "market share, position and share",
+            0.855
+          ],
+          [
+            "availability of sufficient experts",
+            "number of optimized production processes that the company used for its products",
+            0.855
+          ],
+          [
+            "human resources/human resources focused on innovation; ratio of r&d/employees",
+            "cost of production/new product developments",
+            0.855
+          ],
+          [
+            "r&d personnel ratio",
+            "monitoring of the innovation process and the hiring of personnel with special skills for technological tasks",
+            0.855
+          ],
+          [
+            "r&d intensity",
+            "r&d intensity (gerd/gdp) = gerd= gross domestic expenditure on r&d",
+            0.9
+          ],
+          [
+            "protected resources for non-core innovations",
+            "replacement for leaving staff",
+            0.855
+          ],
+          [
+            "technological resource compatibility",
+            "counts of new product announcements, introduction of technological innovations to the market",
+            0.855
+          ],
+          [
+            "r&d assets and strategies",
+            "new-to-market and new-to-business sales",
+            0.855
+          ],
+          [
+            "total cost",
+            "percentage decrease in the cost of innovative processes and products",
+            0.855
+          ],
+          [
+            "project budget",
+            "detailed project tactical plan",
+            0.855
+          ],
+          [
+            "non-r&d innovation expenditure",
+            "innovation activity",
+            0.855
+          ],
+          [
+            "r&d expenditure/investment/size of investment",
+            "r&d expenditure/investment",
+            0.9
+          ],
+          [
+            "average expenditure per selected idea",
+            "average expenditure per selected idea",
+            1.0
+          ],
+          [
+            "percentage of sales related to new projects",
+            "time from identification of a customer product need until beginning of commercial",
+            0.855
+          ],
+          [
+            "development costs",
+            "new product development process/process management itself",
+            0.855
+          ],
+          [
+            "r&d spending all/private",
+            "r&d alliances",
+            0.855
+          ],
+          [
+            "r&d investment and investors",
+            "a well-planned, adequately resourced and proficiently executed launch",
+            0.855
+          ],
+          [
+            "innovation expenditure per employee",
+            "determinants related to facilities that are needed to implement the innovation",
+            0.855
+          ],
+          [
+            "share of research budget from total company budget",
+            "number of improved processes",
+            0.855
+          ],
+          [
+            "financial resource constraints",
+            "new product performance/ success rate of new products, e.g, percentage of innovations that met financial profit estimates, profitability of newly listed products, number of products launched (last three years)/output quantity",
+            0.855
+          ],
+          [
+            "extent to which the company management welcomes and supports",
+            "response time to customer requests",
+            0.855
+          ],
+          [
+            "research projects",
+            "innovative projects (in-house)",
+            0.855
+          ],
+          [
+            "project cost",
+            "percentage of project milestones achieved",
+            0.855
+          ],
+          [
+            "innovation financing",
+            "time to implement the innovation",
+            0.855
+          ],
+          [
+            "share of technology transfer (of r&d)",
+            "total cost of all commercially successful projects divided by the number of commercially successfully projects",
+            0.855
+          ],
+          [
+            "innovation expenses",
+            "purpose achievement of innovation",
+            0.855
+          ],
+          [
+            "share of r&d cost externally and internally",
+            "gap between plans and action",
+            0.855
+          ],
+          [
+            "technology acquisition costs",
+            "use of new technology for production of new products",
+            0.855
+          ],
+          [
+            "tooling cost",
+            "project efficiency in relation to cost and time",
+            0.855
+          ],
+          [
+            "adoption of at least some western methods",
+            "measurement of time",
+            0.855
+          ],
+          [
+            "external finance and credit from local banks",
+            "flexibility and agility, such as centralization of decision-making",
+            0.855
+          ],
+          [
+            "potential sales",
+            "% of sales protected by patents, trade secrets, other exclusive know-how",
+            0.855
+          ],
+          [
+            "roi of r&d projects/new product program",
+            "quality of execution of the activities that comprise the innovation process",
+            0.855
+          ],
+          [
+            "return of investment in innovation",
+            "percentage of projects in the total portfolio going through a defined project management system with defined milestones",
+            0.855
+          ],
+          [
+            "sales of new product program",
+            "percentage of completion of objectives at the expected milestone date",
+            0.855
+          ],
+          [
+            "sales through innovation",
+            "planning and monitoring of the innovation process",
+            0.855
+          ],
+          [
+            "sales percent of new products and services in total sales",
+            "idea generation and its management",
+            0.855
+          ],
+          [
+            "sales and sales growth",
+            "manufacturing efficiency and productivity",
+            0.855
+          ],
+          [
+            "share of sales with newly developed products",
+            "number of meetings",
+            0.855
+          ],
+          [
+            "share of turnover of new product",
+            "way in which the new product development process is formalized",
+            0.855
+          ],
+          [
+            "share of a business total sales deriving from innovative products",
+            "making business cases",
+            0.855
+          ],
+          [
+            "share of new and improved products in total sales as output indicators",
+            "new product introduction vs. competition",
+            0.855
+          ],
+          [
+            "share of new products in % from revenue = return on sales",
+            "duration of introduction of product",
+            0.855
+          ],
+          [
+            "share of new products in % compared to the total revenue in comparison to previous years",
+            "time to develop next generation",
+            0.855
+          ],
+          [
+            "share of innovation expenses to total turnover",
+            "time to market",
+            0.855
+          ],
+          [
+            "revenue based on new products",
+            "common understanding of the process for new product development",
+            0.855
+          ],
+          [
+            "percent of new products that equals 80% sales",
+            "future duration of product",
+            0.855
+          ],
+          [
+            "rate of turnover, perception of innovation returns",
+            "customer retention rate",
+            0.855
+          ],
+          [
+            "revenue from new products, services, new customers",
+            "high-quality new product process",
+            0.855
+          ],
+          [
+            "number of new products to sales",
+            "percentage of ideas found viable for commercialization",
+            0.855
+          ],
+          [
+            "volume of sales from innovative products",
+            "number of project definitions with business/marketing approval",
+            0.855
+          ],
+          [
+            "payback period/amortization time",
+            "building lead time",
+            0.855
+          ],
+          [
+            "internal rate of return (%)",
+            "number of new product ideas or suggestions",
+            0.855
+          ],
+          [
+            "r&d costs/revenue in %, profit margin measures",
+            "profit margin measures",
+            0.9
+          ],
+          [
+            "new-to-market and new-to-business sales",
+            "precise, stable and early product definition, before development begins",
+            0.855
+          ],
+          [
+            "percentage increase in innovation revenues per employee, portfolio",
+            "innovation portfolio balance",
+            0.855
+          ]
+        ],
+        "unmatched_reference": [
+          "creative environment",
+          "researches (input)",
+          "enterprise training",
+          "scientific impact (citations/paper)",
+          "increasing publications/articles",
+          "open excellent attractive research",
+          "international scientific co-publications",
+          "top 10% most cited scientific publications worldwide",
+          "scale",
+          "field",
+          "ownership structure",
+          "decentralized structure",
+          "organizational architecture",
+          "foreign ownership",
+          "maintenance/of resources",
+          "human capital stock",
+          "project/company resource compatibility",
+          "technological investment",
+          "r&d budget",
+          "desing expenditure",
+          "tool usage",
+          "budget/funds availability",
+          "tax credits",
+          "revenue, profits/profitability",
+          "ebitda, budget fulfillment",
+          "net cash flow",
+          "sales under patent protection",
+          "profits under patent protection"
+        ],
+        "unmatched_hypothesis": [
+          "formal structure",
+          "team satisfaction",
+          "customer complaints",
+          "delivery reliability and/or speed",
+          "idea-tanks management",
+          "formal ratification by management",
+          "internal process lead time",
+          "planning and manufacturing system",
+          "labor productivity",
+          "intended purpose",
+          "project delay",
+          "rate of received approval on time",
+          "efficient processes like tough go/kill decision points or gates",
+          "heavyweight project management",
+          "clear goals and milestone measurements",
+          "procedural clarity",
+          "project ownership/empowerment (= support and freedom)",
+          "feedback effects in-between innovation decisions",
+          "responsibility",
+          "project leader",
+          "synergy potential/dependency on other products",
+          "newness to company and novelty of product",
+          "intellectual property rights, in particular patents, citations, applications, licenses",
+          "power law distributions of patents",
+          "technological significance",
+          "technical standards and standardization degree",
+          "number of new or improved products within a certain period, or number of new products divided by total number of products offered",
+          "perceived value",
+          "degree of innovativeness",
+          "successful idea implementation, such as number of ideas successfully turned into products or shared ideas submitted to successful ideas",
+          "identification of innovations by business managers",
+          "assessments by experts",
+          "survival rate",
+          "straightforwardness (how easily can the customer learn the correct use of the innovation?)/customer familiarity with the innovation and specialization",
+          "product advantage: differentiated, unique benefits, superior value for the customer, recognizably of advantage",
+          "appearance",
+          "awareness of content of innovation",
+          "product quality and reliability, such as customer evaluation/defect rate assessment",
+          "comparative functionality",
+          "compatibility, correctness, completeness",
+          "complexity of innovation",
+          "societal benefit",
+          "opportunity window",
+          "launch quality and quantity",
+          "duration of product life cycles",
+          "sustainability/eco-efficiency of product",
+          "extending the range of offered products",
+          "numerical rankings of a business' product by a given customer divided by that customer's ranking of the best competitive product",
+          "licensed technology use",
+          "trademarks",
+          "customer complaints",
+          "delivery reliability and/or speed",
+          "gni per capita (ppp)",
+          "health expenditure (he)",
+          "long-term unemployment",
+          "gdp per capita",
+          "national wealth (gdp per capita)"
+        ],
+        "tp": 87,
+        "fp": 57,
+        "fn": 28,
+        "precision": 0.6042,
+        "recall": 0.7565,
+        "f1": 0.6718
+      },
+      "semantic": {
+        "matched": [
+          [
+            "Percentage of leaders trained in creativity techniques",
+            "percentage of leaders trained in creativity techniques",
+            0.9979
+          ],
+          [
+            "Number of externally generated ideas",
+            "Number of external ideas/ generated with customers",
+            0.8333
+          ],
+          [
+            "The amount of time managers/senior management spent with innovation compared to normal operational tasks",
+            "Amount of time managers spent with innovations compared to normal tasks",
+            0.9432
+          ],
+          [
+            "The integration of customers and suppliers into product development",
+            "Common understanding of the process for new product development",
+            0.8091
+          ],
+          [
+            "Number of new strategic activities (newly created innovative opportunities)",
+            "Number of newly created innovative opportunities",
+            0.821
+          ],
+          [
+            "Number of managers having training in the methods and tools of innovation",
+            "Number of managers trained in the methods and tools of innovation",
+            0.9837
+          ],
+          [
+            "Size of the business",
+            "Size of the company",
+            0.8869
+          ],
+          [
+            "Geographic location of the company",
+            "Geographic location of the company",
+            1.0
+          ],
+          [
+            "Age of company",
+            "Age of company",
+            1.0
+          ],
+          [
+            "External and internal growth",
+            "External and internal growth",
+            1.0
+          ],
+          [
+            "R&D assets and strategies",
+            "R&D expenditure/investment",
+            0.8432
+          ],
+          [
+            "Non-R&D innovation expenditure",
+            "Innovation expenditure",
+            0.8448
+          ],
+          [
+            "R&D expenditure/investment/size of investment",
+            "R&D costs/revenue in %",
+            0.8196
+          ],
+          [
+            "Average expenditure per selected idea",
+            "Average expenditure per selected idea",
+            1.0
+          ],
+          [
+            "Percentage of sales related to new projects",
+            "Percentage of sales related to new projects",
+            1.0
+          ],
+          [
+            "Share of research budget from total company budget",
+            "Share of research budget from total company budget",
+            1.0
+          ],
+          [
+            "Share of technology transfer (of R&D)",
+            "Share of technology transfer",
+            0.8589
+          ],
+          [
+            "Return of investment in innovation",
+            "Return on investment in innovation",
+            0.9948
+          ],
+          [
+            "Sales under patent protection",
+            "% of sales protected by patents, trade secrets, other exclusive know-how",
+            0.8295
+          ],
+          [
+            "Sales and sales growth",
+            "New-to-market and new-to-business sales",
+            0.8032
+          ],
+          [
+            "Share of new and improved products in total sales as output indicators",
+            "New product performance/ success rate of new products, e.g, percentage of innovations that met financial profit estimates, profitability of newly listed products, number of products launched (last three years)/output quantity",
+            0.8061
+          ]
+        ],
+        "unmatched_reference": [
+          "Creative approaches in problem solving",
+          "Creative environment",
+          "Atmosphere of innovation among staff",
+          "Compatibility of innovation with current attitudes and workflow/personal routine",
+          "Percentage of ideas generated in new domains",
+          "Number of identified problems (product, process)",
+          "Number of external ideas/number of implemented ideas",
+          "Number/percentage of ideas generated in collaboration with customers",
+          "Number of failures",
+          "Researches (input)",
+          "Purchase of information and information updates",
+          "Number of new competencies for innovation",
+          "Enterprise training",
+          "Qualification of employees",
+          "Company's investment in know-how",
+          "Identifying innovations in technical and specialized journals (LBIOs)",
+          "Publication count/number of publications",
+          "Number of awards, publication",
+          "Scientific impact (citations/paper)",
+          "Increasing publications/articles",
+          "Publications by the company as the champion in innovation",
+          "Open excellent attractive research",
+          "International scientific co-publications",
+          "Top 10% most cited scientific publications worldwide",
+          "Organizational support for public/private research co-publications",
+          "Scale",
+          "Field",
+          "Export and business performance",
+          "Ownership structure",
+          "Cross-functional integration",
+          "Decentralized structure",
+          "Field of participation",
+          "Organizational architecture",
+          "Foreign ownership",
+          "Share of women employed in the non-agricultural sector",
+          "Availability of equipment and tools/technologies",
+          "Maintenance/of resources",
+          "Availability of sufficient experts",
+          "Human capital stock",
+          "Human resources/human resources focused on innovation; Ratio of R&D/employees",
+          "R&D personnel ratio",
+          "R&D intensity",
+          "Protected resources for non-core innovations",
+          "Project/company resource compatibility",
+          "Technological resource compatibility",
+          "Total cost",
+          "Project budget",
+          "Development costs",
+          "R&D spending all/private",
+          "R&D investment and investors",
+          "Innovation expenditure per employee",
+          "Financial resource constraints",
+          "Technological investment",
+          "Extent to which the company management welcomes and supports",
+          "Research projects",
+          "R&D budget",
+          "Project cost",
+          "Innovation financing",
+          "Innovation expenses",
+          "Share of R&D cost externally and internally",
+          "Desing expenditure",
+          "Technology acquisition costs",
+          "Tooling cost",
+          "Tool usage",
+          "Adoption of at least some western methods",
+          "External finance and credit from local banks",
+          "Budget/funds availability",
+          "Tax credits",
+          "Revenue, profits/profitability",
+          "EBITDA, budget fulfillment",
+          "Net cash flow",
+          "Potential Sales",
+          "ROI of R&D projects/new product program",
+          "Sales of new product program",
+          "Sales through innovation",
+          "Sales percent of new products and services in total sales",
+          "Share of sales with newly developed products",
+          "Share of turnover of new product",
+          "Share of a business total sales deriving from innovative products",
+          "Share of new products in % from revenue = return on sales",
+          "Share of new products in % compared to the total revenue in comparison to previous years",
+          "Share of innovation expenses to total turnover",
+          "Revenue based on new products",
+          "Percent of new products that equals 80% sales",
+          "Profits under patent protection",
+          "Rate of turnover, perception of innovation returns",
+          "Revenue from new products, services, new customers",
+          "Number of new products to sales",
+          "Volume of sales from innovative products",
+          "Payback period/amortization time",
+          "Internal rate of return (%)",
+          "R&D costs/revenue in %, profit margin measures",
+          "New-to-market and new-to-business sales",
+          "Percentage increase in innovation revenues per employee, portfolio"
+        ],
+        "unmatched_hypothesis": [
+          "atmosphere",
+          "Use of internal and external knowledge and information sources",
+          "Formal structure",
+          "Accountable, dedicated, supported cross-functional teams with strong leaders",
+          "Team satisfaction",
+          "Profit margin measures",
+          "Percentage of innovations that met financial benefit projections",
+          "Demand growth in the industry",
+          "Duration of demand",
+          "Market share, position and share",
+          "New product introduction vs. competition",
+          "Customer complaints",
+          "Response time to customer requests",
+          "Delivery reliability and/or speed",
+          "Customer retention rate",
+          "R&D alliances",
+          "Knowledge and technology transfer activities with research institutions and/or institutions of higher education",
+          "Number of innovative businesses/new venture start-ups",
+          "Time to develop next generation",
+          "Diversity of idea-generation process",
+          "Time for idea generation",
+          "Idea-tanks management",
+          "Idea generation and its management",
+          "Number of on-going innovations",
+          "Innovation activity",
+          "Design orientation, such as, number of designers on the company's staff, or source of design",
+          "Making business cases",
+          "Innovative projects (in-house)",
+          "Detailed project tactical plan",
+          "Formal ratification by management",
+          "Implementation of innovation activity",
+          "Gap between plans and action",
+          "Cost of production/new product developments",
+          "Ease of manufacture",
+          "Manufacturing efficiency and productivity",
+          "Increase in production capacity and flexibility",
+          "Internal process lead time",
+          "Number of optimized production processes that the company used for its products",
+          "Use of new technology for production of new products",
+          "Planning and manufacturing system",
+          "Reassessment efforts: update and redirect project plans and keep team members aligned",
+          "Time to implement the innovation",
+          "Time from identification of a customer product need until beginning of commercial",
+          "Labor productivity",
+          "Time to market",
+          "Building lead time",
+          "Number of improved processes",
+          "Percentage decrease in the cost of innovative processes and products",
+          "Percentage of project milestones achieved",
+          "Duration of introduction of product",
+          "Intended purpose",
+          "Purpose achievement of innovation",
+          "A well-planned, adequately resourced and proficiently executed launch",
+          "Determinants related to facilities that are needed to implement the innovation",
+          "Total cost of all commercially successful projects divided by the number of commercially successfully projects",
+          "Project efficiency in relation to cost and time",
+          "Measurement of time",
+          "Project delay",
+          "Rate of received approval on time",
+          "Quality of execution of the activities that comprise the innovation process",
+          "High-quality new product process",
+          "Efficient processes like tough go/kill decision points or gates",
+          "New product development process/process management itself",
+          "Heavyweight project management",
+          "Percentage of projects in the total portfolio going through a defined project management system with defined milestones",
+          "Clear goals and milestone measurements",
+          "Percentage of completion of objectives at the expected milestone date",
+          "Planning and monitoring of the innovation process",
+          "Way in which the new product development process is formalized",
+          "Procedural clarity",
+          "Project ownership/empowerment (= support and freedom)",
+          "Flexibility and agility, such as centralization of decision-making",
+          "Feedback effects in-between innovation decisions",
+          "Responsibility",
+          "Project leader",
+          "Replacement for leaving staff",
+          "Monitoring of the innovation process and the hiring of personnel with special skills for technological tasks",
+          "Number of meetings",
+          "Number of new product ideas or suggestions",
+          "Percentage of ideas found viable for commercialization",
+          "Precise, stable and early product definition, before development begins",
+          "Synergy potential/dependency on other products",
+          "Innovation portfolio balance",
+          "Newness to company and novelty of product",
+          "Future duration of product",
+          "Intellectual property rights, in particular patents, citations, applications, licenses",
+          "Power law distributions of patents",
+          "Technological significance",
+          "Technical standards and standardization degree",
+          "Number of project definitions with business/marketing approval",
+          "Number of new or improved products within a certain period, or number of new products divided by total number of products offered",
+          "Counts of new product announcements, introduction of technological innovations to the market",
+          "Perceived value",
+          "Degree of innovativeness",
+          "Successful idea implementation, such as number of ideas successfully turned into products or shared ideas submitted to successful ideas",
+          "Identification of innovations by business managers",
+          "Assessments by experts",
+          "Survival rate",
+          "Straightforwardness (how easily can the customer learn the correct use of the innovation?)/customer familiarity with the innovation and specialization",
+          "Product advantage: differentiated, unique benefits, superior value for the customer, recognizably of advantage",
+          "Appearance",
+          "Awareness of content of innovation",
+          "Product quality and reliability, such as customer evaluation/defect rate assessment",
+          "Comparative functionality",
+          "Compatibility, correctness, completeness",
+          "Complexity of innovation",
+          "Societal benefit",
+          "Opportunity window",
+          "Launch quality and quantity",
+          "Duration of product life cycles",
+          "Sustainability/eco-efficiency of product",
+          "Extending the range of offered products",
+          "Numerical rankings of a business' product by a given customer divided by that customer's ranking of the best competitive product",
+          "Licensed technology use",
+          "Trademarks",
+          "Demand growth in the industry",
+          "Duration of demand",
+          "Market share, position and share",
+          "New product introduction vs. competition",
+          "Customer complaints",
+          "Response time to customer requests",
+          "Delivery reliability and/or speed",
+          "Customer retention rate",
+          "R&D alliances",
+          "Knowledge and technology transfer activities with research institutions and/or institutions of higher education",
+          "Number of innovative businesses/new venture start-ups",
+          "GNI per capita (PPP)",
+          "Health expenditure (HE)",
+          "Long-term unemployment",
+          "GDP per capita",
+          "R&D intensity (GERD/GDP) = GERD= Gross domestic expenditure on R&D",
+          "National wealth (GDP per capita)"
+        ],
+        "tp": 21,
+        "fp": 132,
+        "fn": 94,
+        "precision": 0.1373,
+        "recall": 0.1826,
+        "f1": 0.1567
+      }
+    }
+  }
+}

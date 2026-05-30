@@ -1,0 +1,1082 @@
+{
+  "article_id": "artigo1",
+  "model": "gemini",
+  "pdf": "data/input/articles/artigo1.pdf",
+  "total_indicators": 153,
+  "verified": 9,
+  "hallucinated": 144,
+  "verification_rate": 0.0588,
+  "results": [
+    {
+      "indicator": "percentage of leaders trained in creativity techniques",
+      "snippet": "Percentage of leaders trained in\ncreativity techniques,\natmosphere",
+      "found_in_document": true,
+      "match_type": "indicator_fallback",
+      "status": "verified"
+    },
+    {
+      "indicator": "atmosphere",
+      "snippet": "Percentage of leaders trained in\ncreativity techniques,\natmosphere",
+      "found_in_document": true,
+      "match_type": "indicator_fallback",
+      "status": "verified"
+    },
+    {
+      "indicator": "Amount of time managers spent with innovations compared to normal tasks",
+      "snippet": "Amount of time managers spent\nwith innovations compared to\nnormal tasks",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Number of external ideas/ generated with customers",
+      "snippet": "Number of external ideas/\ngenerated with customers",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Number of newly created innovative opportunities",
+      "snippet": "Number of newly created\ninnovative opportunities",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Number of managers trained in the methods and tools of innovation",
+      "snippet": "Number of managers trained in\nthe methods and tools of\ninnovation",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Use of internal and external knowledge and information sources",
+      "snippet": "Use of internal and external\nknowledge and information\nsources",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Size of the company",
+      "snippet": "Size of the company",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Geographic location of the company",
+      "snippet": "Geographic location of the\ncompany",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Age of company",
+      "snippet": "Age of company",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "External and internal growth",
+      "snippet": "External and internal growth",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Formal structure",
+      "snippet": "Formal structure",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Accountable, dedicated, supported cross-functional teams with strong leaders",
+      "snippet": "Accountable, dedicated,\nsupported cross-functional\nteams with strong leaders",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Team satisfaction",
+      "snippet": "Team satisfaction",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "R&D expenditure/investment",
+      "snippet": "R&D expenditure/investment",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Average expenditure per selected idea",
+      "snippet": "Average expenditure per\nselected idea",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Percentage of sales related to new projects",
+      "snippet": "Percentage of sales related to\nnew projects",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Share of research budget from total company budget",
+      "snippet": "Share of research budget from\ntotal company budget",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Innovation expenditure",
+      "snippet": "Innovation expenditure",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Share of technology transfer",
+      "snippet": "Share of technology transfer",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Return on investment in innovation",
+      "snippet": "Return on investment in\ninnovation",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "R&D costs/revenue in %",
+      "snippet": "R&D costs/revenue in %",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Profit margin measures",
+      "snippet": "Profit margin measures",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "New-to-market and new-to-business sales",
+      "snippet": "New-to-market and new-to-\nbusiness sales",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Percentage of innovations that met financial benefit projections",
+      "snippet": "Percentage of innovations that\nmet financial benefit\nprojections",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Demand growth in the industry",
+      "snippet": "Demand growth in the industry",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Duration of demand",
+      "snippet": "Duration of demand",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Market share, position and share",
+      "snippet": "Market share, position and share",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "New product introduction vs. competition",
+      "snippet": "New product introduction vs. competition",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Customer complaints",
+      "snippet": "Customer complaints",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Response time to customer requests",
+      "snippet": "Response time to customer requests",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Delivery reliability and/or speed",
+      "snippet": "Delivery reliability and/or speed",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Customer retention rate",
+      "snippet": "Customer retention rate",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "R&D alliances",
+      "snippet": "R&D alliances",
+      "found_in_document": true,
+      "match_type": "exact",
+      "status": "verified"
+    },
+    {
+      "indicator": "Knowledge and technology transfer activities with research institutions and/or institutions of higher education",
+      "snippet": "Knowledge and technology transfer activities with research institutions\nand/or institutions of higher education",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Number of innovative businesses/new venture start-ups",
+      "snippet": "Number of innovative businesses/new venture start-ups",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Time to develop next generation",
+      "snippet": "Time to develop next generation",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Diversity of idea-generation process",
+      "snippet": "Diversity of idea-generation process",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Time for idea generation",
+      "snippet": "Time for idea generation",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Idea-tanks management",
+      "snippet": "Idea-tanks management",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Idea generation and its management",
+      "snippet": "Idea generation and its management",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Number of on-going innovations",
+      "snippet": "Number of on-going innovations",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Innovation activity",
+      "snippet": "Innovation activity",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Design orientation, such as, number of designers on the company's staff, or source of design",
+      "snippet": "Design orientation, such as, number of designers on the company's staff, or\nsource of design",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Making business cases",
+      "snippet": "Making business cases",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Innovative projects (in-house)",
+      "snippet": "Innovative projects (in-house)",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Detailed project tactical plan",
+      "snippet": "Detailed project tactical plan",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Formal ratification by management",
+      "snippet": "Formal ratification by management",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Implementation of innovation activity",
+      "snippet": "Implementation of innovation activity",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Gap between plans and action",
+      "snippet": "Gap between plans and action",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Cost of production/new product developments",
+      "snippet": "Cost of production/new product developments",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Ease of manufacture",
+      "snippet": "Ease of manufacture",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Manufacturing efficiency and productivity",
+      "snippet": "Manufacturing efficiency and productivity",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Increase in production capacity and flexibility",
+      "snippet": "Increase in production capacity and flexibility",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Internal process lead time",
+      "snippet": "Internal process lead time",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Number of optimized production processes that the company used for its products",
+      "snippet": "Number of optimized production processes that the company used for its products",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Use of new technology for production of new products",
+      "snippet": "Use of new technology for production of new products",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Planning and manufacturing system",
+      "snippet": "Planning and manufacturing system",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Reassessment efforts: update and redirect project plans and keep team members aligned",
+      "snippet": "Reassessment efforts: update and redirect project plans and keep team members aligned",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Time to implement the innovation",
+      "snippet": "Time to implement the innovation",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Time from identification of a customer product need until beginning of commercial",
+      "snippet": "Time from identification of a customer product need until beginning of commercial",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Labor productivity",
+      "snippet": "Labor productivity",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Time to market",
+      "snippet": "Time to market",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Building lead time",
+      "snippet": "Building lead time",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Number of improved processes",
+      "snippet": "Number of improved processes",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Percentage decrease in the cost of innovative processes and products",
+      "snippet": "Percentage decrease in the cost of innovative processes and products",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Percentage of project milestones achieved",
+      "snippet": "Percentage of project milestones achieved",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Duration of introduction of product",
+      "snippet": "Duration of introduction of product",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Intended purpose",
+      "snippet": "Intended purpose",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Purpose achievement of innovation",
+      "snippet": "urpose achievement of innovation",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "A well-planned, adequately resourced and proficiently executed launch",
+      "snippet": "A well-planned, adequately resourced and proficiently executed launch",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Determinants related to facilities that are needed to implement the innovation",
+      "snippet": "Determinants related to facilities that are needed to implement the innovation",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Total cost of all commercially successful projects divided by the number of commercially successfully projects",
+      "snippet": "Total cost of all commercially successful projects divided by the number of commercially successfully projects",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Project efficiency in relation to cost and time",
+      "snippet": "Project efficiency in relation to cost and time",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Measurement of time",
+      "snippet": "Measurement of time",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Project delay",
+      "snippet": "Project delay",
+      "found_in_document": true,
+      "match_type": "exact",
+      "status": "verified"
+    },
+    {
+      "indicator": "Rate of received approval on time",
+      "snippet": "Rate of received approval on time",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Quality of execution of the activities that comprise the innovation process",
+      "snippet": "Quality of execution of the activities that comprise the innovation process",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "High-quality new product process",
+      "snippet": "High-quality new product process",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Efficient processes like tough go/kill decision points or gates",
+      "snippet": "Efficient processes like tough go/kill decision points or gates",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "New product development process/process management itself",
+      "snippet": "New product development process/process management itself",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Heavyweight project management",
+      "snippet": "Heavyweight project management",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Percentage of projects in the total portfolio going through a defined project management system with defined milestones",
+      "snippet": "Percentage of projects in the total portfolio going through a defined project management system with defined milestones",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Clear goals and milestone measurements",
+      "snippet": "Clear goals and milestone measurements",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Percentage of completion of objectives at the expected milestone date",
+      "snippet": "Percentage of completion of objectives at the expected milestone date",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Planning and monitoring of the innovation process",
+      "snippet": "Planning and monitoring of the innovation process",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Way in which the new product development process is formalized",
+      "snippet": "Way in which the new product development process is formalized",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Common understanding of the process for new product development",
+      "snippet": "Common understanding of the process for new product development",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Procedural clarity",
+      "snippet": "Procedural clarity",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Project ownership/empowerment (= support and freedom)",
+      "snippet": "Project ownership/empowerment (= support and freedom)",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Flexibility and agility, such as centralization of decision-making",
+      "snippet": "Flexibility and agility, such as centralization of decision-making",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Feedback effects in-between innovation decisions",
+      "snippet": "Feedback effects in-between innovation decisions",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Responsibility",
+      "snippet": "Responsibility",
+      "found_in_document": true,
+      "match_type": "exact",
+      "status": "verified"
+    },
+    {
+      "indicator": "Project leader",
+      "snippet": "Project leader",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Replacement for leaving staff",
+      "snippet": "Replacement for leaving staff",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Monitoring of the innovation process and the hiring of personnel with special skills for technological tasks",
+      "snippet": "Monitoring of the innovation process and the hiring of personnel with special skills for technological tasks",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Number of meetings",
+      "snippet": "Number of meetings",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Number of new product ideas or suggestions",
+      "snippet": "Number of new product ideas or suggestions",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Percentage of ideas found viable for commercialization",
+      "snippet": "Percentage of ideas found viable for commercialization",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Precise, stable and early product definition, before development begins",
+      "snippet": "Precise, stable and early product definition, before development begins",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Synergy potential/dependency on other products",
+      "snippet": "Synergy potential/dependency on other products",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Innovation portfolio balance",
+      "snippet": "Innovation portfolio balance",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Newness to company and novelty of product",
+      "snippet": "Newness to company and novelty of product",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Future duration of product",
+      "snippet": "Future duration of product",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Intellectual property rights, in particular patents, citations, applications, licenses",
+      "snippet": "Intellectual property rights, in particular patents, citations, applications,\nlicenses",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Power law distributions of patents",
+      "snippet": "Power law distributions of patents",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Technological significance",
+      "snippet": "Technological significance",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Technical standards and standardization degree",
+      "snippet": "Technical standards and standardization degree",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Number of project definitions with business/marketing approval",
+      "snippet": "Number of project definitions with business/marketing approval",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "New product performance/ success rate of new products, e.g, percentage of innovations that met financial profit estimates, profitability of newly listed products, number of products launched (last three years)/output quantity",
+      "snippet": "New product performance/ success rate of new products, e.g, percentage of\ninnovations that met financial profit estimates, profitability of newly listed\nproducts, number of products launched (last three years)/output quantity",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Number of new or improved products within a certain period, or number of new products divided by total number of products offered",
+      "snippet": "Number of new or improved products within a certain period, or number of\nnew products divided by total number of products offered",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Counts of new product announcements, introduction of technological innovations to the market",
+      "snippet": "Counts of new product announcements, introduction of technological\ninnovations to the market",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Perceived value",
+      "snippet": "Perceived value",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Degree of innovativeness",
+      "snippet": "Degree of innovativeness",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Successful idea implementation, such as number of ideas successfully turned into products or shared ideas submitted to successful ideas",
+      "snippet": "Successful idea implementation, such as number of ideas successfully\nturned into products or shared ideas submitted to successful ideas",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Identification of innovations by business managers",
+      "snippet": "Identification of innovations by business managers",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Assessments by experts",
+      "snippet": "Assessments by experts",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Survival rate",
+      "snippet": "Survival rate",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Straightforwardness (how easily can the customer learn the correct use of the innovation?)/customer familiarity with the innovation and specialization",
+      "snippet": "Straightforwardness (how easily can the customer learn the correct use of\nthe innovation?)/customer familiarity with the innovation and\nspecialization",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Product advantage: differentiated, unique benefits, superior value for the customer, recognizably of advantage",
+      "snippet": "Product advantage: differentiated, unique benefits, superior value for the\ncustomer, recognizably of advantage",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Appearance",
+      "snippet": "Appearance",
+      "found_in_document": true,
+      "match_type": "exact",
+      "status": "verified"
+    },
+    {
+      "indicator": "Awareness of content of innovation",
+      "snippet": "Awareness of content of innovation",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Product quality and reliability, such as customer evaluation/defect rate assessment",
+      "snippet": "Product quality and reliability, such as customer evaluation/defect rate\nassessment",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Comparative functionality",
+      "snippet": "Comparative functionality",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Compatibility, correctness, completeness",
+      "snippet": "Compatibility, correctness, completeness",
+      "found_in_document": true,
+      "match_type": "normalized",
+      "status": "verified"
+    },
+    {
+      "indicator": "Complexity of innovation",
+      "snippet": "Complexity of innovation",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Societal benefit",
+      "snippet": "Societal benefit",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Opportunity window",
+      "snippet": "Opportunity window",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Launch quality and quantity",
+      "snippet": "Launch quality and quantity",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Duration of product life cycles",
+      "snippet": "Duration of product life cycles",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Sustainability/eco-efficiency of product",
+      "snippet": "Sustainability/eco-efficiency of product",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Extending the range of offered products",
+      "snippet": "Extending the range of offered products",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Numerical rankings of a business' product by a given customer divided by that customer's ranking of the best competitive product",
+      "snippet": "Numerical rankings of a business' product by a given customer divided by\nthat customer's ranking of the best competitive product",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "% of sales protected by patents, trade secrets, other exclusive know-how",
+      "snippet": "% of sales protected by patents, trade secrets, other exclusive know-how",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Licensed technology use",
+      "snippet": "Licensed technology use",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Trademarks",
+      "snippet": "Trademarks",
+      "found_in_document": true,
+      "match_type": "exact",
+      "status": "verified"
+    },
+    {
+      "indicator": "Demand growth in the industry",
+      "snippet": "Demand growth in the industry",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Duration of demand",
+      "snippet": "Duration of demand",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Market share, position and share",
+      "snippet": "Market share, position and share",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "New product introduction vs. competition",
+      "snippet": "New product introduction vs. competition",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Customer complaints",
+      "snippet": "Customer complaints",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Response time to customer requests",
+      "snippet": "Response time to customer requests",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Delivery reliability and/or speed",
+      "snippet": "Delivery reliability and/or speed",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Customer retention rate",
+      "snippet": "Customer retention rate",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "R&D alliances",
+      "snippet": "R&D alliances",
+      "found_in_document": true,
+      "match_type": "exact",
+      "status": "verified"
+    },
+    {
+      "indicator": "Knowledge and technology transfer activities with research institutions and/or institutions of higher education",
+      "snippet": "Knowledge and technology transfer activities with research institutions\nand/or institutions of higher education",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Number of innovative businesses/new venture start-ups",
+      "snippet": "Number of innovative businesses/new venture start-ups",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "GNI per capita (PPP)",
+      "snippet": "GNI per capita (PPP)",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Health expenditure (HE)",
+      "snippet": "Health expenditure (HE)",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "Long-term unemployment",
+      "snippet": "Long-term unemployment",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "GDP per capita",
+      "snippet": "GNI per capita (PPP)\nHealth expenditure (HE)\nLong-term unemployment\nGDP per capita",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "R&D intensity (GERD/GDP) = GERD= Gross domestic expenditure on R&D",
+      "snippet": "R&D intensity (GERD/GDP) = GERD= Gross domestic expenditure on\nR&D",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    },
+    {
+      "indicator": "National wealth (GDP per capita)",
+      "snippet": "National wealth (GDP per capita)",
+      "found_in_document": false,
+      "match_type": null,
+      "status": "hallucinated"
+    }
+  ]
+}

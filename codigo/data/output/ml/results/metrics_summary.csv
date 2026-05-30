@@ -1,0 +1,4 @@
+Modelo,Acurácia,Precision CT&I,Recall CT&I,F1 CT&I,F1 Não-CT&I,F1 Macro,ROC AUC
+Regressão Logística,0.9,0.8392,0.8759,0.8571,0.8571,0.8901,0.9659
+SVM Linear,0.9225,0.9077,0.8613,0.8839,0.8839,0.9129,0.9712
+Random Forest,0.89,0.8039,0.8978,0.8483,0.8483,0.881,0.9547

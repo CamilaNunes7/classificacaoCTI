@@ -1,0 +1,7 @@
+Modelo,Vetorização,Acurácia,Precision CT&I,Recall CT&I,F1 CT&I,F1 Não-CT&I,F1 Macro,ROC AUC
+Random Forest,Embeddings,0.9375,0.9118,0.9051,0.9084,0.9084,0.9305,0.985
+Random Forest,TF-IDF,0.89,0.8039,0.8978,0.8483,0.8483,0.881,0.9547
+Regressão Logística,Embeddings,0.9175,0.8467,0.927,0.885,0.885,0.9103,0.9872
+Regressão Logística,TF-IDF,0.9,0.8392,0.8759,0.8571,0.8571,0.8901,0.9659
+SVM Linear,Embeddings,0.9375,0.9058,0.9124,0.9091,0.9091,0.9307,0.9871
+SVM Linear,TF-IDF,0.9225,0.9077,0.8613,0.8839,0.8839,0.9129,0.9712

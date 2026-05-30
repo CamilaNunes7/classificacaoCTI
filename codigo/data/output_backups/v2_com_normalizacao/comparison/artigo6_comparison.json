@@ -1,0 +1,1060 @@
+{
+  "article_id": "artigo6",
+  "indicator_counts": {
+    "human": 166,
+    "gemini": 71
+  },
+  "pairs": {
+    "human_vs_gemini": {
+      "exact": {
+        "matched": [
+          [
+            "in-licensing costs",
+            "in-licensing costs",
+            1.0
+          ],
+          [
+            "innovation counts",
+            "innovation counts",
+            1.0
+          ],
+          [
+            "innovation efficiency",
+            "innovation efficiency",
+            1.0
+          ],
+          [
+            "innovation-related financial metrics",
+            "innovation-related financial metrics",
+            1.0
+          ],
+          [
+            "management input ratio",
+            "management input ratio",
+            1.0
+          ],
+          [
+            "number of patents filed",
+            "number of patents filed",
+            1.0
+          ],
+          [
+            "number of patents granted",
+            "number of patents granted",
+            1.0
+          ],
+          [
+            "outsourcing of r&d services",
+            "outsourcing of r&d services",
+            1.0
+          ],
+          [
+            "r&d expenditure",
+            "r&d expenditure",
+            1.0
+          ],
+          [
+            "r&d input ratio",
+            "r&d input ratio",
+            1.0
+          ],
+          [
+            "r&d metrics",
+            "r&d metrics",
+            1.0
+          ],
+          [
+            "r&d spending",
+            "r&d spending",
+            1.0
+          ],
+          [
+            "revenue from new products",
+            "revenue from new products",
+            1.0
+          ],
+          [
+            "revenues from collaborative development",
+            "revenues from collaborative development",
+            1.0
+          ]
+        ],
+        "unmatched_reference": [
+          "aggregate innovation measures",
+          "ambidextrous green innovation",
+          "audit indicators",
+          "carbon emissions",
+          "certification indicators",
+          "change in competencies and resources",
+          "change in cost structures",
+          "change in partnerships",
+          "change in processes and structures",
+          "change in revenue models",
+          "change in technology or equipment",
+          "change-type measures",
+          "changes in communication structures",
+          "changes in organisational routines",
+          "changes in productivity",
+          "clean production indicators",
+          "cleaner technology",
+          "coal consumption",
+          "competition intensity",
+          "competitiveness",
+          "competitor involvement",
+          "conceptualising",
+          "consultancy firm involvement",
+          "coproducing and orchestrating",
+          "cost indicators",
+          "cost of collaborative development",
+          "coupled open innovation activities",
+          "customer cooperation indicators",
+          "customer involvement",
+          "diversity of technological areas covered by patents",
+          "dummy variable for innovation adoption",
+          "dummy variable for product innovation",
+          "dynamic service innovation capabilities",
+          "eco-innovation performance indicators",
+          "economic output of green innovation",
+          "electricity consumption",
+          "emissions reduction indicators",
+          "energy conservation indicators",
+          "environmental taxes",
+          "exploitative green innovation",
+          "exploratory green innovation",
+          "extent-of-use-type measures",
+          "external innovation sources score",
+          "external knowledge breadth",
+          "external knowledge depth",
+          "financial investment indicators",
+          "financial reports",
+          "government support",
+          "green innovation investment capability",
+          "green technology",
+          "green technology r&d capability",
+          "improved products indicators",
+          "improved services indicators",
+          "improved task performance",
+          "industrial waste recycling",
+          "industry–academia collaboration",
+          "innovation incentives",
+          "innovation subsidies",
+          "innovation-related intangibles",
+          "inside-out open innovation activities",
+          "ip licensing revenues",
+          "management investment indicators",
+          "management strategy indicators",
+          "management systems",
+          "managerial creativity",
+          "manufacturing process patents",
+          "market demand",
+          "market position",
+          "market share",
+          "materials indicators",
+          "measures related to innovation features",
+          "monitoring and control systems",
+          "natural resource consumption",
+          "network engagement",
+          "new client interface",
+          "new management systems",
+          "new markets",
+          "new products",
+          "new products indicators",
+          "new service concept",
+          "new service delivery system",
+          "new services",
+          "new services indicators",
+          "non-polluting materials",
+          "number of managerial improvements",
+          "number of personnel engaged in innovation-related activities",
+          "number of process innovations",
+          "oil consumption",
+          "openness to change",
+          "ordinal variable for innovation intensity",
+          "organisational policies and practices",
+          "outside-in open innovation activities",
+          "patent activity across countries",
+          "patent citations",
+          "patent filings",
+          "patent indicators",
+          "percentage of employees with bachelor’s degree",
+          "percentage of r&d funds relative to sales",
+          "personnel training indicators",
+          "proactiveness",
+          "process capability",
+          "process improvement indicators",
+          "process innovation introduction",
+          "process innovation ordinal scale",
+          "product development time",
+          "product innovation capacity",
+          "product-related output indicators",
+          "production process indicators",
+          "profitability indicators",
+          "range and depth of innovation activities",
+          "recyclable materials",
+          "reduction of co2 emissions",
+          "reduction of energy use",
+          "reduction of environmental risk",
+          "reduction of noise pollution",
+          "reduction of pollution",
+          "reduction of resource use",
+          "reduction of water pollution",
+          "remanufactured materials",
+          "renewable energy indicators",
+          "renewable energy use",
+          "reusable materials",
+          "revenue indicators",
+          "revenues from r&d services",
+          "risk-taking",
+          "scale of innovation efforts",
+          "scaling and stretching",
+          "sensing user needs",
+          "service innovation performance maturity levels",
+          "sewage discharge",
+          "social effect of green innovation",
+          "spin-offs",
+          "staff-related supply chain indicators",
+          "stakeholder cooperation",
+          "strategic alliances",
+          "supplier cooperation",
+          "supplier cooperation indicators",
+          "supplier involvement",
+          "supply chain r&d investment",
+          "survey-based innovation indicators",
+          "technological innovation capability",
+          "technological innovation efficiency",
+          "technological investments",
+          "technology choice",
+          "technology indicators",
+          "total turnover sales from innovative products",
+          "use-type measures",
+          "value capture change",
+          "value creation change",
+          "value proposition change",
+          "water consumption",
+          "web mining indicators"
+        ],
+        "unmatched_hypothesis": [
+          "additions of innovation-related intangibles",
+          "air",
+          "air pollution",
+          "amount and types",
+          "clean production",
+          "co2",
+          "company-based surveys",
+          "costs of collaborative development",
+          "designated budgets for innovations",
+          "disposals of innovation-related intangibles",
+          "emissions reduction",
+          "energy",
+          "energy conservation",
+          "expenditure on r&d",
+          "extent of employee development and safety",
+          "financial resources",
+          "financial resources for training recalculated per employee annually",
+          "green patent number",
+          "higher employee productivity",
+          "improved recycling of product after use",
+          "increased service sale revenues",
+          "increased tourist visits in a given area annually",
+          "investment",
+          "lower service provision costs",
+          "noise",
+          "operations effectiveness",
+          "or materials",
+          "organisation's age and size",
+          "patent activity across different countries",
+          "patent data",
+          "percentage of employees with at least a bachelor's degree",
+          "percentage of management staff",
+          "percentage of r&d funds relative to the firm's sales",
+          "percentage of sales staff",
+          "percentage of technical staff",
+          "r&d spending details",
+          "recycled waste",
+          "reduced energy use",
+          "reduced material",
+          "replaced materials with less polluting or hazardous substitutes",
+          "resources organisation of management innovation",
+          "revenues from out-licensing",
+          "revenues from r&d services on behalf of third parties",
+          "sales",
+          "soil",
+          "soil or noise pollution",
+          "technological innovation capabilities",
+          "technology and environmental management capabilities",
+          "the financial and social influence of the organisation",
+          "the limitation of tourism seasonality",
+          "the market",
+          "total turnover sales",
+          "trade name or trademark registrations",
+          "use of renewable energy",
+          "water"
+        ],
+        "tp": 14,
+        "fp": 55,
+        "fn": 152,
+        "precision": 0.2029,
+        "recall": 0.0843,
+        "f1": 0.1191
+      },
+      "fuzzy": {
+        "matched": [
+          [
+            "aggregate innovation measures",
+            "resources organisation of management innovation",
+            0.855
+          ],
+          [
+            "ambidextrous green innovation",
+            "innovation counts",
+            0.855
+          ],
+          [
+            "change in competencies and resources",
+            "financial resources for training recalculated per employee annually",
+            0.855
+          ],
+          [
+            "change in cost structures",
+            "increased tourist visits in a given area annually",
+            0.855
+          ],
+          [
+            "change in processes and structures",
+            "the financial and social influence of the organisation",
+            0.855
+          ],
+          [
+            "change in technology or equipment",
+            "replaced materials with less polluting or hazardous substitutes",
+            0.855
+          ],
+          [
+            "clean production indicators",
+            "clean production",
+            0.9
+          ],
+          [
+            "cleaner technology",
+            "technology and environmental management capabilities",
+            0.855
+          ],
+          [
+            "coproducing and orchestrating",
+            "amount and types",
+            0.855
+          ],
+          [
+            "cost of collaborative development",
+            "costs of collaborative development",
+            0.9851
+          ],
+          [
+            "coupled open innovation activities",
+            "innovation efficiency",
+            0.855
+          ],
+          [
+            "diversity of technological areas covered by patents",
+            "number of patents filed",
+            0.855
+          ],
+          [
+            "economic output of green innovation",
+            "percentage of employees with at least a bachelor's degree",
+            0.855
+          ],
+          [
+            "emissions reduction indicators",
+            "emissions reduction",
+            0.9
+          ],
+          [
+            "energy conservation indicators",
+            "energy conservation",
+            0.9
+          ],
+          [
+            "exploitative green innovation",
+            "green patent number",
+            0.855
+          ],
+          [
+            "financial investment indicators",
+            "investment",
+            0.9
+          ],
+          [
+            "financial reports",
+            "innovation-related financial metrics",
+            0.855
+          ],
+          [
+            "green technology r&d capability",
+            "r&d spending",
+            0.855
+          ],
+          [
+            "improved services indicators",
+            "revenues from r&d services on behalf of third parties",
+            0.855
+          ],
+          [
+            "improved task performance",
+            "improved recycling of product after use",
+            0.855
+          ],
+          [
+            "in-licensing costs",
+            "in-licensing costs",
+            1.0
+          ],
+          [
+            "industrial waste recycling",
+            "recycled waste",
+            0.855
+          ],
+          [
+            "innovation counts",
+            "technological innovation capabilities",
+            0.855
+          ],
+          [
+            "innovation-related financial metrics",
+            "r&d metrics",
+            0.855
+          ],
+          [
+            "innovation-related intangibles",
+            "additions of innovation-related intangibles",
+            0.95
+          ],
+          [
+            "ip licensing revenues",
+            "revenues from collaborative development",
+            0.855
+          ],
+          [
+            "management input ratio",
+            "management input ratio",
+            1.0
+          ],
+          [
+            "management systems",
+            "percentage of management staff",
+            0.855
+          ],
+          [
+            "market position",
+            "the market",
+            0.855
+          ],
+          [
+            "materials indicators",
+            "or materials",
+            0.855
+          ],
+          [
+            "new markets",
+            "revenue from new products",
+            0.855
+          ],
+          [
+            "new service concept",
+            "lower service provision costs",
+            0.855
+          ],
+          [
+            "new services",
+            "outsourcing of r&d services",
+            0.855
+          ],
+          [
+            "number of managerial improvements",
+            "percentage of r&d funds relative to the firm's sales",
+            0.855
+          ],
+          [
+            "number of patents filed",
+            "the limitation of tourism seasonality",
+            0.855
+          ],
+          [
+            "number of patents granted",
+            "number of patents granted",
+            1.0
+          ],
+          [
+            "number of personnel engaged in innovation-related activities",
+            "percentage of technical staff",
+            0.855
+          ],
+          [
+            "outsourcing of r&d services",
+            "expenditure on r&d",
+            0.855
+          ],
+          [
+            "patent activity across countries",
+            "patent activity across different countries",
+            0.95
+          ],
+          [
+            "patent indicators",
+            "patent data",
+            0.855
+          ],
+          [
+            "percentage of employees with bachelor’s degree",
+            "percentage of sales staff",
+            0.855
+          ],
+          [
+            "percentage of r&d funds relative to sales",
+            "r&d spending details",
+            0.855
+          ],
+          [
+            "product development time",
+            "extent of employee development and safety",
+            0.855
+          ],
+          [
+            "r&d expenditure",
+            "r&d expenditure",
+            1.0
+          ],
+          [
+            "r&d input ratio",
+            "r&d input ratio",
+            1.0
+          ],
+          [
+            "range and depth of innovation activities",
+            "use of renewable energy",
+            0.855
+          ],
+          [
+            "reduction of co2 emissions",
+            "disposals of innovation-related intangibles",
+            0.855
+          ],
+          [
+            "reduction of energy use",
+            "energy",
+            0.9
+          ],
+          [
+            "reduction of noise pollution",
+            "noise",
+            0.9
+          ],
+          [
+            "reduction of pollution",
+            "air pollution",
+            0.855
+          ],
+          [
+            "reduction of water pollution",
+            "water",
+            0.9
+          ],
+          [
+            "renewable energy indicators",
+            "reduced energy use",
+            0.855
+          ],
+          [
+            "total turnover sales from innovative products",
+            "total turnover sales",
+            0.9
+          ]
+        ],
+        "unmatched_reference": [
+          "audit indicators",
+          "carbon emissions",
+          "certification indicators",
+          "change in partnerships",
+          "change in revenue models",
+          "change-type measures",
+          "changes in communication structures",
+          "changes in organisational routines",
+          "changes in productivity",
+          "coal consumption",
+          "competition intensity",
+          "competitiveness",
+          "competitor involvement",
+          "conceptualising",
+          "consultancy firm involvement",
+          "cost indicators",
+          "customer cooperation indicators",
+          "customer involvement",
+          "dummy variable for innovation adoption",
+          "dummy variable for product innovation",
+          "dynamic service innovation capabilities",
+          "eco-innovation performance indicators",
+          "electricity consumption",
+          "environmental taxes",
+          "exploratory green innovation",
+          "extent-of-use-type measures",
+          "external innovation sources score",
+          "external knowledge breadth",
+          "external knowledge depth",
+          "government support",
+          "green innovation investment capability",
+          "green technology",
+          "improved products indicators",
+          "industry–academia collaboration",
+          "innovation efficiency",
+          "innovation incentives",
+          "innovation subsidies",
+          "inside-out open innovation activities",
+          "management investment indicators",
+          "management strategy indicators",
+          "managerial creativity",
+          "manufacturing process patents",
+          "market demand",
+          "market share",
+          "measures related to innovation features",
+          "monitoring and control systems",
+          "natural resource consumption",
+          "network engagement",
+          "new client interface",
+          "new management systems",
+          "new products",
+          "new products indicators",
+          "new service delivery system",
+          "new services indicators",
+          "non-polluting materials",
+          "number of process innovations",
+          "oil consumption",
+          "openness to change",
+          "ordinal variable for innovation intensity",
+          "organisational policies and practices",
+          "outside-in open innovation activities",
+          "patent citations",
+          "patent filings",
+          "personnel training indicators",
+          "proactiveness",
+          "process capability",
+          "process improvement indicators",
+          "process innovation introduction",
+          "process innovation ordinal scale",
+          "product innovation capacity",
+          "product-related output indicators",
+          "production process indicators",
+          "profitability indicators",
+          "r&d metrics",
+          "r&d spending",
+          "recyclable materials",
+          "reduction of environmental risk",
+          "reduction of resource use",
+          "remanufactured materials",
+          "renewable energy use",
+          "reusable materials",
+          "revenue from new products",
+          "revenue indicators",
+          "revenues from collaborative development",
+          "revenues from r&d services",
+          "risk-taking",
+          "scale of innovation efforts",
+          "scaling and stretching",
+          "sensing user needs",
+          "service innovation performance maturity levels",
+          "sewage discharge",
+          "social effect of green innovation",
+          "spin-offs",
+          "staff-related supply chain indicators",
+          "stakeholder cooperation",
+          "strategic alliances",
+          "supplier cooperation",
+          "supplier cooperation indicators",
+          "supplier involvement",
+          "supply chain r&d investment",
+          "survey-based innovation indicators",
+          "technological innovation capability",
+          "technological innovation efficiency",
+          "technological investments",
+          "technology choice",
+          "technology indicators",
+          "use-type measures",
+          "value capture change",
+          "value creation change",
+          "value proposition change",
+          "water consumption",
+          "web mining indicators"
+        ],
+        "unmatched_hypothesis": [
+          "sales",
+          "designated budgets for innovations",
+          "higher employee productivity",
+          "trade name or trademark registrations",
+          "increased service sale revenues",
+          "operations effectiveness",
+          "revenues from out-licensing",
+          "reduced material",
+          "co2",
+          "soil",
+          "air",
+          "soil or noise pollution",
+          "financial resources",
+          "organisation's age and size",
+          "company-based surveys"
+        ],
+        "tp": 54,
+        "fp": 15,
+        "fn": 112,
+        "precision": 0.7826,
+        "recall": 0.3253,
+        "f1": 0.4596
+      },
+      "semantic": {
+        "matched": [
+          [
+            "aggregate innovation measures",
+            "innovation counts",
+            0.8096
+          ],
+          [
+            "carbon emissions",
+            "emissions reduction",
+            0.8366
+          ],
+          [
+            "clean production indicators",
+            "clean production",
+            0.8365
+          ],
+          [
+            "cost of collaborative development",
+            "costs of collaborative development",
+            0.9948
+          ],
+          [
+            "diversity of technological areas covered by patents",
+            "patent activity across different countries",
+            0.83
+          ],
+          [
+            "energy conservation indicators",
+            "energy conservation",
+            0.9079
+          ],
+          [
+            "in-licensing costs",
+            "in-licensing costs",
+            1.0
+          ],
+          [
+            "industrial waste recycling",
+            "recycled waste",
+            0.9179
+          ],
+          [
+            "innovation counts",
+            "technological innovation capabilities",
+            0.8111
+          ],
+          [
+            "innovation efficiency",
+            "innovation efficiency",
+            1.0
+          ],
+          [
+            "innovation-related financial metrics",
+            "innovation-related financial metrics",
+            1.0
+          ],
+          [
+            "innovation-related intangibles",
+            "additions of innovation-related intangibles",
+            0.962
+          ],
+          [
+            "management input ratio",
+            "management input ratio",
+            1.0
+          ],
+          [
+            "market demand",
+            "the market",
+            0.8327
+          ],
+          [
+            "non-polluting materials",
+            "replaced materials with less polluting or hazardous substitutes",
+            0.8481
+          ],
+          [
+            "number of patents filed",
+            "number of patents filed",
+            1.0
+          ],
+          [
+            "number of patents granted",
+            "number of patents granted",
+            1.0
+          ],
+          [
+            "outsourcing of r&d services",
+            "outsourcing of R&D services",
+            0.9622
+          ],
+          [
+            "patent citations",
+            "patent data",
+            0.8039
+          ],
+          [
+            "percentage of employees with bachelor’s degree",
+            "percentage of employees with at least a bachelor's degree",
+            0.9859
+          ],
+          [
+            "percentage of r&d funds relative to sales",
+            "percentage of R&D funds relative to the firm's sales",
+            0.9323
+          ],
+          [
+            "r&d expenditure",
+            "R&D expenditure",
+            0.9026
+          ],
+          [
+            "r&d input ratio",
+            "R&D input ratio",
+            0.8697
+          ],
+          [
+            "r&d metrics",
+            "R&D metrics",
+            0.8764
+          ],
+          [
+            "r&d spending",
+            "expenditure on R&D",
+            0.8635
+          ],
+          [
+            "recyclable materials",
+            "improved recycling of product after use",
+            0.8184
+          ],
+          [
+            "reduction of energy use",
+            "reduced energy use",
+            0.9869
+          ],
+          [
+            "reduction of pollution",
+            "air pollution",
+            0.8396
+          ],
+          [
+            "renewable energy indicators",
+            "use of renewable energy",
+            0.8585
+          ],
+          [
+            "revenue from new products",
+            "revenue from new products",
+            1.0
+          ],
+          [
+            "revenues from collaborative development",
+            "revenues from collaborative development",
+            1.0
+          ],
+          [
+            "revenues from r&d services",
+            "revenues from R&D services on behalf of third parties",
+            0.8399
+          ]
+        ],
+        "unmatched_reference": [
+          "ambidextrous green innovation",
+          "audit indicators",
+          "certification indicators",
+          "change in competencies and resources",
+          "change in cost structures",
+          "change in partnerships",
+          "change in processes and structures",
+          "change in revenue models",
+          "change in technology or equipment",
+          "change-type measures",
+          "changes in communication structures",
+          "changes in organisational routines",
+          "changes in productivity",
+          "cleaner technology",
+          "coal consumption",
+          "competition intensity",
+          "competitiveness",
+          "competitor involvement",
+          "conceptualising",
+          "consultancy firm involvement",
+          "coproducing and orchestrating",
+          "cost indicators",
+          "coupled open innovation activities",
+          "customer cooperation indicators",
+          "customer involvement",
+          "dummy variable for innovation adoption",
+          "dummy variable for product innovation",
+          "dynamic service innovation capabilities",
+          "eco-innovation performance indicators",
+          "economic output of green innovation",
+          "electricity consumption",
+          "emissions reduction indicators",
+          "environmental taxes",
+          "exploitative green innovation",
+          "exploratory green innovation",
+          "extent-of-use-type measures",
+          "external innovation sources score",
+          "external knowledge breadth",
+          "external knowledge depth",
+          "financial investment indicators",
+          "financial reports",
+          "government support",
+          "green innovation investment capability",
+          "green technology",
+          "green technology r&d capability",
+          "improved products indicators",
+          "improved services indicators",
+          "improved task performance",
+          "industry–academia collaboration",
+          "innovation incentives",
+          "innovation subsidies",
+          "inside-out open innovation activities",
+          "ip licensing revenues",
+          "management investment indicators",
+          "management strategy indicators",
+          "management systems",
+          "managerial creativity",
+          "manufacturing process patents",
+          "market position",
+          "market share",
+          "materials indicators",
+          "measures related to innovation features",
+          "monitoring and control systems",
+          "natural resource consumption",
+          "network engagement",
+          "new client interface",
+          "new management systems",
+          "new markets",
+          "new products",
+          "new products indicators",
+          "new service concept",
+          "new service delivery system",
+          "new services",
+          "new services indicators",
+          "number of managerial improvements",
+          "number of personnel engaged in innovation-related activities",
+          "number of process innovations",
+          "oil consumption",
+          "openness to change",
+          "ordinal variable for innovation intensity",
+          "organisational policies and practices",
+          "outside-in open innovation activities",
+          "patent activity across countries",
+          "patent filings",
+          "patent indicators",
+          "personnel training indicators",
+          "proactiveness",
+          "process capability",
+          "process improvement indicators",
+          "process innovation introduction",
+          "process innovation ordinal scale",
+          "product development time",
+          "product innovation capacity",
+          "product-related output indicators",
+          "production process indicators",
+          "profitability indicators",
+          "range and depth of innovation activities",
+          "reduction of co2 emissions",
+          "reduction of environmental risk",
+          "reduction of noise pollution",
+          "reduction of resource use",
+          "reduction of water pollution",
+          "remanufactured materials",
+          "renewable energy use",
+          "reusable materials",
+          "revenue indicators",
+          "risk-taking",
+          "scale of innovation efforts",
+          "scaling and stretching",
+          "sensing user needs",
+          "service innovation performance maturity levels",
+          "sewage discharge",
+          "social effect of green innovation",
+          "spin-offs",
+          "staff-related supply chain indicators",
+          "stakeholder cooperation",
+          "strategic alliances",
+          "supplier cooperation",
+          "supplier cooperation indicators",
+          "supplier involvement",
+          "supply chain r&d investment",
+          "survey-based innovation indicators",
+          "technological innovation capability",
+          "technological innovation efficiency",
+          "technological investments",
+          "technology choice",
+          "technology indicators",
+          "total turnover sales from innovative products",
+          "use-type measures",
+          "value capture change",
+          "value creation change",
+          "value proposition change",
+          "water consumption",
+          "web mining indicators"
+        ],
+        "unmatched_hypothesis": [
+          "R&D spending",
+          "R&D spending details",
+          "total turnover sales",
+          "sales",
+          "designated budgets for innovations",
+          "financial resources for training recalculated per employee annually",
+          "higher employee productivity",
+          "lower service provision costs",
+          "trade name or trademark registrations",
+          "increased service sale revenues",
+          "the limitation of tourism seasonality",
+          "increased tourist visits in a given area annually",
+          "investment",
+          "resources organisation of management innovation",
+          "percentage of management staff",
+          "percentage of technical staff",
+          "percentage of sales staff",
+          "extent of employee development and safety",
+          "operations effectiveness",
+          "the financial and social influence of the organisation",
+          "revenues from out-licensing",
+          "disposals of innovation-related intangibles",
+          "reduced material",
+          "energy",
+          "CO2",
+          "soil",
+          "water",
+          "noise",
+          "water",
+          "or materials",
+          "air",
+          "water",
+          "soil or noise pollution",
+          "financial resources",
+          "amount and types",
+          "technology and environmental management capabilities",
+          "organisation's age and size",
+          "company-based surveys",
+          "green patent number"
+        ],
+        "tp": 32,
+        "fp": 39,
+        "fn": 134,
+        "precision": 0.4507,
+        "recall": 0.1928,
+        "f1": 0.27
+      }
+    }
+  }
+}

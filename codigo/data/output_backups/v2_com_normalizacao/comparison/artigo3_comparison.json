@@ -1,0 +1,1699 @@
+{
+  "article_id": "artigo3",
+  "indicator_counts": {
+    "human": 117,
+    "gemini": 109
+  },
+  "pairs": {
+    "human_vs_gemini": {
+      "exact": {
+        "matched": [
+          [
+            "acoes de fechamento",
+            "acoes de fechamento",
+            1.0
+          ],
+          [
+            "analise das partes interessadas",
+            "analise das partes interessadas",
+            1.0
+          ],
+          [
+            "aprovacao do produto",
+            "aprovacao do produto",
+            1.0
+          ],
+          [
+            "coesao da equipe",
+            "coesao da equipe",
+            1.0
+          ],
+          [
+            "colaboracao da equipe",
+            "colaboracao da equipe",
+            1.0
+          ],
+          [
+            "compromisso da equipe",
+            "compromisso da equipe",
+            1.0
+          ],
+          [
+            "comunicacao com o cliente",
+            "comunicacao com o cliente",
+            1.0
+          ],
+          [
+            "comunicacao interna",
+            "comunicacao interna",
+            1.0
+          ],
+          [
+            "conformidade do processo",
+            "conformidade do processo",
+            1.0
+          ],
+          [
+            "crescimento de custo",
+            "crescimento de custo",
+            1.0
+          ],
+          [
+            "crescimento de prazo",
+            "crescimento de prazo",
+            1.0
+          ],
+          [
+            "custo",
+            "custo",
+            1.0
+          ],
+          [
+            "custo com subcontratacoes",
+            "custo com subcontratacoes",
+            1.0
+          ],
+          [
+            "custo de qualidade",
+            "custo de qualidade",
+            1.0
+          ],
+          [
+            "custo real",
+            "custo real",
+            1.0
+          ],
+          [
+            "custo real com sustentabilidade",
+            "custo real com sustentabilidade",
+            1.0
+          ],
+          [
+            "definicao de requisitos",
+            "definicao de requisitos",
+            1.0
+          ],
+          [
+            "desenvolvimento de habilidades",
+            "desenvolvimento de habilidades",
+            1.0
+          ],
+          [
+            "dinamica das partes interessadas",
+            "dinamica das partes interessadas",
+            1.0
+          ],
+          [
+            "disponibilidade de recursos",
+            "disponibilidade de recursos",
+            1.0
+          ],
+          [
+            "duracao agregada",
+            "duracao agregada",
+            1.0
+          ],
+          [
+            "duracao relativa ao tamanho do projeto",
+            "duracao relativa ao tamanho do projeto",
+            1.0
+          ],
+          [
+            "eficacia",
+            "eficacia",
+            1.0
+          ],
+          [
+            "eficiencia da produtividade",
+            "eficiencia da produtividade",
+            1.0
+          ],
+          [
+            "eficiencia de custo",
+            "eficiencia de custo",
+            1.0
+          ],
+          [
+            "eficiencia de prazo",
+            "eficiencia de prazo",
+            1.0
+          ],
+          [
+            "eficiencia dos testes de qualidade",
+            "eficiencia dos testes de qualidade",
+            1.0
+          ],
+          [
+            "engajamento das partes interessadas",
+            "engajamento das partes interessadas",
+            1.0
+          ],
+          [
+            "entrega dos servicos especificados",
+            "entrega dos servicos especificados",
+            1.0
+          ],
+          [
+            "esforco acumulado",
+            "esforco acumulado",
+            1.0
+          ],
+          [
+            "especificacao das entregas",
+            "especificacao das entregas",
+            1.0
+          ],
+          [
+            "especificacao das metas",
+            "especificacao das metas",
+            1.0
+          ],
+          [
+            "especificacao do metodo de medicao das metas",
+            "especificacao do metodo de medicao das metas",
+            1.0
+          ],
+          [
+            "especificacao dos papeis e responsabilidades das partes interessadas",
+            "especificacao dos papeis e responsabilidades das partes interessadas",
+            1.0
+          ],
+          [
+            "estimativa de custo no termino",
+            "estimativa de custo no termino",
+            1.0
+          ],
+          [
+            "estimativa de custo para terminar",
+            "estimativa de custo para terminar",
+            1.0
+          ],
+          [
+            "estimativa de duracao no termino",
+            "estimativa de duracao no termino",
+            1.0
+          ],
+          [
+            "estrutura do projeto",
+            "estrutura do projeto",
+            1.0
+          ],
+          [
+            "fte da equipe por custo total da equipe",
+            "fte da equipe por custo total da equipe",
+            1.0
+          ],
+          [
+            "fte da equipe por custo total do projeto",
+            "fte da equipe por custo total do projeto",
+            1.0
+          ],
+          [
+            "indice de desempenho de custo",
+            "indice de desempenho de custo",
+            1.0
+          ],
+          [
+            "indice de desempenho de prazo",
+            "indice de desempenho de prazo",
+            1.0
+          ],
+          [
+            "indice de desempenho de prazo sustentavel",
+            "indice de desempenho de prazo sustentavel",
+            1.0
+          ],
+          [
+            "indice de desempenho para termino",
+            "indice de desempenho para termino",
+            1.0
+          ],
+          [
+            "indice de excesso de custo",
+            "indice de excesso de custo",
+            1.0
+          ],
+          [
+            "inovacao",
+            "inovacao",
+            1.0
+          ],
+          [
+            "inovacoes tecnologicas",
+            "inovacoes tecnologicas",
+            1.0
+          ],
+          [
+            "motivacao da equipe",
+            "motivacao da equipe",
+            1.0
+          ],
+          [
+            "nivel de satisfacao da equipe",
+            "nivel de satisfacao da equipe",
+            1.0
+          ],
+          [
+            "nivel de satisfacao do cliente",
+            "nivel de satisfacao do cliente",
+            1.0
+          ],
+          [
+            "numero de inspecoes de qualidade",
+            "numero de inspecoes de qualidade",
+            1.0
+          ],
+          [
+            "orcamento no termino",
+            "orcamento no termino",
+            1.0
+          ],
+          [
+            "penalidades por nao-conformidades",
+            "penalidades por nao-conformidades",
+            1.0
+          ],
+          [
+            "prazo agregado",
+            "prazo agregado",
+            1.0
+          ],
+          [
+            "probabilidade de estouro de custos",
+            "probabilidade de estouro de custos",
+            1.0
+          ],
+          [
+            "produtividade",
+            "produtividade",
+            1.0
+          ],
+          [
+            "qualidade",
+            "qualidade",
+            1.0
+          ],
+          [
+            "quantidade de acidentes",
+            "quantidade de acidentes",
+            1.0
+          ],
+          [
+            "quantidade de alteracoes aprovadas pelo cliente",
+            "quantidade de alteracoes aprovadas pelo cliente",
+            1.0
+          ],
+          [
+            "quantidade de alteracoes no escopo",
+            "quantidade de alteracoes no escopo",
+            1.0
+          ],
+          [
+            "quantidade de defeitos",
+            "quantidade de defeitos",
+            1.0
+          ],
+          [
+            "quantidade de nao conformidades",
+            "quantidade de nao conformidades",
+            1.0
+          ],
+          [
+            "quantidade de pendencias",
+            "quantidade de pendencias",
+            1.0
+          ],
+          [
+            "quantidade de riscos",
+            "quantidade de riscos",
+            1.0
+          ],
+          [
+            "realizacao dos objetivos",
+            "realizacao dos objetivos",
+            1.0
+          ],
+          [
+            "rentabilidade do projeto",
+            "rentabilidade do projeto",
+            1.0
+          ],
+          [
+            "satisfacao",
+            "satisfacao",
+            1.0
+          ],
+          [
+            "superacao dos objetivos",
+            "superacao dos objetivos",
+            1.0
+          ],
+          [
+            "sustentabilidade",
+            "sustentabilidade",
+            1.0
+          ],
+          [
+            "sustentabilidade ambiental",
+            "sustentabilidade ambiental",
+            1.0
+          ],
+          [
+            "sustentabilidade do produto",
+            "sustentabilidade do produto",
+            1.0
+          ],
+          [
+            "sustentabilidade economica",
+            "sustentabilidade economica",
+            1.0
+          ],
+          [
+            "sustentabilidade social",
+            "sustentabilidade social",
+            1.0
+          ],
+          [
+            "taxa de cumprimento de datas criticas",
+            "taxa de cumprimento de datas criticas",
+            1.0
+          ],
+          [
+            "taxa de cumprimento de marcos contratuais",
+            "taxa de cumprimento de marcos contratuais",
+            1.0
+          ],
+          [
+            "taxa de custo de qualidade",
+            "taxa de custo de qualidade",
+            1.0
+          ],
+          [
+            "taxa de custo predominante",
+            "taxa de custo predominante",
+            1.0
+          ],
+          [
+            "taxa de defeitos",
+            "taxa de defeitos",
+            1.0
+          ],
+          [
+            "taxa de dias de ausencia, restricao de trabalho ou transferencia",
+            "taxa de dias de ausencia, restricao de trabalho ou transferencia",
+            1.0
+          ],
+          [
+            "taxa de entrega",
+            "taxa de entrega",
+            1.0
+          ],
+          [
+            "taxa de mudanca de escopo",
+            "taxa de mudanca de escopo",
+            1.0
+          ],
+          [
+            "taxa de queima de custos",
+            "taxa de queima de custos",
+            1.0
+          ],
+          [
+            "taxa de rejeicao",
+            "taxa de rejeicao",
+            1.0
+          ],
+          [
+            "taxa de remocao de defeitos",
+            "taxa de remocao de defeitos",
+            1.0
+          ],
+          [
+            "taxa de retrabalho",
+            "taxa de retrabalho",
+            1.0
+          ],
+          [
+            "taxa de trabalho concluido",
+            "taxa de trabalho concluido",
+            1.0
+          ],
+          [
+            "taxa de trabalho restante",
+            "taxa de trabalho restante",
+            1.0
+          ],
+          [
+            "taxa total de incidentes registraveis",
+            "taxa total de incidentes registraveis",
+            1.0
+          ],
+          [
+            "tempo",
+            "tempo",
+            1.0
+          ],
+          [
+            "tratamento dos riscos",
+            "tratamento dos riscos",
+            1.0
+          ],
+          [
+            "usabilidade",
+            "usabilidade",
+            1.0
+          ],
+          [
+            "utilizacao dos recursos",
+            "utilizacao dos recursos",
+            1.0
+          ],
+          [
+            "validacao dos requisitos",
+            "validacao dos requisitos",
+            1.0
+          ],
+          [
+            "valor agregado",
+            "valor agregado",
+            1.0
+          ],
+          [
+            "valor agregado sustentavel",
+            "valor agregado sustentavel",
+            1.0
+          ],
+          [
+            "valor planejado",
+            "valor planejado",
+            1.0
+          ],
+          [
+            "valor planejado sustentavel",
+            "valor planejado sustentavel",
+            1.0
+          ],
+          [
+            "variacao de custo",
+            "variacao de custo",
+            1.0
+          ],
+          [
+            "variacao de custo sustentavel",
+            "variacao de custo sustentavel",
+            1.0
+          ],
+          [
+            "variacao de esforco",
+            "variacao de esforco",
+            1.0
+          ],
+          [
+            "variacao de prazo",
+            "variacao de prazo",
+            1.0
+          ],
+          [
+            "variacao de prazo sustentavel",
+            "variacao de prazo sustentavel",
+            1.0
+          ],
+          [
+            "variacao do custo na conclusao",
+            "variacao do custo na conclusao",
+            1.0
+          ],
+          [
+            "variacao no tamanho do projeto",
+            "variacao no tamanho do projeto",
+            1.0
+          ],
+          [
+            "verificacao dos requisitos",
+            "verificacao dos requisitos",
+            1.0
+          ],
+          [
+            "volatilidade dos requisitos",
+            "volatilidade dos requisitos",
+            1.0
+          ]
+        ],
+        "unmatched_reference": [
+          "aprendizado de equipe",
+          "atendimento aos requisitos pre-definidos",
+          "avaliacao da capacidade em atender a necessidade dos envolvidos, a partir de criterio de aceitacao previamente estabelecidos",
+          "avaliacao da comunicacao entre os participantes do projeto e o cliente",
+          "avaliacao do periodo envolvido na realizacao das atividades",
+          "avaliacao do trabalho desenvolvido pela equipe",
+          "identificacao e tratamento dos riscos do projeto",
+          "objetivo indice de desempenho de custos sustentavel",
+          "percepcao das principais partes envolvidas no projeto sobre seu desenvolvimento",
+          "recurso financeiro despendido",
+          "satisfacao de stakeholders"
+        ],
+        "unmatched_hypothesis": [
+          "aprendizado da equipe",
+          "comunicacao",
+          "indice de desempenho de custos sustentavel"
+        ],
+        "tp": 106,
+        "fp": 3,
+        "fn": 11,
+        "precision": 0.9725,
+        "recall": 0.906,
+        "f1": 0.9381
+      },
+      "fuzzy": {
+        "matched": [
+          [
+            "tempo",
+            "tempo",
+            1.0
+          ],
+          [
+            "custo",
+            "custo",
+            1.0
+          ],
+          [
+            "qualidade",
+            "qualidade",
+            1.0
+          ],
+          [
+            "satisfacao",
+            "satisfacao",
+            1.0
+          ],
+          [
+            "aprendizado de equipe",
+            "aprendizado da equipe",
+            0.9524
+          ],
+          [
+            "atendimento aos requisitos pre-definidos",
+            "definicao de requisitos",
+            0.855
+          ],
+          [
+            "avaliacao da comunicacao entre os participantes do projeto e o cliente",
+            "comunicacao",
+            0.9
+          ],
+          [
+            "avaliacao do periodo envolvido na realizacao das atividades",
+            "rentabilidade do projeto",
+            0.855
+          ],
+          [
+            "percepcao das principais partes envolvidas no projeto sobre seu desenvolvimento",
+            "orcamento no termino",
+            0.855
+          ],
+          [
+            "avaliacao da capacidade em atender a necessidade dos envolvidos, a partir de criterio de aceitacao previamente estabelecidos",
+            "indice de desempenho de custo",
+            0.855
+          ],
+          [
+            "avaliacao do trabalho desenvolvido pela equipe",
+            "variacao do custo na conclusao",
+            0.855
+          ],
+          [
+            "identificacao e tratamento dos riscos do projeto",
+            "tratamento dos riscos",
+            0.9
+          ],
+          [
+            "sustentabilidade",
+            "sustentabilidade",
+            1.0
+          ],
+          [
+            "satisfacao de stakeholders",
+            "variacao de custo",
+            0.855
+          ],
+          [
+            "inovacao",
+            "inovacao",
+            1.0
+          ],
+          [
+            "comunicacao interna",
+            "comunicacao interna",
+            1.0
+          ],
+          [
+            "comunicacao com o cliente",
+            "comunicacao com o cliente",
+            1.0
+          ],
+          [
+            "indice de desempenho de custo",
+            "indice de desempenho de prazo",
+            0.8621
+          ],
+          [
+            "valor agregado",
+            "valor agregado",
+            1.0
+          ],
+          [
+            "custo real",
+            "custo real",
+            1.0
+          ],
+          [
+            "variacao de custo",
+            "variacao de custo sustentavel",
+            0.9
+          ],
+          [
+            "orcamento no termino",
+            "indice de desempenho para termino",
+            0.855
+          ],
+          [
+            "indice de desempenho para termino",
+            "eficiencia de custo",
+            0.855
+          ],
+          [
+            "valor planejado",
+            "valor planejado",
+            1.0
+          ],
+          [
+            "estimativa de custo no termino",
+            "estimativa de custo no termino",
+            1.0
+          ],
+          [
+            "estimativa de custo para terminar",
+            "estimativa de custo para terminar",
+            1.0
+          ],
+          [
+            "rentabilidade do projeto",
+            "especificacao do metodo de medicao das metas",
+            0.855
+          ],
+          [
+            "custo com subcontratacoes",
+            "custo com subcontratacoes",
+            1.0
+          ],
+          [
+            "valor agregado sustentavel",
+            "valor agregado sustentavel",
+            1.0
+          ],
+          [
+            "valor planejado sustentavel",
+            "valor planejado sustentavel",
+            1.0
+          ],
+          [
+            "objetivo indice de desempenho de custos sustentavel",
+            "indice de desempenho de custos sustentavel",
+            0.95
+          ],
+          [
+            "custo real com sustentabilidade",
+            "custo real com sustentabilidade",
+            1.0
+          ],
+          [
+            "variacao de custo sustentavel",
+            "variacao de prazo sustentavel",
+            0.8621
+          ],
+          [
+            "eficiencia de custo",
+            "probabilidade de estouro de custos",
+            0.855
+          ],
+          [
+            "crescimento de custo",
+            "crescimento de custo",
+            1.0
+          ],
+          [
+            "taxa de queima de custos",
+            "taxa de queima de custos",
+            1.0
+          ],
+          [
+            "taxa de custo predominante",
+            "taxa de custo predominante",
+            1.0
+          ],
+          [
+            "indice de excesso de custo",
+            "indice de excesso de custo",
+            1.0
+          ],
+          [
+            "probabilidade de estouro de custos",
+            "custo de qualidade",
+            0.855
+          ],
+          [
+            "variacao do custo na conclusao",
+            "estrutura do projeto",
+            0.855
+          ],
+          [
+            "custo de qualidade",
+            "taxa de custo de qualidade",
+            0.95
+          ],
+          [
+            "taxa de custo de qualidade",
+            "taxa de cumprimento de marcos contratuais",
+            0.855
+          ],
+          [
+            "definicao de requisitos",
+            "quantidade de alteracoes aprovadas pelo cliente",
+            0.855
+          ],
+          [
+            "verificacao dos requisitos",
+            "verificacao dos requisitos",
+            1.0
+          ],
+          [
+            "validacao dos requisitos",
+            "validacao dos requisitos",
+            1.0
+          ],
+          [
+            "entrega dos servicos especificados",
+            "entrega dos servicos especificados",
+            1.0
+          ],
+          [
+            "estrutura do projeto",
+            "variacao no tamanho do projeto",
+            0.855
+          ],
+          [
+            "inovacoes tecnologicas",
+            "inovacoes tecnologicas",
+            1.0
+          ],
+          [
+            "usabilidade",
+            "usabilidade",
+            1.0
+          ],
+          [
+            "especificacao das entregas",
+            "especificacao das entregas",
+            1.0
+          ],
+          [
+            "especificacao das metas",
+            "especificacao das metas",
+            1.0
+          ],
+          [
+            "especificacao do metodo de medicao das metas",
+            "sustentabilidade do produto",
+            0.855
+          ],
+          [
+            "sustentabilidade ambiental",
+            "sustentabilidade ambiental",
+            1.0
+          ],
+          [
+            "sustentabilidade economica",
+            "sustentabilidade economica",
+            1.0
+          ],
+          [
+            "sustentabilidade social",
+            "sustentabilidade social",
+            1.0
+          ],
+          [
+            "quantidade de alteracoes no escopo",
+            "quantidade de alteracoes no escopo",
+            1.0
+          ],
+          [
+            "variacao no tamanho do projeto",
+            "aprovacao do produto",
+            0.855
+          ],
+          [
+            "quantidade de pendencias",
+            "quantidade de pendencias",
+            1.0
+          ],
+          [
+            "taxa de cumprimento de marcos contratuais",
+            "taxa de mudanca de escopo",
+            0.855
+          ],
+          [
+            "quantidade de alteracoes aprovadas pelo cliente",
+            "nivel de satisfacao do cliente",
+            0.855
+          ],
+          [
+            "volatilidade dos requisitos",
+            "volatilidade dos requisitos",
+            1.0
+          ],
+          [
+            "taxa de mudanca de escopo",
+            "taxa de dias de ausencia, restricao de trabalho ou transferencia",
+            0.855
+          ],
+          [
+            "nivel de satisfacao do cliente",
+            "acoes de fechamento",
+            0.855
+          ],
+          [
+            "especificacao dos papeis e responsabilidades das partes interessadas",
+            "especificacao dos papeis e responsabilidades das partes interessadas",
+            1.0
+          ],
+          [
+            "realizacao dos objetivos",
+            "realizacao dos objetivos",
+            1.0
+          ],
+          [
+            "engajamento das partes interessadas",
+            "engajamento das partes interessadas",
+            1.0
+          ],
+          [
+            "aprovacao do produto",
+            "fte da equipe por custo total do projeto",
+            0.855
+          ],
+          [
+            "acoes de fechamento",
+            "taxa total de incidentes registraveis",
+            0.855
+          ],
+          [
+            "superacao dos objetivos",
+            "superacao dos objetivos",
+            1.0
+          ],
+          [
+            "eficacia",
+            "eficacia",
+            1.0
+          ],
+          [
+            "analise das partes interessadas",
+            "analise das partes interessadas",
+            1.0
+          ],
+          [
+            "dinamica das partes interessadas",
+            "dinamica das partes interessadas",
+            1.0
+          ],
+          [
+            "tratamento dos riscos",
+            "eficiencia dos testes de qualidade",
+            0.855
+          ],
+          [
+            "quantidade de riscos",
+            "quantidade de riscos",
+            1.0
+          ],
+          [
+            "quantidade de acidentes",
+            "quantidade de acidentes",
+            1.0
+          ],
+          [
+            "taxa total de incidentes registraveis",
+            "quantidade de defeitos",
+            0.855
+          ],
+          [
+            "taxa de dias de ausencia, restricao de trabalho ou transferencia",
+            "numero de inspecoes de qualidade",
+            0.855
+          ],
+          [
+            "conformidade do processo",
+            "conformidade do processo",
+            1.0
+          ],
+          [
+            "quantidade de defeitos",
+            "indice de desempenho de prazo sustentavel",
+            0.855
+          ],
+          [
+            "numero de inspecoes de qualidade",
+            "taxa de rejeicao",
+            0.855
+          ],
+          [
+            "quantidade de nao conformidades",
+            "quantidade de nao conformidades",
+            1.0
+          ],
+          [
+            "taxa de rejeicao",
+            "taxa de remocao de defeitos",
+            0.855
+          ],
+          [
+            "penalidades por nao-conformidades",
+            "penalidades por nao-conformidades",
+            1.0
+          ],
+          [
+            "taxa de defeitos",
+            "taxa de defeitos",
+            1.0
+          ],
+          [
+            "eficiencia dos testes de qualidade",
+            "taxa de retrabalho",
+            0.855
+          ],
+          [
+            "taxa de remocao de defeitos",
+            "taxa de entrega",
+            0.855
+          ],
+          [
+            "taxa de retrabalho",
+            "disponibilidade de recursos",
+            0.855
+          ],
+          [
+            "disponibilidade de recursos",
+            "variacao de prazo",
+            0.855
+          ],
+          [
+            "desenvolvimento de habilidades",
+            "desenvolvimento de habilidades",
+            1.0
+          ],
+          [
+            "utilizacao dos recursos",
+            "utilizacao dos recursos",
+            1.0
+          ],
+          [
+            "compromisso da equipe",
+            "compromisso da equipe",
+            1.0
+          ],
+          [
+            "motivacao da equipe",
+            "motivacao da equipe",
+            1.0
+          ],
+          [
+            "colaboracao da equipe",
+            "colaboracao da equipe",
+            1.0
+          ],
+          [
+            "coesao da equipe",
+            "coesao da equipe",
+            1.0
+          ],
+          [
+            "nivel de satisfacao da equipe",
+            "nivel de satisfacao da equipe",
+            1.0
+          ],
+          [
+            "esforco acumulado",
+            "esforco acumulado",
+            1.0
+          ],
+          [
+            "produtividade",
+            "produtividade",
+            1.0
+          ],
+          [
+            "eficiencia da produtividade",
+            "eficiencia da produtividade",
+            1.0
+          ],
+          [
+            "fte da equipe por custo total do projeto",
+            "fte da equipe por custo total da equipe",
+            0.95
+          ],
+          [
+            "taxa de entrega",
+            "taxa de trabalho concluido",
+            0.855
+          ],
+          [
+            "variacao de esforco",
+            "variacao de esforco",
+            1.0
+          ],
+          [
+            "indice de desempenho de prazo",
+            "eficiencia de prazo",
+            0.855
+          ],
+          [
+            "variacao de prazo",
+            "taxa de cumprimento de datas criticas",
+            0.855
+          ],
+          [
+            "indice de desempenho de prazo sustentavel",
+            "taxa de trabalho restante",
+            0.855
+          ],
+          [
+            "eficiencia de prazo",
+            "estimativa de duracao no termino",
+            0.855
+          ],
+          [
+            "taxa de cumprimento de datas criticas",
+            "crescimento de prazo",
+            0.855
+          ],
+          [
+            "variacao de prazo sustentavel",
+            "prazo agregado",
+            0.855
+          ],
+          [
+            "duracao agregada",
+            "duracao agregada",
+            1.0
+          ],
+          [
+            "duracao relativa ao tamanho do projeto",
+            "duracao relativa ao tamanho do projeto",
+            1.0
+          ]
+        ],
+        "unmatched_reference": [
+          "recurso financeiro despendido",
+          "sustentabilidade do produto",
+          "fte da equipe por custo total da equipe",
+          "taxa de trabalho concluido",
+          "taxa de trabalho restante",
+          "crescimento de prazo",
+          "prazo agregado",
+          "estimativa de duracao no termino"
+        ],
+        "unmatched_hypothesis": [],
+        "tp": 109,
+        "fp": 0,
+        "fn": 8,
+        "precision": 1.0,
+        "recall": 0.9316,
+        "f1": 0.9646
+      },
+      "semantic": {
+        "matched": [
+          [
+            "Tempo",
+            "tempo",
+            0.9398
+          ],
+          [
+            "Custo",
+            "custo",
+            0.8229
+          ],
+          [
+            "Qualidade",
+            "qualidade",
+            0.9865
+          ],
+          [
+            "Satisfação",
+            "satisfação",
+            0.9915
+          ],
+          [
+            "Aprendizado de Equipe",
+            "aprendizado da equipe",
+            0.8332
+          ],
+          [
+            "Recurso financeiro despendido",
+            "Quantidade de pendências",
+            0.8366
+          ],
+          [
+            "Atendimento aos requisitos pré-definidos",
+            "Definição de requisitos",
+            0.8173
+          ],
+          [
+            "Avaliação da comunicação entre os participantes do projeto e o cliente",
+            "Comunicação com o cliente",
+            0.818
+          ],
+          [
+            "Percepção das principais partes envolvidas no projeto sobre seu desenvolvimento",
+            "Estrutura do projeto",
+            0.8182
+          ],
+          [
+            "Identificação e tratamento dos riscos do projeto",
+            "Tratamento dos riscos",
+            0.8113
+          ],
+          [
+            "Sustentabilidade",
+            "sustentabilidade",
+            0.9909
+          ],
+          [
+            "Inovação",
+            "inovação",
+            0.9927
+          ],
+          [
+            "Comunicação interna",
+            "Comunicação interna",
+            1.0
+          ],
+          [
+            "Índice de desempenho de custo",
+            "Índice de desempenho de custo",
+            1.0
+          ],
+          [
+            "Valor Agregado",
+            "Valor Agregado",
+            1.0
+          ],
+          [
+            "Custo Real",
+            "Custo Real",
+            1.0
+          ],
+          [
+            "Variação de custo",
+            "Variação de custo",
+            1.0
+          ],
+          [
+            "Orçamento no término",
+            "Orçamento no término",
+            1.0
+          ],
+          [
+            "Índice de desempenho para término",
+            "Índice de desempenho para término",
+            1.0
+          ],
+          [
+            "Valor planejado",
+            "Valor planejado",
+            1.0
+          ],
+          [
+            "Estimativa de custo no término",
+            "Estimativa de custo no término",
+            1.0
+          ],
+          [
+            "Estimativa de custo para terminar",
+            "Estimativa de custo para terminar",
+            1.0
+          ],
+          [
+            "Rentabilidade do projeto",
+            "Rentabilidade do projeto",
+            1.0
+          ],
+          [
+            "Custo com subcontratações",
+            "Custo com subcontratações",
+            1.0
+          ],
+          [
+            "Valor agregado sustentável",
+            "Valor agregado sustentável",
+            1.0
+          ],
+          [
+            "Valor planejado sustentável",
+            "Valor planejado sustentável",
+            1.0
+          ],
+          [
+            "Objetivo Índice de desempenho de custos sustentável",
+            "Índice de desempenho de custos sustentável",
+            0.9741
+          ],
+          [
+            "Custo real com sustentabilidade",
+            "Custo real com sustentabilidade",
+            1.0
+          ],
+          [
+            "Variação de custo sustentável",
+            "Variação de custo sustentável",
+            1.0
+          ],
+          [
+            "Eficiência de custo",
+            "Eficiência de custo",
+            1.0
+          ],
+          [
+            "Crescimento de custo",
+            "Crescimento de custo",
+            1.0
+          ],
+          [
+            "Taxa de queima de custos",
+            "Taxa de queima de custos",
+            1.0
+          ],
+          [
+            "Taxa de custo predominante",
+            "Taxa de custo predominante",
+            1.0
+          ],
+          [
+            "Índice de excesso de custo",
+            "Índice de excesso de custo",
+            1.0
+          ],
+          [
+            "Probabilidade de estouro de custos",
+            "Probabilidade de estouro de custos",
+            1.0
+          ],
+          [
+            "Variação do custo na conclusão",
+            "Variação do custo na conclusão",
+            1.0
+          ],
+          [
+            "Custo de qualidade",
+            "Custo de qualidade",
+            1.0
+          ],
+          [
+            "Taxa de custo de qualidade",
+            "Taxa de custo de qualidade",
+            1.0
+          ],
+          [
+            "Definição de requisitos",
+            "Validação dos requisitos",
+            0.8685
+          ],
+          [
+            "Verificação dos requisitos",
+            "Verificação dos requisitos",
+            1.0
+          ],
+          [
+            "Entrega dos serviços especificados",
+            "Entrega dos serviços especificados",
+            1.0
+          ],
+          [
+            "Inovações Tecnológicas",
+            "Inovações Tecnológicas",
+            1.0
+          ],
+          [
+            "Usabilidade",
+            "Usabilidade",
+            1.0
+          ],
+          [
+            "Especificação das entregas",
+            "Especificação das entregas",
+            1.0
+          ],
+          [
+            "Especificação das metas",
+            "Especificação das metas",
+            1.0
+          ],
+          [
+            "Especificação do método de medição das metas",
+            "Especificação do método de medição das metas",
+            1.0
+          ],
+          [
+            "Sustentabilidade Ambiental",
+            "Sustentabilidade Ambiental",
+            1.0
+          ],
+          [
+            "Sustentabilidade do produto",
+            "Sustentabilidade do produto",
+            1.0
+          ],
+          [
+            "Sustentabilidade Econômica",
+            "Sustentabilidade Econômica",
+            1.0
+          ],
+          [
+            "Sustentabilidade Social",
+            "Sustentabilidade Social",
+            1.0
+          ],
+          [
+            "Quantidade de alterações no escopo",
+            "Quantidade de alterações no escopo",
+            1.0
+          ],
+          [
+            "Variação no tamanho do projeto",
+            "Variação no tamanho do projeto",
+            1.0
+          ],
+          [
+            "Taxa de cumprimento de marcos contratuais",
+            "Taxa de cumprimento de marcos contratuais",
+            1.0
+          ],
+          [
+            "Quantidade de alterações aprovadas pelo cliente",
+            "Quantidade de alterações aprovadas pelo cliente",
+            1.0
+          ],
+          [
+            "Volatilidade dos requisitos",
+            "Volatilidade dos requisitos",
+            1.0
+          ],
+          [
+            "Taxa de mudança de escopo",
+            "Taxa de mudança de escopo",
+            1.0
+          ],
+          [
+            "Nível de satisfação do cliente",
+            "Nível de satisfação do cliente",
+            1.0
+          ],
+          [
+            "Especificação dos papéis e responsabilidades das partes interessadas",
+            "Especificação dos papéis e responsabilidades das partes interessadas",
+            1.0
+          ],
+          [
+            "Realização dos objetivos",
+            "Realização dos objetivos",
+            1.0
+          ],
+          [
+            "Engajamento das partes interessadas",
+            "Engajamento das partes interessadas",
+            1.0
+          ],
+          [
+            "Aprovação do Produto",
+            "Aprovação do Produto",
+            1.0
+          ],
+          [
+            "Ações de Fechamento",
+            "Ações de Fechamento",
+            1.0
+          ],
+          [
+            "Superação dos objetivos",
+            "Superação dos objetivos",
+            1.0
+          ],
+          [
+            "Eficácia",
+            "Eficácia",
+            1.0
+          ],
+          [
+            "Análise das partes interessadas",
+            "Análise das partes interessadas",
+            1.0
+          ],
+          [
+            "Dinâmica das partes interessadas",
+            "Dinâmica das partes interessadas",
+            1.0
+          ],
+          [
+            "Tratamento dos riscos",
+            "Quantidade de riscos",
+            0.8989
+          ],
+          [
+            "Quantidade de acidentes",
+            "Quantidade de acidentes",
+            1.0
+          ],
+          [
+            "Taxa Total de Incidentes Registráveis",
+            "Taxa Total de Incidentes Registráveis",
+            1.0
+          ],
+          [
+            "Taxa de dias de ausência, restrição de trabalho ou transferência",
+            "Taxa de dias de ausência, restrição de trabalho ou transferência",
+            1.0
+          ],
+          [
+            "Conformidade do processo",
+            "Conformidade do processo",
+            1.0
+          ],
+          [
+            "Quantidade de defeitos",
+            "Quantidade de defeitos",
+            1.0
+          ],
+          [
+            "Número de inspeções de qualidade",
+            "Número de inspeções de qualidade",
+            1.0
+          ],
+          [
+            "Quantidade de não conformidades",
+            "Quantidade de não conformidades",
+            1.0
+          ],
+          [
+            "Taxa de rejeição",
+            "Taxa de rejeição",
+            1.0
+          ],
+          [
+            "Penalidades por não-conformidades",
+            "Penalidades por não-conformidades",
+            1.0
+          ],
+          [
+            "Taxa de defeitos",
+            "Taxa de defeitos",
+            1.0
+          ],
+          [
+            "Eficiência dos testes de qualidade",
+            "Eficiência dos testes de qualidade",
+            1.0
+          ],
+          [
+            "Taxa de remoção de defeitos",
+            "Taxa de remoção de defeitos",
+            1.0
+          ],
+          [
+            "Taxa de Retrabalho",
+            "Taxa de Retrabalho",
+            1.0
+          ],
+          [
+            "Disponibilidade de recursos",
+            "Disponibilidade de recursos",
+            1.0
+          ],
+          [
+            "Desenvolvimento de habilidades",
+            "Desenvolvimento de habilidades",
+            1.0
+          ],
+          [
+            "Utilização dos recursos",
+            "Utilização dos recursos",
+            1.0
+          ],
+          [
+            "Compromisso da equipe",
+            "Compromisso da equipe",
+            1.0
+          ],
+          [
+            "Motivação da equipe",
+            "Motivação da equipe",
+            1.0
+          ],
+          [
+            "Colaboração da equipe",
+            "Colaboração da equipe",
+            1.0
+          ],
+          [
+            "Coesão da equipe",
+            "Coesão da equipe",
+            1.0
+          ],
+          [
+            "Nível de satisfação da equipe",
+            "Nível de satisfação da equipe",
+            1.0
+          ],
+          [
+            "Esforço Acumulado",
+            "Esforço Acumulado",
+            1.0
+          ],
+          [
+            "Produtividade",
+            "Produtividade",
+            1.0
+          ],
+          [
+            "Eficiência da produtividade",
+            "Eficiência da produtividade",
+            1.0
+          ],
+          [
+            "FTE da Equipe por Custo Total do Projeto",
+            "FTE da Equipe por Custo Total do Projeto",
+            1.0
+          ],
+          [
+            "FTE da Equipe por Custo Total da Equipe",
+            "FTE da Equipe por Custo Total da Equipe",
+            1.0
+          ],
+          [
+            "Taxa de Entrega",
+            "Taxa de Entrega",
+            1.0
+          ],
+          [
+            "Variação de esforço",
+            "Variação de esforço",
+            1.0
+          ],
+          [
+            "Índice de desempenho de prazo",
+            "Índice de desempenho de prazo",
+            1.0
+          ],
+          [
+            "Taxa de trabalho concluído",
+            "Taxa de trabalho concluído",
+            1.0
+          ],
+          [
+            "Variação de prazo",
+            "Variação de prazo",
+            1.0
+          ],
+          [
+            "Índice de desempenho de prazo sustentável",
+            "Índice de desempenho de prazo sustentável",
+            1.0
+          ],
+          [
+            "Eficiência de prazo",
+            "Eficiência de prazo",
+            1.0
+          ],
+          [
+            "Taxa de trabalho restante",
+            "Taxa de trabalho restante",
+            1.0
+          ],
+          [
+            "Taxa de cumprimento de datas críticas",
+            "Taxa de cumprimento de datas críticas",
+            1.0
+          ],
+          [
+            "Crescimento de prazo",
+            "Crescimento de prazo",
+            1.0
+          ],
+          [
+            "Variação de prazo sustentável",
+            "Variação de prazo sustentável",
+            1.0
+          ],
+          [
+            "Prazo Agregado",
+            "Prazo Agregado",
+            1.0
+          ],
+          [
+            "Duração Agregada",
+            "Duração Agregada",
+            1.0
+          ],
+          [
+            "Duração relativa ao tamanho do projeto",
+            "Duração relativa ao tamanho do projeto",
+            1.0
+          ],
+          [
+            "Estimativa de duração no término",
+            "Estimativa de duração no término",
+            1.0
+          ]
+        ],
+        "unmatched_reference": [
+          "Avaliação do período envolvido na realização das atividades",
+          "Avaliação da capacidade em atender a necessidade dos envolvidos, a partir de critério de aceitação previamente estabelecidos",
+          "Avaliação do trabalho desenvolvido pela equipe",
+          "Satisfação de stakeholders",
+          "Comunicação com o cliente",
+          "Validação dos requisitos",
+          "Estrutura do projeto",
+          "Quantidade de pendências",
+          "Quantidade de riscos"
+        ],
+        "unmatched_hypothesis": [
+          "comunicação"
+        ],
+        "tp": 108,
+        "fp": 1,
+        "fn": 9,
+        "precision": 0.9908,
+        "recall": 0.9231,
+        "f1": 0.9558
+      }
+    }
+  }
+}

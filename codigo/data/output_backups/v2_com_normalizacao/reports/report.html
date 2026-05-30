@@ -1,0 +1,3706 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Relatório CTI — Avaliação de Extração de Indicadores</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; color: #222; }
+    h1 { color: #1a237e; }
+    h2 { color: #283593; border-bottom: 2px solid #3f51b5; padding-bottom: 4px; }
+    h3 { color: #3949ab; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 24px; font-size: 13px; }
+    th { background: #3f51b5; color: white; padding: 8px 12px; text-align: left; }
+    td { padding: 6px 12px; border-bottom: 1px solid #ddd; }
+    tr:nth-child(even) { background: #f5f5f5; }
+    .agg { background: #e8eaf6 !important; font-weight: bold; }
+    .high { background: #c8e6c9 !important; }
+    .mid  { background: #fff9c4 !important; }
+    .low  { background: #ffcdd2 !important; }
+    .section { margin-bottom: 48px; }
+    .meta { color: #666; font-size: 13px; margin-bottom: 32px; }
+    details { margin: 8px 0; }
+    summary { cursor: pointer; font-weight: bold; color: #3f51b5; }
+    .match-list { font-size: 12px; font-family: monospace; margin: 8px 0 8px 24px; }
+    .match-item { margin: 2px 0; }
+    .ref  { color: #1b5e20; }
+    .hyp  { color: #0d47a1; }
+    .miss { color: #b71c1c; }
+    .extra { color: #e65100; }
+  </style>
+</head>
+<body>
+  <h1>Relatório de Avaliação — Extração de Indicadores CTI</h1>
+  <div class="meta">
+    Gerado em: 2026-04-14 12:02:29<br>
+    Artigos avaliados: 6<br>
+    Pares comparados: Humano×Gemini, Humano×Claude, Gemini×Claude<br>
+    Métodos: Exato, Fuzzy (WRatio ≥ 80), Semântico (cosseno ≥ 0,80)
+  </div>
+
+  <div class="section">
+    <h2>Sumário Geral (Macro-Média)</h2>
+    <table>
+      <tr>
+        <th>Par</th>
+        <th>Método</th>
+        <th>Precisão</th>
+        <th>Recall</th>
+        <th>F1</th>
+      </tr>
+      
+        
+          
+          <tr class="agg">
+            <td>Humano × Gemini</td>
+            <td>Exato</td>
+            <td>0.4864</td>
+            <td>0.5965</td>
+            <td>0.5227</td>
+          </tr>
+        
+          
+          <tr class="agg">
+            <td>Humano × Gemini</td>
+            <td>Fuzzy</td>
+            <td>0.7301</td>
+            <td>0.8262</td>
+            <td>0.7449</td>
+          </tr>
+        
+          
+          <tr class="agg">
+            <td>Humano × Gemini</td>
+            <td>Semântico</td>
+            <td>0.5743</td>
+            <td>0.6756</td>
+            <td>0.6007</td>
+          </tr>
+        
+      
+    </table>
+  </div>
+
+  
+  <div class="section">
+    <h2>Humano × Gemini</h2>
+    <table>
+      <tr>
+        <th>Artigo</th>
+        <th>Ref. (#)</th>
+        <th>Hyp. (#)</th>
+        
+          <th>Exato P</th>
+          <th>Exato R</th>
+          <th>Exato F1</th>
+        
+          <th>Fuzzy P</th>
+          <th>Fuzzy R</th>
+          <th>Fuzzy F1</th>
+        
+          <th>Semântico P</th>
+          <th>Semântico R</th>
+          <th>Semântico F1</th>
+        
+      </tr>
+      
+        
+          
+          
+          
+          <tr>
+            <td>artigo1</td>
+            <td>115</td>
+            <td>153</td>
+            
+              
+              <td class="low">0.0563</td>
+              <td class="low">0.0696</td>
+              <td class="low">0.0623</td>
+            
+              
+              <td class="mid">0.6042</td>
+              <td class="mid">0.7565</td>
+              <td class="mid">0.6718</td>
+            
+              
+              <td class="low">0.1373</td>
+              <td class="low">0.1826</td>
+              <td class="low">0.1567</td>
+            
+          </tr>
+        
+      
+        
+          
+          
+          
+          <tr>
+            <td>artigo2</td>
+            <td>101</td>
+            <td>155</td>
+            
+              
+              <td class="low">0.4351</td>
+              <td class="mid">0.6768</td>
+              <td class="mid">0.5296</td>
+            
+              
+              <td class="mid">0.6299</td>
+              <td class="high">0.9604</td>
+              <td class="mid">0.7608</td>
+            
+              
+              <td class="mid">0.5032</td>
+              <td class="mid">0.7723</td>
+              <td class="mid">0.6094</td>
+            
+          </tr>
+        
+      
+        
+          
+          
+          
+          <tr>
+            <td>artigo3</td>
+            <td>117</td>
+            <td>109</td>
+            
+              
+              <td class="high">0.9725</td>
+              <td class="high">0.9060</td>
+              <td class="high">0.9381</td>
+            
+              
+              <td class="high">1.0000</td>
+              <td class="high">0.9316</td>
+              <td class="high">0.9646</td>
+            
+              
+              <td class="high">0.9908</td>
+              <td class="high">0.9231</td>
+              <td class="high">0.9558</td>
+            
+          </tr>
+        
+      
+        
+          
+          
+          
+          <tr>
+            <td>artigo4</td>
+            <td>67</td>
+            <td>108</td>
+            
+              
+              <td class="mid">0.5463</td>
+              <td class="high">0.8939</td>
+              <td class="mid">0.6782</td>
+            
+              
+              <td class="mid">0.6204</td>
+              <td class="high">1.0000</td>
+              <td class="mid">0.7657</td>
+            
+              
+              <td class="mid">0.6204</td>
+              <td class="high">1.0000</td>
+              <td class="mid">0.7657</td>
+            
+          </tr>
+        
+      
+        
+          
+          
+          
+          <tr>
+            <td>artigo5</td>
+            <td>59</td>
+            <td>78</td>
+            
+              
+              <td class="mid">0.7051</td>
+              <td class="high">0.9483</td>
+              <td class="high">0.8088</td>
+            
+              
+              <td class="mid">0.7436</td>
+              <td class="high">0.9831</td>
+              <td class="high">0.8467</td>
+            
+              
+              <td class="mid">0.7436</td>
+              <td class="high">0.9831</td>
+              <td class="high">0.8467</td>
+            
+          </tr>
+        
+      
+        
+          
+          
+          
+          <tr>
+            <td>artigo6</td>
+            <td>166</td>
+            <td>71</td>
+            
+              
+              <td class="low">0.2029</td>
+              <td class="low">0.0843</td>
+              <td class="low">0.1191</td>
+            
+              
+              <td class="mid">0.7826</td>
+              <td class="low">0.3253</td>
+              <td class="low">0.4596</td>
+            
+              
+              <td class="low">0.4507</td>
+              <td class="low">0.1928</td>
+              <td class="low">0.2700</td>
+            
+          </tr>
+        
+      
+    </table>
+
+    <h3>Análise Qualitativa por Artigo</h3>
+    
+      
+        
+        <details>
+          <summary>artigo1 — Correspondências e Divergências (Semântico)</summary>
+          <div class="match-list">
+            <strong>Casamentos (TP):</strong><br>
+            
+              <div class="match-item">
+                <span class="ref">REF: Percentage of leaders trained in creativity techniques</span> →
+                <span class="hyp">HYP: percentage of leaders trained in creativity techniques</span>
+                (score: 0.998)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Number of externally generated ideas</span> →
+                <span class="hyp">HYP: Number of external ideas/ generated with customers</span>
+                (score: 0.833)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: The amount of time managers/senior management spent with innovation compared to normal operational tasks</span> →
+                <span class="hyp">HYP: Amount of time managers spent with innovations compared to normal tasks</span>
+                (score: 0.943)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: The integration of customers and suppliers into product development</span> →
+                <span class="hyp">HYP: Common understanding of the process for new product development</span>
+                (score: 0.809)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Number of new strategic activities (newly created innovative opportunities)</span> →
+                <span class="hyp">HYP: Number of newly created innovative opportunities</span>
+                (score: 0.821)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Number of managers having training in the methods and tools of innovation</span> →
+                <span class="hyp">HYP: Number of managers trained in the methods and tools of innovation</span>
+                (score: 0.984)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Size of the business</span> →
+                <span class="hyp">HYP: Size of the company</span>
+                (score: 0.887)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Geographic location of the company</span> →
+                <span class="hyp">HYP: Geographic location of the company</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Age of company</span> →
+                <span class="hyp">HYP: Age of company</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: External and internal growth</span> →
+                <span class="hyp">HYP: External and internal growth</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: R&D assets and strategies</span> →
+                <span class="hyp">HYP: R&D expenditure/investment</span>
+                (score: 0.843)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Non-R&D innovation expenditure</span> →
+                <span class="hyp">HYP: Innovation expenditure</span>
+                (score: 0.845)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: R&D expenditure/investment/size of investment</span> →
+                <span class="hyp">HYP: R&D costs/revenue in %</span>
+                (score: 0.820)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Average expenditure per selected idea</span> →
+                <span class="hyp">HYP: Average expenditure per selected idea</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Percentage of sales related to new projects</span> →
+                <span class="hyp">HYP: Percentage of sales related to new projects</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Share of research budget from total company budget</span> →
+                <span class="hyp">HYP: Share of research budget from total company budget</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Share of technology transfer (of R&D)</span> →
+                <span class="hyp">HYP: Share of technology transfer</span>
+                (score: 0.859)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Return of investment in innovation</span> →
+                <span class="hyp">HYP: Return on investment in innovation</span>
+                (score: 0.995)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Sales under patent protection</span> →
+                <span class="hyp">HYP: % of sales protected by patents, trade secrets, other exclusive know-how</span>
+                (score: 0.830)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Sales and sales growth</span> →
+                <span class="hyp">HYP: New-to-market and new-to-business sales</span>
+                (score: 0.803)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Share of new and improved products in total sales as output indicators</span> →
+                <span class="hyp">HYP: New product performance/ success rate of new products, e.g, percentage of innovations that met financial profit estimates, profitability of newly listed products, number of products launched (last three years)/output quantity</span>
+                (score: 0.806)
+              </div>
+            
+            <br>
+            <strong>Ausentes na hipótese (FN — referência não encontrada):</strong><br>
+            
+              <div class="match-item miss">✗ Creative approaches in problem solving</div>
+            
+              <div class="match-item miss">✗ Creative environment</div>
+            
+              <div class="match-item miss">✗ Atmosphere of innovation among staff</div>
+            
+              <div class="match-item miss">✗ Compatibility of innovation with current attitudes and workflow/personal routine</div>
+            
+              <div class="match-item miss">✗ Percentage of ideas generated in new domains</div>
+            
+              <div class="match-item miss">✗ Number of identified problems (product, process)</div>
+            
+              <div class="match-item miss">✗ Number of external ideas/number of implemented ideas</div>
+            
+              <div class="match-item miss">✗ Number/percentage of ideas generated in collaboration with customers</div>
+            
+              <div class="match-item miss">✗ Number of failures</div>
+            
+              <div class="match-item miss">✗ Researches (input)</div>
+            
+              <div class="match-item miss">✗ Purchase of information and information updates</div>
+            
+              <div class="match-item miss">✗ Number of new competencies for innovation</div>
+            
+              <div class="match-item miss">✗ Enterprise training</div>
+            
+              <div class="match-item miss">✗ Qualification of employees</div>
+            
+              <div class="match-item miss">✗ Company's investment in know-how</div>
+            
+              <div class="match-item miss">✗ Identifying innovations in technical and specialized journals (LBIOs)</div>
+            
+              <div class="match-item miss">✗ Publication count/number of publications</div>
+            
+              <div class="match-item miss">✗ Number of awards, publication</div>
+            
+              <div class="match-item miss">✗ Scientific impact (citations/paper)</div>
+            
+              <div class="match-item miss">✗ Increasing publications/articles</div>
+            
+              <div class="match-item miss">✗ Publications by the company as the champion in innovation</div>
+            
+              <div class="match-item miss">✗ Open excellent attractive research</div>
+            
+              <div class="match-item miss">✗ International scientific co-publications</div>
+            
+              <div class="match-item miss">✗ Top 10% most cited scientific publications worldwide</div>
+            
+              <div class="match-item miss">✗ Organizational support for public/private research co-publications</div>
+            
+              <div class="match-item miss">✗ Scale</div>
+            
+              <div class="match-item miss">✗ Field</div>
+            
+              <div class="match-item miss">✗ Export and business performance</div>
+            
+              <div class="match-item miss">✗ Ownership structure</div>
+            
+              <div class="match-item miss">✗ Cross-functional integration</div>
+            
+              <div class="match-item miss">✗ Decentralized structure</div>
+            
+              <div class="match-item miss">✗ Field of participation</div>
+            
+              <div class="match-item miss">✗ Organizational architecture</div>
+            
+              <div class="match-item miss">✗ Foreign ownership</div>
+            
+              <div class="match-item miss">✗ Share of women employed in the non-agricultural sector</div>
+            
+              <div class="match-item miss">✗ Availability of equipment and tools/technologies</div>
+            
+              <div class="match-item miss">✗ Maintenance/of resources</div>
+            
+              <div class="match-item miss">✗ Availability of sufficient experts</div>
+            
+              <div class="match-item miss">✗ Human capital stock</div>
+            
+              <div class="match-item miss">✗ Human resources/human resources focused on innovation; Ratio of R&D/employees</div>
+            
+              <div class="match-item miss">✗ R&D personnel ratio</div>
+            
+              <div class="match-item miss">✗ R&D intensity</div>
+            
+              <div class="match-item miss">✗ Protected resources for non-core innovations</div>
+            
+              <div class="match-item miss">✗ Project/company resource compatibility</div>
+            
+              <div class="match-item miss">✗ Technological resource compatibility</div>
+            
+              <div class="match-item miss">✗ Total cost</div>
+            
+              <div class="match-item miss">✗ Project budget</div>
+            
+              <div class="match-item miss">✗ Development costs</div>
+            
+              <div class="match-item miss">✗ R&D spending all/private</div>
+            
+              <div class="match-item miss">✗ R&D investment and investors</div>
+            
+              <div class="match-item miss">✗ Innovation expenditure per employee</div>
+            
+              <div class="match-item miss">✗ Financial resource constraints</div>
+            
+              <div class="match-item miss">✗ Technological investment</div>
+            
+              <div class="match-item miss">✗ Extent to which the company management welcomes and supports</div>
+            
+              <div class="match-item miss">✗ Research projects</div>
+            
+              <div class="match-item miss">✗ R&D budget</div>
+            
+              <div class="match-item miss">✗ Project cost</div>
+            
+              <div class="match-item miss">✗ Innovation financing</div>
+            
+              <div class="match-item miss">✗ Innovation expenses</div>
+            
+              <div class="match-item miss">✗ Share of R&D cost externally and internally</div>
+            
+              <div class="match-item miss">✗ Desing expenditure</div>
+            
+              <div class="match-item miss">✗ Technology acquisition costs</div>
+            
+              <div class="match-item miss">✗ Tooling cost</div>
+            
+              <div class="match-item miss">✗ Tool usage</div>
+            
+              <div class="match-item miss">✗ Adoption of at least some western methods</div>
+            
+              <div class="match-item miss">✗ External finance and credit from local banks</div>
+            
+              <div class="match-item miss">✗ Budget/funds availability</div>
+            
+              <div class="match-item miss">✗ Tax credits</div>
+            
+              <div class="match-item miss">✗ Revenue, profits/profitability</div>
+            
+              <div class="match-item miss">✗ EBITDA, budget fulfillment</div>
+            
+              <div class="match-item miss">✗ Net cash flow</div>
+            
+              <div class="match-item miss">✗ Potential Sales</div>
+            
+              <div class="match-item miss">✗ ROI of R&D projects/new product program</div>
+            
+              <div class="match-item miss">✗ Sales of new product program</div>
+            
+              <div class="match-item miss">✗ Sales through innovation</div>
+            
+              <div class="match-item miss">✗ Sales percent of new products and services in total sales</div>
+            
+              <div class="match-item miss">✗ Share of sales with newly developed products</div>
+            
+              <div class="match-item miss">✗ Share of turnover of new product</div>
+            
+              <div class="match-item miss">✗ Share of a business total sales deriving from innovative products</div>
+            
+              <div class="match-item miss">✗ Share of new products in % from revenue = return on sales</div>
+            
+              <div class="match-item miss">✗ Share of new products in % compared to the total revenue in comparison to previous years</div>
+            
+              <div class="match-item miss">✗ Share of innovation expenses to total turnover</div>
+            
+              <div class="match-item miss">✗ Revenue based on new products</div>
+            
+              <div class="match-item miss">✗ Percent of new products that equals 80% sales</div>
+            
+              <div class="match-item miss">✗ Profits under patent protection</div>
+            
+              <div class="match-item miss">✗ Rate of turnover, perception of innovation returns</div>
+            
+              <div class="match-item miss">✗ Revenue from new products, services, new customers</div>
+            
+              <div class="match-item miss">✗ Number of new products to sales</div>
+            
+              <div class="match-item miss">✗ Volume of sales from innovative products</div>
+            
+              <div class="match-item miss">✗ Payback period/amortization time</div>
+            
+              <div class="match-item miss">✗ Internal rate of return (%)</div>
+            
+              <div class="match-item miss">✗ R&D costs/revenue in %, profit margin measures</div>
+            
+              <div class="match-item miss">✗ New-to-market and new-to-business sales</div>
+            
+              <div class="match-item miss">✗ Percentage increase in innovation revenues per employee, portfolio</div>
+            
+            <br>
+            <strong>Extras na hipótese (FP — não na referência):</strong><br>
+            
+              <div class="match-item extra">+ atmosphere</div>
+            
+              <div class="match-item extra">+ Use of internal and external knowledge and information sources</div>
+            
+              <div class="match-item extra">+ Formal structure</div>
+            
+              <div class="match-item extra">+ Accountable, dedicated, supported cross-functional teams with strong leaders</div>
+            
+              <div class="match-item extra">+ Team satisfaction</div>
+            
+              <div class="match-item extra">+ Profit margin measures</div>
+            
+              <div class="match-item extra">+ Percentage of innovations that met financial benefit projections</div>
+            
+              <div class="match-item extra">+ Demand growth in the industry</div>
+            
+              <div class="match-item extra">+ Duration of demand</div>
+            
+              <div class="match-item extra">+ Market share, position and share</div>
+            
+              <div class="match-item extra">+ New product introduction vs. competition</div>
+            
+              <div class="match-item extra">+ Customer complaints</div>
+            
+              <div class="match-item extra">+ Response time to customer requests</div>
+            
+              <div class="match-item extra">+ Delivery reliability and/or speed</div>
+            
+              <div class="match-item extra">+ Customer retention rate</div>
+            
+              <div class="match-item extra">+ R&D alliances</div>
+            
+              <div class="match-item extra">+ Knowledge and technology transfer activities with research institutions and/or institutions of higher education</div>
+            
+              <div class="match-item extra">+ Number of innovative businesses/new venture start-ups</div>
+            
+              <div class="match-item extra">+ Time to develop next generation</div>
+            
+              <div class="match-item extra">+ Diversity of idea-generation process</div>
+            
+              <div class="match-item extra">+ Time for idea generation</div>
+            
+              <div class="match-item extra">+ Idea-tanks management</div>
+            
+              <div class="match-item extra">+ Idea generation and its management</div>
+            
+              <div class="match-item extra">+ Number of on-going innovations</div>
+            
+              <div class="match-item extra">+ Innovation activity</div>
+            
+              <div class="match-item extra">+ Design orientation, such as, number of designers on the company's staff, or source of design</div>
+            
+              <div class="match-item extra">+ Making business cases</div>
+            
+              <div class="match-item extra">+ Innovative projects (in-house)</div>
+            
+              <div class="match-item extra">+ Detailed project tactical plan</div>
+            
+              <div class="match-item extra">+ Formal ratification by management</div>
+            
+              <div class="match-item extra">+ Implementation of innovation activity</div>
+            
+              <div class="match-item extra">+ Gap between plans and action</div>
+            
+              <div class="match-item extra">+ Cost of production/new product developments</div>
+            
+              <div class="match-item extra">+ Ease of manufacture</div>
+            
+              <div class="match-item extra">+ Manufacturing efficiency and productivity</div>
+            
+              <div class="match-item extra">+ Increase in production capacity and flexibility</div>
+            
+              <div class="match-item extra">+ Internal process lead time</div>
+            
+              <div class="match-item extra">+ Number of optimized production processes that the company used for its products</div>
+            
+              <div class="match-item extra">+ Use of new technology for production of new products</div>
+            
+              <div class="match-item extra">+ Planning and manufacturing system</div>
+            
+              <div class="match-item extra">+ Reassessment efforts: update and redirect project plans and keep team members aligned</div>
+            
+              <div class="match-item extra">+ Time to implement the innovation</div>
+            
+              <div class="match-item extra">+ Time from identification of a customer product need until beginning of commercial</div>
+            
+              <div class="match-item extra">+ Labor productivity</div>
+            
+              <div class="match-item extra">+ Time to market</div>
+            
+              <div class="match-item extra">+ Building lead time</div>
+            
+              <div class="match-item extra">+ Number of improved processes</div>
+            
+              <div class="match-item extra">+ Percentage decrease in the cost of innovative processes and products</div>
+            
+              <div class="match-item extra">+ Percentage of project milestones achieved</div>
+            
+              <div class="match-item extra">+ Duration of introduction of product</div>
+            
+              <div class="match-item extra">+ Intended purpose</div>
+            
+              <div class="match-item extra">+ Purpose achievement of innovation</div>
+            
+              <div class="match-item extra">+ A well-planned, adequately resourced and proficiently executed launch</div>
+            
+              <div class="match-item extra">+ Determinants related to facilities that are needed to implement the innovation</div>
+            
+              <div class="match-item extra">+ Total cost of all commercially successful projects divided by the number of commercially successfully projects</div>
+            
+              <div class="match-item extra">+ Project efficiency in relation to cost and time</div>
+            
+              <div class="match-item extra">+ Measurement of time</div>
+            
+              <div class="match-item extra">+ Project delay</div>
+            
+              <div class="match-item extra">+ Rate of received approval on time</div>
+            
+              <div class="match-item extra">+ Quality of execution of the activities that comprise the innovation process</div>
+            
+              <div class="match-item extra">+ High-quality new product process</div>
+            
+              <div class="match-item extra">+ Efficient processes like tough go/kill decision points or gates</div>
+            
+              <div class="match-item extra">+ New product development process/process management itself</div>
+            
+              <div class="match-item extra">+ Heavyweight project management</div>
+            
+              <div class="match-item extra">+ Percentage of projects in the total portfolio going through a defined project management system with defined milestones</div>
+            
+              <div class="match-item extra">+ Clear goals and milestone measurements</div>
+            
+              <div class="match-item extra">+ Percentage of completion of objectives at the expected milestone date</div>
+            
+              <div class="match-item extra">+ Planning and monitoring of the innovation process</div>
+            
+              <div class="match-item extra">+ Way in which the new product development process is formalized</div>
+            
+              <div class="match-item extra">+ Procedural clarity</div>
+            
+              <div class="match-item extra">+ Project ownership/empowerment (= support and freedom)</div>
+            
+              <div class="match-item extra">+ Flexibility and agility, such as centralization of decision-making</div>
+            
+              <div class="match-item extra">+ Feedback effects in-between innovation decisions</div>
+            
+              <div class="match-item extra">+ Responsibility</div>
+            
+              <div class="match-item extra">+ Project leader</div>
+            
+              <div class="match-item extra">+ Replacement for leaving staff</div>
+            
+              <div class="match-item extra">+ Monitoring of the innovation process and the hiring of personnel with special skills for technological tasks</div>
+            
+              <div class="match-item extra">+ Number of meetings</div>
+            
+              <div class="match-item extra">+ Number of new product ideas or suggestions</div>
+            
+              <div class="match-item extra">+ Percentage of ideas found viable for commercialization</div>
+            
+              <div class="match-item extra">+ Precise, stable and early product definition, before development begins</div>
+            
+              <div class="match-item extra">+ Synergy potential/dependency on other products</div>
+            
+              <div class="match-item extra">+ Innovation portfolio balance</div>
+            
+              <div class="match-item extra">+ Newness to company and novelty of product</div>
+            
+              <div class="match-item extra">+ Future duration of product</div>
+            
+              <div class="match-item extra">+ Intellectual property rights, in particular patents, citations, applications, licenses</div>
+            
+              <div class="match-item extra">+ Power law distributions of patents</div>
+            
+              <div class="match-item extra">+ Technological significance</div>
+            
+              <div class="match-item extra">+ Technical standards and standardization degree</div>
+            
+              <div class="match-item extra">+ Number of project definitions with business/marketing approval</div>
+            
+              <div class="match-item extra">+ Number of new or improved products within a certain period, or number of new products divided by total number of products offered</div>
+            
+              <div class="match-item extra">+ Counts of new product announcements, introduction of technological innovations to the market</div>
+            
+              <div class="match-item extra">+ Perceived value</div>
+            
+              <div class="match-item extra">+ Degree of innovativeness</div>
+            
+              <div class="match-item extra">+ Successful idea implementation, such as number of ideas successfully turned into products or shared ideas submitted to successful ideas</div>
+            
+              <div class="match-item extra">+ Identification of innovations by business managers</div>
+            
+              <div class="match-item extra">+ Assessments by experts</div>
+            
+              <div class="match-item extra">+ Survival rate</div>
+            
+              <div class="match-item extra">+ Straightforwardness (how easily can the customer learn the correct use of the innovation?)/customer familiarity with the innovation and specialization</div>
+            
+              <div class="match-item extra">+ Product advantage: differentiated, unique benefits, superior value for the customer, recognizably of advantage</div>
+            
+              <div class="match-item extra">+ Appearance</div>
+            
+              <div class="match-item extra">+ Awareness of content of innovation</div>
+            
+              <div class="match-item extra">+ Product quality and reliability, such as customer evaluation/defect rate assessment</div>
+            
+              <div class="match-item extra">+ Comparative functionality</div>
+            
+              <div class="match-item extra">+ Compatibility, correctness, completeness</div>
+            
+              <div class="match-item extra">+ Complexity of innovation</div>
+            
+              <div class="match-item extra">+ Societal benefit</div>
+            
+              <div class="match-item extra">+ Opportunity window</div>
+            
+              <div class="match-item extra">+ Launch quality and quantity</div>
+            
+              <div class="match-item extra">+ Duration of product life cycles</div>
+            
+              <div class="match-item extra">+ Sustainability/eco-efficiency of product</div>
+            
+              <div class="match-item extra">+ Extending the range of offered products</div>
+            
+              <div class="match-item extra">+ Numerical rankings of a business' product by a given customer divided by that customer's ranking of the best competitive product</div>
+            
+              <div class="match-item extra">+ Licensed technology use</div>
+            
+              <div class="match-item extra">+ Trademarks</div>
+            
+              <div class="match-item extra">+ Demand growth in the industry</div>
+            
+              <div class="match-item extra">+ Duration of demand</div>
+            
+              <div class="match-item extra">+ Market share, position and share</div>
+            
+              <div class="match-item extra">+ New product introduction vs. competition</div>
+            
+              <div class="match-item extra">+ Customer complaints</div>
+            
+              <div class="match-item extra">+ Response time to customer requests</div>
+            
+              <div class="match-item extra">+ Delivery reliability and/or speed</div>
+            
+              <div class="match-item extra">+ Customer retention rate</div>
+            
+              <div class="match-item extra">+ R&D alliances</div>
+            
+              <div class="match-item extra">+ Knowledge and technology transfer activities with research institutions and/or institutions of higher education</div>
+            
+              <div class="match-item extra">+ Number of innovative businesses/new venture start-ups</div>
+            
+              <div class="match-item extra">+ GNI per capita (PPP)</div>
+            
+              <div class="match-item extra">+ Health expenditure (HE)</div>
+            
+              <div class="match-item extra">+ Long-term unemployment</div>
+            
+              <div class="match-item extra">+ GDP per capita</div>
+            
+              <div class="match-item extra">+ R&D intensity (GERD/GDP) = GERD= Gross domestic expenditure on R&D</div>
+            
+              <div class="match-item extra">+ National wealth (GDP per capita)</div>
+            
+          </div>
+        </details>
+      
+    
+      
+        
+        <details>
+          <summary>artigo2 — Correspondências e Divergências (Semântico)</summary>
+          <div class="match-list">
+            <strong>Casamentos (TP):</strong><br>
+            
+              <div class="match-item">
+                <span class="ref">REF: Patentes</span> →
+                <span class="hyp">HYP: Pedidos e concessões de patentes de invenção junto ao United States Patent and Trademark Office (USPTO)</span>
+                (score: 0.825)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Inovação</span> →
+                <span class="hyp">HYP: Intensidade em inovação tecnológica das empresas</span>
+                (score: 0.811)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Orçamento geral do Estado para I+D+I;</span> →
+                <span class="hyp">HYP: Orçamento geral do Estado para I+D+I</span>
+                (score: 0.996)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Distribuição do orçamento geral entre pesquisa militar e pesquisa civil;</span> →
+                <span class="hyp">HYP: Distribuição do orçamento geral entre pesquisa militar e pesquisa civil</span>
+                (score: 0.998)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Distribuição do orçamento por segmentos e respectivos programas de I+D+I;</span> →
+                <span class="hyp">HYP: Distribuição do orçamento por segmentos e respectivos programas de I+D+I</span>
+                (score: 0.998)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Percentual de utilização de créditos orçamentários recebidos;</span> →
+                <span class="hyp">HYP: Percentual de utilização de créditos orçamentários recebidos</span>
+                (score: 0.995)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Distribuição dos créditos orçamentários por objetivos socioeconômicos</span> →
+                <span class="hyp">HYP: Distribuição dos créditos orçamentários por objetivos socioeconômicos</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Gastos em P&D por setor de execução;</span> →
+                <span class="hyp">HYP: Gastos em P&D por setor de execução</span>
+                (score: 0.996)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Gastos em P&D por setor de financiamento;</span> →
+                <span class="hyp">HYP: Gastos em P&D por setor de financiamento</span>
+                (score: 0.996)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Gastos em P&D por tipo de pesquisa (pesquisa básica, pesquisa aplicada e desenvolvimento tecnológico);</span> →
+                <span class="hyp">HYP: Gastos em P&D por tipo de pesquisa (pesquisa básica, pesquisa aplicada e desenvolvimento tecnológico)</span>
+                (score: 0.998)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Gastos em P&D por pesquisador e por setor de execução;</span> →
+                <span class="hyp">HYP: Gastos em P&D por pesquisador e por setor de execução</span>
+                (score: 0.997)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Gastos em P&D por pesquisador e por comunidades autônomas;</span> →
+                <span class="hyp">HYP: Gastos em P&D por pesquisador e por comunidades autônomas</span>
+                (score: 0.996)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Gastos em P&D por comunidades autônomas e setor de atividade;</span> →
+                <span class="hyp">HYP: Gastos em P&D por comunidades autônomas e setor de atividade</span>
+                (score: 0.995)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Recursos destinados a P&D em países da OCDE;</span> →
+                <span class="hyp">HYP: Recursos destinados a P&D em países da OCDE</span>
+                (score: 0.997)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Gastos em P&D em países ibero-americanos e Estados Unidos da América;</span> →
+                <span class="hyp">HYP: Gastos em P&D em países ibero-americanos e Estados Unidos da América</span>
+                (score: 0.995)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Gastos em P&D em países da União Europeia (UE) por setor de execução (Empresas e Instituições Privadas sem Fins Lucrativos; Administração Pública; Ensino Superior);</span> →
+                <span class="hyp">HYP: Gastos em P&D em países da União Europeia (UE) por setor de execução</span>
+                (score: 0.942)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Gastos em P&D em países da UE por setor de financiamento (Empresas;</span> →
+                <span class="hyp">HYP: Gastos em P&D em euros por habitantes nos países da UE</span>
+                (score: 0.879)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Profissionais em atividades de P&D;</span> →
+                <span class="hyp">HYP: Profissionais em atividades de P&D</span>
+                (score: 0.985)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Profissionais empregados em atividades de P&D em relação à população;</span> →
+                <span class="hyp">HYP: Profissionais empregados em atividades de P&D em relação à população</span>
+                (score: 0.994)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Profissionais empregados em atividades de P&D por setor de execução (Empresas; Instituições Privadas sem Fins Lucrativos; Administração Pública; Ensino Superior);</span> →
+                <span class="hyp">HYP: Profissionais empregados em atividades de P&D por setor de execução</span>
+                (score: 0.874)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Pesquisadores contratados em período integral por setor de execução (Empresas; Instituições Privadas sem Fins Lucrativos; Administração Pública; Ensino Superior);</span> →
+                <span class="hyp">HYP: Pesquisadores contratados em período integral por setor de execução</span>
+                (score: 0.862)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Profissionais e pesquisadores em atividades de P&D por setor de execução, em número de pessoas e porcentagem de mulheres sobre o total;</span> →
+                <span class="hyp">HYP: Profissionais e pesquisadores em atividades de P&D por setor de execução, em número de pessoas e porcentagem de mulheres sobre o total</span>
+                (score: 0.998)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Profissionais e pesquisadores em atividades de P&D por setor de execução em período integral, em número de pessoas e porcentagem de mulheres sobre o total;</span> →
+                <span class="hyp">HYP: Profissionais e pesquisadores em atividades de P&D por setor de execução em período integral, em número de pessoas e porcentagem de mulheres sobre o total</span>
+                (score: 0.997)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Percentual de técnicos e auxiliares em P&D em relação aos pesquisadores e ao setor de execução;</span> →
+                <span class="hyp">HYP: Percentual de técnicos e auxiliares em P&D em relação aos pesquisadores e ao setor de execução</span>
+                (score: 0.998)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: População entre 30 e 34 anos com formação superior;</span> →
+                <span class="hyp">HYP: População entre 30 e 34 anos com formação superior</span>
+                (score: 0.997)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Profissionais empregados em atividades de P&D em período integral por comunidades autônomas;</span> →
+                <span class="hyp">HYP: Profissionais empregados em atividades de P&D em período integral por comunidades autônomas</span>
+                (score: 0.992)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Pesquisadores em período integral por comunidades autônomas;</span> →
+                <span class="hyp">HYP: Pesquisadores em período integral por comunidades autônomas</span>
+                (score: 0.992)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Profissionais empregados em atividades de P&D em período integral por comunidades autônomas e setor de atividade;</span> →
+                <span class="hyp">HYP: Profissionais empregados em atividades de P&D em período integral por comunidades autônomas e setor de atividade</span>
+                (score: 0.992)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Recursos destinados a P&D nos países membros da OCDE em profissionais empregados em atividades de P&D em relação à população ativa;</span> →
+                <span class="hyp">HYP: Recursos destinados a P&D nos países membros da OCDE em profissionais empregados em atividades de P&D em relação à população ativa</span>
+                (score: 0.997)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Pesquisadores em período integral nos países ibero-americanos.</span> →
+                <span class="hyp">HYP: Pesquisadores em período integral nos países ibero-americanos</span>
+                (score: 0.983)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Inovação tecnológica em empresas espanholas;</span> →
+                <span class="hyp">HYP: Inovação tecnológica em empresas espanholas</span>
+                (score: 0.996)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Empresas inovadoras e gastos em inovação por segmentos;</span> →
+                <span class="hyp">HYP: Empresas inovadoras e gastos em inovação por segmentos</span>
+                (score: 0.998)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Empresas inovadoras e gastos em inovação por segmentos e porte da empresa;</span> →
+                <span class="hyp">HYP: Empresas inovadoras e gastos em inovação por segmentos e porte da empresa</span>
+                (score: 0.997)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Gastos em inovação por tipo de atividade inovadora e porte da empresa;</span> →
+                <span class="hyp">HYP: Gastos em inovação por tipo de atividade inovadora e porte da empresa</span>
+                (score: 0.997)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Intensidade em inovação tecnológica das empresas;</span> →
+                <span class="hyp">HYP: Empresas com inovações não tecnológicas segundo tipo de inovação e porte da empresa</span>
+                (score: 0.824)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Número de empresas com atividades de inovação tecnológica que realizam P&D por porte da empresa;</span> →
+                <span class="hyp">HYP: Número de empresas com atividades de inovação tecnológica que realizam P&D por porte da empresa</span>
+                (score: 0.996)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Percentual de venda de produtos inovadores das empresas por segmento econômico (agricultura, indústria, serviços);</span> →
+                <span class="hyp">HYP: Percentual de venda de produtos inovadores das empresas por segmento econômico</span>
+                (score: 0.939)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Percentual de venda de produtos inovadores das empresas inovadoras por segmento econômico (agricultura, indústria, serviços);</span> →
+                <span class="hyp">HYP: Percentual de venda de produtos inovadores das empresas inovadoras por segmento econômico</span>
+                (score: 0.953)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Financiamento público para a inovação;</span> →
+                <span class="hyp">HYP: Financiamento público para a inovação</span>
+                (score: 0.997)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Cooperação para a inovação de empresas inovadoras e demais agentes de SI;</span> →
+                <span class="hyp">HYP: Cooperação para a inovação de empresas inovadoras e demais agentes de SI</span>
+                (score: 0.997)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Cooperação para a inovação de empresas inovadoras e demais agentes de SI por porte de empresa;</span> →
+                <span class="hyp">HYP: Cooperação para a inovação de empresas inovadoras e demais agentes de SI por porte de empresa</span>
+                (score: 0.997)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Inovação tecnológica nas comunidades autônomas;</span> →
+                <span class="hyp">HYP: Inovação tecnológica nas comunidades autônomas</span>
+                (score: 0.995)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Gastos em inovação tecnológica por comunidades autônomas;</span> →
+                <span class="hyp">HYP: Gastos em inovação tecnológica por comunidades autônomas</span>
+                (score: 0.993)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Ranking de inovação dos países da UE.</span> →
+                <span class="hyp">HYP: Ranking de inovação dos países da UE</span>
+                (score: 0.995)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Situação do setor de alta tecnologia;</span> →
+                <span class="hyp">HYP: Situação do setor de alta tecnologia</span>
+                (score: 0.993)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Inovação tecnológica nas comunidades autônomas;</span> →
+                <span class="hyp">HYP: Inovação tecnológica nas comunidades autônomas</span>
+                (score: 0.995)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Comércio exterior em produtos de alta tecnologia;</span> →
+                <span class="hyp">HYP: Comércio exterior em produtos de alta tecnologia</span>
+                (score: 0.995)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Profissionais empregados nos setores de alta tecnologia por comunidades autônomas;</span> →
+                <span class="hyp">HYP: Profissionais empregados nos setores de alta tecnologia por comunidades autônomas</span>
+                (score: 0.992)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Profissionais empregados nos setores de alta tecnologia nos países da UE;</span> →
+                <span class="hyp">HYP: Profissionais empregados nos setores de alta tecnologia nos países da UE</span>
+                (score: 0.995)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Situação do setor de biotecnologia.</span> →
+                <span class="hyp">HYP: Situação do setor de biotecnologia</span>
+                (score: 0.988)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Produção científica espanhola;</span> →
+                <span class="hyp">HYP: Produção científica espanhola</span>
+                (score: 0.993)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Distribuição de produção por área de conhecimento publicada na base de dados Scopus;</span> →
+                <span class="hyp">HYP: Distribuição de produção por área de conhecimento publicada na base de dados Scopus</span>
+                (score: 0.997)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Distribuição de produção por área de conhecimento publicada na base de dados Web of Science;</span> →
+                <span class="hyp">HYP: Distribuição de produção por área de conhecimento publicada na base de dados Web of Science</span>
+                (score: 0.996)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Principais países colaboradores da Espanha;</span> →
+                <span class="hyp">HYP: Principais países colaboradores da Espanha</span>
+                (score: 0.996)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Produção científica nas comunidades autonômicas;</span> →
+                <span class="hyp">HYP: Produção científica nas comunidades autonômicas</span>
+                (score: 0.996)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Países com maior número de produção cientifica nas bases de dados Scopus e Web of Science;</span> →
+                <span class="hyp">HYP: Países com maior número de produção cientifica nas bases de dados Scopus e Web of Science</span>
+                (score: 0.997)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Solicitações de patentes nacionais (Espanha);</span> →
+                <span class="hyp">HYP: Solicitações de patentes nacionais (Espanha)</span>
+                (score: 0.998)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Solicitações de patentes europeias e PCT de origem espanhola;</span> →
+                <span class="hyp">HYP: Solicitações de patentes europeias e PCT de origem espanhola</span>
+                (score: 0.996)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Solicitações de patentes nacionais segundo natureza do solicitante (Particulares; Empresas; Conselho Superior de Investigações Científicas; Organismos Públicos; Universidades);</span> →
+                <span class="hyp">HYP: Solicitações de patentes nacionais segundo natureza do solicitante</span>
+                (score: 0.931)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Concessões de patentes na Espanha;</span> →
+                <span class="hyp">HYP: Concessões de patentes na Espanha</span>
+                (score: 0.996)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Concessões de patentes europeias de origem espanhola;</span> →
+                <span class="hyp">HYP: Concessões de patentes europeias de origem espanhola</span>
+                (score: 0.997)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Solicitações e concessões de patentes na Espanha por comunidades autônomas;</span> →
+                <span class="hyp">HYP: Solicitações e concessões de patentes na Espanha por comunidades autônomas</span>
+                (score: 0.997)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Teses de doutorado concluídas por tipo de universidade e comunidades autônomas;</span> →
+                <span class="hyp">HYP: Teses de doutorado concluídas por tipo de universidade e comunidades autônomas</span>
+                (score: 0.990)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Patentes triádicas (solicitadas simultaneamente na Europa, Japão e Estados Unidos da América) concedidas em países da OCDE.</span> →
+                <span class="hyp">HYP: Patentes triádicas concedidas em países da OCDE</span>
+                (score: 0.936)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Nível de interesse pela ciência e tecnologia em comparação a outros temas selecionados (medicina e saúde; alimentos e consumo; meio ambiente e ecologia; política; cinema, arte e cultura);</span> →
+                <span class="hyp">HYP: Nível de interesse pela ciência e tecnologia em comparação a outros temas selecionados</span>
+                (score: 0.925)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Imagem social da ciência e da tecnologia;</span> →
+                <span class="hyp">HYP: Imagem social da ciência e da tecnologia</span>
+                (score: 0.995)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Percepção do nível de formação científico-tecnológica recebida;</span> →
+                <span class="hyp">HYP: Percepção do nível de formação científico-tecnológica recebida</span>
+                (score: 0.994)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Meios de informação sobre ciência e tecnologia (televisão, internet, jornal, rádio, livro, revistas científicas, revistas genéricas);</span> →
+                <span class="hyp">HYP: Meios de informação sobre ciência e tecnologia</span>
+                (score: 0.856)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Imagem da profissão de cientista;</span> →
+                <span class="hyp">HYP: Imagem da profissão de cientista</span>
+                (score: 0.995)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Percepção dos recursos investidos em ciência pelo governo central</span> →
+                <span class="hyp">HYP: Percepção dos recursos investidos em ciência pelo governo central</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Participação em programas e instituições internacionais de I+D+I;</span> →
+                <span class="hyp">HYP: Participação em programas e instituições internacionais de I+D+I</span>
+                (score: 0.998)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Programas Marco de P&D da UE;</span> →
+                <span class="hyp">HYP: Programas Marco de P&D da UE</span>
+                (score: 0.994)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Investimento decorrente do Programa Marco Horizonte 2020 de P&D por tipo de entidade participante;</span> →
+                <span class="hyp">HYP: Investimento decorrente do Programa Marco Horizonte 2020 de P&D por tipo de entidade participante</span>
+                (score: 0.997)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Investimento decorrente do Programa Marco Horizonte 2020 de P&D por área temática;</span> →
+                <span class="hyp">HYP: Investimento decorrente do Programa Marco Horizonte 2020 de P&D por área temática</span>
+                (score: 0.997)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Investimento decorrente do Programa Marco Horizonte 2020 de P&D por comunidade autônoma;</span> →
+                <span class="hyp">HYP: Investimento decorrente do Programa Marco Horizonte 2020 de P&D por comunidade autônoma</span>
+                (score: 0.995)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Investimento decorrente do Programa Marco Horizonte 2020 de P&D por número de pesquisadores por comunidade autônoma;</span> →
+                <span class="hyp">HYP: Investimento decorrente do Programa Marco Horizonte 2020 de P&D por número de pesquisadores por comunidade autônoma</span>
+                (score: 0.997)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Contribuição dos países da UE ao orçamento do Programa Marco Horizonte 2020 e retorno da UE aos países;</span> →
+                <span class="hyp">HYP: Contribuição dos países da UE ao orçamento do Programa Marco Horizonte 2020 e retorno da UE aos países</span>
+                (score: 0.999)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Subvenção concedida pelo Programa Marco Horizonte 2020 por número de pesquisadores.</span> →
+                <span class="hyp">HYP: Subvenção concedida pelo Programa Marco Horizonte 2020 por número de pesquisadores</span>
+                (score: 0.989)
+              </div>
+            
+            <br>
+            <strong>Ausentes na hipótese (FN — referência não encontrada):</strong><br>
+            
+              <div class="match-item miss">✗ Recursos Humanos</div>
+            
+              <div class="match-item miss">✗ Bancos de patentes</div>
+            
+              <div class="match-item miss">✗ Compra e venda de tecnologias</div>
+            
+              <div class="match-item miss">✗ Exportação</div>
+            
+              <div class="match-item miss">✗ Importação</div>
+            
+              <div class="match-item miss">✗ Recursos Aplicados Consolidados</div>
+            
+              <div class="match-item miss">✗ Recursos Aplicados</div>
+            
+              <div class="match-item miss">✗ Recursos Humanos</div>
+            
+              <div class="match-item miss">✗ Bolsas de Formação</div>
+            
+              <div class="match-item miss">✗ Produção Científica</div>
+            
+              <div class="match-item miss">✗ Comparações Internacionais</div>
+            
+              <div class="match-item miss">✗ Orçamento Público em I+D+I (investigação,desenvolvimento e inovação)</div>
+            
+              <div class="match-item miss">✗ Distribuição do orçamento por departamentos ministeriais: Economia, indústria e competitividade; Energia, turismo e agenda digital; Defesa;</div>
+            
+              <div class="match-item miss">✗ Educação, cultura e esporte; Fazenda e gestão pública; Presidência e administrações territoriais; Relações exteriores; Fomento;</div>
+            
+              <div class="match-item miss">✗ Instituições Privadas sem Fins Lucrativos; Administração Pública; Ensino Superior; Estrangeiro);</div>
+            
+              <div class="match-item miss">✗ Gastos em P&D em euros por habitantes nos países da UE</div>
+            
+              <div class="match-item miss">✗ Recursos Humanos em P&D</div>
+            
+              <div class="match-item miss">✗ Empresas com inovações não tecnológicas segundo tipo de inovação e porte da empresa;</div>
+            
+              <div class="match-item miss">✗ Valorização de profissões (médicos, cientistas, professores, engenheiros, juízes, advogados, jornalistas, atletas, empresários, religiosos e políticos);</div>
+            
+              <div class="match-item miss">✗ Nível de interesse da população pela ciência e pela tecnologia</div>
+            
+              <div class="match-item miss">✗ Imagem social</div>
+            
+              <div class="match-item miss">✗ Valorização da profissão de cientista em comparação com outras profissões;</div>
+            
+              <div class="match-item miss">✗ Imagem da profissão de cientista e a percepção de recursos destinados à ciência pelo governo central</div>
+            
+            <br>
+            <strong>Extras na hipótese (FP — não na referência):</strong><br>
+            
+              <div class="match-item extra">+ Dispêndio nacional em C&T em valores correntes, por atividade</div>
+            
+              <div class="match-item extra">+ Dispêndio nacional em C&T (em valores de 2015) por atividade</div>
+            
+              <div class="match-item extra">+ Dispêndio nacional em C&T em valores correntes, por setor institucional</div>
+            
+              <div class="match-item extra">+ Dispêndio em C&T (em valores de 2015), total e por setor institucional</div>
+            
+              <div class="match-item extra">+ Dispêndio nacional em C&T em relação ao PIB por setor</div>
+            
+              <div class="match-item extra">+ Dispêndio nacional em P&D em valores correntes, por setor institucional</div>
+            
+              <div class="match-item extra">+ Dispêndio nacional em P&D (em valores de 2015) total e por setor</div>
+            
+              <div class="match-item extra">+ Dispêndio nacional em P&D em relação ao PIB por setor</div>
+            
+              <div class="match-item extra">+ Dispêndio percentual do dispêndio nacional em P&D por setor</div>
+            
+              <div class="match-item extra">+ Dispêndio nacional em P&D por setor, em paridade de poder de compra</div>
+            
+              <div class="match-item extra">+ Dispêndios do governo federal em C&T por atividade</div>
+            
+              <div class="match-item extra">+ Dispêndios do governo federal em C&T (em valores de 2015) por atividade</div>
+            
+              <div class="match-item extra">+ Dispêndios do governo federal em C&T por órgão</div>
+            
+              <div class="match-item extra">+ Distribuição percentual dos dispêndios do governo federal em C&T por órgão</div>
+            
+              <div class="match-item extra">+ Dispêndios do governo federal em P&D por órgão</div>
+            
+              <div class="match-item extra">+ Distribuição percentual dos dispêndios do governo federal em P&D por órgão</div>
+            
+              <div class="match-item extra">+ Valor da renúncia fiscal do governo federal segundo as leis de incentivo à pesquisa, desenvolvimento e capacitação tecnológica</div>
+            
+              <div class="match-item extra">+ Distribuição percentual do valor da renúncia fiscal do governo federal segundo as leis de incentivo à pesquisa, desenvolvimento e capacitação tecnológica</div>
+            
+              <div class="match-item extra">+ Dispêndios dos governos estaduais em C&T por atividade</div>
+            
+              <div class="match-item extra">+ Dispêndios dos governos estaduais em C&T (em valores de 2015) por atividade</div>
+            
+              <div class="match-item extra">+ Dispêndios dos governos estaduais em C&T por unidade da federação</div>
+            
+              <div class="match-item extra">+ Distribuição percentual dos dispêndios dos governos estaduais por região</div>
+            
+              <div class="match-item extra">+ Distribuição percentual dos dispêndios dos governos estaduais em C&T por unidade da federação</div>
+            
+              <div class="match-item extra">+ Dispêndios dos governos estaduais em P&D por unidade da federação</div>
+            
+              <div class="match-item extra">+ Distribuição percentual dos dispêndios dos governos estaduais em P&D por unidade da federação</div>
+            
+              <div class="match-item extra">+ Percentual dos dispêndios em C&T dos estados em relação às suas receitas totais</div>
+            
+              <div class="match-item extra">+ Percentual dos dispêndios em P&D dos estados em relação às suas receitas totais</div>
+            
+              <div class="match-item extra">+ Estimativa dos dispêndios das instituições com cursos de pós-graduação stricto sensu reconhecidos pela CAPES/MEC como aproximação dos dispêndios em P&D das instituições de ensino superior</div>
+            
+              <div class="match-item extra">+ Estimativa dos dispêndios (valores de 2015) das instituições com cursos de pós-graduação stricto sensu reconhecidos pela CAPES/MEC como aproximação dos dispêndios em P&D das instituições de ensino superior</div>
+            
+              <div class="match-item extra">+ Dispêndios empresariais em C&T por atividade</div>
+            
+              <div class="match-item extra">+ Dispêndios empresariais em C&T (em valores de 2015) por atividade</div>
+            
+              <div class="match-item extra">+ Total de pessoas envolvidas em P&D (pesquisadores + pessoal de apoio), em número de pessoas, por setor institucional</div>
+            
+              <div class="match-item extra">+ Pesquisadores e pessoal de apoio envolvidos em P&D, em número de pessoas, por setor institucional e categoria</div>
+            
+              <div class="match-item extra">+ Pesquisadores, em número de pessoas, por nível de escolaridade</div>
+            
+              <div class="match-item extra">+ Total de pessoas envolvidas em P&D (pesquisadores + pessoal de apoio), em equivalência de tempo integral, por setor institucional</div>
+            
+              <div class="match-item extra">+ Pesquisadores e pessoal de apoio envolvidos em P&D, em equivalência de tempo integral, por setor institucional e categoria</div>
+            
+              <div class="match-item extra">+ Pesquisadores e pessoal de apoio envolvidos em P&D, em equivalência de tempo integral, por categoria</div>
+            
+              <div class="match-item extra">+ Pesquisadores, em equivalência de tempo integral, por nível de escolaridade</div>
+            
+              <div class="match-item extra">+ Concluintes no ensino superior por áreas gerais</div>
+            
+              <div class="match-item extra">+ Número e percentual de concluintes de curso de graduação nas engenharias e em relação ao total</div>
+            
+              <div class="match-item extra">+ Alunos matriculados e titulados nos cursos de mestrado e doutorado, ao final do ano</div>
+            
+              <div class="match-item extra">+ Alunos titulados nos cursos de mestrado e doutorado</div>
+            
+              <div class="match-item extra">+ Alunos titulados nos cursos de doutorado, por grande área</div>
+            
+              <div class="match-item extra">+ Alunos titulados nos cursos de mestrado, por grande área</div>
+            
+              <div class="match-item extra">+ Instituições, grupos de pesquisa, pesquisadores e pesquisadores doutores, cadastrados no Diretório dos Grupos de Pesquisa do CNPq</div>
+            
+              <div class="match-item extra">+ Pesquisadores cadastrados do Diretório dos Grupos de Pesquisa do CNPq, por grande área do conhecimento</div>
+            
+              <div class="match-item extra">+ Distribuição percentual dos pesquisadores cadastrados do Diretório dos Grupos de Pesquisa do CNPq, por grande área do conhecimento</div>
+            
+              <div class="match-item extra">+ Pesquisadores cadastrados do Diretório dos Grupos de Pesquisa do CNPq, por sexo</div>
+            
+              <div class="match-item extra">+ Pesquisadores cadastrados do Diretório dos Grupos de Pesquisa do CNPq, por faixa etária</div>
+            
+              <div class="match-item extra">+ Distribuição percentual dos pesquisadores cadastrados do Diretório dos Grupos de Pesquisa do CNPq, por faixa etária</div>
+            
+              <div class="match-item extra">+ CNPq - Total de bolsas-ano concedidas no país e no exterior</div>
+            
+              <div class="match-item extra">+ CNPq - Total de bolsas-ano concedidas no país e no exterior, por modalidades selecionadas</div>
+            
+              <div class="match-item extra">+ CNPq - Distribuição percentual do número de bolsas-ano concedidas (país + exterior), por grande área segundo o sexo do bolsista</div>
+            
+              <div class="match-item extra">+ CAPES – Total de bolsas de pós-graduação concedidas no país e total de bolsistas de pós-graduação no exterior</div>
+            
+              <div class="match-item extra">+ CAPES - Bolsas de pós-graduação concedidas no país por modalidades selecionadas</div>
+            
+              <div class="match-item extra">+ CAPES – Bolsas de pós-graduação concedidas no exterior por modalidades selecionadas</div>
+            
+              <div class="match-item extra">+ CAPES - Bolsistas de pós-graduação no exterior por modalidades selecionadas</div>
+            
+              <div class="match-item extra">+ CAPES – Bolsas de pós-graduação concedidas no país por grandes áreas</div>
+            
+              <div class="match-item extra">+ CAPES - Bolsas de pós-graduação concedidas no exterior por grandes áreas</div>
+            
+              <div class="match-item extra">+ Número de artigos brasileiros, da América Latina e do mundo publicados em periódicos científicos indexados pela Scopus</div>
+            
+              <div class="match-item extra">+ Número de artigos brasileiros indexados pela Scopus e percentual em relação ao mundo</div>
+            
+              <div class="match-item extra">+ Citações de artigos brasileiros, da América Latina e do mundo publicados em periódicos científicos indexados pela Scopus</div>
+            
+              <div class="match-item extra">+ Citações de artigos brasileiros, da América Latina e do mundo publicados em periódicos científicos indexados pela Scopus, e percentual em relação ao mundo</div>
+            
+              <div class="match-item extra">+ Pedidos de patentes depositados no Instituto Nacional da Propriedade Industrial (INPI), segundo tipos de patentes e origem do depositante</div>
+            
+              <div class="match-item extra">+ Patentes concedidas pelo INPI, segundo tipos de patentes e origem do depositante</div>
+            
+              <div class="match-item extra">+ Patentes concedidas pelo INPI, por setor tecnológico de acordo com a Classificação Internacional de Patentes</div>
+            
+              <div class="match-item extra">+ Pedidos de patentes depositados de acordo com o Tratado de Cooperação em Matéria de Patentes (PCT, em inglês) por áreas tecnológicas selecionadas</div>
+            
+              <div class="match-item extra">+ Percentual de empresas que implementaram inovações de produto e/ou processo, segundo as atividades selecionadas da indústria, do setor de eletricidade e gás e dos serviços</div>
+            
+              <div class="match-item extra">+ Total de empresas e empresas que implementaram inovações de produto e/ou processo, segundo as atividades selecionadas da indústria, do setor de eletricidade e gás e de serviços</div>
+            
+              <div class="match-item extra">+ Percentual de empresas que implementaram inovações que receberam apoio do governo para as suas atividades inovativas, segundo as atividades selecionadas da indústria, do setor de eletricidade e gás e de serviços</div>
+            
+              <div class="match-item extra">+ Dispêndios realizados nas atividades inovativas de empresas que implementaram inovações, segundo as atividades selecionadas da indústria, do setor de eletricidade e gás e de serviços</div>
+            
+              <div class="match-item extra">+ Empresas que implementaram inovações com relações de cooperação com outras organizações, segundo as atividades selecionadas da indústria, do setor de eletricidade e gás e de serviços</div>
+            
+              <div class="match-item extra">+ Número e percentual de empresas industriais que fazem P&D contínuo</div>
+            
+              <div class="match-item extra">+ Comparações dos resultados mensurados no país com os resultados de países selecionados</div>
+            
+              <div class="match-item extra">+ Distribuição do orçamento por departamentos ministeriais</div>
+            
+              <div class="match-item extra">+ Valorização de profissões</div>
+            
+              <div class="match-item extra">+ Global Innovation Index score</div>
+            
+          </div>
+        </details>
+      
+    
+      
+        
+        <details>
+          <summary>artigo3 — Correspondências e Divergências (Semântico)</summary>
+          <div class="match-list">
+            <strong>Casamentos (TP):</strong><br>
+            
+              <div class="match-item">
+                <span class="ref">REF: Tempo</span> →
+                <span class="hyp">HYP: tempo</span>
+                (score: 0.940)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Custo</span> →
+                <span class="hyp">HYP: custo</span>
+                (score: 0.823)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Qualidade</span> →
+                <span class="hyp">HYP: qualidade</span>
+                (score: 0.987)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Satisfação</span> →
+                <span class="hyp">HYP: satisfação</span>
+                (score: 0.992)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Aprendizado de Equipe</span> →
+                <span class="hyp">HYP: aprendizado da equipe</span>
+                (score: 0.833)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Recurso financeiro despendido</span> →
+                <span class="hyp">HYP: Quantidade de pendências</span>
+                (score: 0.837)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Atendimento aos requisitos pré-definidos</span> →
+                <span class="hyp">HYP: Definição de requisitos</span>
+                (score: 0.817)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Avaliação da comunicação entre os participantes do projeto e o cliente</span> →
+                <span class="hyp">HYP: Comunicação com o cliente</span>
+                (score: 0.818)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Percepção das principais partes envolvidas no projeto sobre seu desenvolvimento</span> →
+                <span class="hyp">HYP: Estrutura do projeto</span>
+                (score: 0.818)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Identificação e tratamento dos riscos do projeto</span> →
+                <span class="hyp">HYP: Tratamento dos riscos</span>
+                (score: 0.811)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Sustentabilidade</span> →
+                <span class="hyp">HYP: sustentabilidade</span>
+                (score: 0.991)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Inovação</span> →
+                <span class="hyp">HYP: inovação</span>
+                (score: 0.993)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Comunicação interna</span> →
+                <span class="hyp">HYP: Comunicação interna</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Índice de desempenho de custo</span> →
+                <span class="hyp">HYP: Índice de desempenho de custo</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Valor Agregado</span> →
+                <span class="hyp">HYP: Valor Agregado</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Custo Real</span> →
+                <span class="hyp">HYP: Custo Real</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Variação de custo</span> →
+                <span class="hyp">HYP: Variação de custo</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Orçamento no término</span> →
+                <span class="hyp">HYP: Orçamento no término</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Índice de desempenho para término</span> →
+                <span class="hyp">HYP: Índice de desempenho para término</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Valor planejado</span> →
+                <span class="hyp">HYP: Valor planejado</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Estimativa de custo no término</span> →
+                <span class="hyp">HYP: Estimativa de custo no término</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Estimativa de custo para terminar</span> →
+                <span class="hyp">HYP: Estimativa de custo para terminar</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Rentabilidade do projeto</span> →
+                <span class="hyp">HYP: Rentabilidade do projeto</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Custo com subcontratações</span> →
+                <span class="hyp">HYP: Custo com subcontratações</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Valor agregado sustentável</span> →
+                <span class="hyp">HYP: Valor agregado sustentável</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Valor planejado sustentável</span> →
+                <span class="hyp">HYP: Valor planejado sustentável</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Objetivo Índice de desempenho de custos sustentável</span> →
+                <span class="hyp">HYP: Índice de desempenho de custos sustentável</span>
+                (score: 0.974)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Custo real com sustentabilidade</span> →
+                <span class="hyp">HYP: Custo real com sustentabilidade</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Variação de custo sustentável</span> →
+                <span class="hyp">HYP: Variação de custo sustentável</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Eficiência de custo</span> →
+                <span class="hyp">HYP: Eficiência de custo</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Crescimento de custo</span> →
+                <span class="hyp">HYP: Crescimento de custo</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Taxa de queima de custos</span> →
+                <span class="hyp">HYP: Taxa de queima de custos</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Taxa de custo predominante</span> →
+                <span class="hyp">HYP: Taxa de custo predominante</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Índice de excesso de custo</span> →
+                <span class="hyp">HYP: Índice de excesso de custo</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Probabilidade de estouro de custos</span> →
+                <span class="hyp">HYP: Probabilidade de estouro de custos</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Variação do custo na conclusão</span> →
+                <span class="hyp">HYP: Variação do custo na conclusão</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Custo de qualidade</span> →
+                <span class="hyp">HYP: Custo de qualidade</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Taxa de custo de qualidade</span> →
+                <span class="hyp">HYP: Taxa de custo de qualidade</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Definição de requisitos</span> →
+                <span class="hyp">HYP: Validação dos requisitos</span>
+                (score: 0.869)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Verificação dos requisitos</span> →
+                <span class="hyp">HYP: Verificação dos requisitos</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Entrega dos serviços especificados</span> →
+                <span class="hyp">HYP: Entrega dos serviços especificados</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Inovações Tecnológicas</span> →
+                <span class="hyp">HYP: Inovações Tecnológicas</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Usabilidade</span> →
+                <span class="hyp">HYP: Usabilidade</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Especificação das entregas</span> →
+                <span class="hyp">HYP: Especificação das entregas</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Especificação das metas</span> →
+                <span class="hyp">HYP: Especificação das metas</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Especificação do método de medição das metas</span> →
+                <span class="hyp">HYP: Especificação do método de medição das metas</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Sustentabilidade Ambiental</span> →
+                <span class="hyp">HYP: Sustentabilidade Ambiental</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Sustentabilidade do produto</span> →
+                <span class="hyp">HYP: Sustentabilidade do produto</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Sustentabilidade Econômica</span> →
+                <span class="hyp">HYP: Sustentabilidade Econômica</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Sustentabilidade Social</span> →
+                <span class="hyp">HYP: Sustentabilidade Social</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Quantidade de alterações no escopo</span> →
+                <span class="hyp">HYP: Quantidade de alterações no escopo</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Variação no tamanho do projeto</span> →
+                <span class="hyp">HYP: Variação no tamanho do projeto</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Taxa de cumprimento de marcos contratuais</span> →
+                <span class="hyp">HYP: Taxa de cumprimento de marcos contratuais</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Quantidade de alterações aprovadas pelo cliente</span> →
+                <span class="hyp">HYP: Quantidade de alterações aprovadas pelo cliente</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Volatilidade dos requisitos</span> →
+                <span class="hyp">HYP: Volatilidade dos requisitos</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Taxa de mudança de escopo</span> →
+                <span class="hyp">HYP: Taxa de mudança de escopo</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Nível de satisfação do cliente</span> →
+                <span class="hyp">HYP: Nível de satisfação do cliente</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Especificação dos papéis e responsabilidades das partes interessadas</span> →
+                <span class="hyp">HYP: Especificação dos papéis e responsabilidades das partes interessadas</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Realização dos objetivos</span> →
+                <span class="hyp">HYP: Realização dos objetivos</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Engajamento das partes interessadas</span> →
+                <span class="hyp">HYP: Engajamento das partes interessadas</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Aprovação do Produto</span> →
+                <span class="hyp">HYP: Aprovação do Produto</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Ações de Fechamento</span> →
+                <span class="hyp">HYP: Ações de Fechamento</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Superação dos objetivos</span> →
+                <span class="hyp">HYP: Superação dos objetivos</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Eficácia</span> →
+                <span class="hyp">HYP: Eficácia</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Análise das partes interessadas</span> →
+                <span class="hyp">HYP: Análise das partes interessadas</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Dinâmica das partes interessadas</span> →
+                <span class="hyp">HYP: Dinâmica das partes interessadas</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Tratamento dos riscos</span> →
+                <span class="hyp">HYP: Quantidade de riscos</span>
+                (score: 0.899)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Quantidade de acidentes</span> →
+                <span class="hyp">HYP: Quantidade de acidentes</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Taxa Total de Incidentes Registráveis</span> →
+                <span class="hyp">HYP: Taxa Total de Incidentes Registráveis</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Taxa de dias de ausência, restrição de trabalho ou transferência</span> →
+                <span class="hyp">HYP: Taxa de dias de ausência, restrição de trabalho ou transferência</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Conformidade do processo</span> →
+                <span class="hyp">HYP: Conformidade do processo</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Quantidade de defeitos</span> →
+                <span class="hyp">HYP: Quantidade de defeitos</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Número de inspeções de qualidade</span> →
+                <span class="hyp">HYP: Número de inspeções de qualidade</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Quantidade de não conformidades</span> →
+                <span class="hyp">HYP: Quantidade de não conformidades</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Taxa de rejeição</span> →
+                <span class="hyp">HYP: Taxa de rejeição</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Penalidades por não-conformidades</span> →
+                <span class="hyp">HYP: Penalidades por não-conformidades</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Taxa de defeitos</span> →
+                <span class="hyp">HYP: Taxa de defeitos</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Eficiência dos testes de qualidade</span> →
+                <span class="hyp">HYP: Eficiência dos testes de qualidade</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Taxa de remoção de defeitos</span> →
+                <span class="hyp">HYP: Taxa de remoção de defeitos</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Taxa de Retrabalho</span> →
+                <span class="hyp">HYP: Taxa de Retrabalho</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Disponibilidade de recursos</span> →
+                <span class="hyp">HYP: Disponibilidade de recursos</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Desenvolvimento de habilidades</span> →
+                <span class="hyp">HYP: Desenvolvimento de habilidades</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Utilização dos recursos</span> →
+                <span class="hyp">HYP: Utilização dos recursos</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Compromisso da equipe</span> →
+                <span class="hyp">HYP: Compromisso da equipe</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Motivação da equipe</span> →
+                <span class="hyp">HYP: Motivação da equipe</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Colaboração da equipe</span> →
+                <span class="hyp">HYP: Colaboração da equipe</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Coesão da equipe</span> →
+                <span class="hyp">HYP: Coesão da equipe</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Nível de satisfação da equipe</span> →
+                <span class="hyp">HYP: Nível de satisfação da equipe</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Esforço Acumulado</span> →
+                <span class="hyp">HYP: Esforço Acumulado</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Produtividade</span> →
+                <span class="hyp">HYP: Produtividade</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Eficiência da produtividade</span> →
+                <span class="hyp">HYP: Eficiência da produtividade</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: FTE da Equipe por Custo Total do Projeto</span> →
+                <span class="hyp">HYP: FTE da Equipe por Custo Total do Projeto</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: FTE da Equipe por Custo Total da Equipe</span> →
+                <span class="hyp">HYP: FTE da Equipe por Custo Total da Equipe</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Taxa de Entrega</span> →
+                <span class="hyp">HYP: Taxa de Entrega</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Variação de esforço</span> →
+                <span class="hyp">HYP: Variação de esforço</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Índice de desempenho de prazo</span> →
+                <span class="hyp">HYP: Índice de desempenho de prazo</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Taxa de trabalho concluído</span> →
+                <span class="hyp">HYP: Taxa de trabalho concluído</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Variação de prazo</span> →
+                <span class="hyp">HYP: Variação de prazo</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Índice de desempenho de prazo sustentável</span> →
+                <span class="hyp">HYP: Índice de desempenho de prazo sustentável</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Eficiência de prazo</span> →
+                <span class="hyp">HYP: Eficiência de prazo</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Taxa de trabalho restante</span> →
+                <span class="hyp">HYP: Taxa de trabalho restante</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Taxa de cumprimento de datas críticas</span> →
+                <span class="hyp">HYP: Taxa de cumprimento de datas críticas</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Crescimento de prazo</span> →
+                <span class="hyp">HYP: Crescimento de prazo</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Variação de prazo sustentável</span> →
+                <span class="hyp">HYP: Variação de prazo sustentável</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Prazo Agregado</span> →
+                <span class="hyp">HYP: Prazo Agregado</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Duração Agregada</span> →
+                <span class="hyp">HYP: Duração Agregada</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Duração relativa ao tamanho do projeto</span> →
+                <span class="hyp">HYP: Duração relativa ao tamanho do projeto</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Estimativa de duração no término</span> →
+                <span class="hyp">HYP: Estimativa de duração no término</span>
+                (score: 1.000)
+              </div>
+            
+            <br>
+            <strong>Ausentes na hipótese (FN — referência não encontrada):</strong><br>
+            
+              <div class="match-item miss">✗ Avaliação do período envolvido na realização das atividades</div>
+            
+              <div class="match-item miss">✗ Avaliação da capacidade em atender a necessidade dos envolvidos, a partir de critério de aceitação previamente estabelecidos</div>
+            
+              <div class="match-item miss">✗ Avaliação do trabalho desenvolvido pela equipe</div>
+            
+              <div class="match-item miss">✗ Satisfação de stakeholders</div>
+            
+              <div class="match-item miss">✗ Comunicação com o cliente</div>
+            
+              <div class="match-item miss">✗ Validação dos requisitos</div>
+            
+              <div class="match-item miss">✗ Estrutura do projeto</div>
+            
+              <div class="match-item miss">✗ Quantidade de pendências</div>
+            
+              <div class="match-item miss">✗ Quantidade de riscos</div>
+            
+            <br>
+            <strong>Extras na hipótese (FP — não na referência):</strong><br>
+            
+              <div class="match-item extra">+ comunicação</div>
+            
+          </div>
+        </details>
+      
+    
+      
+        
+        <details>
+          <summary>artigo4 — Correspondências e Divergências (Semântico)</summary>
+          <div class="match-list">
+            <strong>Casamentos (TP):</strong><br>
+            
+              <div class="match-item">
+                <span class="ref">REF: Gastos com educação, % PIB</span> →
+                <span class="hyp">HYP: Gastos com educação, % PIB</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Gastos brutos com P&D, % PIB</span> →
+                <span class="hyp">HYP: Gastos brutos com P&D, % PIB</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Empresas globais de P&D</span> →
+                <span class="hyp">HYP: Empresas globais de P&D</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Qualidade das universidades</span> →
+                <span class="hyp">HYP: Qualidade das universidades</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Valor pago por uso de PI, % do comércio total</span> →
+                <span class="hyp">HYP: Valor pago por uso de PI, % do comércio total</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Imp. líquidas de alta tecnologia, % do comércio total</span> →
+                <span class="hyp">HYP: Imp. líquidas de alta tecnologia, % do comércio total</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Serviços Governamentais On-line</span> →
+                <span class="hyp">HYP: Serviços Governamentais On-line</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Participação Eletrônica</span> →
+                <span class="hyp">HYP: Participação Eletrônica</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Qualidade das publicações, medida pelo índice H</span> →
+                <span class="hyp">HYP: Qualidade das publicações, medida pelo índice H</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Val. Recebidos por uso de PI, % do comércio total</span> →
+                <span class="hyp">HYP: Val. Recebidos por uso de PI, % do comércio total</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Escala do mercado interno, bi (PPC US$)</span> →
+                <span class="hyp">HYP: Escala do mercado interno, bi (PPC US$)</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Facilidade de obtenção de crédito</span> →
+                <span class="hyp">HYP: Facilidade de obtenção de crédito</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Investimentos</span> →
+                <span class="hyp">HYP: Investimentos</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Taxa tarifária aplicada, média ponderada, %</span> →
+                <span class="hyp">HYP: Taxa tarifária aplicada, média ponderada, %...</span>
+                (score: 0.961)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Eficácia do Governo</span> →
+                <span class="hyp">HYP: Eficácia do Governo</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Facilidade para abrir uma empresa</span> →
+                <span class="hyp">HYP: Facilidade para abrir uma empresa</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Qualidade regulatória</span> →
+                <span class="hyp">HYP: Qualidade regulatória</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Razão aluno/professor, ensino médio</span> →
+                <span class="hyp">HYP: Razão aluno/professor, ensino médio</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Mobilidade de estudantes no ensino superior, %</span> →
+                <span class="hyp">HYP: Mobilidade de estudantes no ensino superior, %</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Graduados em ciência e engenharia, %</span> →
+                <span class="hyp">HYP: Graduados em ciência e engenharia, %</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Acesso a TIC</span> →
+                <span class="hyp">HYP: Acesso a TIC</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Formação bruta de capital, % PIB</span> →
+                <span class="hyp">HYP: Formação bruta de capital, % PIB</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Taxa crescimento do PIB/trabalhador (PPC US$), %</span> →
+                <span class="hyp">HYP: Taxa crescimento do PIB/trabalhador (PPC US$), %</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Gastos com software, % do PIB</span> →
+                <span class="hyp">HYP: Gastos com software, % do PIB</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Novas empresas/mil hab. 15-64</span> →
+                <span class="hyp">HYP: Novas empresas/mil hab. 15-64</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Exp. de serviços de TIC, % do com. total</span> →
+                <span class="hyp">HYP: Exp. de serviços de TIC, % do com. total</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Filmes nacionais longa-metragem/mi hab.</span> →
+                <span class="hyp">HYP: Filmes nacionais longa-metragem/mi hab.</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Prod. de imp. e outras mídias, % prod. Industrial</span> →
+                <span class="hyp">HYP: Prod. de imp. e outras mídias, % prod. Industrial</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Domínios gen. de alto nível (TLD) /mil hab.</span> →
+                <span class="hyp">HYP: Domínios gen. de alto nível (TLD) /mil hab. 15-69</span>
+                (score: 0.947)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Recursos humanos em C&T</span> →
+                <span class="hyp">HYP: Recursos humanos em C&T</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Novos doutores titulados per capita</span> →
+                <span class="hyp">HYP: Novos doutores titulados per capita</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Novos mestres titulados</span> →
+                <span class="hyp">HYP: Novos mestres titulados</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Novos graduados titulados</span> →
+                <span class="hyp">HYP: Novos graduados titulados</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Excelência do sistema de pesquisa</span> →
+                <span class="hyp">HYP: Excelência do sistema de pesquisa</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Artigos publicados per capita</span> →
+                <span class="hyp">HYP: Artigos publicados per capita</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Dispêndio público estadual em C&T</span> →
+                <span class="hyp">HYP: Dispêndio público estadual em C&T</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Dispêndio público estadual em P&D como proporção da receita do estado</span> →
+                <span class="hyp">HYP: Dispêndio público estadual em P&D como proporção da receita do estado</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Dispêndio público estadual em atividades científicas e técnicas correlatas como proporção da receita</span> →
+                <span class="hyp">HYP: Dispêndio público estadual em atividades científicas e técnicas correlatas como proporção da receita</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Dispêndio empresarial em atividades inovativas</span> →
+                <span class="hyp">HYP: Dispêndio empresarial em atividades inovativas</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Dispêndio das indústrias inovadoras de P&D internos como proporção da receita líquida de vendas</span> →
+                <span class="hyp">HYP: Dispêndio das indústrias inovadoras de P&D internos como proporção da receita líquida de vendas</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Dispêndio das indústrias inovadoras em atividades inovativas de não P&D internos como proporção da receita líquida de vendas</span> →
+                <span class="hyp">HYP: Dispêndio das indústrias inovadoras em atividades inovativas de não P&D internos como proporção da receita líquida de vendas</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Inovadores</span> →
+                <span class="hyp">HYP: Inovadores</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Taxa de inovação de produto e/ou processo</span> →
+                <span class="hyp">HYP: Taxa de inovação de produto e/ou processo</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Taxa de inovação organizacional e/ou de marketing</span> →
+                <span class="hyp">HYP: Taxa de inovação organizacional e/ou de marketing</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Taxa de cooperação</span> →
+                <span class="hyp">HYP: Taxa de cooperação</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Ativos de propriedade intelectual</span> →
+                <span class="hyp">HYP: Ativos de propriedade intelectual</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Patentes depositadas per capita</span> →
+                <span class="hyp">HYP: Patentes depositadas per capita</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Marcas registradas per capita</span> →
+                <span class="hyp">HYP: Marcas registradas per capita</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Desenhos industriais registrados per capita</span> →
+                <span class="hyp">HYP: Desenhos industriais registrados per capita</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Ocupações em Ciência, Tecnologia e Inovação</span> →
+                <span class="hyp">HYP: Ocupações em Ciência, Tecnologia e Inovação</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Ocupações em CT&I como proporção do total</span> →
+                <span class="hyp">HYP: Ocupações em CT&I como proporção do total</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Exportações intensivas em tecnologia</span> →
+                <span class="hyp">HYP: Exportações intensivas em tecnologia</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Exportação de bens intensivos em tecnologia como proporção do total exportado</span> →
+                <span class="hyp">HYP: Exportação de bens intensivos em tecnologia como proporção do total exportado</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Exportação de serviços intensivos em conhecimento como proporção do total exportado</span> →
+                <span class="hyp">HYP: Exportação de serviços intensivos em conhecimento como proporção do total exportado</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: PIB, variação real em volume</span> →
+                <span class="hyp">HYP: Produto Interno Bruto (PIB)</span>
+                (score: 0.833)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: PIB per capita (R$)</span> →
+                <span class="hyp">HYP: PIB per capita (R$)</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Crescimento do PIB, por trabalhador ocupado (R$/pessoa)</span> →
+                <span class="hyp">HYP: Crescimento do PIB, por trabalhador ocupado (R$/pessoa)</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Taxa de investimento público na economia paraense (% da despesa total)</span> →
+                <span class="hyp">HYP: Taxa de investimento público na economia paraense (% da despesa total)</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Produtividade na indústria (VA da Indústria R$/pessoas ocupadas)</span> →
+                <span class="hyp">HYP: Produtividade na indústria (VA da Indústria R$/pessoas ocupadas)</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Número de patentes depositadas por pessoa física e jurídica</span> →
+                <span class="hyp">HYP: Número de patentes depositadas por pessoa física e jurídica</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Dispêndio Estadual em C&T (R$)</span> →
+                <span class="hyp">HYP: Dispêndio Estadual em C&T (R$)</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: C&T s/ Receita Total</span> →
+                <span class="hyp">HYP: (%) Dispêndio C&T s/ Receita Total</span>
+                (score: 0.924)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Dispêndio C&T s/ VA Indústria</span> →
+                <span class="hyp">HYP: (%) Dispêndio C&T s/ VA Indústria</span>
+                (score: 0.841)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Dispêndio C&T s/ VA Agropecuária</span> →
+                <span class="hyp">HYP: (%) Dispêndio C&T s/ VA Agropecuária</span>
+                (score: 0.880)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Dispêndio C&T s/ VA Serviços</span> →
+                <span class="hyp">HYP: (%) Dispêndio C&T s/ VA Serviços</span>
+                (score: 0.894)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Dispêndio C&T s/ VA Administração</span> →
+                <span class="hyp">HYP: (%) Dispêndio C&T s/ VA Administração</span>
+                (score: 0.879)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: PIB, variação real em volume</span> →
+                <span class="hyp">HYP: Dispêndios com P&D quanto ao PIB</span>
+                (score: 0.803)
+              </div>
+            
+            <br>
+            <strong>Ausentes na hipótese (FN — referência não encontrada):</strong><br>
+            
+              <div class="match-item">Nenhum.</div>
+            
+            <br>
+            <strong>Extras na hipótese (FP — não na referência):</strong><br>
+            
+              <div class="match-item extra">+ Dispêndios com C&T por atividade e setor</div>
+            
+              <div class="match-item extra">+ Dispêndios com C&T quanto ao PIB</div>
+            
+              <div class="match-item extra">+ Dispêndios com P&D por setor</div>
+            
+              <div class="match-item extra">+ Total de pessoas e pesquisadores em P&D</div>
+            
+              <div class="match-item extra">+ Pesquisadores por nível de escolaridade</div>
+            
+              <div class="match-item extra">+ Total de pessoas em P&D em tempo integral</div>
+            
+              <div class="match-item extra">+ Pesquisadores tempo integral</div>
+            
+              <div class="match-item extra">+ Concluintes de ensino superior por áreas gerais</div>
+            
+              <div class="match-item extra">+ Concluintes de engenharia quanto ao total</div>
+            
+              <div class="match-item extra">+ Matriculados e titulados de mestrado e doutorado</div>
+            
+              <div class="match-item extra">+ Instituições, grupos de pesquisa, pesquisadores e pesquisadores doutores cadastrados no CNPq</div>
+            
+              <div class="match-item extra">+ Pesquisadores CNPq por área de conhecimento</div>
+            
+              <div class="match-item extra">+ Pesquisadores CNPq por sexo e faixa etária</div>
+            
+              <div class="match-item extra">+ Bolsas concedidas por grande área e sexo</div>
+            
+              <div class="match-item extra">+ Bolsas concedidas no país e no exterior</div>
+            
+              <div class="match-item extra">+ Número de artigos e citações indexados pela Scopus</div>
+            
+              <div class="match-item extra">+ Pedidos e concessões INPI por tipo e origem</div>
+            
+              <div class="match-item extra">+ Patentes concedidas INPI por setor tecnológico</div>
+            
+              <div class="match-item extra">+ Pedidos e concessões no escritório USPTO</div>
+            
+              <div class="match-item extra">+ Pedidos de patente de acordo com o PCT</div>
+            
+              <div class="match-item extra">+ Empresas que inovaram em produto ou processo</div>
+            
+              <div class="match-item extra">+ Empresas que fazem P&D contínuo</div>
+            
+              <div class="match-item extra">+ Dispêndios das empresas com inovação</div>
+            
+              <div class="match-item extra">+ Família de patentes triádicas</div>
+            
+              <div class="match-item extra">+ Pedidos de patentes PCT e USPTO</div>
+            
+              <div class="match-item extra">+ Pessoas envolvidas com P&D</div>
+            
+              <div class="match-item extra">+ Artigos em periódicos indexados pela Scopus</div>
+            
+              <div class="match-item extra">+ Percentual de Dispêndio Estadual em CT&I</div>
+            
+              <div class="match-item extra">+ Taxa de Cobertura de Ações em Ciência, Tecnologia e Inovação</div>
+            
+              <div class="match-item extra">+ Índice Global de Inovação (IGI)</div>
+            
+              <div class="match-item extra">+ Indicador Composto Estadual de Inovação (ICEI)</div>
+            
+              <div class="match-item extra">+ Ranking de Competitividade</div>
+            
+              <div class="match-item extra">+ Índice de Desenvolvimento Humano (IDH)</div>
+            
+              <div class="match-item extra">+ Depósitos de Ativos de PI no INPI (Contratos de TI, Patentes, Desenho Industrial, Marcas, Indicação Geográfica e Programas de Computador)</div>
+            
+              <div class="match-item extra">+ Depósitos de Patente</div>
+            
+              <div class="match-item extra">+ Contratos de Tecnologia</div>
+            
+              <div class="match-item extra">+ Patentes</div>
+            
+              <div class="match-item extra">+ Desenho Industrial</div>
+            
+              <div class="match-item extra">+ Marca</div>
+            
+              <div class="match-item extra">+ Indicação Geográfica</div>
+            
+              <div class="match-item extra">+ Programa de Computador</div>
+            
+          </div>
+        </details>
+      
+    
+      
+        
+        <details>
+          <summary>artigo5 — Correspondências e Divergências (Semântico)</summary>
+          <div class="match-list">
+            <strong>Casamentos (TP):</strong><br>
+            
+              <div class="match-item">
+                <span class="ref">REF: Número de horas</span> →
+                <span class="hyp">HYP: Número de horas - linha</span>
+                (score: 0.898)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Número de pesquisadores externos treinados</span> →
+                <span class="hyp">HYP: Número de pesquisadores externos treinados</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Confiabilidade (horas entregues/horas previstas)</span> →
+                <span class="hyp">HYP: Confiabilidade (horas entregues/horas previstas)</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Desempenho da Fonte de Luz Síncrotron</span> →
+                <span class="hyp">HYP: Desempenho da Fonte de Luz Síncrotron</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Horas de estudo de máquinas e comissionamento</span> →
+                <span class="hyp">HYP: Horas de estudo de máquinas e comissionamento</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Grau de saturação no uso da Fonte de Luz Síncrotron</span> →
+                <span class="hyp">HYP: Grau de saturação no uso da Fonte de Luz Síncrotron</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Custo por proposta realizada nas instalações abertas</span> →
+                <span class="hyp">HYP: Custo por proposta realizada nas instalações abertas</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Número de propostas realizadas</span> →
+                <span class="hyp">HYP: Número de propostas realizadas</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Índice de ocupação das linhas de luz</span> →
+                <span class="hyp">HYP: Índice de ocupação das linhas de luz</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Índice de satisfação dos usuários</span> →
+                <span class="hyp">HYP: Índice de satisfação dos usuários</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Número total de publicações</span> →
+                <span class="hyp">HYP: Número total de publicações</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Publicações em revistas com fator de impacto maior do que 5</span> →
+                <span class="hyp">HYP: Publicações em revistas com fator de impacto maior do que 5</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Publicações resultantes por pesquisador da ABTLuS</span> →
+                <span class="hyp">HYP: Publicações resultantes por pesquisador da ABTLuS</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Taxa de orientação de pós-graduados</span> →
+                <span class="hyp">HYP: Taxa de orientação de pós-graduados</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Taxa de supervisão de pós-doutores</span> →
+                <span class="hyp">HYP: Taxa de supervisão de pós-doutores</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Número de memorandos técnicos disponíveis na Internet</span> →
+                <span class="hyp">HYP: Número de memorandos técnicos disponíveis na Internet</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Número de projetos de desenvolvimento tecnológico</span> →
+                <span class="hyp">HYP: Número de projetos de desenvolvimento tecnológico</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Número de técnicos externos treinados</span> →
+                <span class="hyp">HYP: Número de técnicos externos treinados</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Horas de treinamento por funcionário</span> →
+                <span class="hyp">HYP: Horas de treinamento por funcionário</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Alavancagem de recursos do Contrato de Gestão</span> →
+                <span class="hyp">HYP: Alavancagem de recursos do Contrato de Gestão</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Horas de treinamento de técnicos externos treinados</span> →
+                <span class="hyp">HYP: Horas de treinamento de técnicos externos treinados</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Horas de treinamento de pesquisadores externos treinados</span> →
+                <span class="hyp">HYP: Horas de treinamento de pesquisadores externos treinados</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Nível de incerteza dos cenários externos (relevância das novas tecnologias)</span> →
+                <span class="hyp">HYP: Nível de incerteza dos cenários externos (relevância das novas tecnologias)</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Cooperações internacionais</span> →
+                <span class="hyp">HYP: Cooperações internacionais</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Novas tecnologias desenvolvidas (spin off de tecnologias)</span> →
+                <span class="hyp">HYP: Novas tecnologias desenvolvidas (spin off de tecnologias)</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Novas áreas de atuação induzidas</span> →
+                <span class="hyp">HYP: Novas áreas de atuação induzidas</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Percepção da comunidade científica e da sociedade</span> →
+                <span class="hyp">HYP: Percepção da comunidade científica e da sociedade</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Capacidade de acompanhar as evoluções científicas e tecnológicas</span> →
+                <span class="hyp">HYP: Capacidade de acompanhar as evoluções científicas e tecnológicas</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Qualidade das publicações</span> →
+                <span class="hyp">HYP: Qualidade das publicações</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Publicações geradas pela existência da Fonte de Luz Síncrotron</span> →
+                <span class="hyp">HYP: Publicações geradas pela existência da Fonte de Luz Síncrotron</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Posição relativa da pesquisa do LNLS no contexto internacional</span> →
+                <span class="hyp">HYP: Posição relativa da pesquisa do LNLS no contexto internacional</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Taxa de publicação por pesquisador interno</span> →
+                <span class="hyp">HYP: Taxa de publicação por pesquisador interno</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Disponibilidade de uso no tempo programado (anel e estações experimentais)</span> →
+                <span class="hyp">HYP: Disponibilidade de uso no tempo programado (anel e estações experimentais)</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Nível de satisfação dos usuários Atual</span> →
+                <span class="hyp">HYP: Nível de satisfação dos usuários</span>
+                (score: 0.938)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Capacidade de instrumentação científica</span> →
+                <span class="hyp">HYP: Capacidade de instrumentação científica</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Inovações introduzidas por demanda dos usuários</span> →
+                <span class="hyp">HYP: Inovações introduzidas por demanda dos usuários</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Uso das instalações por usuários externos (por regiões do país e exterior)</span> →
+                <span class="hyp">HYP: Uso das instalações por usuários externos (por regiões do país e exterior)</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Taxa de renovação dos grupos de usuários</span> →
+                <span class="hyp">HYP: Taxa de renovação dos grupos de usuários</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Experimentos realizados em multi-instalações em multidisciplinares</span> →
+                <span class="hyp">HYP: Experimentos realizados em multi-instalações e multidisciplinares</span>
+                (score: 0.992)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Projetos de pesquisa realizados</span> →
+                <span class="hyp">HYP: Projetos de pesquisa realizados</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Taxa de continuidade dos grupos de pesquisas externos</span> →
+                <span class="hyp">HYP: Taxa de continuidade dos grupos de pesquisas externos</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Nível de efetividade da pesquisa realizada</span> →
+                <span class="hyp">HYP: Nível de efetividade da pesquisa realizada</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Atratividade de recursos humanos em áreas estratégicas</span> →
+                <span class="hyp">HYP: Atratividade de recursos humanos em áreas estratégicas</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Retenção de recursos humanos em áreas estratégicas</span> →
+                <span class="hyp">HYP: Retenção de recursos humanos em áreas estratégicas</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Rotatividade de recursos humanos qualificados</span> →
+                <span class="hyp">HYP: Rotatividade de recursos humanos qualificados</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Nível de satisfação do pessoal interno</span> →
+                <span class="hyp">HYP: Nível de satisfação do pessoal interno</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Treinamento de usuários e de funcionários</span> →
+                <span class="hyp">HYP: Treinamento de usuários e de funcionários</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Estabilidade orçamentária</span> →
+                <span class="hyp">HYP: Estabilidade orçamentária</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Continuidade do fluxo de recursos</span> →
+                <span class="hyp">HYP: Continuidade do fluxo de recursos</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Nível de investimento</span> →
+                <span class="hyp">HYP: Nível de investimento</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Custo de operação das instalações abertas</span> →
+                <span class="hyp">HYP: Custo de operação das instalações abertas</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Alavancagem de recursos com projetos de fontes diversas</span> →
+                <span class="hyp">HYP: Alavancagem de recursos com projetos de fontes diversas</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Novos projetos aprovados em agências de fomento</span> →
+                <span class="hyp">HYP: Novos projetos aprovados em agências de fomento</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Qualidade e flexibilidade da gestão</span> →
+                <span class="hyp">HYP: Qualidade e flexibilidade da gestão</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Projetos realizados no prazo e orçamento pactuado</span> →
+                <span class="hyp">HYP: Projetos realizados no prazo e orçamento pactuado</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Inovações introduzidas nas instalações abertas</span> →
+                <span class="hyp">HYP: Inovações introduzidas nas instalações abertas</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Equilíbrio do portfólio de projetos de investimento</span> →
+                <span class="hyp">HYP: Equilíbrio do portfólio de projetos de investimento</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: Inserção da comunicação nos grupos de interesse</span> →
+                <span class="hyp">HYP: Inserção da comunicação nos grupos de interesse</span>
+                (score: 1.000)
+              </div>
+            
+            <br>
+            <strong>Ausentes na hipótese (FN — referência não encontrada):</strong><br>
+            
+              <div class="match-item miss">✗ Percepção da comunidade científica e da sociedade</div>
+            
+            <br>
+            <strong>Extras na hipótese (FP — não na referência):</strong><br>
+            
+              <div class="match-item extra">+ R&D expenditure as % of GDP</div>
+            
+              <div class="match-item extra">+ investimento em P&D</div>
+            
+              <div class="match-item extra">+ number of researchers per million inhabitants</div>
+            
+              <div class="match-item extra">+ pesquisadores por habitante</div>
+            
+              <div class="match-item extra">+ number of patents filed</div>
+            
+              <div class="match-item extra">+ publicações científicas por ano</div>
+            
+              <div class="match-item extra">+ number of research institutions</div>
+            
+              <div class="match-item extra">+ laboratórios credenciados</div>
+            
+              <div class="match-item extra">+ technology transfer agreements</div>
+            
+              <div class="match-item extra">+ spin-offs gerados</div>
+            
+              <div class="match-item extra">+ tax incentives for R&D</div>
+            
+              <div class="match-item extra">+ bolsas de pós-graduação</div>
+            
+              <div class="match-item extra">+ Global Innovation Index score</div>
+            
+              <div class="match-item extra">+ Índice de Inovação</div>
+            
+              <div class="match-item extra">+ Número de horas destinadas aos usuários de luz síncrotron</div>
+            
+              <div class="match-item extra">+ Evolução do orçamento do Contrato de Gestão</div>
+            
+              <div class="match-item extra">+ Relação de propostas por área científica</div>
+            
+              <div class="match-item extra">+ Propostas realizadas por região do Brasil e outros países</div>
+            
+              <div class="match-item extra">+ Recursos provenientes da atividade de interação com o setor produtivo</div>
+            
+              <div class="match-item extra">+ Horas de microscópios eletrônicos</div>
+            
+          </div>
+        </details>
+      
+    
+      
+        
+        <details>
+          <summary>artigo6 — Correspondências e Divergências (Semântico)</summary>
+          <div class="match-list">
+            <strong>Casamentos (TP):</strong><br>
+            
+              <div class="match-item">
+                <span class="ref">REF: aggregate innovation measures</span> →
+                <span class="hyp">HYP: innovation counts</span>
+                (score: 0.810)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: carbon emissions</span> →
+                <span class="hyp">HYP: emissions reduction</span>
+                (score: 0.837)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: clean production indicators</span> →
+                <span class="hyp">HYP: clean production</span>
+                (score: 0.837)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: cost of collaborative development</span> →
+                <span class="hyp">HYP: costs of collaborative development</span>
+                (score: 0.995)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: diversity of technological areas covered by patents</span> →
+                <span class="hyp">HYP: patent activity across different countries</span>
+                (score: 0.830)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: energy conservation indicators</span> →
+                <span class="hyp">HYP: energy conservation</span>
+                (score: 0.908)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: in-licensing costs</span> →
+                <span class="hyp">HYP: in-licensing costs</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: industrial waste recycling</span> →
+                <span class="hyp">HYP: recycled waste</span>
+                (score: 0.918)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: innovation counts</span> →
+                <span class="hyp">HYP: technological innovation capabilities</span>
+                (score: 0.811)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: innovation efficiency</span> →
+                <span class="hyp">HYP: innovation efficiency</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: innovation-related financial metrics</span> →
+                <span class="hyp">HYP: innovation-related financial metrics</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: innovation-related intangibles</span> →
+                <span class="hyp">HYP: additions of innovation-related intangibles</span>
+                (score: 0.962)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: management input ratio</span> →
+                <span class="hyp">HYP: management input ratio</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: market demand</span> →
+                <span class="hyp">HYP: the market</span>
+                (score: 0.833)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: non-polluting materials</span> →
+                <span class="hyp">HYP: replaced materials with less polluting or hazardous substitutes</span>
+                (score: 0.848)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: number of patents filed</span> →
+                <span class="hyp">HYP: number of patents filed</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: number of patents granted</span> →
+                <span class="hyp">HYP: number of patents granted</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: outsourcing of r&d services</span> →
+                <span class="hyp">HYP: outsourcing of R&D services</span>
+                (score: 0.962)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: patent citations</span> →
+                <span class="hyp">HYP: patent data</span>
+                (score: 0.804)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: percentage of employees with bachelor’s degree</span> →
+                <span class="hyp">HYP: percentage of employees with at least a bachelor's degree</span>
+                (score: 0.986)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: percentage of r&d funds relative to sales</span> →
+                <span class="hyp">HYP: percentage of R&D funds relative to the firm's sales</span>
+                (score: 0.932)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: r&d expenditure</span> →
+                <span class="hyp">HYP: R&D expenditure</span>
+                (score: 0.903)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: r&d input ratio</span> →
+                <span class="hyp">HYP: R&D input ratio</span>
+                (score: 0.870)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: r&d metrics</span> →
+                <span class="hyp">HYP: R&D metrics</span>
+                (score: 0.876)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: r&d spending</span> →
+                <span class="hyp">HYP: expenditure on R&D</span>
+                (score: 0.864)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: recyclable materials</span> →
+                <span class="hyp">HYP: improved recycling of product after use</span>
+                (score: 0.818)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: reduction of energy use</span> →
+                <span class="hyp">HYP: reduced energy use</span>
+                (score: 0.987)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: reduction of pollution</span> →
+                <span class="hyp">HYP: air pollution</span>
+                (score: 0.840)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: renewable energy indicators</span> →
+                <span class="hyp">HYP: use of renewable energy</span>
+                (score: 0.859)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: revenue from new products</span> →
+                <span class="hyp">HYP: revenue from new products</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: revenues from collaborative development</span> →
+                <span class="hyp">HYP: revenues from collaborative development</span>
+                (score: 1.000)
+              </div>
+            
+              <div class="match-item">
+                <span class="ref">REF: revenues from r&d services</span> →
+                <span class="hyp">HYP: revenues from R&D services on behalf of third parties</span>
+                (score: 0.840)
+              </div>
+            
+            <br>
+            <strong>Ausentes na hipótese (FN — referência não encontrada):</strong><br>
+            
+              <div class="match-item miss">✗ ambidextrous green innovation</div>
+            
+              <div class="match-item miss">✗ audit indicators</div>
+            
+              <div class="match-item miss">✗ certification indicators</div>
+            
+              <div class="match-item miss">✗ change in competencies and resources</div>
+            
+              <div class="match-item miss">✗ change in cost structures</div>
+            
+              <div class="match-item miss">✗ change in partnerships</div>
+            
+              <div class="match-item miss">✗ change in processes and structures</div>
+            
+              <div class="match-item miss">✗ change in revenue models</div>
+            
+              <div class="match-item miss">✗ change in technology or equipment</div>
+            
+              <div class="match-item miss">✗ change-type measures</div>
+            
+              <div class="match-item miss">✗ changes in communication structures</div>
+            
+              <div class="match-item miss">✗ changes in organisational routines</div>
+            
+              <div class="match-item miss">✗ changes in productivity</div>
+            
+              <div class="match-item miss">✗ cleaner technology</div>
+            
+              <div class="match-item miss">✗ coal consumption</div>
+            
+              <div class="match-item miss">✗ competition intensity</div>
+            
+              <div class="match-item miss">✗ competitiveness</div>
+            
+              <div class="match-item miss">✗ competitor involvement</div>
+            
+              <div class="match-item miss">✗ conceptualising</div>
+            
+              <div class="match-item miss">✗ consultancy firm involvement</div>
+            
+              <div class="match-item miss">✗ coproducing and orchestrating</div>
+            
+              <div class="match-item miss">✗ cost indicators</div>
+            
+              <div class="match-item miss">✗ coupled open innovation activities</div>
+            
+              <div class="match-item miss">✗ customer cooperation indicators</div>
+            
+              <div class="match-item miss">✗ customer involvement</div>
+            
+              <div class="match-item miss">✗ dummy variable for innovation adoption</div>
+            
+              <div class="match-item miss">✗ dummy variable for product innovation</div>
+            
+              <div class="match-item miss">✗ dynamic service innovation capabilities</div>
+            
+              <div class="match-item miss">✗ eco-innovation performance indicators</div>
+            
+              <div class="match-item miss">✗ economic output of green innovation</div>
+            
+              <div class="match-item miss">✗ electricity consumption</div>
+            
+              <div class="match-item miss">✗ emissions reduction indicators</div>
+            
+              <div class="match-item miss">✗ environmental taxes</div>
+            
+              <div class="match-item miss">✗ exploitative green innovation</div>
+            
+              <div class="match-item miss">✗ exploratory green innovation</div>
+            
+              <div class="match-item miss">✗ extent-of-use-type measures</div>
+            
+              <div class="match-item miss">✗ external innovation sources score</div>
+            
+              <div class="match-item miss">✗ external knowledge breadth</div>
+            
+              <div class="match-item miss">✗ external knowledge depth</div>
+            
+              <div class="match-item miss">✗ financial investment indicators</div>
+            
+              <div class="match-item miss">✗ financial reports</div>
+            
+              <div class="match-item miss">✗ government support</div>
+            
+              <div class="match-item miss">✗ green innovation investment capability</div>
+            
+              <div class="match-item miss">✗ green technology</div>
+            
+              <div class="match-item miss">✗ green technology r&d capability</div>
+            
+              <div class="match-item miss">✗ improved products indicators</div>
+            
+              <div class="match-item miss">✗ improved services indicators</div>
+            
+              <div class="match-item miss">✗ improved task performance</div>
+            
+              <div class="match-item miss">✗ industry–academia collaboration</div>
+            
+              <div class="match-item miss">✗ innovation incentives</div>
+            
+              <div class="match-item miss">✗ innovation subsidies</div>
+            
+              <div class="match-item miss">✗ inside-out open innovation activities</div>
+            
+              <div class="match-item miss">✗ ip licensing revenues</div>
+            
+              <div class="match-item miss">✗ management investment indicators</div>
+            
+              <div class="match-item miss">✗ management strategy indicators</div>
+            
+              <div class="match-item miss">✗ management systems</div>
+            
+              <div class="match-item miss">✗ managerial creativity</div>
+            
+              <div class="match-item miss">✗ manufacturing process patents</div>
+            
+              <div class="match-item miss">✗ market position</div>
+            
+              <div class="match-item miss">✗ market share</div>
+            
+              <div class="match-item miss">✗ materials indicators</div>
+            
+              <div class="match-item miss">✗ measures related to innovation features</div>
+            
+              <div class="match-item miss">✗ monitoring and control systems</div>
+            
+              <div class="match-item miss">✗ natural resource consumption</div>
+            
+              <div class="match-item miss">✗ network engagement</div>
+            
+              <div class="match-item miss">✗ new client interface</div>
+            
+              <div class="match-item miss">✗ new management systems</div>
+            
+              <div class="match-item miss">✗ new markets</div>
+            
+              <div class="match-item miss">✗ new products</div>
+            
+              <div class="match-item miss">✗ new products indicators</div>
+            
+              <div class="match-item miss">✗ new service concept</div>
+            
+              <div class="match-item miss">✗ new service delivery system</div>
+            
+              <div class="match-item miss">✗ new services</div>
+            
+              <div class="match-item miss">✗ new services indicators</div>
+            
+              <div class="match-item miss">✗ number of managerial improvements</div>
+            
+              <div class="match-item miss">✗ number of personnel engaged in innovation-related activities</div>
+            
+              <div class="match-item miss">✗ number of process innovations</div>
+            
+              <div class="match-item miss">✗ oil consumption</div>
+            
+              <div class="match-item miss">✗ openness to change</div>
+            
+              <div class="match-item miss">✗ ordinal variable for innovation intensity</div>
+            
+              <div class="match-item miss">✗ organisational policies and practices</div>
+            
+              <div class="match-item miss">✗ outside-in open innovation activities</div>
+            
+              <div class="match-item miss">✗ patent activity across countries</div>
+            
+              <div class="match-item miss">✗ patent filings</div>
+            
+              <div class="match-item miss">✗ patent indicators</div>
+            
+              <div class="match-item miss">✗ personnel training indicators</div>
+            
+              <div class="match-item miss">✗ proactiveness</div>
+            
+              <div class="match-item miss">✗ process capability</div>
+            
+              <div class="match-item miss">✗ process improvement indicators</div>
+            
+              <div class="match-item miss">✗ process innovation introduction</div>
+            
+              <div class="match-item miss">✗ process innovation ordinal scale</div>
+            
+              <div class="match-item miss">✗ product development time</div>
+            
+              <div class="match-item miss">✗ product innovation capacity</div>
+            
+              <div class="match-item miss">✗ product-related output indicators</div>
+            
+              <div class="match-item miss">✗ production process indicators</div>
+            
+              <div class="match-item miss">✗ profitability indicators</div>
+            
+              <div class="match-item miss">✗ range and depth of innovation activities</div>
+            
+              <div class="match-item miss">✗ reduction of co2 emissions</div>
+            
+              <div class="match-item miss">✗ reduction of environmental risk</div>
+            
+              <div class="match-item miss">✗ reduction of noise pollution</div>
+            
+              <div class="match-item miss">✗ reduction of resource use</div>
+            
+              <div class="match-item miss">✗ reduction of water pollution</div>
+            
+              <div class="match-item miss">✗ remanufactured materials</div>
+            
+              <div class="match-item miss">✗ renewable energy use</div>
+            
+              <div class="match-item miss">✗ reusable materials</div>
+            
+              <div class="match-item miss">✗ revenue indicators</div>
+            
+              <div class="match-item miss">✗ risk-taking</div>
+            
+              <div class="match-item miss">✗ scale of innovation efforts</div>
+            
+              <div class="match-item miss">✗ scaling and stretching</div>
+            
+              <div class="match-item miss">✗ sensing user needs</div>
+            
+              <div class="match-item miss">✗ service innovation performance maturity levels</div>
+            
+              <div class="match-item miss">✗ sewage discharge</div>
+            
+              <div class="match-item miss">✗ social effect of green innovation</div>
+            
+              <div class="match-item miss">✗ spin-offs</div>
+            
+              <div class="match-item miss">✗ staff-related supply chain indicators</div>
+            
+              <div class="match-item miss">✗ stakeholder cooperation</div>
+            
+              <div class="match-item miss">✗ strategic alliances</div>
+            
+              <div class="match-item miss">✗ supplier cooperation</div>
+            
+              <div class="match-item miss">✗ supplier cooperation indicators</div>
+            
+              <div class="match-item miss">✗ supplier involvement</div>
+            
+              <div class="match-item miss">✗ supply chain r&d investment</div>
+            
+              <div class="match-item miss">✗ survey-based innovation indicators</div>
+            
+              <div class="match-item miss">✗ technological innovation capability</div>
+            
+              <div class="match-item miss">✗ technological innovation efficiency</div>
+            
+              <div class="match-item miss">✗ technological investments</div>
+            
+              <div class="match-item miss">✗ technology choice</div>
+            
+              <div class="match-item miss">✗ technology indicators</div>
+            
+              <div class="match-item miss">✗ total turnover sales from innovative products</div>
+            
+              <div class="match-item miss">✗ use-type measures</div>
+            
+              <div class="match-item miss">✗ value capture change</div>
+            
+              <div class="match-item miss">✗ value creation change</div>
+            
+              <div class="match-item miss">✗ value proposition change</div>
+            
+              <div class="match-item miss">✗ water consumption</div>
+            
+              <div class="match-item miss">✗ web mining indicators</div>
+            
+            <br>
+            <strong>Extras na hipótese (FP — não na referência):</strong><br>
+            
+              <div class="match-item extra">+ R&D spending</div>
+            
+              <div class="match-item extra">+ R&D spending details</div>
+            
+              <div class="match-item extra">+ total turnover sales</div>
+            
+              <div class="match-item extra">+ sales</div>
+            
+              <div class="match-item extra">+ designated budgets for innovations</div>
+            
+              <div class="match-item extra">+ financial resources for training recalculated per employee annually</div>
+            
+              <div class="match-item extra">+ higher employee productivity</div>
+            
+              <div class="match-item extra">+ lower service provision costs</div>
+            
+              <div class="match-item extra">+ trade name or trademark registrations</div>
+            
+              <div class="match-item extra">+ increased service sale revenues</div>
+            
+              <div class="match-item extra">+ the limitation of tourism seasonality</div>
+            
+              <div class="match-item extra">+ increased tourist visits in a given area annually</div>
+            
+              <div class="match-item extra">+ investment</div>
+            
+              <div class="match-item extra">+ resources organisation of management innovation</div>
+            
+              <div class="match-item extra">+ percentage of management staff</div>
+            
+              <div class="match-item extra">+ percentage of technical staff</div>
+            
+              <div class="match-item extra">+ percentage of sales staff</div>
+            
+              <div class="match-item extra">+ extent of employee development and safety</div>
+            
+              <div class="match-item extra">+ operations effectiveness</div>
+            
+              <div class="match-item extra">+ the financial and social influence of the organisation</div>
+            
+              <div class="match-item extra">+ revenues from out-licensing</div>
+            
+              <div class="match-item extra">+ disposals of innovation-related intangibles</div>
+            
+              <div class="match-item extra">+ reduced material</div>
+            
+              <div class="match-item extra">+ energy</div>
+            
+              <div class="match-item extra">+ CO2</div>
+            
+              <div class="match-item extra">+ soil</div>
+            
+              <div class="match-item extra">+ water</div>
+            
+              <div class="match-item extra">+ noise</div>
+            
+              <div class="match-item extra">+ water</div>
+            
+              <div class="match-item extra">+ or materials</div>
+            
+              <div class="match-item extra">+ air</div>
+            
+              <div class="match-item extra">+ water</div>
+            
+              <div class="match-item extra">+ soil or noise pollution</div>
+            
+              <div class="match-item extra">+ financial resources</div>
+            
+              <div class="match-item extra">+ amount and types</div>
+            
+              <div class="match-item extra">+ technology and environmental management capabilities</div>
+            
+              <div class="match-item extra">+ organisation's age and size</div>
+            
+              <div class="match-item extra">+ company-based surveys</div>
+            
+              <div class="match-item extra">+ green patent number</div>
+            
+          </div>
+        </details>
+      
+    
+  </div>
+  
+
+</body>
+</html>

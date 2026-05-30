@@ -1,0 +1,1301 @@
+{
+  "article_id": "artigo5",
+  "indicator_counts": {
+    "human": 59,
+    "gemini": 78
+  },
+  "pairs": {
+    "human_vs_gemini": {
+      "exact": {
+        "matched": [
+          [
+            "alavancagem de recursos com projetos de fontes diversas",
+            "alavancagem de recursos com projetos de fontes diversas",
+            1.0
+          ],
+          [
+            "alavancagem de recursos do contrato de gestao",
+            "alavancagem de recursos do contrato de gestao",
+            1.0
+          ],
+          [
+            "atratividade de recursos humanos em areas estrategicas",
+            "atratividade de recursos humanos em areas estrategicas",
+            1.0
+          ],
+          [
+            "capacidade de acompanhar as evolucoes cientificas e tecnologicas",
+            "capacidade de acompanhar as evolucoes cientificas e tecnologicas",
+            1.0
+          ],
+          [
+            "capacidade de instrumentacao cientifica",
+            "capacidade de instrumentacao cientifica",
+            1.0
+          ],
+          [
+            "confiabilidade (horas entregues/horas previstas)",
+            "confiabilidade (horas entregues/horas previstas)",
+            1.0
+          ],
+          [
+            "continuidade do fluxo de recursos",
+            "continuidade do fluxo de recursos",
+            1.0
+          ],
+          [
+            "cooperacoes internacionais",
+            "cooperacoes internacionais",
+            1.0
+          ],
+          [
+            "custo de operacao das instalacoes abertas",
+            "custo de operacao das instalacoes abertas",
+            1.0
+          ],
+          [
+            "custo por proposta realizada nas instalacoes abertas",
+            "custo por proposta realizada nas instalacoes abertas",
+            1.0
+          ],
+          [
+            "desempenho da fonte de luz sincrotron",
+            "desempenho da fonte de luz sincrotron",
+            1.0
+          ],
+          [
+            "disponibilidade de uso no tempo programado (anel e estacoes experimentais)",
+            "disponibilidade de uso no tempo programado (anel e estacoes experimentais)",
+            1.0
+          ],
+          [
+            "equilibrio do portfolio de projetos de investimento",
+            "equilibrio do portfolio de projetos de investimento",
+            1.0
+          ],
+          [
+            "estabilidade orcamentaria",
+            "estabilidade orcamentaria",
+            1.0
+          ],
+          [
+            "grau de saturacao no uso da fonte de luz sincrotron",
+            "grau de saturacao no uso da fonte de luz sincrotron",
+            1.0
+          ],
+          [
+            "horas de estudo de maquinas e comissionamento",
+            "horas de estudo de maquinas e comissionamento",
+            1.0
+          ],
+          [
+            "horas de treinamento de pesquisadores externos treinados",
+            "horas de treinamento de pesquisadores externos treinados",
+            1.0
+          ],
+          [
+            "horas de treinamento de tecnicos externos treinados",
+            "horas de treinamento de tecnicos externos treinados",
+            1.0
+          ],
+          [
+            "horas de treinamento por funcionario",
+            "horas de treinamento por funcionario",
+            1.0
+          ],
+          [
+            "indice de ocupacao das linhas de luz",
+            "indice de ocupacao das linhas de luz",
+            1.0
+          ],
+          [
+            "indice de satisfacao dos usuarios",
+            "indice de satisfacao dos usuarios",
+            1.0
+          ],
+          [
+            "inovacoes introduzidas nas instalacoes abertas",
+            "inovacoes introduzidas nas instalacoes abertas",
+            1.0
+          ],
+          [
+            "inovacoes introduzidas por demanda dos usuarios",
+            "inovacoes introduzidas por demanda dos usuarios",
+            1.0
+          ],
+          [
+            "insercao da comunicacao nos grupos de interesse",
+            "insercao da comunicacao nos grupos de interesse",
+            1.0
+          ],
+          [
+            "nivel de efetividade da pesquisa realizada",
+            "nivel de efetividade da pesquisa realizada",
+            1.0
+          ],
+          [
+            "nivel de incerteza dos cenarios externos (relevancia das novas tecnologias)",
+            "nivel de incerteza dos cenarios externos (relevancia das novas tecnologias)",
+            1.0
+          ],
+          [
+            "nivel de investimento",
+            "nivel de investimento",
+            1.0
+          ],
+          [
+            "nivel de satisfacao do pessoal interno",
+            "nivel de satisfacao do pessoal interno",
+            1.0
+          ],
+          [
+            "novas areas de atuacao induzidas",
+            "novas areas de atuacao induzidas",
+            1.0
+          ],
+          [
+            "novas tecnologias desenvolvidas (spin off de tecnologias)",
+            "novas tecnologias desenvolvidas (spin off de tecnologias)",
+            1.0
+          ],
+          [
+            "novos projetos aprovados em agencias de fomento",
+            "novos projetos aprovados em agencias de fomento",
+            1.0
+          ],
+          [
+            "numero de memorandos tecnicos disponiveis na internet",
+            "numero de memorandos tecnicos disponiveis na internet",
+            1.0
+          ],
+          [
+            "numero de pesquisadores externos treinados",
+            "numero de pesquisadores externos treinados",
+            1.0
+          ],
+          [
+            "numero de projetos de desenvolvimento tecnologico",
+            "numero de projetos de desenvolvimento tecnologico",
+            1.0
+          ],
+          [
+            "numero de propostas realizadas",
+            "numero de propostas realizadas",
+            1.0
+          ],
+          [
+            "numero de tecnicos externos treinados",
+            "numero de tecnicos externos treinados",
+            1.0
+          ],
+          [
+            "numero total de publicacoes",
+            "numero total de publicacoes",
+            1.0
+          ],
+          [
+            "percepcao da comunidade cientifica e da sociedade",
+            "percepcao da comunidade cientifica e da sociedade",
+            1.0
+          ],
+          [
+            "posicao relativa da pesquisa do lnls no contexto internacional",
+            "posicao relativa da pesquisa do lnls no contexto internacional",
+            1.0
+          ],
+          [
+            "projetos de pesquisa realizados",
+            "projetos de pesquisa realizados",
+            1.0
+          ],
+          [
+            "projetos realizados no prazo e orcamento pactuado",
+            "projetos realizados no prazo e orcamento pactuado",
+            1.0
+          ],
+          [
+            "publicacoes em revistas com fator de impacto maior do que 5",
+            "publicacoes em revistas com fator de impacto maior do que 5",
+            1.0
+          ],
+          [
+            "publicacoes geradas pela existencia da fonte de luz sincrotron",
+            "publicacoes geradas pela existencia da fonte de luz sincrotron",
+            1.0
+          ],
+          [
+            "publicacoes resultantes por pesquisador da abtlus",
+            "publicacoes resultantes por pesquisador da abtlus",
+            1.0
+          ],
+          [
+            "qualidade das publicacoes",
+            "qualidade das publicacoes",
+            1.0
+          ],
+          [
+            "qualidade e flexibilidade da gestao",
+            "qualidade e flexibilidade da gestao",
+            1.0
+          ],
+          [
+            "retencao de recursos humanos em areas estrategicas",
+            "retencao de recursos humanos em areas estrategicas",
+            1.0
+          ],
+          [
+            "rotatividade de recursos humanos qualificados",
+            "rotatividade de recursos humanos qualificados",
+            1.0
+          ],
+          [
+            "taxa de continuidade dos grupos de pesquisas externos",
+            "taxa de continuidade dos grupos de pesquisas externos",
+            1.0
+          ],
+          [
+            "taxa de orientacao de pos-graduados",
+            "taxa de orientacao de pos-graduados",
+            1.0
+          ],
+          [
+            "taxa de publicacao por pesquisador interno",
+            "taxa de publicacao por pesquisador interno",
+            1.0
+          ],
+          [
+            "taxa de renovacao dos grupos de usuarios",
+            "taxa de renovacao dos grupos de usuarios",
+            1.0
+          ],
+          [
+            "taxa de supervisao de pos-doutores",
+            "taxa de supervisao de pos-doutores",
+            1.0
+          ],
+          [
+            "treinamento de usuarios e de funcionarios",
+            "treinamento de usuarios e de funcionarios",
+            1.0
+          ],
+          [
+            "uso das instalacoes por usuarios externos (por regioes do pais e exterior)",
+            "uso das instalacoes por usuarios externos (por regioes do pais e exterior)",
+            1.0
+          ]
+        ],
+        "unmatched_reference": [
+          "experimentos realizados em multi-instalacoes em multidisciplinares",
+          "nivel de satisfacao dos usuarios atual",
+          "numero de horas"
+        ],
+        "unmatched_hypothesis": [
+          "bolsas de pos-graduacao",
+          "evolucao do orcamento do contrato de gestao",
+          "experimentos realizados em multi-instalacoes e multidisciplinares",
+          "global innovation index score",
+          "horas de microscopios eletronicos",
+          "indice de inovacao",
+          "investimento em p&d",
+          "laboratorios credenciados",
+          "nivel de satisfacao dos usuarios",
+          "number of patents filed",
+          "number of research institutions",
+          "number of researchers per million inhabitants",
+          "numero de horas - linha",
+          "numero de horas destinadas aos usuarios de luz sincrotron",
+          "pesquisadores por habitante",
+          "propostas realizadas por regiao do brasil e outros paises",
+          "publicacoes cientificas por ano",
+          "r&d expenditure as % of gdp",
+          "recursos provenientes da atividade de interacao com o setor produtivo",
+          "relacao de propostas por area cientifica",
+          "spin-offs gerados",
+          "tax incentives for r&d",
+          "technology transfer agreements"
+        ],
+        "tp": 55,
+        "fp": 23,
+        "fn": 3,
+        "precision": 0.7051,
+        "recall": 0.9483,
+        "f1": 0.8088
+      },
+      "fuzzy": {
+        "matched": [
+          [
+            "numero de horas",
+            "numero de horas - linha",
+            0.9
+          ],
+          [
+            "numero de pesquisadores externos treinados",
+            "numero de pesquisadores externos treinados",
+            1.0
+          ],
+          [
+            "confiabilidade (horas entregues/horas previstas)",
+            "confiabilidade (horas entregues/horas previstas)",
+            1.0
+          ],
+          [
+            "desempenho da fonte de luz sincrotron",
+            "desempenho da fonte de luz sincrotron",
+            1.0
+          ],
+          [
+            "horas de estudo de maquinas e comissionamento",
+            "horas de estudo de maquinas e comissionamento",
+            1.0
+          ],
+          [
+            "grau de saturacao no uso da fonte de luz sincrotron",
+            "grau de saturacao no uso da fonte de luz sincrotron",
+            1.0
+          ],
+          [
+            "custo por proposta realizada nas instalacoes abertas",
+            "custo por proposta realizada nas instalacoes abertas",
+            1.0
+          ],
+          [
+            "numero de propostas realizadas",
+            "numero de propostas realizadas",
+            1.0
+          ],
+          [
+            "indice de ocupacao das linhas de luz",
+            "indice de ocupacao das linhas de luz",
+            1.0
+          ],
+          [
+            "indice de satisfacao dos usuarios",
+            "indice de satisfacao dos usuarios",
+            1.0
+          ],
+          [
+            "numero total de publicacoes",
+            "numero total de publicacoes",
+            1.0
+          ],
+          [
+            "publicacoes em revistas com fator de impacto maior do que 5",
+            "publicacoes em revistas com fator de impacto maior do que 5",
+            1.0
+          ],
+          [
+            "publicacoes resultantes por pesquisador da abtlus",
+            "publicacoes resultantes por pesquisador da abtlus",
+            1.0
+          ],
+          [
+            "taxa de orientacao de pos-graduados",
+            "taxa de orientacao de pos-graduados",
+            1.0
+          ],
+          [
+            "taxa de supervisao de pos-doutores",
+            "taxa de supervisao de pos-doutores",
+            1.0
+          ],
+          [
+            "numero de memorandos tecnicos disponiveis na internet",
+            "numero de memorandos tecnicos disponiveis na internet",
+            1.0
+          ],
+          [
+            "numero de projetos de desenvolvimento tecnologico",
+            "numero de projetos de desenvolvimento tecnologico",
+            1.0
+          ],
+          [
+            "numero de tecnicos externos treinados",
+            "numero de tecnicos externos treinados",
+            1.0
+          ],
+          [
+            "horas de treinamento por funcionario",
+            "horas de treinamento por funcionario",
+            1.0
+          ],
+          [
+            "alavancagem de recursos do contrato de gestao",
+            "alavancagem de recursos do contrato de gestao",
+            1.0
+          ],
+          [
+            "horas de treinamento de tecnicos externos treinados",
+            "horas de treinamento de tecnicos externos treinados",
+            1.0
+          ],
+          [
+            "horas de treinamento de pesquisadores externos treinados",
+            "horas de treinamento de pesquisadores externos treinados",
+            1.0
+          ],
+          [
+            "nivel de incerteza dos cenarios externos (relevancia das novas tecnologias)",
+            "nivel de incerteza dos cenarios externos (relevancia das novas tecnologias)",
+            1.0
+          ],
+          [
+            "cooperacoes internacionais",
+            "cooperacoes internacionais",
+            1.0
+          ],
+          [
+            "novas tecnologias desenvolvidas (spin off de tecnologias)",
+            "novas tecnologias desenvolvidas (spin off de tecnologias)",
+            1.0
+          ],
+          [
+            "novas areas de atuacao induzidas",
+            "novas areas de atuacao induzidas",
+            1.0
+          ],
+          [
+            "percepcao da comunidade cientifica e da sociedade",
+            "percepcao da comunidade cientifica e da sociedade",
+            1.0
+          ],
+          [
+            "capacidade de acompanhar as evolucoes cientificas e tecnologicas",
+            "capacidade de acompanhar as evolucoes cientificas e tecnologicas",
+            1.0
+          ],
+          [
+            "qualidade das publicacoes",
+            "qualidade das publicacoes",
+            1.0
+          ],
+          [
+            "publicacoes geradas pela existencia da fonte de luz sincrotron",
+            "publicacoes geradas pela existencia da fonte de luz sincrotron",
+            1.0
+          ],
+          [
+            "posicao relativa da pesquisa do lnls no contexto internacional",
+            "posicao relativa da pesquisa do lnls no contexto internacional",
+            1.0
+          ],
+          [
+            "taxa de publicacao por pesquisador interno",
+            "taxa de publicacao por pesquisador interno",
+            1.0
+          ],
+          [
+            "disponibilidade de uso no tempo programado (anel e estacoes experimentais)",
+            "disponibilidade de uso no tempo programado (anel e estacoes experimentais)",
+            1.0
+          ],
+          [
+            "nivel de satisfacao dos usuarios atual",
+            "nivel de satisfacao dos usuarios",
+            0.95
+          ],
+          [
+            "capacidade de instrumentacao cientifica",
+            "capacidade de instrumentacao cientifica",
+            1.0
+          ],
+          [
+            "inovacoes introduzidas por demanda dos usuarios",
+            "inovacoes introduzidas por demanda dos usuarios",
+            1.0
+          ],
+          [
+            "uso das instalacoes por usuarios externos (por regioes do pais e exterior)",
+            "uso das instalacoes por usuarios externos (por regioes do pais e exterior)",
+            1.0
+          ],
+          [
+            "taxa de renovacao dos grupos de usuarios",
+            "taxa de renovacao dos grupos de usuarios",
+            1.0
+          ],
+          [
+            "experimentos realizados em multi-instalacoes em multidisciplinares",
+            "experimentos realizados em multi-instalacoes e multidisciplinares",
+            0.9924
+          ],
+          [
+            "projetos de pesquisa realizados",
+            "projetos de pesquisa realizados",
+            1.0
+          ],
+          [
+            "taxa de continuidade dos grupos de pesquisas externos",
+            "taxa de continuidade dos grupos de pesquisas externos",
+            1.0
+          ],
+          [
+            "nivel de efetividade da pesquisa realizada",
+            "nivel de efetividade da pesquisa realizada",
+            1.0
+          ],
+          [
+            "atratividade de recursos humanos em areas estrategicas",
+            "atratividade de recursos humanos em areas estrategicas",
+            1.0
+          ],
+          [
+            "retencao de recursos humanos em areas estrategicas",
+            "retencao de recursos humanos em areas estrategicas",
+            1.0
+          ],
+          [
+            "rotatividade de recursos humanos qualificados",
+            "rotatividade de recursos humanos qualificados",
+            1.0
+          ],
+          [
+            "nivel de satisfacao do pessoal interno",
+            "nivel de satisfacao do pessoal interno",
+            1.0
+          ],
+          [
+            "treinamento de usuarios e de funcionarios",
+            "treinamento de usuarios e de funcionarios",
+            1.0
+          ],
+          [
+            "estabilidade orcamentaria",
+            "estabilidade orcamentaria",
+            1.0
+          ],
+          [
+            "continuidade do fluxo de recursos",
+            "continuidade do fluxo de recursos",
+            1.0
+          ],
+          [
+            "nivel de investimento",
+            "nivel de investimento",
+            1.0
+          ],
+          [
+            "custo de operacao das instalacoes abertas",
+            "custo de operacao das instalacoes abertas",
+            1.0
+          ],
+          [
+            "alavancagem de recursos com projetos de fontes diversas",
+            "alavancagem de recursos com projetos de fontes diversas",
+            1.0
+          ],
+          [
+            "novos projetos aprovados em agencias de fomento",
+            "novos projetos aprovados em agencias de fomento",
+            1.0
+          ],
+          [
+            "qualidade e flexibilidade da gestao",
+            "qualidade e flexibilidade da gestao",
+            1.0
+          ],
+          [
+            "projetos realizados no prazo e orcamento pactuado",
+            "projetos realizados no prazo e orcamento pactuado",
+            1.0
+          ],
+          [
+            "inovacoes introduzidas nas instalacoes abertas",
+            "inovacoes introduzidas nas instalacoes abertas",
+            1.0
+          ],
+          [
+            "equilibrio do portfolio de projetos de investimento",
+            "equilibrio do portfolio de projetos de investimento",
+            1.0
+          ],
+          [
+            "insercao da comunicacao nos grupos de interesse",
+            "insercao da comunicacao nos grupos de interesse",
+            1.0
+          ]
+        ],
+        "unmatched_reference": [
+          "percepcao da comunidade cientifica e da sociedade"
+        ],
+        "unmatched_hypothesis": [
+          "r&d expenditure as % of gdp",
+          "investimento em p&d",
+          "number of researchers per million inhabitants",
+          "pesquisadores por habitante",
+          "number of patents filed",
+          "publicacoes cientificas por ano",
+          "number of research institutions",
+          "laboratorios credenciados",
+          "technology transfer agreements",
+          "spin-offs gerados",
+          "tax incentives for r&d",
+          "bolsas de pos-graduacao",
+          "global innovation index score",
+          "indice de inovacao",
+          "numero de horas destinadas aos usuarios de luz sincrotron",
+          "evolucao do orcamento do contrato de gestao",
+          "relacao de propostas por area cientifica",
+          "propostas realizadas por regiao do brasil e outros paises",
+          "recursos provenientes da atividade de interacao com o setor produtivo",
+          "horas de microscopios eletronicos"
+        ],
+        "tp": 58,
+        "fp": 20,
+        "fn": 1,
+        "precision": 0.7436,
+        "recall": 0.9831,
+        "f1": 0.8467
+      },
+      "semantic": {
+        "matched": [
+          [
+            "Número de horas",
+            "Número de horas - linha",
+            0.8981
+          ],
+          [
+            "Número de pesquisadores externos treinados",
+            "Número de pesquisadores externos treinados",
+            1.0
+          ],
+          [
+            "Confiabilidade (horas entregues/horas previstas)",
+            "Confiabilidade (horas entregues/horas previstas)",
+            1.0
+          ],
+          [
+            "Desempenho da Fonte de Luz Síncrotron",
+            "Desempenho da Fonte de Luz Síncrotron",
+            1.0
+          ],
+          [
+            "Horas de estudo de máquinas e comissionamento",
+            "Horas de estudo de máquinas e comissionamento",
+            1.0
+          ],
+          [
+            "Grau de saturação no uso da Fonte de Luz Síncrotron",
+            "Grau de saturação no uso da Fonte de Luz Síncrotron",
+            1.0
+          ],
+          [
+            "Custo por proposta realizada nas instalações abertas",
+            "Custo por proposta realizada nas instalações abertas",
+            1.0
+          ],
+          [
+            "Número de propostas realizadas",
+            "Número de propostas realizadas",
+            1.0
+          ],
+          [
+            "Índice de ocupação das linhas de luz",
+            "Índice de ocupação das linhas de luz",
+            1.0
+          ],
+          [
+            "Índice de satisfação dos usuários",
+            "Índice de satisfação dos usuários",
+            1.0
+          ],
+          [
+            "Número total de publicações",
+            "Número total de publicações",
+            1.0
+          ],
+          [
+            "Publicações em revistas com fator de impacto maior do que 5",
+            "Publicações em revistas com fator de impacto maior do que 5",
+            1.0
+          ],
+          [
+            "Publicações resultantes por pesquisador da ABTLuS",
+            "Publicações resultantes por pesquisador da ABTLuS",
+            1.0
+          ],
+          [
+            "Taxa de orientação de pós-graduados",
+            "Taxa de orientação de pós-graduados",
+            1.0
+          ],
+          [
+            "Taxa de supervisão de pós-doutores",
+            "Taxa de supervisão de pós-doutores",
+            1.0
+          ],
+          [
+            "Número de memorandos técnicos disponíveis na Internet",
+            "Número de memorandos técnicos disponíveis na Internet",
+            1.0
+          ],
+          [
+            "Número de projetos de desenvolvimento tecnológico",
+            "Número de projetos de desenvolvimento tecnológico",
+            1.0
+          ],
+          [
+            "Número de técnicos externos treinados",
+            "Número de técnicos externos treinados",
+            1.0
+          ],
+          [
+            "Horas de treinamento por funcionário",
+            "Horas de treinamento por funcionário",
+            1.0
+          ],
+          [
+            "Alavancagem de recursos do Contrato de Gestão",
+            "Alavancagem de recursos do Contrato de Gestão",
+            1.0
+          ],
+          [
+            "Horas de treinamento de técnicos externos treinados",
+            "Horas de treinamento de técnicos externos treinados",
+            1.0
+          ],
+          [
+            "Horas de treinamento de pesquisadores externos treinados",
+            "Horas de treinamento de pesquisadores externos treinados",
+            1.0
+          ],
+          [
+            "Nível de incerteza dos cenários externos (relevância das novas tecnologias)",
+            "Nível de incerteza dos cenários externos (relevância das novas tecnologias)",
+            1.0
+          ],
+          [
+            "Cooperações internacionais",
+            "Cooperações internacionais",
+            1.0
+          ],
+          [
+            "Novas tecnologias desenvolvidas (spin off de tecnologias)",
+            "Novas tecnologias desenvolvidas (spin off de tecnologias)",
+            1.0
+          ],
+          [
+            "Novas áreas de atuação induzidas",
+            "Novas áreas de atuação induzidas",
+            1.0
+          ],
+          [
+            "Percepção da comunidade científica e da sociedade",
+            "Percepção da comunidade científica e da sociedade",
+            1.0
+          ],
+          [
+            "Capacidade de acompanhar as evoluções científicas e tecnológicas",
+            "Capacidade de acompanhar as evoluções científicas e tecnológicas",
+            1.0
+          ],
+          [
+            "Qualidade das publicações",
+            "Qualidade das publicações",
+            1.0
+          ],
+          [
+            "Publicações geradas pela existência da Fonte de Luz Síncrotron",
+            "Publicações geradas pela existência da Fonte de Luz Síncrotron",
+            1.0
+          ],
+          [
+            "Posição relativa da pesquisa do LNLS no contexto internacional",
+            "Posição relativa da pesquisa do LNLS no contexto internacional",
+            1.0
+          ],
+          [
+            "Taxa de publicação por pesquisador interno",
+            "Taxa de publicação por pesquisador interno",
+            1.0
+          ],
+          [
+            "Disponibilidade de uso no tempo programado (anel e estações experimentais)",
+            "Disponibilidade de uso no tempo programado (anel e estações experimentais)",
+            1.0
+          ],
+          [
+            "Nível de satisfação dos usuários Atual",
+            "Nível de satisfação dos usuários",
+            0.9384
+          ],
+          [
+            "Capacidade de instrumentação científica",
+            "Capacidade de instrumentação científica",
+            1.0
+          ],
+          [
+            "Inovações introduzidas por demanda dos usuários",
+            "Inovações introduzidas por demanda dos usuários",
+            1.0
+          ],
+          [
+            "Uso das instalações por usuários externos (por regiões do país e exterior)",
+            "Uso das instalações por usuários externos (por regiões do país e exterior)",
+            1.0
+          ],
+          [
+            "Taxa de renovação dos grupos de usuários",
+            "Taxa de renovação dos grupos de usuários",
+            1.0
+          ],
+          [
+            "Experimentos realizados em multi-instalações em multidisciplinares",
+            "Experimentos realizados em multi-instalações e multidisciplinares",
+            0.992
+          ],
+          [
+            "Projetos de pesquisa realizados",
+            "Projetos de pesquisa realizados",
+            1.0
+          ],
+          [
+            "Taxa de continuidade dos grupos de pesquisas externos",
+            "Taxa de continuidade dos grupos de pesquisas externos",
+            1.0
+          ],
+          [
+            "Nível de efetividade da pesquisa realizada",
+            "Nível de efetividade da pesquisa realizada",
+            1.0
+          ],
+          [
+            "Atratividade de recursos humanos em áreas estratégicas",
+            "Atratividade de recursos humanos em áreas estratégicas",
+            1.0
+          ],
+          [
+            "Retenção de recursos humanos em áreas estratégicas",
+            "Retenção de recursos humanos em áreas estratégicas",
+            1.0
+          ],
+          [
+            "Rotatividade de recursos humanos qualificados",
+            "Rotatividade de recursos humanos qualificados",
+            1.0
+          ],
+          [
+            "Nível de satisfação do pessoal interno",
+            "Nível de satisfação do pessoal interno",
+            1.0
+          ],
+          [
+            "Treinamento de usuários e de funcionários",
+            "Treinamento de usuários e de funcionários",
+            1.0
+          ],
+          [
+            "Estabilidade orçamentária",
+            "Estabilidade orçamentária",
+            1.0
+          ],
+          [
+            "Continuidade do fluxo de recursos",
+            "Continuidade do fluxo de recursos",
+            1.0
+          ],
+          [
+            "Nível de investimento",
+            "Nível de investimento",
+            1.0
+          ],
+          [
+            "Custo de operação das instalações abertas",
+            "Custo de operação das instalações abertas",
+            1.0
+          ],
+          [
+            "Alavancagem de recursos com projetos de fontes diversas",
+            "Alavancagem de recursos com projetos de fontes diversas",
+            1.0
+          ],
+          [
+            "Novos projetos aprovados em agências de fomento",
+            "Novos projetos aprovados em agências de fomento",
+            1.0
+          ],
+          [
+            "Qualidade e flexibilidade da gestão",
+            "Qualidade e flexibilidade da gestão",
+            1.0
+          ],
+          [
+            "Projetos realizados no prazo e orçamento pactuado",
+            "Projetos realizados no prazo e orçamento pactuado",
+            1.0
+          ],
+          [
+            "Inovações introduzidas nas instalações abertas",
+            "Inovações introduzidas nas instalações abertas",
+            1.0
+          ],
+          [
+            "Equilíbrio do portfólio de projetos de investimento",
+            "Equilíbrio do portfólio de projetos de investimento",
+            1.0
+          ],
+          [
+            "Inserção da comunicação nos grupos de interesse",
+            "Inserção da comunicação nos grupos de interesse",
+            1.0
+          ]
+        ],
+        "unmatched_reference": [
+          "Percepção da comunidade científica e da sociedade"
+        ],
+        "unmatched_hypothesis": [
+          "R&D expenditure as % of GDP",
+          "investimento em P&D",
+          "number of researchers per million inhabitants",
+          "pesquisadores por habitante",
+          "number of patents filed",
+          "publicações científicas por ano",
+          "number of research institutions",
+          "laboratórios credenciados",
+          "technology transfer agreements",
+          "spin-offs gerados",
+          "tax incentives for R&D",
+          "bolsas de pós-graduação",
+          "Global Innovation Index score",
+          "Índice de Inovação",
+          "Número de horas destinadas aos usuários de luz síncrotron",
+          "Evolução do orçamento do Contrato de Gestão",
+          "Relação de propostas por área científica",
+          "Propostas realizadas por região do Brasil e outros países",
+          "Recursos provenientes da atividade de interação com o setor produtivo",
+          "Horas de microscópios eletrônicos"
+        ],
+        "tp": 58,
+        "fp": 20,
+        "fn": 1,
+        "precision": 0.7436,
+        "recall": 0.9831,
+        "f1": 0.8467
+      },
+      "bertscore": {
+        "matched": [
+          [
+            "Número de horas",
+            "Número de horas - linha",
+            0.8922
+          ],
+          [
+            "Número de pesquisadores externos treinados",
+            "Número de pesquisadores externos treinados",
+            1.0
+          ],
+          [
+            "Confiabilidade (horas entregues/horas previstas)",
+            "Confiabilidade (horas entregues/horas previstas)",
+            1.0
+          ],
+          [
+            "Desempenho da Fonte de Luz Síncrotron",
+            "Desempenho da Fonte de Luz Síncrotron",
+            1.0
+          ],
+          [
+            "Horas de estudo de máquinas e comissionamento",
+            "Horas de estudo de máquinas e comissionamento",
+            1.0
+          ],
+          [
+            "Grau de saturação no uso da Fonte de Luz Síncrotron",
+            "Grau de saturação no uso da Fonte de Luz Síncrotron",
+            1.0
+          ],
+          [
+            "Custo por proposta realizada nas instalações abertas",
+            "Custo por proposta realizada nas instalações abertas",
+            1.0
+          ],
+          [
+            "Número de propostas realizadas",
+            "Número de propostas realizadas",
+            1.0
+          ],
+          [
+            "Índice de ocupação das linhas de luz",
+            "Índice de ocupação das linhas de luz",
+            1.0
+          ],
+          [
+            "Índice de satisfação dos usuários",
+            "Índice de satisfação dos usuários",
+            1.0
+          ],
+          [
+            "Número total de publicações",
+            "Número total de publicações",
+            1.0
+          ],
+          [
+            "Publicações em revistas com fator de impacto maior do que 5",
+            "Publicações em revistas com fator de impacto maior do que 5",
+            1.0
+          ],
+          [
+            "Publicações resultantes por pesquisador da ABTLuS",
+            "Publicações resultantes por pesquisador da ABTLuS",
+            1.0
+          ],
+          [
+            "Taxa de orientação de pós-graduados",
+            "Taxa de orientação de pós-graduados",
+            1.0
+          ],
+          [
+            "Taxa de supervisão de pós-doutores",
+            "Taxa de supervisão de pós-doutores",
+            1.0
+          ],
+          [
+            "Número de memorandos técnicos disponíveis na Internet",
+            "Número de memorandos técnicos disponíveis na Internet",
+            1.0
+          ],
+          [
+            "Número de projetos de desenvolvimento tecnológico",
+            "Número de projetos de desenvolvimento tecnológico",
+            1.0
+          ],
+          [
+            "Número de técnicos externos treinados",
+            "Número de técnicos externos treinados",
+            1.0
+          ],
+          [
+            "Horas de treinamento por funcionário",
+            "Horas de treinamento por funcionário",
+            1.0
+          ],
+          [
+            "Alavancagem de recursos do Contrato de Gestão",
+            "Alavancagem de recursos do Contrato de Gestão",
+            1.0
+          ],
+          [
+            "Horas de treinamento de técnicos externos treinados",
+            "Horas de treinamento de técnicos externos treinados",
+            1.0
+          ],
+          [
+            "Horas de treinamento de pesquisadores externos treinados",
+            "Horas de treinamento de pesquisadores externos treinados",
+            1.0
+          ],
+          [
+            "Nível de incerteza dos cenários externos (relevância das novas tecnologias)",
+            "Nível de incerteza dos cenários externos (relevância das novas tecnologias)",
+            1.0
+          ],
+          [
+            "Cooperações internacionais",
+            "Cooperações internacionais",
+            1.0
+          ],
+          [
+            "Novas tecnologias desenvolvidas (spin off de tecnologias)",
+            "Novas tecnologias desenvolvidas (spin off de tecnologias)",
+            1.0
+          ],
+          [
+            "Novas áreas de atuação induzidas",
+            "Novas áreas de atuação induzidas",
+            1.0
+          ],
+          [
+            "Percepção da comunidade científica e da sociedade",
+            "Percepção da comunidade científica e da sociedade",
+            1.0
+          ],
+          [
+            "Capacidade de acompanhar as evoluções científicas e tecnológicas",
+            "Capacidade de acompanhar as evoluções científicas e tecnológicas",
+            1.0
+          ],
+          [
+            "Qualidade das publicações",
+            "Qualidade das publicações",
+            1.0
+          ],
+          [
+            "Publicações geradas pela existência da Fonte de Luz Síncrotron",
+            "Publicações geradas pela existência da Fonte de Luz Síncrotron",
+            1.0
+          ],
+          [
+            "Posição relativa da pesquisa do LNLS no contexto internacional",
+            "Posição relativa da pesquisa do LNLS no contexto internacional",
+            1.0
+          ],
+          [
+            "Taxa de publicação por pesquisador interno",
+            "Taxa de publicação por pesquisador interno",
+            1.0
+          ],
+          [
+            "Disponibilidade de uso no tempo programado (anel e estações experimentais)",
+            "Disponibilidade de uso no tempo programado (anel e estações experimentais)",
+            1.0
+          ],
+          [
+            "Nível de satisfação dos usuários Atual",
+            "Nível de satisfação dos usuários",
+            0.9244
+          ],
+          [
+            "Capacidade de instrumentação científica",
+            "Capacidade de instrumentação científica",
+            1.0
+          ],
+          [
+            "Inovações introduzidas por demanda dos usuários",
+            "Inovações introduzidas por demanda dos usuários",
+            1.0
+          ],
+          [
+            "Uso das instalações por usuários externos (por regiões do país e exterior)",
+            "Uso das instalações por usuários externos (por regiões do país e exterior)",
+            1.0
+          ],
+          [
+            "Taxa de renovação dos grupos de usuários",
+            "Taxa de renovação dos grupos de usuários",
+            1.0
+          ],
+          [
+            "Experimentos realizados em multi-instalações em multidisciplinares",
+            "Experimentos realizados em multi-instalações e multidisciplinares",
+            0.9883
+          ],
+          [
+            "Projetos de pesquisa realizados",
+            "Projetos de pesquisa realizados",
+            1.0
+          ],
+          [
+            "Taxa de continuidade dos grupos de pesquisas externos",
+            "Taxa de continuidade dos grupos de pesquisas externos",
+            1.0
+          ],
+          [
+            "Nível de efetividade da pesquisa realizada",
+            "Nível de efetividade da pesquisa realizada",
+            1.0
+          ],
+          [
+            "Atratividade de recursos humanos em áreas estratégicas",
+            "Atratividade de recursos humanos em áreas estratégicas",
+            1.0
+          ],
+          [
+            "Retenção de recursos humanos em áreas estratégicas",
+            "Retenção de recursos humanos em áreas estratégicas",
+            1.0
+          ],
+          [
+            "Rotatividade de recursos humanos qualificados",
+            "Rotatividade de recursos humanos qualificados",
+            1.0
+          ],
+          [
+            "Nível de satisfação do pessoal interno",
+            "Nível de satisfação do pessoal interno",
+            1.0
+          ],
+          [
+            "Treinamento de usuários e de funcionários",
+            "Treinamento de usuários e de funcionários",
+            1.0
+          ],
+          [
+            "Estabilidade orçamentária",
+            "Estabilidade orçamentária",
+            1.0
+          ],
+          [
+            "Continuidade do fluxo de recursos",
+            "Continuidade do fluxo de recursos",
+            1.0
+          ],
+          [
+            "Nível de investimento",
+            "Nível de investimento",
+            1.0
+          ],
+          [
+            "Custo de operação das instalações abertas",
+            "Custo de operação das instalações abertas",
+            1.0
+          ],
+          [
+            "Alavancagem de recursos com projetos de fontes diversas",
+            "Alavancagem de recursos com projetos de fontes diversas",
+            1.0
+          ],
+          [
+            "Novos projetos aprovados em agências de fomento",
+            "Novos projetos aprovados em agências de fomento",
+            1.0
+          ],
+          [
+            "Qualidade e flexibilidade da gestão",
+            "Qualidade e flexibilidade da gestão",
+            1.0
+          ],
+          [
+            "Projetos realizados no prazo e orçamento pactuado",
+            "Projetos realizados no prazo e orçamento pactuado",
+            1.0
+          ],
+          [
+            "Inovações introduzidas nas instalações abertas",
+            "Inovações introduzidas nas instalações abertas",
+            1.0
+          ],
+          [
+            "Equilíbrio do portfólio de projetos de investimento",
+            "Equilíbrio do portfólio de projetos de investimento",
+            1.0
+          ],
+          [
+            "Inserção da comunicação nos grupos de interesse",
+            "Inserção da comunicação nos grupos de interesse",
+            1.0
+          ]
+        ],
+        "unmatched_reference": [
+          "Percepção da comunidade científica e da sociedade"
+        ],
+        "unmatched_hypothesis": [
+          "R&D expenditure as % of GDP",
+          "investimento em P&D",
+          "number of researchers per million inhabitants",
+          "pesquisadores por habitante",
+          "number of patents filed",
+          "publicações científicas por ano",
+          "number of research institutions",
+          "laboratórios credenciados",
+          "technology transfer agreements",
+          "spin-offs gerados",
+          "tax incentives for R&D",
+          "bolsas de pós-graduação",
+          "Global Innovation Index score",
+          "Índice de Inovação",
+          "Número de horas destinadas aos usuários de luz síncrotron",
+          "Evolução do orçamento do Contrato de Gestão",
+          "Relação de propostas por área científica",
+          "Propostas realizadas por região do Brasil e outros países",
+          "Recursos provenientes da atividade de interação com o setor produtivo",
+          "Horas de microscópios eletrônicos"
+        ],
+        "tp": 58,
+        "fp": 20,
+        "fn": 1,
+        "precision": 0.7436,
+        "recall": 0.9831,
+        "f1": 0.8467
+      }
+    }
+  }
+}

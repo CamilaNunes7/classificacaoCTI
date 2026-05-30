@@ -1,0 +1,4 @@
+Modelo,Acurácia,Precision CT&I,Recall CT&I,F1 CT&I,F1 Não-CT&I,F1 Macro,ROC AUC,Tempo treino (s)
+Regressão Logística,0.9175,0.8467,0.927,0.885,0.885,0.9103,0.9872,0.19
+SVM Linear,0.9375,0.9058,0.9124,0.9091,0.9091,0.9307,0.9871,0.66
+Random Forest,0.9375,0.9118,0.9051,0.9084,0.9084,0.9305,0.985,0.77

@@ -1,0 +1,1154 @@
+{
+  "article_id": "artigo4",
+  "indicator_counts": {
+    "human": 67,
+    "gemini": 108
+  },
+  "pairs": {
+    "human_vs_gemini": {
+      "exact": {
+        "matched": [
+          [
+            "acesso a tic",
+            "acesso a tic",
+            1.0
+          ],
+          [
+            "artigos publicados per capita",
+            "artigos publicados per capita",
+            1.0
+          ],
+          [
+            "ativos de propriedade intelectual",
+            "ativos de propriedade intelectual",
+            1.0
+          ],
+          [
+            "crescimento do pib, por trabalhador ocupado (r$/pessoa)",
+            "crescimento do pib, por trabalhador ocupado (r$/pessoa)",
+            1.0
+          ],
+          [
+            "desenhos industriais registrados per capita",
+            "desenhos industriais registrados per capita",
+            1.0
+          ],
+          [
+            "dispendio das industrias inovadoras de p&d internos como proporcao da receita liquida de vendas",
+            "dispendio das industrias inovadoras de p&d internos como proporcao da receita liquida de vendas",
+            1.0
+          ],
+          [
+            "dispendio das industrias inovadoras em atividades inovativas de nao p&d internos como proporcao da receita liquida de vendas",
+            "dispendio das industrias inovadoras em atividades inovativas de nao p&d internos como proporcao da receita liquida de vendas",
+            1.0
+          ],
+          [
+            "dispendio empresarial em atividades inovativas",
+            "dispendio empresarial em atividades inovativas",
+            1.0
+          ],
+          [
+            "dispendio estadual em c&t (r$)",
+            "dispendio estadual em c&t (r$)",
+            1.0
+          ],
+          [
+            "dispendio publico estadual em atividades cientificas e tecnicas correlatas como proporcao da receita",
+            "dispendio publico estadual em atividades cientificas e tecnicas correlatas como proporcao da receita",
+            1.0
+          ],
+          [
+            "dispendio publico estadual em c&t",
+            "dispendio publico estadual em c&t",
+            1.0
+          ],
+          [
+            "dispendio publico estadual em p&d como proporcao da receita do estado",
+            "dispendio publico estadual em p&d como proporcao da receita do estado",
+            1.0
+          ],
+          [
+            "eficacia do governo",
+            "eficacia do governo",
+            1.0
+          ],
+          [
+            "empresas globais de p&d",
+            "empresas globais de p&d",
+            1.0
+          ],
+          [
+            "escala do mercado interno, bi (ppc us$)",
+            "escala do mercado interno, bi (ppc us$)",
+            1.0
+          ],
+          [
+            "excelencia do sistema de pesquisa",
+            "excelencia do sistema de pesquisa",
+            1.0
+          ],
+          [
+            "exp. de servicos de tic, % do com. total",
+            "exp. de servicos de tic, % do com. total",
+            1.0
+          ],
+          [
+            "exportacao de bens intensivos em tecnologia como proporcao do total exportado",
+            "exportacao de bens intensivos em tecnologia como proporcao do total exportado",
+            1.0
+          ],
+          [
+            "exportacao de servicos intensivos em conhecimento como proporcao do total exportado",
+            "exportacao de servicos intensivos em conhecimento como proporcao do total exportado",
+            1.0
+          ],
+          [
+            "exportacoes intensivas em tecnologia",
+            "exportacoes intensivas em tecnologia",
+            1.0
+          ],
+          [
+            "facilidade de obtencao de credito",
+            "facilidade de obtencao de credito",
+            1.0
+          ],
+          [
+            "facilidade para abrir uma empresa",
+            "facilidade para abrir uma empresa",
+            1.0
+          ],
+          [
+            "filmes nacionais longa-metragem/mi hab",
+            "filmes nacionais longa-metragem/mi hab",
+            1.0
+          ],
+          [
+            "formacao bruta de capital, % pib",
+            "formacao bruta de capital, % pib",
+            1.0
+          ],
+          [
+            "gastos brutos com p&d, % pib",
+            "gastos brutos com p&d, % pib",
+            1.0
+          ],
+          [
+            "gastos com educacao, % pib",
+            "gastos com educacao, % pib",
+            1.0
+          ],
+          [
+            "gastos com software, % do pib",
+            "gastos com software, % do pib",
+            1.0
+          ],
+          [
+            "graduados em ciencia e engenharia, %",
+            "graduados em ciencia e engenharia, %",
+            1.0
+          ],
+          [
+            "imp. liquidas de alta tecnologia, % do comercio total",
+            "imp. liquidas de alta tecnologia, % do comercio total",
+            1.0
+          ],
+          [
+            "inovadores",
+            "inovadores",
+            1.0
+          ],
+          [
+            "investimentos",
+            "investimentos",
+            1.0
+          ],
+          [
+            "marcas registradas per capita",
+            "marcas registradas per capita",
+            1.0
+          ],
+          [
+            "mobilidade de estudantes no ensino superior, %",
+            "mobilidade de estudantes no ensino superior, %",
+            1.0
+          ],
+          [
+            "novas empresas/mil hab. 15-64",
+            "novas empresas/mil hab. 15-64",
+            1.0
+          ],
+          [
+            "novos doutores titulados per capita",
+            "novos doutores titulados per capita",
+            1.0
+          ],
+          [
+            "novos graduados titulados",
+            "novos graduados titulados",
+            1.0
+          ],
+          [
+            "novos mestres titulados",
+            "novos mestres titulados",
+            1.0
+          ],
+          [
+            "numero de patentes depositadas por pessoa fisica e juridica",
+            "numero de patentes depositadas por pessoa fisica e juridica",
+            1.0
+          ],
+          [
+            "ocupacoes em ciencia, tecnologia e inovacao",
+            "ocupacoes em ciencia, tecnologia e inovacao",
+            1.0
+          ],
+          [
+            "ocupacoes em ct&i como proporcao do total",
+            "ocupacoes em ct&i como proporcao do total",
+            1.0
+          ],
+          [
+            "participacao eletronica",
+            "participacao eletronica",
+            1.0
+          ],
+          [
+            "patentes depositadas per capita",
+            "patentes depositadas per capita",
+            1.0
+          ],
+          [
+            "pib per capita (r$)",
+            "pib per capita (r$)",
+            1.0
+          ],
+          [
+            "prod. de imp. e outras midias, % prod. industrial",
+            "prod. de imp. e outras midias, % prod. industrial",
+            1.0
+          ],
+          [
+            "produtividade na industria (va da industria r$/pessoas ocupadas)",
+            "produtividade na industria (va da industria r$/pessoas ocupadas)",
+            1.0
+          ],
+          [
+            "qualidade das publicacoes, medida pelo indice h",
+            "qualidade das publicacoes, medida pelo indice h",
+            1.0
+          ],
+          [
+            "qualidade das universidades",
+            "qualidade das universidades",
+            1.0
+          ],
+          [
+            "qualidade regulatoria",
+            "qualidade regulatoria",
+            1.0
+          ],
+          [
+            "razao aluno/professor, ensino medio",
+            "razao aluno/professor, ensino medio",
+            1.0
+          ],
+          [
+            "recursos humanos em c&t",
+            "recursos humanos em c&t",
+            1.0
+          ],
+          [
+            "servicos governamentais on-line",
+            "servicos governamentais on-line",
+            1.0
+          ],
+          [
+            "taxa crescimento do pib/trabalhador (ppc us$), %",
+            "taxa crescimento do pib/trabalhador (ppc us$), %",
+            1.0
+          ],
+          [
+            "taxa de cooperacao",
+            "taxa de cooperacao",
+            1.0
+          ],
+          [
+            "taxa de inovacao de produto e/ou processo",
+            "taxa de inovacao de produto e/ou processo",
+            1.0
+          ],
+          [
+            "taxa de inovacao organizacional e/ou de marketing",
+            "taxa de inovacao organizacional e/ou de marketing",
+            1.0
+          ],
+          [
+            "taxa de investimento publico na economia paraense (% da despesa total)",
+            "taxa de investimento publico na economia paraense (% da despesa total)",
+            1.0
+          ],
+          [
+            "taxa tarifaria aplicada, media ponderada, %",
+            "taxa tarifaria aplicada, media ponderada, %",
+            1.0
+          ],
+          [
+            "val. recebidos por uso de pi, % do comercio total",
+            "val. recebidos por uso de pi, % do comercio total",
+            1.0
+          ],
+          [
+            "valor pago por uso de pi, % do comercio total",
+            "valor pago por uso de pi, % do comercio total",
+            1.0
+          ]
+        ],
+        "unmatched_reference": [
+          "c&t s/ receita total",
+          "dispendio c&t s/ va administracao",
+          "dispendio c&t s/ va agropecuaria",
+          "dispendio c&t s/ va industria",
+          "dispendio c&t s/ va servicos",
+          "dominios gen. de alto nivel (tld) /mil hab",
+          "pib, variacao real em volume"
+        ],
+        "unmatched_hypothesis": [
+          "(%) dispendio c&t s/ receita total",
+          "(%) dispendio c&t s/ va administracao",
+          "(%) dispendio c&t s/ va agropecuaria",
+          "(%) dispendio c&t s/ va industria",
+          "(%) dispendio c&t s/ va servicos",
+          "artigos em periodicos indexados pela scopus",
+          "bolsas concedidas no pais e no exterior",
+          "bolsas concedidas por grande area e sexo",
+          "concluintes de engenharia quanto ao total",
+          "concluintes de ensino superior por areas gerais",
+          "contratos de tecnologia",
+          "depositos de ativos de pi no inpi (contratos de ti, patentes, desenho industrial, marcas, indicacao geografica e programas de computador)",
+          "depositos de patente",
+          "desenho industrial",
+          "dispendios com c&t por atividade e setor",
+          "dispendios com c&t quanto ao pib",
+          "dispendios com p&d por setor",
+          "dispendios com p&d quanto ao pib",
+          "dispendios das empresas com inovacao",
+          "dominios gen. de alto nivel (tld) /mil hab. 15-69",
+          "empresas que fazem p&d continuo",
+          "empresas que inovaram em produto ou processo",
+          "familia de patentes triadicas",
+          "indicacao geografica",
+          "indicador composto estadual de inovacao (icei)",
+          "indice de desenvolvimento humano (idh)",
+          "indice global de inovacao (igi)",
+          "instituicoes, grupos de pesquisa, pesquisadores e pesquisadores doutores cadastrados no cnpq",
+          "marca",
+          "matriculados e titulados de mestrado e doutorado",
+          "numero de artigos e citacoes indexados pela scopus",
+          "patentes",
+          "patentes concedidas inpi por setor tecnologico",
+          "pedidos de patente de acordo com o pct",
+          "pedidos de patentes pct e uspto",
+          "pedidos e concessoes inpi por tipo e origem",
+          "pedidos e concessoes no escritorio uspto",
+          "percentual de dispendio estadual em ct&i",
+          "pesquisadores cnpq por area de conhecimento",
+          "pesquisadores cnpq por sexo e faixa etaria",
+          "pesquisadores por nivel de escolaridade",
+          "pesquisadores tempo integral",
+          "pessoas envolvidas com p&d",
+          "produto interno bruto (pib)",
+          "programa de computador",
+          "ranking de competitividade",
+          "taxa de cobertura de acoes em ciencia, tecnologia e inovacao",
+          "total de pessoas e pesquisadores em p&d",
+          "total de pessoas em p&d em tempo integral"
+        ],
+        "tp": 59,
+        "fp": 49,
+        "fn": 7,
+        "precision": 0.5463,
+        "recall": 0.8939,
+        "f1": 0.6782
+      },
+      "fuzzy": {
+        "matched": [
+          [
+            "gastos com educacao, % pib",
+            "gastos com educacao, % pib",
+            1.0
+          ],
+          [
+            "gastos brutos com p&d, % pib",
+            "gastos brutos com p&d, % pib",
+            1.0
+          ],
+          [
+            "empresas globais de p&d",
+            "empresas globais de p&d",
+            1.0
+          ],
+          [
+            "qualidade das universidades",
+            "qualidade das universidades",
+            1.0
+          ],
+          [
+            "valor pago por uso de pi, % do comercio total",
+            "valor pago por uso de pi, % do comercio total",
+            1.0
+          ],
+          [
+            "imp. liquidas de alta tecnologia, % do comercio total",
+            "imp. liquidas de alta tecnologia, % do comercio total",
+            1.0
+          ],
+          [
+            "servicos governamentais on-line",
+            "servicos governamentais on-line",
+            1.0
+          ],
+          [
+            "participacao eletronica",
+            "participacao eletronica",
+            1.0
+          ],
+          [
+            "qualidade das publicacoes, medida pelo indice h",
+            "qualidade das publicacoes, medida pelo indice h",
+            1.0
+          ],
+          [
+            "val. recebidos por uso de pi, % do comercio total",
+            "val. recebidos por uso de pi, % do comercio total",
+            1.0
+          ],
+          [
+            "escala do mercado interno, bi (ppc us$)",
+            "escala do mercado interno, bi (ppc us$)",
+            1.0
+          ],
+          [
+            "facilidade de obtencao de credito",
+            "facilidade de obtencao de credito",
+            1.0
+          ],
+          [
+            "investimentos",
+            "investimentos",
+            1.0
+          ],
+          [
+            "taxa tarifaria aplicada, media ponderada, %",
+            "taxa tarifaria aplicada, media ponderada, %",
+            1.0
+          ],
+          [
+            "eficacia do governo",
+            "eficacia do governo",
+            1.0
+          ],
+          [
+            "facilidade para abrir uma empresa",
+            "facilidade para abrir uma empresa",
+            1.0
+          ],
+          [
+            "qualidade regulatoria",
+            "qualidade regulatoria",
+            1.0
+          ],
+          [
+            "razao aluno/professor, ensino medio",
+            "razao aluno/professor, ensino medio",
+            1.0
+          ],
+          [
+            "mobilidade de estudantes no ensino superior, %",
+            "mobilidade de estudantes no ensino superior, %",
+            1.0
+          ],
+          [
+            "graduados em ciencia e engenharia, %",
+            "graduados em ciencia e engenharia, %",
+            1.0
+          ],
+          [
+            "acesso a tic",
+            "acesso a tic",
+            1.0
+          ],
+          [
+            "formacao bruta de capital, % pib",
+            "formacao bruta de capital, % pib",
+            1.0
+          ],
+          [
+            "taxa crescimento do pib/trabalhador (ppc us$), %",
+            "taxa crescimento do pib/trabalhador (ppc us$), %",
+            1.0
+          ],
+          [
+            "gastos com software, % do pib",
+            "gastos com software, % do pib",
+            1.0
+          ],
+          [
+            "novas empresas/mil hab. 15-64",
+            "novas empresas/mil hab. 15-64",
+            1.0
+          ],
+          [
+            "exp. de servicos de tic, % do com. total",
+            "exp. de servicos de tic, % do com. total",
+            1.0
+          ],
+          [
+            "filmes nacionais longa-metragem/mi hab",
+            "filmes nacionais longa-metragem/mi hab",
+            1.0
+          ],
+          [
+            "prod. de imp. e outras midias, % prod. industrial",
+            "prod. de imp. e outras midias, % prod. industrial",
+            1.0
+          ],
+          [
+            "dominios gen. de alto nivel (tld) /mil hab",
+            "dominios gen. de alto nivel (tld) /mil hab. 15-69",
+            0.9231
+          ],
+          [
+            "recursos humanos em c&t",
+            "recursos humanos em c&t",
+            1.0
+          ],
+          [
+            "novos doutores titulados per capita",
+            "novos doutores titulados per capita",
+            1.0
+          ],
+          [
+            "novos mestres titulados",
+            "novos mestres titulados",
+            1.0
+          ],
+          [
+            "novos graduados titulados",
+            "novos graduados titulados",
+            1.0
+          ],
+          [
+            "excelencia do sistema de pesquisa",
+            "excelencia do sistema de pesquisa",
+            1.0
+          ],
+          [
+            "artigos publicados per capita",
+            "artigos publicados per capita",
+            1.0
+          ],
+          [
+            "dispendio publico estadual em c&t",
+            "dispendio publico estadual em c&t",
+            1.0
+          ],
+          [
+            "dispendio publico estadual em p&d como proporcao da receita do estado",
+            "dispendio publico estadual em p&d como proporcao da receita do estado",
+            1.0
+          ],
+          [
+            "dispendio publico estadual em atividades cientificas e tecnicas correlatas como proporcao da receita",
+            "dispendio publico estadual em atividades cientificas e tecnicas correlatas como proporcao da receita",
+            1.0
+          ],
+          [
+            "dispendio empresarial em atividades inovativas",
+            "dispendio empresarial em atividades inovativas",
+            1.0
+          ],
+          [
+            "dispendio das industrias inovadoras de p&d internos como proporcao da receita liquida de vendas",
+            "dispendio das industrias inovadoras de p&d internos como proporcao da receita liquida de vendas",
+            1.0
+          ],
+          [
+            "dispendio das industrias inovadoras em atividades inovativas de nao p&d internos como proporcao da receita liquida de vendas",
+            "dispendio das industrias inovadoras em atividades inovativas de nao p&d internos como proporcao da receita liquida de vendas",
+            1.0
+          ],
+          [
+            "inovadores",
+            "inovadores",
+            1.0
+          ],
+          [
+            "taxa de inovacao de produto e/ou processo",
+            "taxa de inovacao de produto e/ou processo",
+            1.0
+          ],
+          [
+            "taxa de inovacao organizacional e/ou de marketing",
+            "taxa de inovacao organizacional e/ou de marketing",
+            1.0
+          ],
+          [
+            "taxa de cooperacao",
+            "taxa de cooperacao",
+            1.0
+          ],
+          [
+            "ativos de propriedade intelectual",
+            "ativos de propriedade intelectual",
+            1.0
+          ],
+          [
+            "patentes depositadas per capita",
+            "patentes depositadas per capita",
+            1.0
+          ],
+          [
+            "marcas registradas per capita",
+            "marcas registradas per capita",
+            1.0
+          ],
+          [
+            "desenhos industriais registrados per capita",
+            "desenhos industriais registrados per capita",
+            1.0
+          ],
+          [
+            "ocupacoes em ciencia, tecnologia e inovacao",
+            "ocupacoes em ciencia, tecnologia e inovacao",
+            1.0
+          ],
+          [
+            "ocupacoes em ct&i como proporcao do total",
+            "ocupacoes em ct&i como proporcao do total",
+            1.0
+          ],
+          [
+            "exportacoes intensivas em tecnologia",
+            "exportacoes intensivas em tecnologia",
+            1.0
+          ],
+          [
+            "exportacao de bens intensivos em tecnologia como proporcao do total exportado",
+            "exportacao de bens intensivos em tecnologia como proporcao do total exportado",
+            1.0
+          ],
+          [
+            "exportacao de servicos intensivos em conhecimento como proporcao do total exportado",
+            "exportacao de servicos intensivos em conhecimento como proporcao do total exportado",
+            1.0
+          ],
+          [
+            "pib, variacao real em volume",
+            "empresas que inovaram em produto ou processo",
+            0.855
+          ],
+          [
+            "pib per capita (r$)",
+            "pib per capita (r$)",
+            1.0
+          ],
+          [
+            "crescimento do pib, por trabalhador ocupado (r$/pessoa)",
+            "crescimento do pib, por trabalhador ocupado (r$/pessoa)",
+            1.0
+          ],
+          [
+            "taxa de investimento publico na economia paraense (% da despesa total)",
+            "taxa de investimento publico na economia paraense (% da despesa total)",
+            1.0
+          ],
+          [
+            "produtividade na industria (va da industria r$/pessoas ocupadas)",
+            "produtividade na industria (va da industria r$/pessoas ocupadas)",
+            1.0
+          ],
+          [
+            "numero de patentes depositadas por pessoa fisica e juridica",
+            "numero de patentes depositadas por pessoa fisica e juridica",
+            1.0
+          ],
+          [
+            "dispendio estadual em c&t (r$)",
+            "dispendio estadual em c&t (r$)",
+            1.0
+          ],
+          [
+            "c&t s/ receita total",
+            "(%) dispendio c&t s/ receita total",
+            0.9
+          ],
+          [
+            "dispendio c&t s/ va industria",
+            "(%) dispendio c&t s/ va industria",
+            0.95
+          ],
+          [
+            "dispendio c&t s/ va agropecuaria",
+            "(%) dispendio c&t s/ va agropecuaria",
+            0.95
+          ],
+          [
+            "dispendio c&t s/ va servicos",
+            "(%) dispendio c&t s/ va servicos",
+            0.95
+          ],
+          [
+            "dispendio c&t s/ va administracao",
+            "(%) dispendio c&t s/ va administracao",
+            0.95
+          ],
+          [
+            "pib, variacao real em volume",
+            "artigos em periodicos indexados pela scopus",
+            0.855
+          ]
+        ],
+        "unmatched_reference": [],
+        "unmatched_hypothesis": [
+          "dispendios com c&t por atividade e setor",
+          "dispendios com c&t quanto ao pib",
+          "dispendios com p&d por setor",
+          "dispendios com p&d quanto ao pib",
+          "total de pessoas e pesquisadores em p&d",
+          "pesquisadores por nivel de escolaridade",
+          "total de pessoas em p&d em tempo integral",
+          "pesquisadores tempo integral",
+          "concluintes de ensino superior por areas gerais",
+          "concluintes de engenharia quanto ao total",
+          "matriculados e titulados de mestrado e doutorado",
+          "instituicoes, grupos de pesquisa, pesquisadores e pesquisadores doutores cadastrados no cnpq",
+          "pesquisadores cnpq por area de conhecimento",
+          "pesquisadores cnpq por sexo e faixa etaria",
+          "bolsas concedidas por grande area e sexo",
+          "bolsas concedidas no pais e no exterior",
+          "numero de artigos e citacoes indexados pela scopus",
+          "pedidos e concessoes inpi por tipo e origem",
+          "patentes concedidas inpi por setor tecnologico",
+          "pedidos e concessoes no escritorio uspto",
+          "pedidos de patente de acordo com o pct",
+          "empresas que fazem p&d continuo",
+          "dispendios das empresas com inovacao",
+          "familia de patentes triadicas",
+          "pedidos de patentes pct e uspto",
+          "pessoas envolvidas com p&d",
+          "percentual de dispendio estadual em ct&i",
+          "taxa de cobertura de acoes em ciencia, tecnologia e inovacao",
+          "indice global de inovacao (igi)",
+          "indicador composto estadual de inovacao (icei)",
+          "ranking de competitividade",
+          "produto interno bruto (pib)",
+          "indice de desenvolvimento humano (idh)",
+          "depositos de ativos de pi no inpi (contratos de ti, patentes, desenho industrial, marcas, indicacao geografica e programas de computador)",
+          "depositos de patente",
+          "contratos de tecnologia",
+          "patentes",
+          "desenho industrial",
+          "marca",
+          "indicacao geografica",
+          "programa de computador"
+        ],
+        "tp": 67,
+        "fp": 41,
+        "fn": 0,
+        "precision": 0.6204,
+        "recall": 1.0,
+        "f1": 0.7657
+      },
+      "semantic": {
+        "matched": [
+          [
+            "Gastos com educação, % PIB",
+            "Gastos com educação, % PIB",
+            1.0
+          ],
+          [
+            "Gastos brutos com P&D, % PIB",
+            "Gastos brutos com P&D, % PIB",
+            1.0
+          ],
+          [
+            "Empresas globais de P&D",
+            "Empresas globais de P&D",
+            1.0
+          ],
+          [
+            "Qualidade das universidades",
+            "Qualidade das universidades",
+            1.0
+          ],
+          [
+            "Valor pago por uso de PI, % do comércio total",
+            "Valor pago por uso de PI, % do comércio total",
+            1.0
+          ],
+          [
+            "Imp. líquidas de alta tecnologia, % do comércio total",
+            "Imp. líquidas de alta tecnologia, % do comércio total",
+            1.0
+          ],
+          [
+            "Serviços Governamentais On-line",
+            "Serviços Governamentais On-line",
+            1.0
+          ],
+          [
+            "Participação Eletrônica",
+            "Participação Eletrônica",
+            1.0
+          ],
+          [
+            "Qualidade das publicações, medida pelo índice H",
+            "Qualidade das publicações, medida pelo índice H",
+            1.0
+          ],
+          [
+            "Val. Recebidos por uso de PI, % do comércio total",
+            "Val. Recebidos por uso de PI, % do comércio total",
+            1.0
+          ],
+          [
+            "Escala do mercado interno, bi (PPC US$)",
+            "Escala do mercado interno, bi (PPC US$)",
+            1.0
+          ],
+          [
+            "Facilidade de obtenção de crédito",
+            "Facilidade de obtenção de crédito",
+            1.0
+          ],
+          [
+            "Investimentos",
+            "Investimentos",
+            1.0
+          ],
+          [
+            "Taxa tarifária aplicada, média ponderada, %",
+            "Taxa tarifária aplicada, média ponderada, %...",
+            0.9607
+          ],
+          [
+            "Eficácia do Governo",
+            "Eficácia do Governo",
+            1.0
+          ],
+          [
+            "Facilidade para abrir uma empresa",
+            "Facilidade para abrir uma empresa",
+            1.0
+          ],
+          [
+            "Qualidade regulatória",
+            "Qualidade regulatória",
+            1.0
+          ],
+          [
+            "Razão aluno/professor, ensino médio",
+            "Razão aluno/professor, ensino médio",
+            1.0
+          ],
+          [
+            "Mobilidade de estudantes no ensino superior, %",
+            "Mobilidade de estudantes no ensino superior, %",
+            1.0
+          ],
+          [
+            "Graduados em ciência e engenharia, %",
+            "Graduados em ciência e engenharia, %",
+            1.0
+          ],
+          [
+            "Acesso a TIC",
+            "Acesso a TIC",
+            1.0
+          ],
+          [
+            "Formação bruta de capital, % PIB",
+            "Formação bruta de capital, % PIB",
+            1.0
+          ],
+          [
+            "Taxa crescimento do PIB/trabalhador (PPC US$), %",
+            "Taxa crescimento do PIB/trabalhador (PPC US$), %",
+            1.0
+          ],
+          [
+            "Gastos com software, % do PIB",
+            "Gastos com software, % do PIB",
+            1.0
+          ],
+          [
+            "Novas empresas/mil hab. 15-64",
+            "Novas empresas/mil hab. 15-64",
+            1.0
+          ],
+          [
+            "Exp. de serviços de TIC, % do com. total",
+            "Exp. de serviços de TIC, % do com. total",
+            1.0
+          ],
+          [
+            "Filmes nacionais longa-metragem/mi hab.",
+            "Filmes nacionais longa-metragem/mi hab.",
+            1.0
+          ],
+          [
+            "Prod. de imp. e outras mídias, % prod. Industrial",
+            "Prod. de imp. e outras mídias, % prod. Industrial",
+            1.0
+          ],
+          [
+            "Domínios gen. de alto nível (TLD) /mil hab.",
+            "Domínios gen. de alto nível (TLD) /mil hab. 15-69",
+            0.9465
+          ],
+          [
+            "Recursos humanos em C&T",
+            "Recursos humanos em C&T",
+            1.0
+          ],
+          [
+            "Novos doutores titulados per capita",
+            "Novos doutores titulados per capita",
+            1.0
+          ],
+          [
+            "Novos mestres titulados",
+            "Novos mestres titulados",
+            1.0
+          ],
+          [
+            "Novos graduados titulados",
+            "Novos graduados titulados",
+            1.0
+          ],
+          [
+            "Excelência do sistema de pesquisa",
+            "Excelência do sistema de pesquisa",
+            1.0
+          ],
+          [
+            "Artigos publicados per capita",
+            "Artigos publicados per capita",
+            1.0
+          ],
+          [
+            "Dispêndio público estadual em C&T",
+            "Dispêndio público estadual em C&T",
+            1.0
+          ],
+          [
+            "Dispêndio público estadual em P&D como proporção da receita do estado",
+            "Dispêndio público estadual em P&D como proporção da receita do estado",
+            1.0
+          ],
+          [
+            "Dispêndio público estadual em atividades científicas e técnicas correlatas como proporção da receita",
+            "Dispêndio público estadual em atividades científicas e técnicas correlatas como proporção da receita",
+            1.0
+          ],
+          [
+            "Dispêndio empresarial em atividades inovativas",
+            "Dispêndio empresarial em atividades inovativas",
+            1.0
+          ],
+          [
+            "Dispêndio das indústrias inovadoras de P&D internos como proporção da receita líquida de vendas",
+            "Dispêndio das indústrias inovadoras de P&D internos como proporção da receita líquida de vendas",
+            1.0
+          ],
+          [
+            "Dispêndio das indústrias inovadoras em atividades inovativas de não P&D internos como proporção da receita líquida de vendas",
+            "Dispêndio das indústrias inovadoras em atividades inovativas de não P&D internos como proporção da receita líquida de vendas",
+            1.0
+          ],
+          [
+            "Inovadores",
+            "Inovadores",
+            1.0
+          ],
+          [
+            "Taxa de inovação de produto e/ou processo",
+            "Taxa de inovação de produto e/ou processo",
+            1.0
+          ],
+          [
+            "Taxa de inovação organizacional e/ou de marketing",
+            "Taxa de inovação organizacional e/ou de marketing",
+            1.0
+          ],
+          [
+            "Taxa de cooperação",
+            "Taxa de cooperação",
+            1.0
+          ],
+          [
+            "Ativos de propriedade intelectual",
+            "Ativos de propriedade intelectual",
+            1.0
+          ],
+          [
+            "Patentes depositadas per capita",
+            "Patentes depositadas per capita",
+            1.0
+          ],
+          [
+            "Marcas registradas per capita",
+            "Marcas registradas per capita",
+            1.0
+          ],
+          [
+            "Desenhos industriais registrados per capita",
+            "Desenhos industriais registrados per capita",
+            1.0
+          ],
+          [
+            "Ocupações em Ciência, Tecnologia e Inovação",
+            "Ocupações em Ciência, Tecnologia e Inovação",
+            1.0
+          ],
+          [
+            "Ocupações em CT&I como proporção do total",
+            "Ocupações em CT&I como proporção do total",
+            1.0
+          ],
+          [
+            "Exportações intensivas em tecnologia",
+            "Exportações intensivas em tecnologia",
+            1.0
+          ],
+          [
+            "Exportação de bens intensivos em tecnologia como proporção do total exportado",
+            "Exportação de bens intensivos em tecnologia como proporção do total exportado",
+            1.0
+          ],
+          [
+            "Exportação de serviços intensivos em conhecimento como proporção do total exportado",
+            "Exportação de serviços intensivos em conhecimento como proporção do total exportado",
+            1.0
+          ],
+          [
+            "PIB, variação real em volume",
+            "Produto Interno Bruto (PIB)",
+            0.8327
+          ],
+          [
+            "PIB per capita (R$)",
+            "PIB per capita (R$)",
+            1.0
+          ],
+          [
+            "Crescimento do PIB, por trabalhador ocupado (R$/pessoa)",
+            "Crescimento do PIB, por trabalhador ocupado (R$/pessoa)",
+            1.0
+          ],
+          [
+            "Taxa de investimento público na economia paraense (% da despesa total)",
+            "Taxa de investimento público na economia paraense (% da despesa total)",
+            1.0
+          ],
+          [
+            "Produtividade na indústria (VA da Indústria R$/pessoas ocupadas)",
+            "Produtividade na indústria (VA da Indústria R$/pessoas ocupadas)",
+            1.0
+          ],
+          [
+            "Número de patentes depositadas por pessoa física e jurídica",
+            "Número de patentes depositadas por pessoa física e jurídica",
+            1.0
+          ],
+          [
+            "Dispêndio Estadual em C&T (R$)",
+            "Dispêndio Estadual em C&T (R$)",
+            1.0
+          ],
+          [
+            "C&T s/ Receita Total",
+            "(%) Dispêndio C&T s/ Receita Total",
+            0.9244
+          ],
+          [
+            "Dispêndio C&T s/ VA Indústria",
+            "(%) Dispêndio C&T s/ VA Indústria",
+            0.8405
+          ],
+          [
+            "Dispêndio C&T s/ VA Agropecuária",
+            "(%) Dispêndio C&T s/ VA Agropecuária",
+            0.8805
+          ],
+          [
+            "Dispêndio C&T s/ VA Serviços",
+            "(%) Dispêndio C&T s/ VA Serviços",
+            0.894
+          ],
+          [
+            "Dispêndio C&T s/ VA Administração",
+            "(%) Dispêndio C&T s/ VA Administração",
+            0.8791
+          ],
+          [
+            "PIB, variação real em volume",
+            "Dispêndios com P&D quanto ao PIB",
+            0.8034
+          ]
+        ],
+        "unmatched_reference": [],
+        "unmatched_hypothesis": [
+          "Dispêndios com C&T por atividade e setor",
+          "Dispêndios com C&T quanto ao PIB",
+          "Dispêndios com P&D por setor",
+          "Total de pessoas e pesquisadores em P&D",
+          "Pesquisadores por nível de escolaridade",
+          "Total de pessoas em P&D em tempo integral",
+          "Pesquisadores tempo integral",
+          "Concluintes de ensino superior por áreas gerais",
+          "Concluintes de engenharia quanto ao total",
+          "Matriculados e titulados de mestrado e doutorado",
+          "Instituições, grupos de pesquisa, pesquisadores e pesquisadores doutores cadastrados no CNPq",
+          "Pesquisadores CNPq por área de conhecimento",
+          "Pesquisadores CNPq por sexo e faixa etária",
+          "Bolsas concedidas por grande área e sexo",
+          "Bolsas concedidas no país e no exterior",
+          "Número de artigos e citações indexados pela Scopus",
+          "Pedidos e concessões INPI por tipo e origem",
+          "Patentes concedidas INPI por setor tecnológico",
+          "Pedidos e concessões no escritório USPTO",
+          "Pedidos de patente de acordo com o PCT",
+          "Empresas que inovaram em produto ou processo",
+          "Empresas que fazem P&D contínuo",
+          "Dispêndios das empresas com inovação",
+          "Família de patentes triádicas",
+          "Pedidos de patentes PCT e USPTO",
+          "Pessoas envolvidas com P&D",
+          "Artigos em periódicos indexados pela Scopus",
+          "Percentual de Dispêndio Estadual em CT&I",
+          "Taxa de Cobertura de Ações em Ciência, Tecnologia e Inovação",
+          "Índice Global de Inovação (IGI)",
+          "Indicador Composto Estadual de Inovação (ICEI)",
+          "Ranking de Competitividade",
+          "Índice de Desenvolvimento Humano (IDH)",
+          "Depósitos de Ativos de PI no INPI (Contratos de TI, Patentes, Desenho Industrial, Marcas, Indicação Geográfica e Programas de Computador)",
+          "Depósitos de Patente",
+          "Contratos de Tecnologia",
+          "Patentes",
+          "Desenho Industrial",
+          "Marca",
+          "Indicação Geográfica",
+          "Programa de Computador"
+        ],
+        "tp": 67,
+        "fp": 41,
+        "fn": 0,
+        "precision": 0.6204,
+        "recall": 1.0,
+        "f1": 0.7657
+      }
+    }
+  }
+}

@@ -1,0 +1,2554 @@
+{
+  "article_id": "artigo7",
+  "indicator_counts": {
+    "human": 115,
+    "gemini": 173
+  },
+  "pairs": {
+    "human_vs_gemini": {
+      "exact": {
+        "matched": [
+          [
+            "access to information and communication technologies",
+            "access to information and communication technologies",
+            1.0
+          ],
+          [
+            "accessibility to the latest technologies",
+            "accessibility to the latest technologies",
+            1.0
+          ],
+          [
+            "added-value of agriculture, forestry and fisheries sectors",
+            "added-value of agriculture, forestry and fisheries sectors",
+            1.0
+          ],
+          [
+            "added-value of the manufacturing sector",
+            "added-value of the manufacturing sector",
+            1.0
+          ],
+          [
+            "adjusted savings: energy consumption",
+            "adjusted savings: energy consumption",
+            1.0
+          ],
+          [
+            "alternative and nuclear energy",
+            "alternative and nuclear energy",
+            1.0
+          ],
+          [
+            "average monthly net income",
+            "average monthly net income",
+            1.0
+          ],
+          [
+            "citations per publication",
+            "citations per publication",
+            1.0
+          ],
+          [
+            "co2 emissions",
+            "co2 emissions",
+            1.0
+          ],
+          [
+            "competitive advantage",
+            "competitive advantage",
+            1.0
+          ],
+          [
+            "country capacity to retain talent",
+            "country capacity to retain talent",
+            1.0
+          ],
+          [
+            "creating a mobile application",
+            "creating a mobile application",
+            1.0
+          ],
+          [
+            "creative goods export",
+            "creative goods export",
+            1.0
+          ],
+          [
+            "credit",
+            "credit",
+            1.0
+          ],
+          [
+            "cultural and creative service export",
+            "cultural and creative service export",
+            1.0
+          ],
+          [
+            "diversion of public funds",
+            "diversion of public funds",
+            1.0
+          ],
+          [
+            "e-participation",
+            "e-participation",
+            1.0
+          ],
+          [
+            "ease of access to credits",
+            "ease of access to credits",
+            1.0
+          ],
+          [
+            "economic cluster development",
+            "economic cluster development",
+            1.0
+          ],
+          [
+            "education expenses",
+            "education expenses",
+            1.0
+          ],
+          [
+            "effectiveness of government spending",
+            "effectiveness of government spending",
+            1.0
+          ],
+          [
+            "effectiveness of law-making institutions",
+            "effectiveness of law-making institutions",
+            1.0
+          ],
+          [
+            "employment in knowledge-intensive services",
+            "employment in knowledge-intensive services",
+            1.0
+          ],
+          [
+            "energy density level of primary energy",
+            "energy density level of primary energy",
+            1.0
+          ],
+          [
+            "energy import",
+            "energy import",
+            1.0
+          ],
+          [
+            "enrollment in higher education",
+            "enrollment in higher education",
+            1.0
+          ],
+          [
+            "environmental performance",
+            "environmental performance",
+            1.0
+          ],
+          [
+            "exports of goods and services",
+            "exports of goods and services",
+            1.0
+          ],
+          [
+            "foreign market size",
+            "foreign market size",
+            1.0
+          ],
+          [
+            "foreign student mobility in higher education",
+            "foreign student mobility in higher education",
+            1.0
+          ],
+          [
+            "fossil fuel energy consumption",
+            "fossil fuel energy consumption",
+            1.0
+          ],
+          [
+            "fuel import",
+            "fuel import",
+            1.0
+          ],
+          [
+            "gdp per capita",
+            "gdp per capita",
+            1.0
+          ],
+          [
+            "gdp per unit energy use",
+            "gdp per unit energy use",
+            1.0
+          ],
+          [
+            "government online service",
+            "government online service",
+            1.0
+          ],
+          [
+            "high technology and medium high technology production",
+            "high technology and medium high technology production",
+            1.0
+          ],
+          [
+            "high technology export except for re-export",
+            "high technology export except for re-export",
+            1.0
+          ],
+          [
+            "high technology import",
+            "high technology import",
+            1.0
+          ],
+          [
+            "ict and business model building",
+            "ict and business model building",
+            1.0
+          ],
+          [
+            "ict and organizational model building",
+            "ict and organizational model building",
+            1.0
+          ],
+          [
+            "ict development index (idi)",
+            "ict development index (idi)",
+            1.0
+          ],
+          [
+            "ict related laws",
+            "ict related laws",
+            1.0
+          ],
+          [
+            "ict services export",
+            "ict services export",
+            1.0
+          ],
+          [
+            "ict services import",
+            "ict services import",
+            1.0
+          ],
+          [
+            "industrial designs",
+            "industrial designs",
+            1.0
+          ],
+          [
+            "industrialization intensity",
+            "industrialization intensity",
+            1.0
+          ],
+          [
+            "innovation",
+            "innovation",
+            1.0
+          ],
+          [
+            "innovation capacity",
+            "innovation capacity",
+            1.0
+          ],
+          [
+            "intellectual property payments",
+            "intellectual property payments",
+            1.0
+          ],
+          [
+            "intellectual property usage fees not elsewhere classified",
+            "intellectual property usage fees not elsewhere classified",
+            1.0
+          ],
+          [
+            "intellectual property usage fees, payments",
+            "intellectual property usage fees, payments",
+            1.0
+          ],
+          [
+            "international patent applications",
+            "international patent applications",
+            1.0
+          ],
+          [
+            "international scientific cooperation",
+            "international scientific cooperation",
+            1.0
+          ],
+          [
+            "internet access in schools",
+            "internet access in schools",
+            1.0
+          ],
+          [
+            "investment",
+            "investment",
+            1.0
+          ],
+          [
+            "iso 14001 environmental certificates",
+            "iso 14001 environmental certificates",
+            1.0
+          ],
+          [
+            "joint venture strategic alliance opportunities",
+            "joint venture strategic alliance opportunities",
+            1.0
+          ],
+          [
+            "judicial independence",
+            "judicial independence",
+            1.0
+          ],
+          [
+            "labour force participation, female",
+            "labour force participation, female",
+            1.0
+          ],
+          [
+            "local availability of customized education services",
+            "local availability of customized education services",
+            1.0
+          ],
+          [
+            "methane emissions",
+            "methane emissions",
+            1.0
+          ],
+          [
+            "nepotism in government decisions",
+            "nepotism in government decisions",
+            1.0
+          ],
+          [
+            "nitrous oxide emissions",
+            "nitrous oxide emissions",
+            1.0
+          ],
+          [
+            "number of patent families made by nationals of the country",
+            "number of patent families made by nationals of the country",
+            1.0
+          ],
+          [
+            "ore and metal export",
+            "ore and metal export",
+            1.0
+          ],
+          [
+            "participation and accountability",
+            "participation and accountability",
+            1.0
+          ],
+          [
+            "patent applications made by the citizens of the country",
+            "patent applications made by the citizens of the country",
+            1.0
+          ],
+          [
+            "pisa scales in reading, mathematics and science",
+            "pisa scales in reading, mathematics and science",
+            1.0
+          ],
+          [
+            "political environment",
+            "political environment",
+            1.0
+          ],
+          [
+            "political stability and violence/absence of terrorism",
+            "political stability and violence/absence of terrorism",
+            1.0
+          ],
+          [
+            "production process development",
+            "production process development",
+            1.0
+          ],
+          [
+            "public trust in politicians",
+            "public trust in politicians",
+            1.0
+          ],
+          [
+            "quacquarelli symonds (qs) university rank",
+            "quacquarelli symonds (qs) university rank",
+            1.0
+          ],
+          [
+            "quality of mathematics and science education",
+            "quality of mathematics and science education",
+            1.0
+          ],
+          [
+            "quality of scientific research institutions",
+            "quality of scientific research institutions",
+            1.0
+          ],
+          [
+            "quality of the education system",
+            "quality of the education system",
+            1.0
+          ],
+          [
+            "r&d expenditures of companies",
+            "r&d expenditures of companies",
+            1.0
+          ],
+          [
+            "r&d expenses of the top three global companies",
+            "r&d expenses of the top three global companies",
+            1.0
+          ],
+          [
+            "r&d studies carried out by commercial enterprises",
+            "r&d studies carried out by commercial enterprises",
+            1.0
+          ],
+          [
+            "r&d studies financed by commercial enterprises",
+            "r&d studies financed by commercial enterprises",
+            1.0
+          ],
+          [
+            "real gdp growth",
+            "real gdp growth",
+            1.0
+          ],
+          [
+            "regulatory environment",
+            "regulatory environment",
+            1.0
+          ],
+          [
+            "renewable electric power",
+            "renewable electric power",
+            1.0
+          ],
+          [
+            "renewable energy consumption",
+            "renewable energy consumption",
+            1.0
+          ],
+          [
+            "researchers",
+            "researchers",
+            1.0
+          ],
+          [
+            "science and engineering graduates",
+            "science and engineering graduates",
+            1.0
+          ],
+          [
+            "scientific and technical journal articles",
+            "scientific and technical journal articles",
+            1.0
+          ],
+          [
+            "scientists and engineers",
+            "scientists and engineers",
+            1.0
+          ],
+          [
+            "scope of the market",
+            "scope of the market",
+            1.0
+          ],
+          [
+            "staff training scope",
+            "staff training scope",
+            1.0
+          ],
+          [
+            "state activity",
+            "state activity",
+            1.0
+          ],
+          [
+            "state funding/student, secondary school level",
+            "state funding/student, secondary school level",
+            1.0
+          ],
+          [
+            "state spending per student, at the tertiary level",
+            "state spending per student, at the tertiary level",
+            1.0
+          ],
+          [
+            "state supply of high-tech products",
+            "state supply of high-tech products",
+            1.0
+          ],
+          [
+            "the attributional effect of scientific production",
+            "the attributional effect of scientific production",
+            1.0
+          ],
+          [
+            "the intensity of local competition",
+            "the intensity of local competition",
+            1.0
+          ],
+          [
+            "the medium and high tech industry",
+            "the medium and high tech industry",
+            1.0
+          ],
+          [
+            "the productivity and impact of a scientist or publication",
+            "the productivity and impact of a scientist or publication",
+            1.0
+          ],
+          [
+            "total greenhouse gas emissions",
+            "total greenhouse gas emissions",
+            1.0
+          ],
+          [
+            "total gross r&d expenditure",
+            "total gross r&d expenditure",
+            1.0
+          ],
+          [
+            "trade",
+            "trade",
+            1.0
+          ],
+          [
+            "trade, competition and market scale",
+            "trade, competition and market scale",
+            1.0
+          ],
+          [
+            "trademark application",
+            "trademark application",
+            1.0
+          ],
+          [
+            "transparency in government policies",
+            "transparency in government policies",
+            1.0
+          ],
+          [
+            "unemployment",
+            "unemployment",
+            1.0
+          ],
+          [
+            "university-industry cooperation in r&d",
+            "university-industry cooperation in r&d",
+            1.0
+          ],
+          [
+            "use of information and communication technologies (ict)",
+            "use of information and communication technologies (ict)",
+            1.0
+          ],
+          [
+            "value chain width",
+            "value chain width",
+            1.0
+          ],
+          [
+            "value-added of industry (including construction)",
+            "value-added of industry (including construction)",
+            1.0
+          ],
+          [
+            "value-added of the services industry",
+            "value-added of the services industry",
+            1.0
+          ],
+          [
+            "venture capital agreements",
+            "venture capital agreements",
+            1.0
+          ],
+          [
+            "venture capital availability",
+            "venture capital availability",
+            1.0
+          ],
+          [
+            "work environment",
+            "work environment",
+            1.0
+          ]
+        ],
+        "unmatched_reference": [
+          "reading time expectation",
+          "women’s employment"
+        ],
+        "unmatched_hypothesis": [
+          "availability of latest technologies",
+          "average monthly net salary",
+          "business environment",
+          "efficiency of government spending",
+          "energy imports",
+          "expenditure on education",
+          "extent of market",
+          "fuel imports",
+          "government expenditure per student, tertiary",
+          "government funding/pupil, secondary",
+          "graduates in science & engineering",
+          "high technology export amount (usd)",
+          "high technology exports (percentage of manufacturing products exports)",
+          "ict access",
+          "ict goods exports (percentage of total goods exports)",
+          "ict services exports",
+          "ict services imports",
+          "ict use",
+          "icts & business model creation",
+          "icts & organizational model creation",
+          "intensity of local competition",
+          "labor force participation, female",
+          "laws relating to icts",
+          "local availability of specialized training services",
+          "number of researchers in r&d (per million people)",
+          "ores and metals exports",
+          "patent applications made by non-residents (number/year)",
+          "patent applications made by residents (units/year)",
+          "pisa scales in reading, maths, & science",
+          "qs university ranking",
+          "quality of math and science education",
+          "school life expectancy",
+          "tertiary enrolment",
+          "tertiary inbound mobility",
+          "the ict development index (idi)",
+          "the number of articles in scientific and technical journals",
+          "the ratio of r&d expenditures in gdp (%)",
+          "total trademark applications (units/year)",
+          "trade, competition, & market scale",
+          "trademark applications made by non-residents (number/year)",
+          "trademark applications made by residents (number/year)",
+          "trademark applications made directly by non-residents (number/year)",
+          "trademark applications made directly by residents (number/year)",
+          "transparency of government policymaking",
+          "women's employment"
+        ],
+        "tp": 113,
+        "fp": 45,
+        "fn": 2,
+        "precision": 0.7152,
+        "recall": 0.9826,
+        "f1": 0.8278
+      },
+      "fuzzy": {
+        "matched": [
+          [
+            "the intensity of local competition",
+            "the intensity of local competition",
+            1.0
+          ],
+          [
+            "ict and business model building",
+            "ict and business model building",
+            1.0
+          ],
+          [
+            "trade, competition and market scale",
+            "trade, competition and market scale",
+            1.0
+          ],
+          [
+            "work environment",
+            "work environment",
+            1.0
+          ],
+          [
+            "scope of the market",
+            "scope of the market",
+            1.0
+          ],
+          [
+            "pisa scales in reading, mathematics and science",
+            "pisa scales in reading, mathematics and science",
+            1.0
+          ],
+          [
+            "ict and organizational model building",
+            "ict and organizational model building",
+            1.0
+          ],
+          [
+            "foreign market size",
+            "foreign market size",
+            1.0
+          ],
+          [
+            "government online service",
+            "government online service",
+            1.0
+          ],
+          [
+            "e-participation",
+            "e-participation",
+            1.0
+          ],
+          [
+            "scientists and engineers",
+            "scientists and engineers",
+            1.0
+          ],
+          [
+            "accessibility to the latest technologies",
+            "accessibility to the latest technologies",
+            1.0
+          ],
+          [
+            "ict related laws",
+            "ict related laws",
+            1.0
+          ],
+          [
+            "value chain width",
+            "value chain width",
+            1.0
+          ],
+          [
+            "staff training scope",
+            "staff training scope",
+            1.0
+          ],
+          [
+            "internet access in schools",
+            "internet access in schools",
+            1.0
+          ],
+          [
+            "local availability of customized education services",
+            "local availability of customized education services",
+            1.0
+          ],
+          [
+            "innovation capacity",
+            "innovation capacity",
+            1.0
+          ],
+          [
+            "quality of scientific research institutions",
+            "quality of scientific research institutions",
+            1.0
+          ],
+          [
+            "production process development",
+            "production process development",
+            1.0
+          ],
+          [
+            "innovation",
+            "innovation",
+            1.0
+          ],
+          [
+            "access to information and communication technologies",
+            "access to information and communication technologies",
+            1.0
+          ],
+          [
+            "labour force participation, female",
+            "labour force participation, female",
+            1.0
+          ],
+          [
+            "university-industry cooperation in r&d",
+            "university-industry cooperation in r&d",
+            1.0
+          ],
+          [
+            "economic cluster development",
+            "economic cluster development",
+            1.0
+          ],
+          [
+            "ease of access to credits",
+            "ease of access to credits",
+            1.0
+          ],
+          [
+            "environmental performance",
+            "environmental performance",
+            1.0
+          ],
+          [
+            "ict development index (idi)",
+            "ict development index (idi)",
+            1.0
+          ],
+          [
+            "transparency in government policies",
+            "transparency in government policies",
+            1.0
+          ],
+          [
+            "political environment",
+            "political environment",
+            1.0
+          ],
+          [
+            "state supply of high-tech products",
+            "state supply of high-tech products",
+            1.0
+          ],
+          [
+            "quality of mathematics and science education",
+            "quality of mathematics and science education",
+            1.0
+          ],
+          [
+            "regulatory environment",
+            "regulatory environment",
+            1.0
+          ],
+          [
+            "r&d expenditures of companies",
+            "r&d expenditures of companies",
+            1.0
+          ],
+          [
+            "science and engineering graduates",
+            "science and engineering graduates",
+            1.0
+          ],
+          [
+            "use of information and communication technologies (ict)",
+            "use of information and communication technologies (ict)",
+            1.0
+          ],
+          [
+            "enrollment in higher education",
+            "enrollment in higher education",
+            1.0
+          ],
+          [
+            "employment in knowledge-intensive services",
+            "employment in knowledge-intensive services",
+            1.0
+          ],
+          [
+            "r&d studies financed by commercial enterprises",
+            "r&d studies financed by commercial enterprises",
+            1.0
+          ],
+          [
+            "citations per publication",
+            "citations per publication",
+            1.0
+          ],
+          [
+            "women’s employment",
+            "women's employment",
+            0.9444
+          ],
+          [
+            "energy density level of primary energy",
+            "energy density level of primary energy",
+            1.0
+          ],
+          [
+            "state spending per student, at the tertiary level",
+            "state spending per student, at the tertiary level",
+            1.0
+          ],
+          [
+            "gdp per unit energy use",
+            "gdp per unit energy use",
+            1.0
+          ],
+          [
+            "high technology import",
+            "high technology import",
+            1.0
+          ],
+          [
+            "quacquarelli symonds (qs) university rank",
+            "quacquarelli symonds (qs) university rank",
+            1.0
+          ],
+          [
+            "r&d expenses of the top three global companies",
+            "r&d expenses of the top three global companies",
+            1.0
+          ],
+          [
+            "the productivity and impact of a scientist or publication",
+            "the productivity and impact of a scientist or publication",
+            1.0
+          ],
+          [
+            "fuel import",
+            "fuel import",
+            1.0
+          ],
+          [
+            "trade",
+            "trade",
+            1.0
+          ],
+          [
+            "real gdp growth",
+            "real gdp growth",
+            1.0
+          ],
+          [
+            "ict services import",
+            "ict services import",
+            1.0
+          ],
+          [
+            "total gross r&d expenditure",
+            "total gross r&d expenditure",
+            1.0
+          ],
+          [
+            "exports of goods and services",
+            "exports of goods and services",
+            1.0
+          ],
+          [
+            "average monthly net income",
+            "average monthly net income",
+            1.0
+          ],
+          [
+            "researchers",
+            "researchers",
+            1.0
+          ],
+          [
+            "value-added of the services industry",
+            "value-added of the services industry",
+            1.0
+          ],
+          [
+            "gdp per capita",
+            "gdp per capita",
+            1.0
+          ],
+          [
+            "co2 emissions",
+            "co2 emissions",
+            1.0
+          ],
+          [
+            "intellectual property payments",
+            "intellectual property payments",
+            1.0
+          ],
+          [
+            "trademark application",
+            "trademark application",
+            1.0
+          ],
+          [
+            "state activity",
+            "state activity",
+            1.0
+          ],
+          [
+            "high technology export except for re-export",
+            "high technology export except for re-export",
+            1.0
+          ],
+          [
+            "iso 14001 environmental certificates",
+            "iso 14001 environmental certificates",
+            1.0
+          ],
+          [
+            "unemployment",
+            "unemployment",
+            1.0
+          ],
+          [
+            "r&d studies carried out by commercial enterprises",
+            "r&d studies carried out by commercial enterprises",
+            1.0
+          ],
+          [
+            "cultural and creative service export",
+            "cultural and creative service export",
+            1.0
+          ],
+          [
+            "participation and accountability",
+            "participation and accountability",
+            1.0
+          ],
+          [
+            "renewable energy consumption",
+            "renewable energy consumption",
+            1.0
+          ],
+          [
+            "creative goods export",
+            "creative goods export",
+            1.0
+          ],
+          [
+            "renewable electric power",
+            "renewable electric power",
+            1.0
+          ],
+          [
+            "joint venture strategic alliance opportunities",
+            "joint venture strategic alliance opportunities",
+            1.0
+          ],
+          [
+            "ict services export",
+            "ict services export",
+            1.0
+          ],
+          [
+            "effectiveness of law-making institutions",
+            "effectiveness of law-making institutions",
+            1.0
+          ],
+          [
+            "competitive advantage",
+            "competitive advantage",
+            1.0
+          ],
+          [
+            "venture capital availability",
+            "venture capital availability",
+            1.0
+          ],
+          [
+            "country capacity to retain talent",
+            "country capacity to retain talent",
+            1.0
+          ],
+          [
+            "quality of the education system",
+            "quality of the education system",
+            1.0
+          ],
+          [
+            "state funding/student, secondary school level",
+            "state funding/student, secondary school level",
+            1.0
+          ],
+          [
+            "judicial independence",
+            "judicial independence",
+            1.0
+          ],
+          [
+            "education expenses",
+            "education expenses",
+            1.0
+          ],
+          [
+            "political stability and violence/absence of terrorism",
+            "political stability and violence/absence of terrorism",
+            1.0
+          ],
+          [
+            "investment",
+            "investment",
+            1.0
+          ],
+          [
+            "credit",
+            "credit",
+            1.0
+          ],
+          [
+            "effectiveness of government spending",
+            "effectiveness of government spending",
+            1.0
+          ],
+          [
+            "nepotism in government decisions",
+            "nepotism in government decisions",
+            1.0
+          ],
+          [
+            "industrialization intensity",
+            "industrialization intensity",
+            1.0
+          ],
+          [
+            "the medium and high tech industry",
+            "the medium and high tech industry",
+            1.0
+          ],
+          [
+            "diversion of public funds",
+            "diversion of public funds",
+            1.0
+          ],
+          [
+            "international scientific cooperation",
+            "international scientific cooperation",
+            1.0
+          ],
+          [
+            "value-added of industry (including construction)",
+            "value-added of industry (including construction)",
+            1.0
+          ],
+          [
+            "fossil fuel energy consumption",
+            "fossil fuel energy consumption",
+            1.0
+          ],
+          [
+            "public trust in politicians",
+            "public trust in politicians",
+            1.0
+          ],
+          [
+            "high technology and medium high technology production",
+            "high technology and medium high technology production",
+            1.0
+          ],
+          [
+            "patent applications made by the citizens of the country",
+            "patent applications made by the citizens of the country",
+            1.0
+          ],
+          [
+            "added-value of agriculture, forestry and fisheries sectors",
+            "added-value of agriculture, forestry and fisheries sectors",
+            1.0
+          ],
+          [
+            "added-value of the manufacturing sector",
+            "added-value of the manufacturing sector",
+            1.0
+          ],
+          [
+            "energy import",
+            "energy import",
+            1.0
+          ],
+          [
+            "alternative and nuclear energy",
+            "alternative and nuclear energy",
+            1.0
+          ],
+          [
+            "foreign student mobility in higher education",
+            "foreign student mobility in higher education",
+            1.0
+          ],
+          [
+            "international patent applications",
+            "international patent applications",
+            1.0
+          ],
+          [
+            "creating a mobile application",
+            "creating a mobile application",
+            1.0
+          ],
+          [
+            "number of patent families made by nationals of the country",
+            "number of patent families made by nationals of the country",
+            1.0
+          ],
+          [
+            "industrial designs",
+            "industrial designs",
+            1.0
+          ],
+          [
+            "intellectual property usage fees not elsewhere classified",
+            "intellectual property usage fees not elsewhere classified",
+            1.0
+          ],
+          [
+            "ore and metal export",
+            "ore and metal export",
+            1.0
+          ],
+          [
+            "venture capital agreements",
+            "venture capital agreements",
+            1.0
+          ],
+          [
+            "the attributional effect of scientific production",
+            "the attributional effect of scientific production",
+            1.0
+          ],
+          [
+            "scientific and technical journal articles",
+            "scientific and technical journal articles",
+            1.0
+          ],
+          [
+            "intellectual property usage fees, payments",
+            "intellectual property usage fees, payments",
+            1.0
+          ],
+          [
+            "total greenhouse gas emissions",
+            "total greenhouse gas emissions",
+            1.0
+          ],
+          [
+            "nitrous oxide emissions",
+            "nitrous oxide emissions",
+            1.0
+          ],
+          [
+            "methane emissions",
+            "methane emissions",
+            1.0
+          ],
+          [
+            "adjusted savings: energy consumption",
+            "adjusted savings: energy consumption",
+            1.0
+          ]
+        ],
+        "unmatched_reference": [
+          "reading time expectation"
+        ],
+        "unmatched_hypothesis": [
+          "patent applications made by non-residents (number/year)",
+          "patent applications made by residents (units/year)",
+          "trademark applications made directly by non-residents (number/year)",
+          "trademark applications made directly by residents (number/year)",
+          "trademark applications made by non-residents (number/year)",
+          "trademark applications made by residents (number/year)",
+          "total trademark applications (units/year)",
+          "number of researchers in r&d (per million people)",
+          "the ratio of r&d expenditures in gdp (%)",
+          "high technology export amount (usd)",
+          "high technology exports (percentage of manufacturing products exports)",
+          "ict goods exports (percentage of total goods exports)",
+          "the number of articles in scientific and technical journals",
+          "pisa scales in reading, maths, & science",
+          "graduates in science & engineering",
+          "qs university ranking",
+          "quality of math and science education",
+          "availability of latest technologies",
+          "local availability of specialized training services",
+          "government funding/pupil, secondary",
+          "government expenditure per student, tertiary",
+          "tertiary inbound mobility",
+          "ict access",
+          "ict use",
+          "icts & business model creation",
+          "laws relating to icts",
+          "icts & organizational model creation",
+          "ict services exports",
+          "ict services imports",
+          "the ict development index (idi)",
+          "trade, competition, & market scale",
+          "business environment",
+          "intensity of local competition",
+          "extent of market",
+          "labor force participation, female",
+          "average monthly net salary",
+          "efficiency of government spending",
+          "transparency of government policymaking",
+          "ores and metals exports",
+          "fuel imports",
+          "energy imports",
+          "school life expectancy",
+          "expenditure on education",
+          "tertiary enrolment"
+        ],
+        "tp": 114,
+        "fp": 44,
+        "fn": 1,
+        "precision": 0.7215,
+        "recall": 0.9913,
+        "f1": 0.8352
+      },
+      "semantic": {
+        "matched": [
+          [
+            "The intensity of local competition",
+            "The intensity of local competition",
+            1.0
+          ],
+          [
+            "ICT and business model building",
+            "ICT and business model building",
+            1.0
+          ],
+          [
+            "Trade, competition and market scale",
+            "Trade, competition and market scale",
+            1.0
+          ],
+          [
+            "Work environment",
+            "Work environment",
+            1.0
+          ],
+          [
+            "Scope of the market",
+            "Scope of the market",
+            1.0
+          ],
+          [
+            "PISA scales in reading, mathematics and science",
+            "PISA scales in reading, mathematics and science",
+            1.0
+          ],
+          [
+            "ICT and organizational model building",
+            "ICT and organizational model building",
+            1.0
+          ],
+          [
+            "Foreign market size",
+            "Foreign market size",
+            1.0
+          ],
+          [
+            "Government online service",
+            "Government online service",
+            1.0
+          ],
+          [
+            "E-participation",
+            "E-participation",
+            1.0
+          ],
+          [
+            "Scientists and engineers",
+            "Scientists and engineers",
+            1.0
+          ],
+          [
+            "Accessibility to the latest technologies",
+            "Accessibility to the latest technologies",
+            1.0
+          ],
+          [
+            "ICT related laws",
+            "ICT related laws",
+            1.0
+          ],
+          [
+            "Value chain width",
+            "Value chain width",
+            1.0
+          ],
+          [
+            "Staff training scope",
+            "Staff training scope",
+            1.0
+          ],
+          [
+            "Internet access in schools",
+            "Internet access in schools",
+            1.0
+          ],
+          [
+            "Local availability of customized education services",
+            "Local availability of customized education services",
+            1.0
+          ],
+          [
+            "Innovation capacity",
+            "Innovation capacity",
+            1.0
+          ],
+          [
+            "Quality of scientific research institutions",
+            "Quality of scientific research institutions",
+            1.0
+          ],
+          [
+            "Production process development",
+            "Production process development",
+            1.0
+          ],
+          [
+            "Innovation",
+            "Innovation",
+            1.0
+          ],
+          [
+            "Access to Information and Communication Technologies",
+            "Access to Information and Communication Technologies",
+            1.0
+          ],
+          [
+            "Labour force participation, female",
+            "Labour force participation, female",
+            1.0
+          ],
+          [
+            "University-industry cooperation in R&D",
+            "University-industry cooperation in R&D",
+            1.0
+          ],
+          [
+            "Economic cluster development",
+            "Economic cluster development",
+            1.0
+          ],
+          [
+            "Ease of access to credits",
+            "Ease of access to credits",
+            1.0
+          ],
+          [
+            "Environmental performance",
+            "Environmental performance",
+            1.0
+          ],
+          [
+            "ICT Development Index (IDI)",
+            "ICT Development Index (IDI)",
+            1.0
+          ],
+          [
+            "Transparency in government policies",
+            "Transparency in government policies",
+            1.0
+          ],
+          [
+            "Political environment",
+            "Political environment",
+            1.0
+          ],
+          [
+            "State supply of high-tech products",
+            "State supply of high-tech products",
+            1.0
+          ],
+          [
+            "Quality of mathematics and science education",
+            "Quality of mathematics and science education",
+            1.0
+          ],
+          [
+            "Regulatory environment",
+            "Regulatory environment",
+            1.0
+          ],
+          [
+            "R&D expenditures of companies",
+            "R&D expenditures of companies",
+            1.0
+          ],
+          [
+            "Science and engineering graduates",
+            "Science and engineering graduates",
+            1.0
+          ],
+          [
+            "Use of Information and Communication Technologies (ICT)",
+            "Use of Information and Communication Technologies (ICT)",
+            1.0
+          ],
+          [
+            "Enrollment in higher education",
+            "Enrollment in higher education",
+            1.0
+          ],
+          [
+            "Employment in knowledge-intensive services",
+            "Employment in knowledge-intensive services",
+            1.0
+          ],
+          [
+            "R&D studies financed by commercial enterprises",
+            "R&D studies financed by commercial enterprises",
+            1.0
+          ],
+          [
+            "Citations per publication",
+            "Citations per publication",
+            1.0
+          ],
+          [
+            "Women’s employment",
+            "Women's employment",
+            0.9985
+          ],
+          [
+            "Energy density level of primary energy",
+            "Energy density level of primary energy",
+            1.0
+          ],
+          [
+            "State spending per student, at the tertiary level",
+            "State spending per student, at the tertiary level",
+            1.0
+          ],
+          [
+            "GDP per unit energy use",
+            "GDP per unit energy use",
+            1.0
+          ],
+          [
+            "High technology import",
+            "High technology import",
+            1.0
+          ],
+          [
+            "Quacquarelli Symonds (QS) university rank",
+            "Quacquarelli Symonds (QS) university rank",
+            1.0
+          ],
+          [
+            "R&D expenses of the top three global companies",
+            "R&D expenses of the top three global companies",
+            1.0
+          ],
+          [
+            "The productivity and impact of a scientist or publication",
+            "The productivity and impact of a scientist or publication",
+            1.0
+          ],
+          [
+            "Fuel import",
+            "Fuel import",
+            1.0
+          ],
+          [
+            "Trade",
+            "Trade",
+            1.0
+          ],
+          [
+            "Real GDP growth",
+            "Real GDP growth",
+            1.0
+          ],
+          [
+            "ICT services import",
+            "ICT services import",
+            1.0
+          ],
+          [
+            "Total gross R&D expenditure",
+            "Total gross R&D expenditure",
+            1.0
+          ],
+          [
+            "Exports of goods and services",
+            "Exports of goods and services",
+            1.0
+          ],
+          [
+            "Average monthly net income",
+            "Average monthly net income",
+            1.0
+          ],
+          [
+            "Researchers",
+            "Researchers",
+            1.0
+          ],
+          [
+            "Value-added of the services industry",
+            "Value-added of the services industry",
+            1.0
+          ],
+          [
+            "GDP per capita",
+            "GDP per capita",
+            1.0
+          ],
+          [
+            "CO2 emissions",
+            "CO2 emissions",
+            1.0
+          ],
+          [
+            "Intellectual property payments",
+            "Intellectual property payments",
+            1.0
+          ],
+          [
+            "Trademark application",
+            "Trademark application",
+            1.0
+          ],
+          [
+            "State Activity",
+            "State Activity",
+            1.0
+          ],
+          [
+            "High technology export except for re-export",
+            "High technology export except for re-export",
+            1.0
+          ],
+          [
+            "ISO 14001 Environmental Certificates",
+            "ISO 14001 Environmental Certificates",
+            1.0
+          ],
+          [
+            "Unemployment",
+            "Unemployment",
+            1.0
+          ],
+          [
+            "R&D studies carried out by commercial enterprises",
+            "R&D studies carried out by commercial enterprises",
+            1.0
+          ],
+          [
+            "Cultural and creative service export",
+            "Cultural and creative service export",
+            1.0
+          ],
+          [
+            "Participation and Accountability",
+            "Participation and Accountability",
+            1.0
+          ],
+          [
+            "Renewable energy consumption",
+            "Renewable energy consumption",
+            1.0
+          ],
+          [
+            "Creative goods export",
+            "Creative goods export",
+            1.0
+          ],
+          [
+            "Renewable electric power",
+            "Renewable electric power",
+            1.0
+          ],
+          [
+            "Joint venture strategic alliance opportunities",
+            "Joint venture strategic alliance opportunities",
+            1.0
+          ],
+          [
+            "ICT services export",
+            "ICT services export",
+            1.0
+          ],
+          [
+            "Effectiveness of law-making institutions",
+            "Effectiveness of law-making institutions",
+            1.0
+          ],
+          [
+            "Competitive advantage",
+            "Competitive advantage",
+            1.0
+          ],
+          [
+            "Venture capital availability",
+            "Venture capital availability",
+            1.0
+          ],
+          [
+            "Country capacity to retain talent",
+            "Country capacity to retain talent",
+            1.0
+          ],
+          [
+            "Quality of the education system",
+            "Quality of the education system",
+            1.0
+          ],
+          [
+            "State funding/student, secondary school level",
+            "State funding/student, secondary school level",
+            1.0
+          ],
+          [
+            "Judicial independence",
+            "Judicial independence",
+            1.0
+          ],
+          [
+            "Education expenses",
+            "Education expenses",
+            1.0
+          ],
+          [
+            "Political Stability and Violence/Absence of Terrorism",
+            "Political Stability and Violence/Absence of Terrorism",
+            1.0
+          ],
+          [
+            "Investment",
+            "Investment",
+            1.0
+          ],
+          [
+            "Credit",
+            "Credit",
+            1.0
+          ],
+          [
+            "Effectiveness of government spending",
+            "Effectiveness of government spending",
+            1.0
+          ],
+          [
+            "Nepotism in government decisions",
+            "Nepotism in government decisions",
+            1.0
+          ],
+          [
+            "Industrialization intensity",
+            "Industrialization intensity",
+            1.0
+          ],
+          [
+            "The medium and high tech industry",
+            "The medium and high tech industry",
+            1.0
+          ],
+          [
+            "Diversion of public funds",
+            "Diversion of public funds",
+            1.0
+          ],
+          [
+            "International scientific cooperation",
+            "International scientific cooperation",
+            1.0
+          ],
+          [
+            "Value-added of industry (including construction)",
+            "Value-added of industry (including construction)",
+            1.0
+          ],
+          [
+            "Fossil fuel energy consumption",
+            "Fossil fuel energy consumption",
+            1.0
+          ],
+          [
+            "Public trust in politicians",
+            "Public trust in politicians",
+            1.0
+          ],
+          [
+            "High technology and medium high technology production",
+            "High technology and medium high technology production",
+            1.0
+          ],
+          [
+            "Patent applications made by the citizens of the country",
+            "Patent applications made by the citizens of the country",
+            1.0
+          ],
+          [
+            "Added-value of agriculture, forestry and fisheries sectors",
+            "Added-value of agriculture, forestry and fisheries sectors",
+            1.0
+          ],
+          [
+            "Added-value of the manufacturing sector",
+            "Added-value of the manufacturing sector",
+            1.0
+          ],
+          [
+            "Energy import",
+            "Energy import",
+            1.0
+          ],
+          [
+            "Alternative and nuclear energy",
+            "Alternative and nuclear energy",
+            1.0
+          ],
+          [
+            "Foreign student mobility in higher education",
+            "Foreign student mobility in higher education",
+            1.0
+          ],
+          [
+            "International patent applications",
+            "International patent applications",
+            1.0
+          ],
+          [
+            "Creating a mobile application",
+            "Creating a mobile application",
+            1.0
+          ],
+          [
+            "Number of patent families made by nationals of the country",
+            "Number of patent families made by nationals of the country",
+            1.0
+          ],
+          [
+            "Industrial designs",
+            "Industrial designs",
+            1.0
+          ],
+          [
+            "Intellectual property usage fees not elsewhere classified",
+            "Intellectual property usage fees not elsewhere classified",
+            1.0
+          ],
+          [
+            "Ore and metal export",
+            "Ore and metal export",
+            1.0
+          ],
+          [
+            "Venture capital agreements",
+            "Venture capital agreements",
+            1.0
+          ],
+          [
+            "The attributional effect of scientific production",
+            "The attributional effect of scientific production",
+            1.0
+          ],
+          [
+            "Scientific and technical journal articles",
+            "Scientific and technical journal articles",
+            1.0
+          ],
+          [
+            "Intellectual property usage fees, payments",
+            "Intellectual property usage fees, payments",
+            1.0
+          ],
+          [
+            "Total greenhouse gas emissions",
+            "Total greenhouse gas emissions",
+            1.0
+          ],
+          [
+            "Nitrous oxide emissions",
+            "Nitrous oxide emissions",
+            1.0
+          ],
+          [
+            "Methane emissions",
+            "Methane emissions",
+            1.0
+          ],
+          [
+            "Adjusted savings: energy consumption",
+            "Adjusted savings: energy consumption",
+            1.0
+          ]
+        ],
+        "unmatched_reference": [
+          "Reading time expectation"
+        ],
+        "unmatched_hypothesis": [
+          "Patent applications made by non-residents (number/year)",
+          "patent applications made by residents (units/year)",
+          "trademark applications made directly by non-residents (number/year)",
+          "trademark applications made directly by residents (number/year)",
+          "trademark applications made by non-residents (number/year)",
+          "trademark applications made by residents (number/year)",
+          "total trademark applications (units/year)",
+          "number of researchers in R&D (per million people)",
+          "the ratio of R&D expenditures in GDP (%)",
+          "high technology export amount (USD)",
+          "high technology exports (percentage of manufacturing products exports)",
+          "ICT goods exports (percentage of total goods exports)",
+          "the number of articles in scientific and technical journals",
+          "PISA scales in reading, maths, & science",
+          "Graduates in science & engineering",
+          "QS university ranking",
+          "Quality of the education system",
+          "Quality of math and science education",
+          "Internet access in schools",
+          "Availability of latest technologies",
+          "Local availability of specialized training services",
+          "Government funding/pupil, secondary",
+          "Government expenditure per student, tertiary",
+          "Tertiary inbound mobility",
+          "ICT access",
+          "ICT use",
+          "ICTs & business model creation",
+          "Laws relating to ICTs",
+          "ICTs & organizational model creation",
+          "ICT services exports",
+          "ICT services imports",
+          "The ICT Development Index (IDI)",
+          "Credit",
+          "Investment",
+          "Trade, competition, & market scale",
+          "Business environment",
+          "Intensity of local competition",
+          "Extent of market",
+          "Foreign market size",
+          "Labor force participation, female",
+          "Exports of goods and services",
+          "GDP per capita",
+          "Real GDP growth",
+          "Average monthly net salary",
+          "Unemployment",
+          "Efficiency of government spending",
+          "Transparency of government policymaking",
+          "Renewable energy consumption",
+          "Alternative and nuclear energy",
+          "Ores and metals exports",
+          "Fuel imports",
+          "Energy imports",
+          "CO2 emissions",
+          "Total greenhouse gas emissions",
+          "Methane emissions",
+          "Nitrous oxide emissions",
+          "School life expectancy",
+          "Expenditure on education",
+          "Tertiary enrolment"
+        ],
+        "tp": 114,
+        "fp": 59,
+        "fn": 1,
+        "precision": 0.659,
+        "recall": 0.9913,
+        "f1": 0.7917
+      },
+      "bertscore": {
+        "matched": [
+          [
+            "The intensity of local competition",
+            "The intensity of local competition",
+            1.0
+          ],
+          [
+            "ICT and business model building",
+            "ICT and business model building",
+            1.0
+          ],
+          [
+            "Trade, competition and market scale",
+            "Trade, competition and market scale",
+            1.0
+          ],
+          [
+            "Work environment",
+            "Work environment",
+            1.0
+          ],
+          [
+            "Scope of the market",
+            "Scope of the market",
+            1.0
+          ],
+          [
+            "PISA scales in reading, mathematics and science",
+            "PISA scales in reading, mathematics and science",
+            1.0
+          ],
+          [
+            "ICT and organizational model building",
+            "ICT and organizational model building",
+            1.0
+          ],
+          [
+            "Foreign market size",
+            "Foreign market size",
+            1.0
+          ],
+          [
+            "Government online service",
+            "Government online service",
+            1.0
+          ],
+          [
+            "E-participation",
+            "E-participation",
+            1.0
+          ],
+          [
+            "Scientists and engineers",
+            "Scientists and engineers",
+            1.0
+          ],
+          [
+            "Accessibility to the latest technologies",
+            "Accessibility to the latest technologies",
+            1.0
+          ],
+          [
+            "ICT related laws",
+            "ICT related laws",
+            1.0
+          ],
+          [
+            "Value chain width",
+            "Value chain width",
+            1.0
+          ],
+          [
+            "Staff training scope",
+            "Staff training scope",
+            1.0
+          ],
+          [
+            "Internet access in schools",
+            "Internet access in schools",
+            1.0
+          ],
+          [
+            "Local availability of customized education services",
+            "Local availability of customized education services",
+            1.0
+          ],
+          [
+            "Innovation capacity",
+            "Innovation capacity",
+            1.0
+          ],
+          [
+            "Quality of scientific research institutions",
+            "Quality of scientific research institutions",
+            1.0
+          ],
+          [
+            "Production process development",
+            "Production process development",
+            1.0
+          ],
+          [
+            "Innovation",
+            "Innovation",
+            1.0
+          ],
+          [
+            "Access to Information and Communication Technologies",
+            "Access to Information and Communication Technologies",
+            1.0
+          ],
+          [
+            "Labour force participation, female",
+            "Labour force participation, female",
+            1.0
+          ],
+          [
+            "University-industry cooperation in R&D",
+            "University-industry cooperation in R&D",
+            1.0
+          ],
+          [
+            "Economic cluster development",
+            "Economic cluster development",
+            1.0
+          ],
+          [
+            "Ease of access to credits",
+            "Ease of access to credits",
+            1.0
+          ],
+          [
+            "Environmental performance",
+            "Environmental performance",
+            1.0
+          ],
+          [
+            "ICT Development Index (IDI)",
+            "ICT Development Index (IDI)",
+            1.0
+          ],
+          [
+            "Transparency in government policies",
+            "Transparency in government policies",
+            1.0
+          ],
+          [
+            "Political environment",
+            "Political environment",
+            1.0
+          ],
+          [
+            "State supply of high-tech products",
+            "State supply of high-tech products",
+            1.0
+          ],
+          [
+            "Quality of mathematics and science education",
+            "Quality of mathematics and science education",
+            1.0
+          ],
+          [
+            "Regulatory environment",
+            "Regulatory environment",
+            1.0
+          ],
+          [
+            "R&D expenditures of companies",
+            "R&D expenditures of companies",
+            1.0
+          ],
+          [
+            "Science and engineering graduates",
+            "Science and engineering graduates",
+            1.0
+          ],
+          [
+            "Use of Information and Communication Technologies (ICT)",
+            "Use of Information and Communication Technologies (ICT)",
+            1.0
+          ],
+          [
+            "Enrollment in higher education",
+            "Enrollment in higher education",
+            1.0
+          ],
+          [
+            "Employment in knowledge-intensive services",
+            "Employment in knowledge-intensive services",
+            1.0
+          ],
+          [
+            "R&D studies financed by commercial enterprises",
+            "R&D studies financed by commercial enterprises",
+            1.0
+          ],
+          [
+            "Citations per publication",
+            "Citations per publication",
+            1.0
+          ],
+          [
+            "Women’s employment",
+            "Women's employment",
+            0.9979
+          ],
+          [
+            "Energy density level of primary energy",
+            "Energy density level of primary energy",
+            1.0
+          ],
+          [
+            "State spending per student, at the tertiary level",
+            "State spending per student, at the tertiary level",
+            1.0
+          ],
+          [
+            "GDP per unit energy use",
+            "GDP per unit energy use",
+            1.0
+          ],
+          [
+            "High technology import",
+            "High technology import",
+            1.0
+          ],
+          [
+            "Quacquarelli Symonds (QS) university rank",
+            "Quacquarelli Symonds (QS) university rank",
+            1.0
+          ],
+          [
+            "R&D expenses of the top three global companies",
+            "R&D expenses of the top three global companies",
+            1.0
+          ],
+          [
+            "The productivity and impact of a scientist or publication",
+            "The productivity and impact of a scientist or publication",
+            1.0
+          ],
+          [
+            "Fuel import",
+            "Fuel import",
+            1.0
+          ],
+          [
+            "Trade",
+            "Trade",
+            1.0
+          ],
+          [
+            "Real GDP growth",
+            "Real GDP growth",
+            1.0
+          ],
+          [
+            "ICT services import",
+            "ICT services import",
+            1.0
+          ],
+          [
+            "Total gross R&D expenditure",
+            "Total gross R&D expenditure",
+            1.0
+          ],
+          [
+            "Exports of goods and services",
+            "Exports of goods and services",
+            1.0
+          ],
+          [
+            "Average monthly net income",
+            "Average monthly net income",
+            1.0
+          ],
+          [
+            "Researchers",
+            "Researchers",
+            1.0
+          ],
+          [
+            "Value-added of the services industry",
+            "Value-added of the services industry",
+            1.0
+          ],
+          [
+            "GDP per capita",
+            "GDP per capita",
+            1.0
+          ],
+          [
+            "CO2 emissions",
+            "CO2 emissions",
+            1.0
+          ],
+          [
+            "Intellectual property payments",
+            "Intellectual property payments",
+            1.0
+          ],
+          [
+            "Trademark application",
+            "Trademark application",
+            1.0
+          ],
+          [
+            "State Activity",
+            "State Activity",
+            1.0
+          ],
+          [
+            "High technology export except for re-export",
+            "High technology export except for re-export",
+            1.0
+          ],
+          [
+            "ISO 14001 Environmental Certificates",
+            "ISO 14001 Environmental Certificates",
+            1.0
+          ],
+          [
+            "Unemployment",
+            "Unemployment",
+            1.0
+          ],
+          [
+            "R&D studies carried out by commercial enterprises",
+            "R&D studies carried out by commercial enterprises",
+            1.0
+          ],
+          [
+            "Cultural and creative service export",
+            "Cultural and creative service export",
+            1.0
+          ],
+          [
+            "Participation and Accountability",
+            "Participation and Accountability",
+            1.0
+          ],
+          [
+            "Renewable energy consumption",
+            "Renewable energy consumption",
+            1.0
+          ],
+          [
+            "Creative goods export",
+            "Creative goods export",
+            1.0
+          ],
+          [
+            "Renewable electric power",
+            "Renewable electric power",
+            1.0
+          ],
+          [
+            "Joint venture strategic alliance opportunities",
+            "Joint venture strategic alliance opportunities",
+            1.0
+          ],
+          [
+            "ICT services export",
+            "ICT services export",
+            1.0
+          ],
+          [
+            "Effectiveness of law-making institutions",
+            "Effectiveness of law-making institutions",
+            1.0
+          ],
+          [
+            "Competitive advantage",
+            "Competitive advantage",
+            1.0
+          ],
+          [
+            "Venture capital availability",
+            "Venture capital availability",
+            1.0
+          ],
+          [
+            "Country capacity to retain talent",
+            "Country capacity to retain talent",
+            1.0
+          ],
+          [
+            "Quality of the education system",
+            "Quality of the education system",
+            1.0
+          ],
+          [
+            "State funding/student, secondary school level",
+            "State funding/student, secondary school level",
+            1.0
+          ],
+          [
+            "Judicial independence",
+            "Judicial independence",
+            1.0
+          ],
+          [
+            "Education expenses",
+            "Education expenses",
+            1.0
+          ],
+          [
+            "Political Stability and Violence/Absence of Terrorism",
+            "Political Stability and Violence/Absence of Terrorism",
+            1.0
+          ],
+          [
+            "Investment",
+            "Investment",
+            1.0
+          ],
+          [
+            "Credit",
+            "Credit",
+            1.0
+          ],
+          [
+            "Effectiveness of government spending",
+            "Effectiveness of government spending",
+            1.0
+          ],
+          [
+            "Nepotism in government decisions",
+            "Nepotism in government decisions",
+            1.0
+          ],
+          [
+            "Industrialization intensity",
+            "Industrialization intensity",
+            1.0
+          ],
+          [
+            "The medium and high tech industry",
+            "The medium and high tech industry",
+            1.0
+          ],
+          [
+            "Diversion of public funds",
+            "Diversion of public funds",
+            1.0
+          ],
+          [
+            "International scientific cooperation",
+            "International scientific cooperation",
+            1.0
+          ],
+          [
+            "Value-added of industry (including construction)",
+            "Value-added of industry (including construction)",
+            1.0
+          ],
+          [
+            "Fossil fuel energy consumption",
+            "Fossil fuel energy consumption",
+            1.0
+          ],
+          [
+            "Public trust in politicians",
+            "Public trust in politicians",
+            1.0
+          ],
+          [
+            "High technology and medium high technology production",
+            "High technology and medium high technology production",
+            1.0
+          ],
+          [
+            "Patent applications made by the citizens of the country",
+            "Patent applications made by the citizens of the country",
+            1.0
+          ],
+          [
+            "Added-value of agriculture, forestry and fisheries sectors",
+            "Added-value of agriculture, forestry and fisheries sectors",
+            1.0
+          ],
+          [
+            "Added-value of the manufacturing sector",
+            "Added-value of the manufacturing sector",
+            1.0
+          ],
+          [
+            "Energy import",
+            "Energy import",
+            1.0
+          ],
+          [
+            "Alternative and nuclear energy",
+            "Alternative and nuclear energy",
+            1.0
+          ],
+          [
+            "Foreign student mobility in higher education",
+            "Foreign student mobility in higher education",
+            1.0
+          ],
+          [
+            "International patent applications",
+            "International patent applications",
+            1.0
+          ],
+          [
+            "Creating a mobile application",
+            "Creating a mobile application",
+            1.0
+          ],
+          [
+            "Number of patent families made by nationals of the country",
+            "Number of patent families made by nationals of the country",
+            1.0
+          ],
+          [
+            "Industrial designs",
+            "Industrial designs",
+            1.0
+          ],
+          [
+            "Intellectual property usage fees not elsewhere classified",
+            "Intellectual property usage fees not elsewhere classified",
+            1.0
+          ],
+          [
+            "Ore and metal export",
+            "Ore and metal export",
+            1.0
+          ],
+          [
+            "Venture capital agreements",
+            "Venture capital agreements",
+            1.0
+          ],
+          [
+            "The attributional effect of scientific production",
+            "The attributional effect of scientific production",
+            1.0
+          ],
+          [
+            "Scientific and technical journal articles",
+            "Scientific and technical journal articles",
+            1.0
+          ],
+          [
+            "Intellectual property usage fees, payments",
+            "Intellectual property usage fees, payments",
+            1.0
+          ],
+          [
+            "Total greenhouse gas emissions",
+            "Total greenhouse gas emissions",
+            1.0
+          ],
+          [
+            "Nitrous oxide emissions",
+            "Nitrous oxide emissions",
+            1.0
+          ],
+          [
+            "Methane emissions",
+            "Methane emissions",
+            1.0
+          ],
+          [
+            "Adjusted savings: energy consumption",
+            "Adjusted savings: energy consumption",
+            1.0
+          ]
+        ],
+        "unmatched_reference": [
+          "Reading time expectation"
+        ],
+        "unmatched_hypothesis": [
+          "Patent applications made by non-residents (number/year)",
+          "patent applications made by residents (units/year)",
+          "trademark applications made directly by non-residents (number/year)",
+          "trademark applications made directly by residents (number/year)",
+          "trademark applications made by non-residents (number/year)",
+          "trademark applications made by residents (number/year)",
+          "total trademark applications (units/year)",
+          "number of researchers in R&D (per million people)",
+          "the ratio of R&D expenditures in GDP (%)",
+          "high technology export amount (USD)",
+          "high technology exports (percentage of manufacturing products exports)",
+          "ICT goods exports (percentage of total goods exports)",
+          "the number of articles in scientific and technical journals",
+          "PISA scales in reading, maths, & science",
+          "Graduates in science & engineering",
+          "QS university ranking",
+          "Quality of the education system",
+          "Quality of math and science education",
+          "Internet access in schools",
+          "Availability of latest technologies",
+          "Local availability of specialized training services",
+          "Government funding/pupil, secondary",
+          "Government expenditure per student, tertiary",
+          "Tertiary inbound mobility",
+          "ICT access",
+          "ICT use",
+          "ICTs & business model creation",
+          "Laws relating to ICTs",
+          "ICTs & organizational model creation",
+          "ICT services exports",
+          "ICT services imports",
+          "The ICT Development Index (IDI)",
+          "Credit",
+          "Investment",
+          "Trade, competition, & market scale",
+          "Business environment",
+          "Intensity of local competition",
+          "Extent of market",
+          "Foreign market size",
+          "Labor force participation, female",
+          "Exports of goods and services",
+          "GDP per capita",
+          "Real GDP growth",
+          "Average monthly net salary",
+          "Unemployment",
+          "Efficiency of government spending",
+          "Transparency of government policymaking",
+          "Renewable energy consumption",
+          "Alternative and nuclear energy",
+          "Ores and metals exports",
+          "Fuel imports",
+          "Energy imports",
+          "CO2 emissions",
+          "Total greenhouse gas emissions",
+          "Methane emissions",
+          "Nitrous oxide emissions",
+          "School life expectancy",
+          "Expenditure on education",
+          "Tertiary enrolment"
+        ],
+        "tp": 114,
+        "fp": 59,
+        "fn": 1,
+        "precision": 0.659,
+        "recall": 0.9913,
+        "f1": 0.7917
+      }
+    }
+  }
+}

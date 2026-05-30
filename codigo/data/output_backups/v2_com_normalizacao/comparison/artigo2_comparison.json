@@ -1,0 +1,1543 @@
+{
+  "article_id": "artigo2",
+  "indicator_counts": {
+    "human": 101,
+    "gemini": 155
+  },
+  "pairs": {
+    "human_vs_gemini": {
+      "exact": {
+        "matched": [
+          [
+            "comercio exterior em produtos de alta tecnologia",
+            "comercio exterior em produtos de alta tecnologia",
+            1.0
+          ],
+          [
+            "concessoes de patentes europeias de origem espanhola",
+            "concessoes de patentes europeias de origem espanhola",
+            1.0
+          ],
+          [
+            "concessoes de patentes na espanha",
+            "concessoes de patentes na espanha",
+            1.0
+          ],
+          [
+            "contribuicao dos paises da ue ao orcamento do programa marco horizonte 2020 e retorno da ue aos paises",
+            "contribuicao dos paises da ue ao orcamento do programa marco horizonte 2020 e retorno da ue aos paises",
+            1.0
+          ],
+          [
+            "cooperacao para a inovacao de empresas inovadoras e demais agentes de si",
+            "cooperacao para a inovacao de empresas inovadoras e demais agentes de si",
+            1.0
+          ],
+          [
+            "cooperacao para a inovacao de empresas inovadoras e demais agentes de si por porte de empresa",
+            "cooperacao para a inovacao de empresas inovadoras e demais agentes de si por porte de empresa",
+            1.0
+          ],
+          [
+            "distribuicao de producao por area de conhecimento publicada na base de dados scopus",
+            "distribuicao de producao por area de conhecimento publicada na base de dados scopus",
+            1.0
+          ],
+          [
+            "distribuicao de producao por area de conhecimento publicada na base de dados web of science",
+            "distribuicao de producao por area de conhecimento publicada na base de dados web of science",
+            1.0
+          ],
+          [
+            "distribuicao do orcamento geral entre pesquisa militar e pesquisa civil",
+            "distribuicao do orcamento geral entre pesquisa militar e pesquisa civil",
+            1.0
+          ],
+          [
+            "distribuicao do orcamento por segmentos e respectivos programas de i+d+i",
+            "distribuicao do orcamento por segmentos e respectivos programas de i+d+i",
+            1.0
+          ],
+          [
+            "distribuicao dos creditos orcamentarios por objetivos socioeconomicos",
+            "distribuicao dos creditos orcamentarios por objetivos socioeconomicos",
+            1.0
+          ],
+          [
+            "empresas com inovacoes nao tecnologicas segundo tipo de inovacao e porte da empresa",
+            "empresas com inovacoes nao tecnologicas segundo tipo de inovacao e porte da empresa",
+            1.0
+          ],
+          [
+            "empresas inovadoras e gastos em inovacao por segmentos",
+            "empresas inovadoras e gastos em inovacao por segmentos",
+            1.0
+          ],
+          [
+            "empresas inovadoras e gastos em inovacao por segmentos e porte da empresa",
+            "empresas inovadoras e gastos em inovacao por segmentos e porte da empresa",
+            1.0
+          ],
+          [
+            "financiamento publico para a inovacao",
+            "financiamento publico para a inovacao",
+            1.0
+          ],
+          [
+            "gastos em inovacao por tipo de atividade inovadora e porte da empresa",
+            "gastos em inovacao por tipo de atividade inovadora e porte da empresa",
+            1.0
+          ],
+          [
+            "gastos em inovacao tecnologica por comunidades autonomas",
+            "gastos em inovacao tecnologica por comunidades autonomas",
+            1.0
+          ],
+          [
+            "gastos em p&d em euros por habitantes nos paises da ue",
+            "gastos em p&d em euros por habitantes nos paises da ue",
+            1.0
+          ],
+          [
+            "gastos em p&d em paises ibero-americanos e estados unidos da america",
+            "gastos em p&d em paises ibero-americanos e estados unidos da america",
+            1.0
+          ],
+          [
+            "gastos em p&d por comunidades autonomas e setor de atividade",
+            "gastos em p&d por comunidades autonomas e setor de atividade",
+            1.0
+          ],
+          [
+            "gastos em p&d por pesquisador e por comunidades autonomas",
+            "gastos em p&d por pesquisador e por comunidades autonomas",
+            1.0
+          ],
+          [
+            "gastos em p&d por pesquisador e por setor de execucao",
+            "gastos em p&d por pesquisador e por setor de execucao",
+            1.0
+          ],
+          [
+            "gastos em p&d por setor de execucao",
+            "gastos em p&d por setor de execucao",
+            1.0
+          ],
+          [
+            "gastos em p&d por setor de financiamento",
+            "gastos em p&d por setor de financiamento",
+            1.0
+          ],
+          [
+            "gastos em p&d por tipo de pesquisa (pesquisa basica, pesquisa aplicada e desenvolvimento tecnologico)",
+            "gastos em p&d por tipo de pesquisa (pesquisa basica, pesquisa aplicada e desenvolvimento tecnologico)",
+            1.0
+          ],
+          [
+            "imagem da profissao de cientista",
+            "imagem da profissao de cientista",
+            1.0
+          ],
+          [
+            "imagem social da ciencia e da tecnologia",
+            "imagem social da ciencia e da tecnologia",
+            1.0
+          ],
+          [
+            "inovacao tecnologica em empresas espanholas",
+            "inovacao tecnologica em empresas espanholas",
+            1.0
+          ],
+          [
+            "inovacao tecnologica nas comunidades autonomas",
+            "inovacao tecnologica nas comunidades autonomas",
+            1.0
+          ],
+          [
+            "intensidade em inovacao tecnologica das empresas",
+            "intensidade em inovacao tecnologica das empresas",
+            1.0
+          ],
+          [
+            "investimento decorrente do programa marco horizonte 2020 de p&d por area tematica",
+            "investimento decorrente do programa marco horizonte 2020 de p&d por area tematica",
+            1.0
+          ],
+          [
+            "investimento decorrente do programa marco horizonte 2020 de p&d por comunidade autonoma",
+            "investimento decorrente do programa marco horizonte 2020 de p&d por comunidade autonoma",
+            1.0
+          ],
+          [
+            "investimento decorrente do programa marco horizonte 2020 de p&d por numero de pesquisadores por comunidade autonoma",
+            "investimento decorrente do programa marco horizonte 2020 de p&d por numero de pesquisadores por comunidade autonoma",
+            1.0
+          ],
+          [
+            "investimento decorrente do programa marco horizonte 2020 de p&d por tipo de entidade participante",
+            "investimento decorrente do programa marco horizonte 2020 de p&d por tipo de entidade participante",
+            1.0
+          ],
+          [
+            "numero de empresas com atividades de inovacao tecnologica que realizam p&d por porte da empresa",
+            "numero de empresas com atividades de inovacao tecnologica que realizam p&d por porte da empresa",
+            1.0
+          ],
+          [
+            "orcamento geral do estado para i+d+i",
+            "orcamento geral do estado para i+d+i",
+            1.0
+          ],
+          [
+            "paises com maior numero de producao cientifica nas bases de dados scopus e web of science",
+            "paises com maior numero de producao cientifica nas bases de dados scopus e web of science",
+            1.0
+          ],
+          [
+            "participacao em programas e instituicoes internacionais de i+d+i",
+            "participacao em programas e instituicoes internacionais de i+d+i",
+            1.0
+          ],
+          [
+            "percentual de tecnicos e auxiliares em p&d em relacao aos pesquisadores e ao setor de execucao",
+            "percentual de tecnicos e auxiliares em p&d em relacao aos pesquisadores e ao setor de execucao",
+            1.0
+          ],
+          [
+            "percentual de utilizacao de creditos orcamentarios recebidos",
+            "percentual de utilizacao de creditos orcamentarios recebidos",
+            1.0
+          ],
+          [
+            "percepcao do nivel de formacao cientifico-tecnologica recebida",
+            "percepcao do nivel de formacao cientifico-tecnologica recebida",
+            1.0
+          ],
+          [
+            "percepcao dos recursos investidos em ciencia pelo governo central",
+            "percepcao dos recursos investidos em ciencia pelo governo central",
+            1.0
+          ],
+          [
+            "pesquisadores em periodo integral nos paises ibero-americanos",
+            "pesquisadores em periodo integral nos paises ibero-americanos",
+            1.0
+          ],
+          [
+            "pesquisadores em periodo integral por comunidades autonomas",
+            "pesquisadores em periodo integral por comunidades autonomas",
+            1.0
+          ],
+          [
+            "populacao entre 30 e 34 anos com formacao superior",
+            "populacao entre 30 e 34 anos com formacao superior",
+            1.0
+          ],
+          [
+            "principais paises colaboradores da espanha",
+            "principais paises colaboradores da espanha",
+            1.0
+          ],
+          [
+            "producao cientifica espanhola",
+            "producao cientifica espanhola",
+            1.0
+          ],
+          [
+            "producao cientifica nas comunidades autonomicas",
+            "producao cientifica nas comunidades autonomicas",
+            1.0
+          ],
+          [
+            "profissionais e pesquisadores em atividades de p&d por setor de execucao em periodo integral, em numero de pessoas e porcentagem de mulheres sobre o total",
+            "profissionais e pesquisadores em atividades de p&d por setor de execucao em periodo integral, em numero de pessoas e porcentagem de mulheres sobre o total",
+            1.0
+          ],
+          [
+            "profissionais e pesquisadores em atividades de p&d por setor de execucao, em numero de pessoas e porcentagem de mulheres sobre o total",
+            "profissionais e pesquisadores em atividades de p&d por setor de execucao, em numero de pessoas e porcentagem de mulheres sobre o total",
+            1.0
+          ],
+          [
+            "profissionais em atividades de p&d",
+            "profissionais em atividades de p&d",
+            1.0
+          ],
+          [
+            "profissionais empregados em atividades de p&d em periodo integral por comunidades autonomas",
+            "profissionais empregados em atividades de p&d em periodo integral por comunidades autonomas",
+            1.0
+          ],
+          [
+            "profissionais empregados em atividades de p&d em periodo integral por comunidades autonomas e setor de atividade",
+            "profissionais empregados em atividades de p&d em periodo integral por comunidades autonomas e setor de atividade",
+            1.0
+          ],
+          [
+            "profissionais empregados em atividades de p&d em relacao a populacao",
+            "profissionais empregados em atividades de p&d em relacao a populacao",
+            1.0
+          ],
+          [
+            "profissionais empregados nos setores de alta tecnologia nos paises da ue",
+            "profissionais empregados nos setores de alta tecnologia nos paises da ue",
+            1.0
+          ],
+          [
+            "profissionais empregados nos setores de alta tecnologia por comunidades autonomas",
+            "profissionais empregados nos setores de alta tecnologia por comunidades autonomas",
+            1.0
+          ],
+          [
+            "programas marco de p&d da ue",
+            "programas marco de p&d da ue",
+            1.0
+          ],
+          [
+            "ranking de inovacao dos paises da ue",
+            "ranking de inovacao dos paises da ue",
+            1.0
+          ],
+          [
+            "recursos destinados a p&d em paises da ocde",
+            "recursos destinados a p&d em paises da ocde",
+            1.0
+          ],
+          [
+            "recursos destinados a p&d nos paises membros da ocde em profissionais empregados em atividades de p&d em relacao a populacao ativa",
+            "recursos destinados a p&d nos paises membros da ocde em profissionais empregados em atividades de p&d em relacao a populacao ativa",
+            1.0
+          ],
+          [
+            "situacao do setor de alta tecnologia",
+            "situacao do setor de alta tecnologia",
+            1.0
+          ],
+          [
+            "situacao do setor de biotecnologia",
+            "situacao do setor de biotecnologia",
+            1.0
+          ],
+          [
+            "solicitacoes de patentes europeias e pct de origem espanhola",
+            "solicitacoes de patentes europeias e pct de origem espanhola",
+            1.0
+          ],
+          [
+            "solicitacoes de patentes nacionais (espanha)",
+            "solicitacoes de patentes nacionais (espanha)",
+            1.0
+          ],
+          [
+            "solicitacoes e concessoes de patentes na espanha por comunidades autonomas",
+            "solicitacoes e concessoes de patentes na espanha por comunidades autonomas",
+            1.0
+          ],
+          [
+            "subvencao concedida pelo programa marco horizonte 2020 por numero de pesquisadores",
+            "subvencao concedida pelo programa marco horizonte 2020 por numero de pesquisadores",
+            1.0
+          ],
+          [
+            "teses de doutorado concluidas por tipo de universidade e comunidades autonomas",
+            "teses de doutorado concluidas por tipo de universidade e comunidades autonomas",
+            1.0
+          ]
+        ],
+        "unmatched_reference": [
+          "bancos de patentes",
+          "bolsas de formacao",
+          "comparacoes internacionais",
+          "compra e venda de tecnologias",
+          "distribuicao do orcamento por departamentos ministeriais: economia, industria e competitividade; energia, turismo e agenda digital; defesa",
+          "educacao, cultura e esporte; fazenda e gestao publica; presidencia e administracoes territoriais; relacoes exteriores; fomento",
+          "exportacao",
+          "gastos em p&d em paises da ue por setor de financiamento (empresas",
+          "gastos em p&d em paises da uniao europeia (ue) por setor de execucao (empresas e instituicoes privadas sem fins lucrativos; administracao publica; ensino superior)",
+          "imagem da profissao de cientista e a percepcao de recursos destinados a ciencia pelo governo central",
+          "imagem social",
+          "importacao",
+          "inovacao",
+          "instituicoes privadas sem fins lucrativos; administracao publica; ensino superior; estrangeiro)",
+          "meios de informacao sobre ciencia e tecnologia (televisao, internet, jornal, radio, livro, revistas cientificas, revistas genericas)",
+          "nivel de interesse da populacao pela ciencia e pela tecnologia",
+          "nivel de interesse pela ciencia e tecnologia em comparacao a outros temas selecionados (medicina e saude; alimentos e consumo; meio ambiente e ecologia; politica; cinema, arte e cultura)",
+          "orcamento publico em i+d+i (investigacao,desenvolvimento e inovacao)",
+          "patentes",
+          "patentes triadicas (solicitadas simultaneamente na europa, japao e estados unidos da america) concedidas em paises da ocde",
+          "percentual de venda de produtos inovadores das empresas inovadoras por segmento economico (agricultura, industria, servicos)",
+          "percentual de venda de produtos inovadores das empresas por segmento economico (agricultura, industria, servicos)",
+          "pesquisadores contratados em periodo integral por setor de execucao (empresas; instituicoes privadas sem fins lucrativos; administracao publica; ensino superior)",
+          "producao cientifica",
+          "profissionais empregados em atividades de p&d por setor de execucao (empresas; instituicoes privadas sem fins lucrativos; administracao publica; ensino superior)",
+          "recursos aplicados",
+          "recursos aplicados consolidados",
+          "recursos humanos",
+          "recursos humanos em p&d",
+          "solicitacoes de patentes nacionais segundo natureza do solicitante (particulares; empresas; conselho superior de investigacoes cientificas; organismos publicos; universidades)",
+          "valorizacao da profissao de cientista em comparacao com outras profissoes",
+          "valorizacao de profissoes (medicos, cientistas, professores, engenheiros, juizes, advogados, jornalistas, atletas, empresarios, religiosos e politicos)"
+        ],
+        "unmatched_hypothesis": [
+          "alunos matriculados e titulados nos cursos de mestrado e doutorado, ao final do ano",
+          "alunos titulados nos cursos de doutorado, por grande area",
+          "alunos titulados nos cursos de mestrado e doutorado",
+          "alunos titulados nos cursos de mestrado, por grande area",
+          "capes - bolsas de pos-graduacao concedidas no exterior por grandes areas",
+          "capes - bolsas de pos-graduacao concedidas no pais por modalidades selecionadas",
+          "capes - bolsistas de pos-graduacao no exterior por modalidades selecionadas",
+          "capes – bolsas de pos-graduacao concedidas no exterior por modalidades selecionadas",
+          "capes – bolsas de pos-graduacao concedidas no pais por grandes areas",
+          "capes – total de bolsas de pos-graduacao concedidas no pais e total de bolsistas de pos-graduacao no exterior",
+          "citacoes de artigos brasileiros, da america latina e do mundo publicados em periodicos cientificos indexados pela scopus",
+          "citacoes de artigos brasileiros, da america latina e do mundo publicados em periodicos cientificos indexados pela scopus, e percentual em relacao ao mundo",
+          "cnpq - distribuicao percentual do numero de bolsas-ano concedidas (pais + exterior), por grande area segundo o sexo do bolsista",
+          "cnpq - total de bolsas-ano concedidas no pais e no exterior",
+          "cnpq - total de bolsas-ano concedidas no pais e no exterior, por modalidades selecionadas",
+          "comparacoes dos resultados mensurados no pais com os resultados de paises selecionados",
+          "concluintes no ensino superior por areas gerais",
+          "dispendio em c&t (em valores de 2015), total e por setor institucional",
+          "dispendio nacional em c&t (em valores de 2015) por atividade",
+          "dispendio nacional em c&t em relacao ao pib por setor",
+          "dispendio nacional em c&t em valores correntes, por atividade",
+          "dispendio nacional em c&t em valores correntes, por setor institucional",
+          "dispendio nacional em p&d (em valores de 2015) total e por setor",
+          "dispendio nacional em p&d em relacao ao pib por setor",
+          "dispendio nacional em p&d em valores correntes, por setor institucional",
+          "dispendio nacional em p&d por setor, em paridade de poder de compra",
+          "dispendio percentual do dispendio nacional em p&d por setor",
+          "dispendios do governo federal em c&t (em valores de 2015) por atividade",
+          "dispendios do governo federal em c&t por atividade",
+          "dispendios do governo federal em c&t por orgao",
+          "dispendios do governo federal em p&d por orgao",
+          "dispendios dos governos estaduais em c&t (em valores de 2015) por atividade",
+          "dispendios dos governos estaduais em c&t por atividade",
+          "dispendios dos governos estaduais em c&t por unidade da federacao",
+          "dispendios dos governos estaduais em p&d por unidade da federacao",
+          "dispendios empresariais em c&t (em valores de 2015) por atividade",
+          "dispendios empresariais em c&t por atividade",
+          "dispendios realizados nas atividades inovativas de empresas que implementaram inovacoes, segundo as atividades selecionadas da industria, do setor de eletricidade e gas e de servicos",
+          "distribuicao do orcamento por departamentos ministeriais",
+          "distribuicao percentual do valor da renuncia fiscal do governo federal segundo as leis de incentivo a pesquisa, desenvolvimento e capacitacao tecnologica",
+          "distribuicao percentual dos dispendios do governo federal em c&t por orgao",
+          "distribuicao percentual dos dispendios do governo federal em p&d por orgao",
+          "distribuicao percentual dos dispendios dos governos estaduais em c&t por unidade da federacao",
+          "distribuicao percentual dos dispendios dos governos estaduais em p&d por unidade da federacao",
+          "distribuicao percentual dos dispendios dos governos estaduais por regiao",
+          "distribuicao percentual dos pesquisadores cadastrados do diretorio dos grupos de pesquisa do cnpq, por faixa etaria",
+          "distribuicao percentual dos pesquisadores cadastrados do diretorio dos grupos de pesquisa do cnpq, por grande area do conhecimento",
+          "empresas que implementaram inovacoes com relacoes de cooperacao com outras organizacoes, segundo as atividades selecionadas da industria, do setor de eletricidade e gas e de servicos",
+          "estimativa dos dispendios (valores de 2015) das instituicoes com cursos de pos-graduacao stricto sensu reconhecidos pela capes/mec como aproximacao dos dispendios em p&d das instituicoes de ensino superior",
+          "estimativa dos dispendios das instituicoes com cursos de pos-graduacao stricto sensu reconhecidos pela capes/mec como aproximacao dos dispendios em p&d das instituicoes de ensino superior",
+          "gastos em p&d em paises da uniao europeia (ue) por setor de execucao",
+          "global innovation index score",
+          "instituicoes, grupos de pesquisa, pesquisadores e pesquisadores doutores, cadastrados no diretorio dos grupos de pesquisa do cnpq",
+          "meios de informacao sobre ciencia e tecnologia",
+          "nivel de interesse pela ciencia e tecnologia em comparacao a outros temas selecionados",
+          "numero de artigos brasileiros indexados pela scopus e percentual em relacao ao mundo",
+          "numero de artigos brasileiros, da america latina e do mundo publicados em periodicos cientificos indexados pela scopus",
+          "numero e percentual de concluintes de curso de graduacao nas engenharias e em relacao ao total",
+          "numero e percentual de empresas industriais que fazem p&d continuo",
+          "patentes concedidas pelo inpi, por setor tecnologico de acordo com a classificacao internacional de patentes",
+          "patentes concedidas pelo inpi, segundo tipos de patentes e origem do depositante",
+          "patentes triadicas concedidas em paises da ocde",
+          "pedidos de patentes depositados de acordo com o tratado de cooperacao em materia de patentes (pct, em ingles) por areas tecnologicas selecionadas",
+          "pedidos de patentes depositados no instituto nacional da propriedade industrial (inpi), segundo tipos de patentes e origem do depositante",
+          "pedidos e concessoes de patentes de invencao junto ao united states patent and trademark office (uspto)",
+          "percentual de empresas que implementaram inovacoes de produto e/ou processo, segundo as atividades selecionadas da industria, do setor de eletricidade e gas e dos servicos",
+          "percentual de empresas que implementaram inovacoes que receberam apoio do governo para as suas atividades inovativas, segundo as atividades selecionadas da industria, do setor de eletricidade e gas e de servicos",
+          "percentual de venda de produtos inovadores das empresas inovadoras por segmento economico",
+          "percentual de venda de produtos inovadores das empresas por segmento economico",
+          "percentual dos dispendios em c&t dos estados em relacao as suas receitas totais",
+          "percentual dos dispendios em p&d dos estados em relacao as suas receitas totais",
+          "pesquisadores cadastrados do diretorio dos grupos de pesquisa do cnpq, por faixa etaria",
+          "pesquisadores cadastrados do diretorio dos grupos de pesquisa do cnpq, por grande area do conhecimento",
+          "pesquisadores cadastrados do diretorio dos grupos de pesquisa do cnpq, por sexo",
+          "pesquisadores contratados em periodo integral por setor de execucao",
+          "pesquisadores e pessoal de apoio envolvidos em p&d, em equivalencia de tempo integral, por categoria",
+          "pesquisadores e pessoal de apoio envolvidos em p&d, em equivalencia de tempo integral, por setor institucional e categoria",
+          "pesquisadores e pessoal de apoio envolvidos em p&d, em numero de pessoas, por setor institucional e categoria",
+          "pesquisadores, em equivalencia de tempo integral, por nivel de escolaridade",
+          "pesquisadores, em numero de pessoas, por nivel de escolaridade",
+          "profissionais empregados em atividades de p&d por setor de execucao",
+          "solicitacoes de patentes nacionais segundo natureza do solicitante",
+          "total de empresas e empresas que implementaram inovacoes de produto e/ou processo, segundo as atividades selecionadas da industria, do setor de eletricidade e gas e de servicos",
+          "total de pessoas envolvidas em p&d (pesquisadores + pessoal de apoio), em equivalencia de tempo integral, por setor institucional",
+          "total de pessoas envolvidas em p&d (pesquisadores + pessoal de apoio), em numero de pessoas, por setor institucional",
+          "valor da renuncia fiscal do governo federal segundo as leis de incentivo a pesquisa, desenvolvimento e capacitacao tecnologica",
+          "valorizacao de profissoes"
+        ],
+        "tp": 67,
+        "fp": 87,
+        "fn": 32,
+        "precision": 0.4351,
+        "recall": 0.6768,
+        "f1": 0.5296
+      },
+      "fuzzy": {
+        "matched": [
+          [
+            "recursos humanos",
+            "recursos destinados a p&d em paises da ocde",
+            0.855
+          ],
+          [
+            "bancos de patentes",
+            "dispendio nacional em c&t (em valores de 2015) por atividade",
+            0.855
+          ],
+          [
+            "compra e venda de tecnologias",
+            "dispendio em c&t (em valores de 2015), total e por setor institucional",
+            0.855
+          ],
+          [
+            "recursos aplicados consolidados",
+            "recursos destinados a p&d nos paises membros da ocde em profissionais empregados em atividades de p&d em relacao a populacao ativa",
+            0.855
+          ],
+          [
+            "recursos aplicados",
+            "percepcao dos recursos investidos em ciencia pelo governo central",
+            0.855
+          ],
+          [
+            "bolsas de formacao",
+            "dispendio nacional em p&d (em valores de 2015) total e por setor",
+            0.855
+          ],
+          [
+            "producao cientifica",
+            "producao cientifica espanhola",
+            0.9
+          ],
+          [
+            "patentes",
+            "solicitacoes de patentes nacionais (espanha)",
+            0.9
+          ],
+          [
+            "inovacao",
+            "inovacao tecnologica em empresas espanholas",
+            0.9
+          ],
+          [
+            "comparacoes internacionais",
+            "comparacoes dos resultados mensurados no pais com os resultados de paises selecionados",
+            0.855
+          ],
+          [
+            "orcamento publico em i+d+i (investigacao,desenvolvimento e inovacao)",
+            "valor da renuncia fiscal do governo federal segundo as leis de incentivo a pesquisa, desenvolvimento e capacitacao tecnologica",
+            0.855
+          ],
+          [
+            "orcamento geral do estado para i+d+i",
+            "orcamento geral do estado para i+d+i",
+            1.0
+          ],
+          [
+            "distribuicao do orcamento geral entre pesquisa militar e pesquisa civil",
+            "distribuicao do orcamento geral entre pesquisa militar e pesquisa civil",
+            1.0
+          ],
+          [
+            "distribuicao do orcamento por departamentos ministeriais: economia, industria e competitividade; energia, turismo e agenda digital; defesa",
+            "distribuicao do orcamento por departamentos ministeriais",
+            0.9
+          ],
+          [
+            "educacao, cultura e esporte; fazenda e gestao publica; presidencia e administracoes territoriais; relacoes exteriores; fomento",
+            "alunos matriculados e titulados nos cursos de mestrado e doutorado, ao final do ano",
+            0.855
+          ],
+          [
+            "distribuicao do orcamento por segmentos e respectivos programas de i+d+i",
+            "distribuicao do orcamento por segmentos e respectivos programas de i+d+i",
+            1.0
+          ],
+          [
+            "percentual de utilizacao de creditos orcamentarios recebidos",
+            "percentual de utilizacao de creditos orcamentarios recebidos",
+            1.0
+          ],
+          [
+            "distribuicao dos creditos orcamentarios por objetivos socioeconomicos",
+            "distribuicao dos creditos orcamentarios por objetivos socioeconomicos",
+            1.0
+          ],
+          [
+            "gastos em p&d por setor de execucao",
+            "gastos em p&d por setor de execucao",
+            1.0
+          ],
+          [
+            "gastos em p&d por setor de financiamento",
+            "gastos em p&d por setor de financiamento",
+            1.0
+          ],
+          [
+            "gastos em p&d por tipo de pesquisa (pesquisa basica, pesquisa aplicada e desenvolvimento tecnologico)",
+            "gastos em p&d por tipo de pesquisa (pesquisa basica, pesquisa aplicada e desenvolvimento tecnologico)",
+            1.0
+          ],
+          [
+            "gastos em p&d por pesquisador e por setor de execucao",
+            "gastos em p&d por pesquisador e por setor de execucao",
+            1.0
+          ],
+          [
+            "gastos em p&d por pesquisador e por comunidades autonomas",
+            "gastos em p&d por pesquisador e por comunidades autonomas",
+            1.0
+          ],
+          [
+            "gastos em p&d por comunidades autonomas e setor de atividade",
+            "gastos em p&d por comunidades autonomas e setor de atividade",
+            1.0
+          ],
+          [
+            "recursos destinados a p&d em paises da ocde",
+            "dispendio nacional em c&t em valores correntes, por setor institucional",
+            0.855
+          ],
+          [
+            "gastos em p&d em paises ibero-americanos e estados unidos da america",
+            "gastos em p&d em paises ibero-americanos e estados unidos da america",
+            1.0
+          ],
+          [
+            "gastos em p&d em paises da uniao europeia (ue) por setor de execucao (empresas e instituicoes privadas sem fins lucrativos; administracao publica; ensino superior)",
+            "gastos em p&d em paises da uniao europeia (ue) por setor de execucao",
+            0.9
+          ],
+          [
+            "gastos em p&d em paises da ue por setor de financiamento (empresas",
+            "distribuicao percentual do valor da renuncia fiscal do governo federal segundo as leis de incentivo a pesquisa, desenvolvimento e capacitacao tecnologica",
+            0.855
+          ],
+          [
+            "instituicoes privadas sem fins lucrativos; administracao publica; ensino superior; estrangeiro)",
+            "estimativa dos dispendios das instituicoes com cursos de pos-graduacao stricto sensu reconhecidos pela capes/mec como aproximacao dos dispendios em p&d das instituicoes de ensino superior",
+            0.855
+          ],
+          [
+            "gastos em p&d em euros por habitantes nos paises da ue",
+            "gastos em p&d em euros por habitantes nos paises da ue",
+            1.0
+          ],
+          [
+            "recursos humanos em p&d",
+            "dispendio nacional em c&t em valores correntes, por atividade",
+            0.855
+          ],
+          [
+            "profissionais em atividades de p&d",
+            "profissionais em atividades de p&d",
+            1.0
+          ],
+          [
+            "profissionais empregados em atividades de p&d em relacao a populacao",
+            "profissionais empregados em atividades de p&d em relacao a populacao",
+            1.0
+          ],
+          [
+            "profissionais empregados em atividades de p&d por setor de execucao (empresas; instituicoes privadas sem fins lucrativos; administracao publica; ensino superior)",
+            "profissionais empregados em atividades de p&d por setor de execucao",
+            0.9
+          ],
+          [
+            "pesquisadores contratados em periodo integral por setor de execucao (empresas; instituicoes privadas sem fins lucrativos; administracao publica; ensino superior)",
+            "pesquisadores contratados em periodo integral por setor de execucao",
+            0.9
+          ],
+          [
+            "profissionais e pesquisadores em atividades de p&d por setor de execucao, em numero de pessoas e porcentagem de mulheres sobre o total",
+            "profissionais e pesquisadores em atividades de p&d por setor de execucao, em numero de pessoas e porcentagem de mulheres sobre o total",
+            1.0
+          ],
+          [
+            "profissionais e pesquisadores em atividades de p&d por setor de execucao em periodo integral, em numero de pessoas e porcentagem de mulheres sobre o total",
+            "profissionais e pesquisadores em atividades de p&d por setor de execucao em periodo integral, em numero de pessoas e porcentagem de mulheres sobre o total",
+            1.0
+          ],
+          [
+            "percentual de tecnicos e auxiliares em p&d em relacao aos pesquisadores e ao setor de execucao",
+            "percentual de tecnicos e auxiliares em p&d em relacao aos pesquisadores e ao setor de execucao",
+            1.0
+          ],
+          [
+            "populacao entre 30 e 34 anos com formacao superior",
+            "populacao entre 30 e 34 anos com formacao superior",
+            1.0
+          ],
+          [
+            "profissionais empregados em atividades de p&d em periodo integral por comunidades autonomas",
+            "profissionais empregados em atividades de p&d em periodo integral por comunidades autonomas",
+            1.0
+          ],
+          [
+            "pesquisadores em periodo integral por comunidades autonomas",
+            "pesquisadores em periodo integral por comunidades autonomas",
+            1.0
+          ],
+          [
+            "profissionais empregados em atividades de p&d em periodo integral por comunidades autonomas e setor de atividade",
+            "profissionais empregados em atividades de p&d em periodo integral por comunidades autonomas e setor de atividade",
+            1.0
+          ],
+          [
+            "recursos destinados a p&d nos paises membros da ocde em profissionais empregados em atividades de p&d em relacao a populacao ativa",
+            "dispendio nacional em c&t em relacao ao pib por setor",
+            0.855
+          ],
+          [
+            "pesquisadores em periodo integral nos paises ibero-americanos",
+            "pesquisadores em periodo integral nos paises ibero-americanos",
+            1.0
+          ],
+          [
+            "inovacao tecnologica em empresas espanholas",
+            "dispendio nacional em p&d em valores correntes, por setor institucional",
+            0.855
+          ],
+          [
+            "empresas inovadoras e gastos em inovacao por segmentos",
+            "empresas inovadoras e gastos em inovacao por segmentos",
+            1.0
+          ],
+          [
+            "empresas inovadoras e gastos em inovacao por segmentos e porte da empresa",
+            "empresas inovadoras e gastos em inovacao por segmentos e porte da empresa",
+            1.0
+          ],
+          [
+            "gastos em inovacao por tipo de atividade inovadora e porte da empresa",
+            "gastos em inovacao por tipo de atividade inovadora e porte da empresa",
+            1.0
+          ],
+          [
+            "intensidade em inovacao tecnologica das empresas",
+            "intensidade em inovacao tecnologica das empresas",
+            1.0
+          ],
+          [
+            "numero de empresas com atividades de inovacao tecnologica que realizam p&d por porte da empresa",
+            "numero de empresas com atividades de inovacao tecnologica que realizam p&d por porte da empresa",
+            1.0
+          ],
+          [
+            "percentual de venda de produtos inovadores das empresas por segmento economico (agricultura, industria, servicos)",
+            "percentual de venda de produtos inovadores das empresas por segmento economico",
+            0.95
+          ],
+          [
+            "percentual de venda de produtos inovadores das empresas inovadoras por segmento economico (agricultura, industria, servicos)",
+            "percentual de venda de produtos inovadores das empresas inovadoras por segmento economico",
+            0.95
+          ],
+          [
+            "financiamento publico para a inovacao",
+            "financiamento publico para a inovacao",
+            1.0
+          ],
+          [
+            "cooperacao para a inovacao de empresas inovadoras e demais agentes de si",
+            "cooperacao para a inovacao de empresas inovadoras e demais agentes de si",
+            1.0
+          ],
+          [
+            "cooperacao para a inovacao de empresas inovadoras e demais agentes de si por porte de empresa",
+            "cooperacao para a inovacao de empresas inovadoras e demais agentes de si por porte de empresa",
+            1.0
+          ],
+          [
+            "empresas com inovacoes nao tecnologicas segundo tipo de inovacao e porte da empresa",
+            "empresas com inovacoes nao tecnologicas segundo tipo de inovacao e porte da empresa",
+            1.0
+          ],
+          [
+            "inovacao tecnologica nas comunidades autonomas",
+            "inovacao tecnologica nas comunidades autonomas",
+            1.0
+          ],
+          [
+            "gastos em inovacao tecnologica por comunidades autonomas",
+            "gastos em inovacao tecnologica por comunidades autonomas",
+            1.0
+          ],
+          [
+            "ranking de inovacao dos paises da ue",
+            "ranking de inovacao dos paises da ue",
+            1.0
+          ],
+          [
+            "situacao do setor de alta tecnologia",
+            "situacao do setor de alta tecnologia",
+            1.0
+          ],
+          [
+            "inovacao tecnologica nas comunidades autonomas",
+            "numero e percentual de concluintes de curso de graduacao nas engenharias e em relacao ao total",
+            0.855
+          ],
+          [
+            "comercio exterior em produtos de alta tecnologia",
+            "comercio exterior em produtos de alta tecnologia",
+            1.0
+          ],
+          [
+            "profissionais empregados nos setores de alta tecnologia por comunidades autonomas",
+            "profissionais empregados nos setores de alta tecnologia por comunidades autonomas",
+            1.0
+          ],
+          [
+            "profissionais empregados nos setores de alta tecnologia nos paises da ue",
+            "profissionais empregados nos setores de alta tecnologia nos paises da ue",
+            1.0
+          ],
+          [
+            "situacao do setor de biotecnologia",
+            "situacao do setor de biotecnologia",
+            1.0
+          ],
+          [
+            "producao cientifica espanhola",
+            "distribuicao de producao por area de conhecimento publicada na base de dados scopus",
+            0.855
+          ],
+          [
+            "distribuicao de producao por area de conhecimento publicada na base de dados scopus",
+            "distribuicao de producao por area de conhecimento publicada na base de dados web of science",
+            0.908
+          ],
+          [
+            "distribuicao de producao por area de conhecimento publicada na base de dados web of science",
+            "dispendio nacional em p&d em relacao ao pib por setor",
+            0.855
+          ],
+          [
+            "principais paises colaboradores da espanha",
+            "principais paises colaboradores da espanha",
+            1.0
+          ],
+          [
+            "producao cientifica nas comunidades autonomicas",
+            "producao cientifica nas comunidades autonomicas",
+            1.0
+          ],
+          [
+            "paises com maior numero de producao cientifica nas bases de dados scopus e web of science",
+            "paises com maior numero de producao cientifica nas bases de dados scopus e web of science",
+            1.0
+          ],
+          [
+            "solicitacoes de patentes nacionais (espanha)",
+            "dispendio nacional em p&d por setor, em paridade de poder de compra",
+            0.855
+          ],
+          [
+            "solicitacoes de patentes europeias e pct de origem espanhola",
+            "solicitacoes de patentes europeias e pct de origem espanhola",
+            1.0
+          ],
+          [
+            "solicitacoes de patentes nacionais segundo natureza do solicitante (particulares; empresas; conselho superior de investigacoes cientificas; organismos publicos; universidades)",
+            "solicitacoes de patentes nacionais segundo natureza do solicitante",
+            0.9
+          ],
+          [
+            "concessoes de patentes na espanha",
+            "concessoes de patentes na espanha",
+            1.0
+          ],
+          [
+            "concessoes de patentes europeias de origem espanhola",
+            "concessoes de patentes europeias de origem espanhola",
+            1.0
+          ],
+          [
+            "solicitacoes e concessoes de patentes na espanha por comunidades autonomas",
+            "solicitacoes e concessoes de patentes na espanha por comunidades autonomas",
+            1.0
+          ],
+          [
+            "teses de doutorado concluidas por tipo de universidade e comunidades autonomas",
+            "teses de doutorado concluidas por tipo de universidade e comunidades autonomas",
+            1.0
+          ],
+          [
+            "patentes triadicas (solicitadas simultaneamente na europa, japao e estados unidos da america) concedidas em paises da ocde",
+            "dispendio percentual do dispendio nacional em p&d por setor",
+            0.855
+          ],
+          [
+            "nivel de interesse pela ciencia e tecnologia em comparacao a outros temas selecionados (medicina e saude; alimentos e consumo; meio ambiente e ecologia; politica; cinema, arte e cultura)",
+            "nivel de interesse pela ciencia e tecnologia em comparacao a outros temas selecionados",
+            0.9
+          ],
+          [
+            "imagem social da ciencia e da tecnologia",
+            "imagem social da ciencia e da tecnologia",
+            1.0
+          ],
+          [
+            "percepcao do nivel de formacao cientifico-tecnologica recebida",
+            "percepcao do nivel de formacao cientifico-tecnologica recebida",
+            1.0
+          ],
+          [
+            "meios de informacao sobre ciencia e tecnologia (televisao, internet, jornal, radio, livro, revistas cientificas, revistas genericas)",
+            "meios de informacao sobre ciencia e tecnologia",
+            0.9
+          ],
+          [
+            "valorizacao de profissoes (medicos, cientistas, professores, engenheiros, juizes, advogados, jornalistas, atletas, empresarios, religiosos e politicos)",
+            "valorizacao de profissoes",
+            0.9
+          ],
+          [
+            "imagem da profissao de cientista",
+            "imagem da profissao de cientista",
+            1.0
+          ],
+          [
+            "percepcao dos recursos investidos em ciencia pelo governo central",
+            "estimativa dos dispendios (valores de 2015) das instituicoes com cursos de pos-graduacao stricto sensu reconhecidos pela capes/mec como aproximacao dos dispendios em p&d das instituicoes de ensino superior",
+            0.855
+          ],
+          [
+            "participacao em programas e instituicoes internacionais de i+d+i",
+            "participacao em programas e instituicoes internacionais de i+d+i",
+            1.0
+          ],
+          [
+            "programas marco de p&d da ue",
+            "programas marco de p&d da ue",
+            1.0
+          ],
+          [
+            "investimento decorrente do programa marco horizonte 2020 de p&d por tipo de entidade participante",
+            "investimento decorrente do programa marco horizonte 2020 de p&d por tipo de entidade participante",
+            1.0
+          ],
+          [
+            "investimento decorrente do programa marco horizonte 2020 de p&d por area tematica",
+            "investimento decorrente do programa marco horizonte 2020 de p&d por area tematica",
+            1.0
+          ],
+          [
+            "investimento decorrente do programa marco horizonte 2020 de p&d por comunidade autonoma",
+            "investimento decorrente do programa marco horizonte 2020 de p&d por comunidade autonoma",
+            1.0
+          ],
+          [
+            "investimento decorrente do programa marco horizonte 2020 de p&d por numero de pesquisadores por comunidade autonoma",
+            "investimento decorrente do programa marco horizonte 2020 de p&d por numero de pesquisadores por comunidade autonoma",
+            1.0
+          ],
+          [
+            "contribuicao dos paises da ue ao orcamento do programa marco horizonte 2020 e retorno da ue aos paises",
+            "contribuicao dos paises da ue ao orcamento do programa marco horizonte 2020 e retorno da ue aos paises",
+            1.0
+          ],
+          [
+            "subvencao concedida pelo programa marco horizonte 2020 por numero de pesquisadores",
+            "subvencao concedida pelo programa marco horizonte 2020 por numero de pesquisadores",
+            1.0
+          ],
+          [
+            "nivel de interesse da populacao pela ciencia e pela tecnologia",
+            "distribuicao percentual dos dispendios dos governos estaduais em c&t por unidade da federacao",
+            0.855
+          ],
+          [
+            "valorizacao da profissao de cientista em comparacao com outras profissoes",
+            "dispendios do governo federal em c&t por orgao",
+            0.855
+          ],
+          [
+            "imagem da profissao de cientista e a percepcao de recursos destinados a ciencia pelo governo central",
+            "dispendios do governo federal em c&t por atividade",
+            0.855
+          ]
+        ],
+        "unmatched_reference": [
+          "exportacao",
+          "importacao",
+          "recursos humanos",
+          "imagem social"
+        ],
+        "unmatched_hypothesis": [
+          "dispendios do governo federal em c&t (em valores de 2015) por atividade",
+          "distribuicao percentual dos dispendios do governo federal em c&t por orgao",
+          "dispendios do governo federal em p&d por orgao",
+          "distribuicao percentual dos dispendios do governo federal em p&d por orgao",
+          "dispendios dos governos estaduais em c&t por atividade",
+          "dispendios dos governos estaduais em c&t (em valores de 2015) por atividade",
+          "dispendios dos governos estaduais em c&t por unidade da federacao",
+          "distribuicao percentual dos dispendios dos governos estaduais por regiao",
+          "dispendios dos governos estaduais em p&d por unidade da federacao",
+          "distribuicao percentual dos dispendios dos governos estaduais em p&d por unidade da federacao",
+          "percentual dos dispendios em c&t dos estados em relacao as suas receitas totais",
+          "percentual dos dispendios em p&d dos estados em relacao as suas receitas totais",
+          "dispendios empresariais em c&t por atividade",
+          "dispendios empresariais em c&t (em valores de 2015) por atividade",
+          "total de pessoas envolvidas em p&d (pesquisadores + pessoal de apoio), em numero de pessoas, por setor institucional",
+          "pesquisadores e pessoal de apoio envolvidos em p&d, em numero de pessoas, por setor institucional e categoria",
+          "pesquisadores, em numero de pessoas, por nivel de escolaridade",
+          "total de pessoas envolvidas em p&d (pesquisadores + pessoal de apoio), em equivalencia de tempo integral, por setor institucional",
+          "pesquisadores e pessoal de apoio envolvidos em p&d, em equivalencia de tempo integral, por setor institucional e categoria",
+          "pesquisadores e pessoal de apoio envolvidos em p&d, em equivalencia de tempo integral, por categoria",
+          "pesquisadores, em equivalencia de tempo integral, por nivel de escolaridade",
+          "concluintes no ensino superior por areas gerais",
+          "alunos titulados nos cursos de mestrado e doutorado",
+          "alunos titulados nos cursos de doutorado, por grande area",
+          "alunos titulados nos cursos de mestrado, por grande area",
+          "instituicoes, grupos de pesquisa, pesquisadores e pesquisadores doutores, cadastrados no diretorio dos grupos de pesquisa do cnpq",
+          "pesquisadores cadastrados do diretorio dos grupos de pesquisa do cnpq, por grande area do conhecimento",
+          "distribuicao percentual dos pesquisadores cadastrados do diretorio dos grupos de pesquisa do cnpq, por grande area do conhecimento",
+          "pesquisadores cadastrados do diretorio dos grupos de pesquisa do cnpq, por sexo",
+          "pesquisadores cadastrados do diretorio dos grupos de pesquisa do cnpq, por faixa etaria",
+          "distribuicao percentual dos pesquisadores cadastrados do diretorio dos grupos de pesquisa do cnpq, por faixa etaria",
+          "cnpq - total de bolsas-ano concedidas no pais e no exterior",
+          "cnpq - total de bolsas-ano concedidas no pais e no exterior, por modalidades selecionadas",
+          "cnpq - distribuicao percentual do numero de bolsas-ano concedidas (pais + exterior), por grande area segundo o sexo do bolsista",
+          "capes – total de bolsas de pos-graduacao concedidas no pais e total de bolsistas de pos-graduacao no exterior",
+          "capes - bolsas de pos-graduacao concedidas no pais por modalidades selecionadas",
+          "capes – bolsas de pos-graduacao concedidas no exterior por modalidades selecionadas",
+          "capes - bolsistas de pos-graduacao no exterior por modalidades selecionadas",
+          "capes – bolsas de pos-graduacao concedidas no pais por grandes areas",
+          "capes - bolsas de pos-graduacao concedidas no exterior por grandes areas",
+          "numero de artigos brasileiros, da america latina e do mundo publicados em periodicos cientificos indexados pela scopus",
+          "numero de artigos brasileiros indexados pela scopus e percentual em relacao ao mundo",
+          "citacoes de artigos brasileiros, da america latina e do mundo publicados em periodicos cientificos indexados pela scopus",
+          "citacoes de artigos brasileiros, da america latina e do mundo publicados em periodicos cientificos indexados pela scopus, e percentual em relacao ao mundo",
+          "pedidos de patentes depositados no instituto nacional da propriedade industrial (inpi), segundo tipos de patentes e origem do depositante",
+          "patentes concedidas pelo inpi, segundo tipos de patentes e origem do depositante",
+          "patentes concedidas pelo inpi, por setor tecnologico de acordo com a classificacao internacional de patentes",
+          "pedidos e concessoes de patentes de invencao junto ao united states patent and trademark office (uspto)",
+          "pedidos de patentes depositados de acordo com o tratado de cooperacao em materia de patentes (pct, em ingles) por areas tecnologicas selecionadas",
+          "percentual de empresas que implementaram inovacoes de produto e/ou processo, segundo as atividades selecionadas da industria, do setor de eletricidade e gas e dos servicos",
+          "total de empresas e empresas que implementaram inovacoes de produto e/ou processo, segundo as atividades selecionadas da industria, do setor de eletricidade e gas e de servicos",
+          "percentual de empresas que implementaram inovacoes que receberam apoio do governo para as suas atividades inovativas, segundo as atividades selecionadas da industria, do setor de eletricidade e gas e de servicos",
+          "dispendios realizados nas atividades inovativas de empresas que implementaram inovacoes, segundo as atividades selecionadas da industria, do setor de eletricidade e gas e de servicos",
+          "empresas que implementaram inovacoes com relacoes de cooperacao com outras organizacoes, segundo as atividades selecionadas da industria, do setor de eletricidade e gas e de servicos",
+          "numero e percentual de empresas industriais que fazem p&d continuo",
+          "patentes triadicas concedidas em paises da ocde",
+          "global innovation index score"
+        ],
+        "tp": 97,
+        "fp": 57,
+        "fn": 4,
+        "precision": 0.6299,
+        "recall": 0.9604,
+        "f1": 0.7608
+      },
+      "semantic": {
+        "matched": [
+          [
+            "Patentes",
+            "Pedidos e concessões de patentes de invenção junto ao United States Patent and Trademark Office (USPTO)",
+            0.8246
+          ],
+          [
+            "Inovação",
+            "Intensidade em inovação tecnológica das empresas",
+            0.8111
+          ],
+          [
+            "Orçamento geral do Estado para I+D+I;",
+            "Orçamento geral do Estado para I+D+I",
+            0.9955
+          ],
+          [
+            "Distribuição do orçamento geral entre pesquisa militar e pesquisa civil;",
+            "Distribuição do orçamento geral entre pesquisa militar e pesquisa civil",
+            0.9979
+          ],
+          [
+            "Distribuição do orçamento por segmentos e respectivos programas de I+D+I;",
+            "Distribuição do orçamento por segmentos e respectivos programas de I+D+I",
+            0.9976
+          ],
+          [
+            "Percentual de utilização de créditos orçamentários recebidos;",
+            "Percentual de utilização de créditos orçamentários recebidos",
+            0.9952
+          ],
+          [
+            "Distribuição dos créditos orçamentários por objetivos socioeconômicos",
+            "Distribuição dos créditos orçamentários por objetivos socioeconômicos",
+            1.0
+          ],
+          [
+            "Gastos em P&D por setor de execução;",
+            "Gastos em P&D por setor de execução",
+            0.9962
+          ],
+          [
+            "Gastos em P&D por setor de financiamento;",
+            "Gastos em P&D por setor de financiamento",
+            0.9963
+          ],
+          [
+            "Gastos em P&D por tipo de pesquisa (pesquisa básica, pesquisa aplicada e desenvolvimento tecnológico);",
+            "Gastos em P&D por tipo de pesquisa (pesquisa básica, pesquisa aplicada e desenvolvimento tecnológico)",
+            0.9982
+          ],
+          [
+            "Gastos em P&D por pesquisador e por setor de execução;",
+            "Gastos em P&D por pesquisador e por setor de execução",
+            0.9972
+          ],
+          [
+            "Gastos em P&D por pesquisador e por comunidades autônomas;",
+            "Gastos em P&D por pesquisador e por comunidades autônomas",
+            0.9962
+          ],
+          [
+            "Gastos em P&D por comunidades autônomas e setor de atividade;",
+            "Gastos em P&D por comunidades autônomas e setor de atividade",
+            0.9951
+          ],
+          [
+            "Recursos destinados a P&D em países da OCDE;",
+            "Recursos destinados a P&D em países da OCDE",
+            0.9966
+          ],
+          [
+            "Gastos em P&D em países ibero-americanos e Estados Unidos da América;",
+            "Gastos em P&D em países ibero-americanos e Estados Unidos da América",
+            0.9949
+          ],
+          [
+            "Gastos em P&D em países da União Europeia (UE) por setor de execução (Empresas e Instituições Privadas sem Fins Lucrativos; Administração Pública; Ensino Superior);",
+            "Gastos em P&D em países da União Europeia (UE) por setor de execução",
+            0.9419
+          ],
+          [
+            "Gastos em P&D em países da UE por setor de financiamento (Empresas;",
+            "Gastos em P&D em euros por habitantes nos países da UE",
+            0.8786
+          ],
+          [
+            "Profissionais em atividades de P&D;",
+            "Profissionais em atividades de P&D",
+            0.9853
+          ],
+          [
+            "Profissionais empregados em atividades de P&D em relação à população;",
+            "Profissionais empregados em atividades de P&D em relação à população",
+            0.9939
+          ],
+          [
+            "Profissionais empregados em atividades de P&D por setor de execução (Empresas; Instituições Privadas sem Fins Lucrativos; Administração Pública; Ensino Superior);",
+            "Profissionais empregados em atividades de P&D por setor de execução",
+            0.8744
+          ],
+          [
+            "Pesquisadores contratados em período integral por setor de execução (Empresas; Instituições Privadas sem Fins Lucrativos; Administração Pública; Ensino Superior);",
+            "Pesquisadores contratados em período integral por setor de execução",
+            0.8618
+          ],
+          [
+            "Profissionais e pesquisadores em atividades de P&D por setor de execução, em número de pessoas e porcentagem de mulheres sobre o total;",
+            "Profissionais e pesquisadores em atividades de P&D por setor de execução, em número de pessoas e porcentagem de mulheres sobre o total",
+            0.998
+          ],
+          [
+            "Profissionais e pesquisadores em atividades de P&D por setor de execução em período integral, em número de pessoas e porcentagem de mulheres sobre o total;",
+            "Profissionais e pesquisadores em atividades de P&D por setor de execução em período integral, em número de pessoas e porcentagem de mulheres sobre o total",
+            0.9971
+          ],
+          [
+            "Percentual de técnicos e auxiliares em P&D em relação aos pesquisadores e ao setor de execução;",
+            "Percentual de técnicos e auxiliares em P&D em relação aos pesquisadores e ao setor de execução",
+            0.998
+          ],
+          [
+            "População entre 30 e 34 anos com formação superior;",
+            "População entre 30 e 34 anos com formação superior",
+            0.997
+          ],
+          [
+            "Profissionais empregados em atividades de P&D em período integral por comunidades autônomas;",
+            "Profissionais empregados em atividades de P&D em período integral por comunidades autônomas",
+            0.9918
+          ],
+          [
+            "Pesquisadores em período integral por comunidades autônomas;",
+            "Pesquisadores em período integral por comunidades autônomas",
+            0.9924
+          ],
+          [
+            "Profissionais empregados em atividades de P&D em período integral por comunidades autônomas e setor de atividade;",
+            "Profissionais empregados em atividades de P&D em período integral por comunidades autônomas e setor de atividade",
+            0.9919
+          ],
+          [
+            "Recursos destinados a P&D nos países membros da OCDE em profissionais empregados em atividades de P&D em relação à população ativa;",
+            "Recursos destinados a P&D nos países membros da OCDE em profissionais empregados em atividades de P&D em relação à população ativa",
+            0.997
+          ],
+          [
+            "Pesquisadores em período integral nos países ibero-americanos.",
+            "Pesquisadores em período integral nos países ibero-americanos",
+            0.9832
+          ],
+          [
+            "Inovação tecnológica em empresas espanholas;",
+            "Inovação tecnológica em empresas espanholas",
+            0.9957
+          ],
+          [
+            "Empresas inovadoras e gastos em inovação por segmentos;",
+            "Empresas inovadoras e gastos em inovação por segmentos",
+            0.9975
+          ],
+          [
+            "Empresas inovadoras e gastos em inovação por segmentos e porte da empresa;",
+            "Empresas inovadoras e gastos em inovação por segmentos e porte da empresa",
+            0.997
+          ],
+          [
+            "Gastos em inovação por tipo de atividade inovadora e porte da empresa;",
+            "Gastos em inovação por tipo de atividade inovadora e porte da empresa",
+            0.9968
+          ],
+          [
+            "Intensidade em inovação tecnológica das empresas;",
+            "Empresas com inovações não tecnológicas segundo tipo de inovação e porte da empresa",
+            0.8238
+          ],
+          [
+            "Número de empresas com atividades de inovação tecnológica que realizam P&D por porte da empresa;",
+            "Número de empresas com atividades de inovação tecnológica que realizam P&D por porte da empresa",
+            0.9956
+          ],
+          [
+            "Percentual de venda de produtos inovadores das empresas por segmento econômico (agricultura, indústria, serviços);",
+            "Percentual de venda de produtos inovadores das empresas por segmento econômico",
+            0.9387
+          ],
+          [
+            "Percentual de venda de produtos inovadores das empresas inovadoras por segmento econômico (agricultura, indústria, serviços);",
+            "Percentual de venda de produtos inovadores das empresas inovadoras por segmento econômico",
+            0.9529
+          ],
+          [
+            "Financiamento público para a inovação;",
+            "Financiamento público para a inovação",
+            0.9966
+          ],
+          [
+            "Cooperação para a inovação de empresas inovadoras e demais agentes de SI;",
+            "Cooperação para a inovação de empresas inovadoras e demais agentes de SI",
+            0.9966
+          ],
+          [
+            "Cooperação para a inovação de empresas inovadoras e demais agentes de SI por porte de empresa;",
+            "Cooperação para a inovação de empresas inovadoras e demais agentes de SI por porte de empresa",
+            0.9972
+          ],
+          [
+            "Inovação tecnológica nas comunidades autônomas;",
+            "Inovação tecnológica nas comunidades autônomas",
+            0.9946
+          ],
+          [
+            "Gastos em inovação tecnológica por comunidades autônomas;",
+            "Gastos em inovação tecnológica por comunidades autônomas",
+            0.9933
+          ],
+          [
+            "Ranking de inovação dos países da UE.",
+            "Ranking de inovação dos países da UE",
+            0.9946
+          ],
+          [
+            "Situação do setor de alta tecnologia;",
+            "Situação do setor de alta tecnologia",
+            0.9929
+          ],
+          [
+            "Inovação tecnológica nas comunidades autônomas;",
+            "Inovação tecnológica nas comunidades autônomas",
+            0.9946
+          ],
+          [
+            "Comércio exterior em produtos de alta tecnologia;",
+            "Comércio exterior em produtos de alta tecnologia",
+            0.995
+          ],
+          [
+            "Profissionais empregados nos setores de alta tecnologia por comunidades autônomas;",
+            "Profissionais empregados nos setores de alta tecnologia por comunidades autônomas",
+            0.9918
+          ],
+          [
+            "Profissionais empregados nos setores de alta tecnologia nos países da UE;",
+            "Profissionais empregados nos setores de alta tecnologia nos países da UE",
+            0.9952
+          ],
+          [
+            "Situação do setor de biotecnologia.",
+            "Situação do setor de biotecnologia",
+            0.9881
+          ],
+          [
+            "Produção científica espanhola;",
+            "Produção científica espanhola",
+            0.9927
+          ],
+          [
+            "Distribuição de produção por área de conhecimento publicada na base de dados Scopus;",
+            "Distribuição de produção por área de conhecimento publicada na base de dados Scopus",
+            0.9965
+          ],
+          [
+            "Distribuição de produção por área de conhecimento publicada na base de dados Web of Science;",
+            "Distribuição de produção por área de conhecimento publicada na base de dados Web of Science",
+            0.9963
+          ],
+          [
+            "Principais países colaboradores da Espanha;",
+            "Principais países colaboradores da Espanha",
+            0.9961
+          ],
+          [
+            "Produção científica nas comunidades autonômicas;",
+            "Produção científica nas comunidades autonômicas",
+            0.9957
+          ],
+          [
+            "Países com maior número de produção cientifica nas bases de dados Scopus e Web of Science;",
+            "Países com maior número de produção cientifica nas bases de dados Scopus e Web of Science",
+            0.9966
+          ],
+          [
+            "Solicitações de patentes nacionais (Espanha);",
+            "Solicitações de patentes nacionais (Espanha)",
+            0.9978
+          ],
+          [
+            "Solicitações de patentes europeias e PCT de origem espanhola;",
+            "Solicitações de patentes europeias e PCT de origem espanhola",
+            0.9963
+          ],
+          [
+            "Solicitações de patentes nacionais segundo natureza do solicitante (Particulares; Empresas; Conselho Superior de Investigações Científicas; Organismos Públicos; Universidades);",
+            "Solicitações de patentes nacionais segundo natureza do solicitante",
+            0.9307
+          ],
+          [
+            "Concessões de patentes na Espanha;",
+            "Concessões de patentes na Espanha",
+            0.9955
+          ],
+          [
+            "Concessões de patentes europeias de origem espanhola;",
+            "Concessões de patentes europeias de origem espanhola",
+            0.9966
+          ],
+          [
+            "Solicitações e concessões de patentes na Espanha por comunidades autônomas;",
+            "Solicitações e concessões de patentes na Espanha por comunidades autônomas",
+            0.9966
+          ],
+          [
+            "Teses de doutorado concluídas por tipo de universidade e comunidades autônomas;",
+            "Teses de doutorado concluídas por tipo de universidade e comunidades autônomas",
+            0.9896
+          ],
+          [
+            "Patentes triádicas (solicitadas simultaneamente na Europa, Japão e Estados Unidos da América) concedidas em países da OCDE.",
+            "Patentes triádicas concedidas em países da OCDE",
+            0.9362
+          ],
+          [
+            "Nível de interesse pela ciência e tecnologia em comparação a outros temas selecionados (medicina e saúde; alimentos e consumo; meio ambiente e ecologia; política; cinema, arte e cultura);",
+            "Nível de interesse pela ciência e tecnologia em comparação a outros temas selecionados",
+            0.9249
+          ],
+          [
+            "Imagem social da ciência e da tecnologia;",
+            "Imagem social da ciência e da tecnologia",
+            0.9948
+          ],
+          [
+            "Percepção do nível de formação científico-tecnológica recebida;",
+            "Percepção do nível de formação científico-tecnológica recebida",
+            0.9942
+          ],
+          [
+            "Meios de informação sobre ciência e tecnologia (televisão, internet, jornal, rádio, livro, revistas científicas, revistas genéricas);",
+            "Meios de informação sobre ciência e tecnologia",
+            0.8555
+          ],
+          [
+            "Imagem da profissão de cientista;",
+            "Imagem da profissão de cientista",
+            0.9951
+          ],
+          [
+            "Percepção dos recursos investidos em ciência pelo governo central",
+            "Percepção dos recursos investidos em ciência pelo governo central",
+            1.0
+          ],
+          [
+            "Participação em programas e instituições internacionais de I+D+I;",
+            "Participação em programas e instituições internacionais de I+D+I",
+            0.9976
+          ],
+          [
+            "Programas Marco de P&D da UE;",
+            "Programas Marco de P&D da UE",
+            0.9942
+          ],
+          [
+            "Investimento decorrente do Programa Marco Horizonte 2020 de P&D por tipo de entidade participante;",
+            "Investimento decorrente do Programa Marco Horizonte 2020 de P&D por tipo de entidade participante",
+            0.9974
+          ],
+          [
+            "Investimento decorrente do Programa Marco Horizonte 2020 de P&D por área temática;",
+            "Investimento decorrente do Programa Marco Horizonte 2020 de P&D por área temática",
+            0.9967
+          ],
+          [
+            "Investimento decorrente do Programa Marco Horizonte 2020 de P&D por comunidade autônoma;",
+            "Investimento decorrente do Programa Marco Horizonte 2020 de P&D por comunidade autônoma",
+            0.9945
+          ],
+          [
+            "Investimento decorrente do Programa Marco Horizonte 2020 de P&D por número de pesquisadores por comunidade autônoma;",
+            "Investimento decorrente do Programa Marco Horizonte 2020 de P&D por número de pesquisadores por comunidade autônoma",
+            0.997
+          ],
+          [
+            "Contribuição dos países da UE ao orçamento do Programa Marco Horizonte 2020 e retorno da UE aos países;",
+            "Contribuição dos países da UE ao orçamento do Programa Marco Horizonte 2020 e retorno da UE aos países",
+            0.9988
+          ],
+          [
+            "Subvenção concedida pelo Programa Marco Horizonte 2020 por número de pesquisadores.",
+            "Subvenção concedida pelo Programa Marco Horizonte 2020 por número de pesquisadores",
+            0.9886
+          ]
+        ],
+        "unmatched_reference": [
+          "Recursos Humanos",
+          "Bancos de patentes",
+          "Compra e venda de tecnologias",
+          "Exportação",
+          "Importação",
+          "Recursos Aplicados Consolidados",
+          "Recursos Aplicados",
+          "Recursos Humanos",
+          "Bolsas de Formação",
+          "Produção Científica",
+          "Comparações Internacionais",
+          "Orçamento Público em I+D+I (investigação,desenvolvimento e inovação)",
+          "Distribuição do orçamento por departamentos ministeriais: Economia, indústria e competitividade; Energia, turismo e agenda digital; Defesa;",
+          "Educação, cultura e esporte; Fazenda e gestão pública; Presidência e administrações territoriais; Relações exteriores; Fomento;",
+          "Instituições Privadas sem Fins Lucrativos; Administração Pública; Ensino Superior; Estrangeiro);",
+          "Gastos em P&D em euros por habitantes nos países da UE",
+          "Recursos Humanos em P&D",
+          "Empresas com inovações não tecnológicas segundo tipo de inovação e porte da empresa;",
+          "Valorização de profissões (médicos, cientistas, professores, engenheiros, juízes, advogados, jornalistas, atletas, empresários, religiosos e políticos);",
+          "Nível de interesse da população pela ciência e pela tecnologia",
+          "Imagem social",
+          "Valorização da profissão de cientista em comparação com outras profissões;",
+          "Imagem da profissão de cientista e a percepção de recursos destinados à ciência pelo governo central"
+        ],
+        "unmatched_hypothesis": [
+          "Dispêndio nacional em C&T em valores correntes, por atividade",
+          "Dispêndio nacional em C&T (em valores de 2015) por atividade",
+          "Dispêndio nacional em C&T em valores correntes, por setor institucional",
+          "Dispêndio em C&T (em valores de 2015), total e por setor institucional",
+          "Dispêndio nacional em C&T em relação ao PIB por setor",
+          "Dispêndio nacional em P&D em valores correntes, por setor institucional",
+          "Dispêndio nacional em P&D (em valores de 2015) total e por setor",
+          "Dispêndio nacional em P&D em relação ao PIB por setor",
+          "Dispêndio percentual do dispêndio nacional em P&D por setor",
+          "Dispêndio nacional em P&D por setor, em paridade de poder de compra",
+          "Dispêndios do governo federal em C&T por atividade",
+          "Dispêndios do governo federal em C&T (em valores de 2015) por atividade",
+          "Dispêndios do governo federal em C&T por órgão",
+          "Distribuição percentual dos dispêndios do governo federal em C&T por órgão",
+          "Dispêndios do governo federal em P&D por órgão",
+          "Distribuição percentual dos dispêndios do governo federal em P&D por órgão",
+          "Valor da renúncia fiscal do governo federal segundo as leis de incentivo à pesquisa, desenvolvimento e capacitação tecnológica",
+          "Distribuição percentual do valor da renúncia fiscal do governo federal segundo as leis de incentivo à pesquisa, desenvolvimento e capacitação tecnológica",
+          "Dispêndios dos governos estaduais em C&T por atividade",
+          "Dispêndios dos governos estaduais em C&T (em valores de 2015) por atividade",
+          "Dispêndios dos governos estaduais em C&T por unidade da federação",
+          "Distribuição percentual dos dispêndios dos governos estaduais por região",
+          "Distribuição percentual dos dispêndios dos governos estaduais em C&T por unidade da federação",
+          "Dispêndios dos governos estaduais em P&D por unidade da federação",
+          "Distribuição percentual dos dispêndios dos governos estaduais em P&D por unidade da federação",
+          "Percentual dos dispêndios em C&T dos estados em relação às suas receitas totais",
+          "Percentual dos dispêndios em P&D dos estados em relação às suas receitas totais",
+          "Estimativa dos dispêndios das instituições com cursos de pós-graduação stricto sensu reconhecidos pela CAPES/MEC como aproximação dos dispêndios em P&D das instituições de ensino superior",
+          "Estimativa dos dispêndios (valores de 2015) das instituições com cursos de pós-graduação stricto sensu reconhecidos pela CAPES/MEC como aproximação dos dispêndios em P&D das instituições de ensino superior",
+          "Dispêndios empresariais em C&T por atividade",
+          "Dispêndios empresariais em C&T (em valores de 2015) por atividade",
+          "Total de pessoas envolvidas em P&D (pesquisadores + pessoal de apoio), em número de pessoas, por setor institucional",
+          "Pesquisadores e pessoal de apoio envolvidos em P&D, em número de pessoas, por setor institucional e categoria",
+          "Pesquisadores, em número de pessoas, por nível de escolaridade",
+          "Total de pessoas envolvidas em P&D (pesquisadores + pessoal de apoio), em equivalência de tempo integral, por setor institucional",
+          "Pesquisadores e pessoal de apoio envolvidos em P&D, em equivalência de tempo integral, por setor institucional e categoria",
+          "Pesquisadores e pessoal de apoio envolvidos em P&D, em equivalência de tempo integral, por categoria",
+          "Pesquisadores, em equivalência de tempo integral, por nível de escolaridade",
+          "Concluintes no ensino superior por áreas gerais",
+          "Número e percentual de concluintes de curso de graduação nas engenharias e em relação ao total",
+          "Alunos matriculados e titulados nos cursos de mestrado e doutorado, ao final do ano",
+          "Alunos titulados nos cursos de mestrado e doutorado",
+          "Alunos titulados nos cursos de doutorado, por grande área",
+          "Alunos titulados nos cursos de mestrado, por grande área",
+          "Instituições, grupos de pesquisa, pesquisadores e pesquisadores doutores, cadastrados no Diretório dos Grupos de Pesquisa do CNPq",
+          "Pesquisadores cadastrados do Diretório dos Grupos de Pesquisa do CNPq, por grande área do conhecimento",
+          "Distribuição percentual dos pesquisadores cadastrados do Diretório dos Grupos de Pesquisa do CNPq, por grande área do conhecimento",
+          "Pesquisadores cadastrados do Diretório dos Grupos de Pesquisa do CNPq, por sexo",
+          "Pesquisadores cadastrados do Diretório dos Grupos de Pesquisa do CNPq, por faixa etária",
+          "Distribuição percentual dos pesquisadores cadastrados do Diretório dos Grupos de Pesquisa do CNPq, por faixa etária",
+          "CNPq - Total de bolsas-ano concedidas no país e no exterior",
+          "CNPq - Total de bolsas-ano concedidas no país e no exterior, por modalidades selecionadas",
+          "CNPq - Distribuição percentual do número de bolsas-ano concedidas (país + exterior), por grande área segundo o sexo do bolsista",
+          "CAPES – Total de bolsas de pós-graduação concedidas no país e total de bolsistas de pós-graduação no exterior",
+          "CAPES - Bolsas de pós-graduação concedidas no país por modalidades selecionadas",
+          "CAPES – Bolsas de pós-graduação concedidas no exterior por modalidades selecionadas",
+          "CAPES - Bolsistas de pós-graduação no exterior por modalidades selecionadas",
+          "CAPES – Bolsas de pós-graduação concedidas no país por grandes áreas",
+          "CAPES - Bolsas de pós-graduação concedidas no exterior por grandes áreas",
+          "Número de artigos brasileiros, da América Latina e do mundo publicados em periódicos científicos indexados pela Scopus",
+          "Número de artigos brasileiros indexados pela Scopus e percentual em relação ao mundo",
+          "Citações de artigos brasileiros, da América Latina e do mundo publicados em periódicos científicos indexados pela Scopus",
+          "Citações de artigos brasileiros, da América Latina e do mundo publicados em periódicos científicos indexados pela Scopus, e percentual em relação ao mundo",
+          "Pedidos de patentes depositados no Instituto Nacional da Propriedade Industrial (INPI), segundo tipos de patentes e origem do depositante",
+          "Patentes concedidas pelo INPI, segundo tipos de patentes e origem do depositante",
+          "Patentes concedidas pelo INPI, por setor tecnológico de acordo com a Classificação Internacional de Patentes",
+          "Pedidos de patentes depositados de acordo com o Tratado de Cooperação em Matéria de Patentes (PCT, em inglês) por áreas tecnológicas selecionadas",
+          "Percentual de empresas que implementaram inovações de produto e/ou processo, segundo as atividades selecionadas da indústria, do setor de eletricidade e gás e dos serviços",
+          "Total de empresas e empresas que implementaram inovações de produto e/ou processo, segundo as atividades selecionadas da indústria, do setor de eletricidade e gás e de serviços",
+          "Percentual de empresas que implementaram inovações que receberam apoio do governo para as suas atividades inovativas, segundo as atividades selecionadas da indústria, do setor de eletricidade e gás e de serviços",
+          "Dispêndios realizados nas atividades inovativas de empresas que implementaram inovações, segundo as atividades selecionadas da indústria, do setor de eletricidade e gás e de serviços",
+          "Empresas que implementaram inovações com relações de cooperação com outras organizações, segundo as atividades selecionadas da indústria, do setor de eletricidade e gás e de serviços",
+          "Número e percentual de empresas industriais que fazem P&D contínuo",
+          "Comparações dos resultados mensurados no país com os resultados de países selecionados",
+          "Distribuição do orçamento por departamentos ministeriais",
+          "Valorização de profissões",
+          "Global Innovation Index score"
+        ],
+        "tp": 78,
+        "fp": 77,
+        "fn": 23,
+        "precision": 0.5032,
+        "recall": 0.7723,
+        "f1": 0.6094
+      }
+    }
+  }
+}
