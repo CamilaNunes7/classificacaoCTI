@@ -1,0 +1,12 @@
+.pytest_cache
+apresentacao_slides.md
+.claude
+.gemini
+.claude.md
+.github.md
+.google.md
+/docs
+venv/
+.env
+__pycache__/
+*.pyc

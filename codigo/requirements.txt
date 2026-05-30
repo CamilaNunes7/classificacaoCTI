@@ -1,0 +1,31 @@
+# API clients
+google-generativeai>=0.7.0
+anthropic>=0.28.0
+
+# PDF handling
+pdfplumber>=0.11.0
+pypdf>=4.0.0
+
+# Comparison methods
+rapidfuzz>=3.9.0
+sentence-transformers>=3.0.0
+scikit-learn>=1.5.0
+torch>=2.3.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+pandas>=2.2.0
+jinja2>=3.1.0
+
+# REST API
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+
+# Excel support
+openpyxl>=3.1.0
+
+# Testing
+pytest>=8.0.0
+pytest-mock>=3.14.0
