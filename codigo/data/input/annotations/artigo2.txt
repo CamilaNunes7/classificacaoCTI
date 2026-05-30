@@ -1,0 +1,101 @@
+Recursos Humanos
+Bancos de patentes
+Compra e venda de tecnologias
+Exportação
+Importação
+Recursos Aplicados Consolidados
+Recursos Aplicados
+Recursos Humanos
+Bolsas de Formação
+Produção Científica
+Patentes
+Inovação
+Comparações Internacionais
+Orçamento Público em I+D+I (investigação,desenvolvimento e inovação)
+Orçamento geral do Estado para I+D+I;
+Distribuição do orçamento geral entre pesquisa militar e pesquisa civil;
+Distribuição do orçamento por departamentos ministeriais: Economia, indústria e competitividade; Energia, turismo e agenda digital; Defesa;
+Educação, cultura e esporte; Fazenda e gestão pública; Presidência e administrações territoriais; Relações exteriores; Fomento;
+Distribuição do orçamento por segmentos e respectivos programas de I+D+I;
+Percentual de utilização de créditos orçamentários recebidos;
+Distribuição dos créditos orçamentários por objetivos socioeconômicos
+Gastos em P&D por setor de execução;
+Gastos em P&D por setor de financiamento;
+Gastos em P&D por tipo de pesquisa (pesquisa básica, pesquisa aplicada e desenvolvimento tecnológico);
+Gastos em P&D por pesquisador e por setor de execução;
+Gastos em P&D por pesquisador e por comunidades autônomas;
+Gastos em P&D por comunidades autônomas e setor de atividade;
+Recursos destinados a P&D em países da OCDE;
+Gastos em P&D em países ibero-americanos e Estados Unidos da América;
+Gastos em P&D em países da União Europeia (UE) por setor de execução (Empresas e Instituições Privadas sem Fins Lucrativos; Administração Pública; Ensino Superior);
+Gastos em P&D em países da UE por setor de financiamento (Empresas;
+Instituições Privadas sem Fins Lucrativos; Administração Pública; Ensino Superior; Estrangeiro);
+Gastos em P&D em euros por habitantes nos países da UE
+Recursos Humanos em P&D
+Profissionais em atividades de P&D;
+Profissionais empregados em atividades de P&D em relação à população;
+Profissionais empregados em atividades de P&D por setor de execução (Empresas; Instituições Privadas sem Fins Lucrativos; Administração Pública; Ensino Superior);
+Pesquisadores contratados em período integral por setor de execução (Empresas; Instituições Privadas sem Fins Lucrativos; Administração Pública; Ensino Superior);
+Profissionais e pesquisadores em atividades de P&D por setor de execução, em número de pessoas e porcentagem de mulheres sobre o total;
+Profissionais e pesquisadores em atividades de P&D por setor de execução em período integral, em número de pessoas e porcentagem de mulheres sobre o total;
+Percentual de técnicos e auxiliares em P&D em relação aos pesquisadores e ao setor de execução;
+População entre 30 e 34 anos com formação superior;
+Profissionais empregados em atividades de P&D em período integral por comunidades autônomas;
+Pesquisadores em período integral por comunidades autônomas;
+Profissionais empregados em atividades de P&D em período integral por comunidades autônomas e setor de atividade;
+Recursos destinados a P&D nos países membros da OCDE em profissionais empregados em atividades de P&D em relação à população ativa;
+Pesquisadores em período integral nos países ibero-americanos.
+Inovação tecnológica em empresas espanholas;
+Empresas inovadoras e gastos em inovação por segmentos;
+Empresas inovadoras e gastos em inovação por segmentos e porte da empresa;
+Gastos em inovação por tipo de atividade inovadora e porte da empresa;
+Intensidade em inovação tecnológica das empresas;
+Número de empresas com atividades de inovação tecnológica que realizam P&D por porte da empresa;
+Percentual de venda de produtos inovadores das empresas por segmento econômico (agricultura, indústria, serviços);
+Percentual de venda de produtos inovadores das empresas inovadoras por segmento econômico (agricultura, indústria, serviços);
+Financiamento público para a inovação;
+Cooperação para a inovação de empresas inovadoras e demais agentes de SI;
+Cooperação para a inovação de empresas inovadoras e demais agentes de SI por porte de empresa;
+Empresas com inovações não tecnológicas segundo tipo de inovação e porte da empresa;
+Inovação tecnológica nas comunidades autônomas;
+Gastos em inovação tecnológica por comunidades autônomas;
+Ranking de inovação dos países da UE.
+Situação do setor de alta tecnologia;
+Inovação tecnológica nas comunidades autônomas;
+Comércio exterior em produtos de alta tecnologia;
+Profissionais empregados nos setores de alta tecnologia por comunidades autônomas;
+Profissionais empregados nos setores de alta tecnologia nos países da UE;
+Situação do setor de biotecnologia.
+Produção científica espanhola;
+Distribuição de produção por área de conhecimento publicada na base de dados Scopus;
+Distribuição de produção por área de conhecimento publicada na base de dados Web of Science;
+Principais países colaboradores da Espanha;
+Produção científica nas comunidades autonômicas;
+Países com maior número de produção cientifica nas bases de dados Scopus e Web of Science;
+Solicitações de patentes nacionais (Espanha);
+Solicitações de patentes europeias e PCT de origem espanhola;
+Solicitações de patentes nacionais segundo natureza do solicitante (Particulares; Empresas; Conselho Superior de Investigações Científicas; Organismos Públicos; Universidades);
+Concessões de patentes na Espanha;
+Concessões de patentes europeias de origem espanhola;
+Solicitações e concessões de patentes na Espanha por comunidades autônomas;
+Teses de doutorado concluídas por tipo de universidade e comunidades autônomas;
+Patentes triádicas (solicitadas simultaneamente na Europa, Japão e Estados Unidos da América) concedidas em países da OCDE.
+Nível de interesse pela ciência e tecnologia em comparação a outros temas selecionados (medicina e saúde; alimentos e consumo; meio ambiente e ecologia; política; cinema, arte e cultura);
+Imagem social da ciência e da tecnologia;
+Percepção do nível de formação científico-tecnológica recebida;
+Meios de informação sobre ciência e tecnologia (televisão, internet, jornal, rádio, livro, revistas científicas, revistas genéricas);
+Valorização de profissões (médicos, cientistas, professores, engenheiros, juízes, advogados, jornalistas, atletas, empresários, religiosos e políticos);
+Imagem da profissão de cientista;
+Percepção dos recursos investidos em ciência pelo governo central
+Participação em programas e instituições internacionais de I+D+I;
+Programas Marco de P&D da UE;
+Investimento decorrente do Programa Marco Horizonte 2020 de P&D por tipo de entidade participante;
+Investimento decorrente do Programa Marco Horizonte 2020 de P&D por área temática;
+Investimento decorrente do Programa Marco Horizonte 2020 de P&D por comunidade autônoma;
+Investimento decorrente do Programa Marco Horizonte 2020 de P&D por número de pesquisadores por comunidade autônoma;
+Contribuição dos países da UE ao orçamento do Programa Marco Horizonte 2020 e retorno da UE aos países;
+Subvenção concedida pelo Programa Marco Horizonte 2020 por número de pesquisadores.
+Nível de interesse da população pela ciência e pela tecnologia
+Imagem social
+Valorização da profissão de cientista em comparação com outras profissões;
+Imagem da profissão de cientista e a percepção de recursos destinados à ciência pelo governo central

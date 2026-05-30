@@ -1,0 +1,67 @@
+Gastos com educação, % PIB
+Gastos brutos com P&D, % PIB
+Empresas globais de P&D
+Qualidade das universidades
+Valor pago por uso de PI, % do comércio total
+Imp. líquidas de alta tecnologia, % do comércio total
+Serviços Governamentais On-line
+Participação Eletrônica
+Qualidade das publicações, medida pelo índice H
+Val. Recebidos por uso de PI, % do comércio total
+Escala do mercado interno, bi (PPC US$)
+Facilidade de obtenção de crédito
+Investimentos
+Taxa tarifária aplicada, média ponderada, %
+Eficácia do Governo
+Facilidade para abrir uma empresa
+Qualidade regulatória
+Razão aluno/professor, ensino médio
+Mobilidade de estudantes no ensino superior, %
+Graduados em ciência e engenharia, %
+Acesso a TIC
+Formação bruta de capital, % PIB
+Taxa crescimento do PIB/trabalhador (PPC US$), %
+Gastos com software, % do PIB
+Novas empresas/mil hab. 15-64
+Exp. de serviços de TIC, % do com. total
+Filmes nacionais longa-metragem/mi hab.
+Prod. de imp. e outras mídias, % prod. Industrial
+Domínios gen. de alto nível (TLD) /mil hab.
+Recursos humanos em C&T
+Novos doutores titulados per capita
+Novos mestres titulados
+Novos graduados titulados
+Excelência do sistema de pesquisa
+Artigos publicados per capita
+Dispêndio público estadual em C&T
+Dispêndio público estadual em P&D como proporção da receita do estado
+Dispêndio público estadual em atividades científicas e técnicas correlatas como proporção da receita
+Dispêndio empresarial em atividades inovativas
+Dispêndio das indústrias inovadoras de P&D internos como proporção da receita líquida de vendas
+Dispêndio das indústrias inovadoras em atividades inovativas de não P&D internos como proporção da receita líquida de vendas
+Inovadores
+Taxa de inovação de produto e/ou processo
+Taxa de inovação organizacional e/ou de marketing
+Taxa de cooperação
+Ativos de propriedade intelectual
+Patentes depositadas per capita
+Marcas registradas per capita
+Desenhos industriais registrados per capita
+Ocupações em Ciência, Tecnologia e Inovação
+Ocupações em CT&I como proporção do total
+Exportações intensivas em tecnologia
+Exportação de bens intensivos em tecnologia como proporção do total exportado
+Exportação de serviços intensivos em conhecimento como proporção do total exportado
+PIB, variação real em volume
+PIB per capita (R$)
+Crescimento do PIB, por trabalhador ocupado (R$/pessoa)
+Taxa de investimento público na economia paraense (% da despesa total)
+Produtividade na indústria (VA da Indústria R$/pessoas ocupadas)
+Número de patentes depositadas por pessoa física e jurídica
+Dispêndio Estadual em C&T (R$)
+C&T s/ Receita Total
+Dispêndio C&T s/ VA Indústria
+Dispêndio C&T s/ VA Agropecuária
+Dispêndio C&T s/ VA Serviços
+Dispêndio C&T s/ VA Administração 
+PIB, variação real em volume

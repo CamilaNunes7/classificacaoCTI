@@ -1,0 +1,59 @@
+Número de horas
+Número de pesquisadores externos treinados
+Confiabilidade (horas entregues/horas previstas)
+Desempenho da Fonte de Luz Síncrotron
+Horas de estudo de máquinas e comissionamento
+Grau de saturação no uso da Fonte de Luz Síncrotron
+Custo por proposta realizada nas instalações abertas
+Número de propostas realizadas
+Índice de ocupação das linhas de luz
+Índice de satisfação dos usuários
+Número total de publicações
+Publicações em revistas com fator de impacto maior do que 5 
+Publicações resultantes por pesquisador da ABTLuS 
+Taxa de orientação de pós-graduados
+Taxa de supervisão de pós-doutores
+Número de memorandos técnicos disponíveis na Internet 
+Número de projetos de desenvolvimento tecnológico
+Número de técnicos externos treinados
+Horas de treinamento por funcionário
+Alavancagem de recursos do Contrato de Gestão
+Horas de treinamento de técnicos externos treinados
+Horas de treinamento de pesquisadores externos treinados
+Nível de incerteza dos cenários externos (relevância das novas tecnologias)
+Cooperações internacionais
+Novas tecnologias desenvolvidas (spin off de tecnologias)
+Novas áreas de atuação induzidas
+Percepção da comunidade científica e da sociedade
+Capacidade de acompanhar as evoluções científicas e tecnológicas
+Qualidade das publicações
+Publicações geradas pela existência da Fonte de Luz Síncrotron
+Posição relativa da pesquisa do LNLS no contexto internacional
+Taxa de publicação por pesquisador interno
+Disponibilidade de uso no tempo programado (anel e estações experimentais)
+Nível de satisfação dos usuários Atual
+Capacidade de instrumentação científica
+Inovações introduzidas por demanda dos usuários 
+Uso das instalações por usuários externos (por regiões do país e exterior)
+Taxa de renovação dos grupos de usuários 
+Experimentos realizados em multi-instalações em multidisciplinares
+Projetos de pesquisa realizados 
+Taxa de continuidade dos grupos de pesquisas externos
+Nível de efetividade da pesquisa realizada
+Atratividade de recursos humanos em áreas estratégicas
+Retenção de recursos humanos em áreas estratégicas
+Rotatividade de recursos humanos qualificados 
+Nível de satisfação do pessoal interno 
+Treinamento de usuários e de funcionários
+Estabilidade orçamentária 
+Continuidade do fluxo de recursos 
+Nível de investimento 
+Custo de operação das instalações abertas 
+Alavancagem de recursos com projetos de fontes diversas
+Novos projetos aprovados em agências de fomento 
+Qualidade e flexibilidade da gestão 
+Projetos realizados no prazo e orçamento pactuado 
+Inovações introduzidas nas instalações abertas
+Equilíbrio do portfólio de projetos de investimento 
+Inserção da comunicação nos grupos de interesse
+Percepção da comunidade científica e da sociedade

@@ -1,0 +1,166 @@
+aggregate innovation measures 
+ambidextrous green innovation 
+audit indicators 
+carbon emissions 
+certification indicators
+change in competencies and resources 
+change in cost structures 
+change in partnerships 
+change in processes and structures 
+change in revenue models 
+change in technology or equipment 
+change-type measures 
+changes in communication structures 
+changes in organisational routines 
+changes in productivity 
+clean production indicators 
+cleaner technology 
+coal consumption 
+competition intensity 
+competitiveness 
+competitor involvement 
+conceptualising 
+consultancy firm involvement 
+coproducing and orchestrating 
+cost indicators 
+cost of collaborative development 
+coupled open innovation activities 
+customer cooperation indicators 
+customer involvement 
+diversity of technological areas covered by patents 
+dummy variable for innovation adoption 
+dummy variable for product innovation 
+dynamic service innovation capabilities 
+eco-innovation performance indicators 
+economic output of green innovation 
+electricity consumption 
+emissions reduction indicators 
+energy conservation indicators 
+environmental taxes 
+exploitative green innovation 
+exploratory green innovation 
+extent-of-use-type measures 
+external innovation sources score 
+external knowledge breadth 
+external knowledge depth 
+financial investment indicators 
+financial reports 
+government support 
+green innovation investment capability 
+green technology 
+green technology r&d capability 
+improved products indicators 
+improved services indicators 
+improved task performance 
+in-licensing costs 
+industrial waste recycling 
+industry–academia collaboration 
+innovation counts 
+innovation efficiency 
+innovation incentives 
+innovation subsidies 
+innovation-related financial metrics 
+innovation-related intangibles 
+inside-out open innovation activities 
+ip licensing revenues 
+management input ratio 
+management investment indicators 
+management strategy indicators 
+management systems 
+managerial creativity 
+manufacturing process patents 
+market demand 
+market position 
+market share 
+materials indicators 
+measures related to innovation features 
+monitoring and control systems 
+natural resource consumption 
+network engagement 
+new client interface 
+new management systems 
+new markets 
+new products 
+new products indicators 
+new service concept 
+new service delivery system 
+new services 
+new services indicators 
+non-polluting materials 
+number of managerial improvements 
+number of patents filed 
+number of patents granted 
+number of personnel engaged in innovation-related activities 
+number of process innovations 
+oil consumption 
+openness to change 
+ordinal variable for innovation intensity 
+organisational policies and practices 
+outside-in open innovation activities 
+outsourcing of r&d services 
+patent activity across countries 
+patent citations 
+patent filings 
+patent indicators 
+percentage of employees with bachelor’s degree 
+percentage of r&d funds relative to sales 
+personnel training indicators 
+proactiveness 
+process capability 
+process improvement indicators 
+process innovation introduction 
+process innovation ordinal scale 
+product development time 
+product innovation capacity 
+product-related output indicators 
+production process indicators 
+profitability indicators 
+r&d expenditure 
+r&d input ratio 
+r&d metrics 
+r&d spending 
+range and depth of innovation activities 
+recyclable materials 
+reduction of co2 emissions 
+reduction of energy use 
+reduction of environmental risk 
+reduction of noise pollution 
+reduction of pollution 
+reduction of resource use 
+reduction of water pollution 
+remanufactured materials 
+renewable energy indicators 
+renewable energy use 
+reusable materials 
+revenue from new products 
+revenue indicators 
+revenues from collaborative development 
+revenues from r&d services 
+risk-taking 
+scale of innovation efforts 
+scaling and stretching 
+sensing user needs 
+service innovation performance maturity levels 
+sewage discharge 
+social effect of green innovation 
+spin-offs 
+staff-related supply chain indicators 
+stakeholder cooperation 
+strategic alliances 
+supplier cooperation 
+supplier cooperation indicators 
+supplier involvement 
+supply chain r&d investment 
+survey-based innovation indicators 
+technological innovation capability 
+technological innovation efficiency 
+technological investments 
+technology choice 
+technology indicators 
+total turnover sales from innovative products 
+use-type measures 
+value capture change 
+value creation change 
+value proposition change 
+water consumption 
+web mining indicators
